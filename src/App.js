@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
+import Home from "./components/pages/Home";
 
 function App() {
   return (
-    <div className="container">
-      <button className="btn btn-primary">Click Me</button>
- 
+    <div>
+      <Home />
     </div>
   );
 }
