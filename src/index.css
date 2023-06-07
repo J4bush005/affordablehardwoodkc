@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav{
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all ease 0.3s;
+
+}
+
+.header{
+  background-color: rgba(34, 34, 57, .5);
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.myHeaderLogo{
+  margin-left:0.25em;
+  font-family: Play;
+  font-size: 5em;
+}
+
+.myHeaderLogo #Right{
+  margin-left:-12px;
+}
+
+.headerTitle{
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.link{
+  color:white;
+  text-decoration: none;
+}
+
+.link:hover{ 
+  color:white;
+  border-bottom: solid white 2px;
+}
+
+.hamburger{
+  display: none;
+}
+.big{
+  display: none;
+}
+.go{
+  display:none
+}
