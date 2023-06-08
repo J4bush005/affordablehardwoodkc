@@ -10,9 +10,17 @@ function Header(){
   <div class="container-fluid">
    <Link to="/" id="words" class="navbar-brand" >
       <img id="logo" src={FloorLogo} alt=""></img>
+          </Link>
+          <Link to="/" id="words" class="navbar-brand">
+          <div className="1-text heading-text">Affordable Hardwood Kansas City</div>
+              <div class="flex">
+              <div class="x1 goldbar"></div>
+              <div class="x1"></div>
+            </div>
+            <div className="1-text heading-text">Kansas City's Hardwood Specialist</div>
       
-            Kansas City's Hardwood Specialist
-    </Link>
+        </Link>
+          
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

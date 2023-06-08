@@ -16,8 +16,21 @@ img{
 .navbar {
   background-color: rgba(187, 154, 33, 0.85);
 }
+.flex{
+  display: flex;
+}
+
+.goldbar {
+  border: solid red 1px;
+  height: 0px;
+  width: 120px;
+}
+
+
+
 
 #words {
   color: white;
   text-shadow: 2px 2px 4px black;
 }
+
