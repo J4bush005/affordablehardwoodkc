@@ -26,7 +26,7 @@ function Header(){
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ">
             <Link to="/About" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
           <ul class="dropdown-menu">
             <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Action</Link></li>
