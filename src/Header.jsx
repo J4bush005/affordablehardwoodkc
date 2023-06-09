@@ -28,36 +28,42 @@ function Header(){
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown ">
+              <li class="nav-item dropdown ">
+                
             <Link to="/About" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
           <ul class="dropdown-menu">
-            <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Action</Link></li>
-            <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Another action</Link></li>
-            <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Something else here</Link></li>
+            <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Reviews</Link></li>
+            <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Our Mission</Link></li>
+                  <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Floor Caring Tips</Link></li>
+                   <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Jobs</Link></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
           <Link to="/Gallery" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</Link>
           <ul class="dropdown-menu">
-            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Action</Link></li>
-            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Another action</Link></li>
-            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Something else here</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Before and After</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Custom Designs</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Luxury Vinyl Tiles</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button" aria-expanded="false">Classic Hardwood</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button" aria-expanded="false">Stairs</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button" aria-expanded="false">Commercial Jobs</Link></li>
           </ul>
         </li>
          <li class="nav-item dropdown ">
             <Link to="/Servicest" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
           <ul class="dropdown-menu">
-            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Action</Link></li>
-            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Another action</Link></li>
-            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Something else here</Link></li>
+            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Installation</Link></li>
+            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Sanding and Finishing</Link></li>
+            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Repairs</Link></li>
+            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Misc.</Link></li>
           </ul>
         </li>
          <li class="nav-item dropdown ">
             <Link to="/Contact" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
           <ul class="dropdown-menu">
-            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Action</Link></li>
-            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Another action</Link></li>
-            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Something else here</Link></li>
+            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Request an Estimate</Link></li>
+            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Contact Us</Link></li>
+            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Online Payment</Link></li>
           </ul>
         </li>
       </ul>
