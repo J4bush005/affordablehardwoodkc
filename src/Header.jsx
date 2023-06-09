@@ -27,10 +27,10 @@ function Header(){
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-              <li class="nav-item dropdown ">
+      <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
+              <li class="nav-item dropdown mx-3">
                 
-            <Link to="/About" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
+            <Link to="/About" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
           <ul class="dropdown-menu">
             <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Reviews</Link></li>
             <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Our Mission</Link></li>
@@ -38,8 +38,8 @@ function Header(){
                    <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Jobs</Link></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <Link to="/Gallery" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</Link>
+        <li class="nav-item dropdown mx-3">
+          <Link to="/Gallery" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</Link>
           <ul class="dropdown-menu">
             <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Before and After</Link></li>
             <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Custom Designs</Link></li>
@@ -49,8 +49,8 @@ function Header(){
             <li><Link to="/Gallery" class="nav-link" role="button" aria-expanded="false">Commercial Jobs</Link></li>
           </ul>
         </li>
-         <li class="nav-item dropdown ">
-            <Link to="/Servicest" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
+         <li class="nav-item dropdown mx-3">
+            <Link to="/Servicest" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
           <ul class="dropdown-menu">
             <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Installation</Link></li>
             <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Sanding and Finishing</Link></li>
@@ -58,8 +58,8 @@ function Header(){
             <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Misc.</Link></li>
           </ul>
         </li>
-         <li class="nav-item dropdown ">
-            <Link to="/Contact" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
+         <li class="nav-item dropdown mx-3">
+            <Link to="/Contact" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
           <ul class="dropdown-menu">
             <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Request an Estimate</Link></li>
             <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Contact Us</Link></li>
@@ -67,7 +67,7 @@ function Header(){
           </ul>
         </li>
       </ul>
-    </div>
+      </div>
   </div>
 </nav>
     );
