@@ -1,6 +1,6 @@
 import "./index.css";
 import React from "react";
-import FloorLogo from "./components/images/floor logo.png";
+import Logo from "./components/images/Logo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -9,10 +9,12 @@ function Header(){
  <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
    <Link to="/" id="words" class="navbar-brand" >
-      <img id="logo" src={FloorLogo} alt=""></img>
+      <img id="logo" src={Logo} alt=""></img>
           </Link>
           <Link to="/" id="words" class="navbar-brand">
-          <div className="1-text heading-text">Affordable Hardwood Kansas City</div>
+            <div className="1-text heading-text bigger up">Affordable</div>
+            <div className="space"></div>
+             <div className="1-text heading-text bigger">Hardwood LLC</div>
               <div class="flex">
               <div class="x1 goldbar"></div>
               <div class="x1"></div>

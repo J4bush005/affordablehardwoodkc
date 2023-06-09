@@ -11,26 +11,39 @@ body {
 
 /*Header*/
 img{
-  width: 125px;
+  width: 145px;
 }
 .navbar {
-  background-color: rgba(187, 154, 33, 0.85);
+  background-color: rgba(187, 154, 33, 0.7);
 }
 .flex{
   display: flex;
 }
 
 .goldbar {
-  border: solid red 1px;
+  border: solid rgba(157, 0, 0) 1px;
   height: 0px;
-  width: 120px;
+  width: 190px;
 }
 
+.bigger {
+  font-size: xx-large;
+  
+}
+
+.up{
+  float: up;
+}
+
+.space {
+
+}
 
 
 
 #words {
   color: white;
   text-shadow: 2px 2px 4px black;
+  font-family: 'Times New Roman', Times, serif;
 }
 
