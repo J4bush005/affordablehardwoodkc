@@ -37,11 +37,27 @@ function Header(){
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <Link to="/Contact" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
+          <Link to="/Gallery" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</Link>
           <ul class="dropdown-menu">
-            <li><Link to="/Contact" class="nav-link" role="button"  aria-expanded="false">Action</Link></li>
-            <li><Link to="/Contact" class="nav-link" role="button"  aria-expanded="false">Another action</Link></li>
-            <li><Link to="/Contact" class="nav-link" role="button"  aria-expanded="false">Something else here</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Action</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Another action</Link></li>
+            <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Something else here</Link></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown ">
+            <Link to="/Servicest" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
+          <ul class="dropdown-menu">
+            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Action</Link></li>
+            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Another action</Link></li>
+            <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Something else here</Link></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown ">
+            <Link to="/Contact" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
+          <ul class="dropdown-menu">
+            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Action</Link></li>
+            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Another action</Link></li>
+            <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Something else here</Link></li>
           </ul>
         </li>
       </ul>
