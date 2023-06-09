@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/affordablehardwoodkc/static/css/main.4a0f50ae.css",
+    "main.js": "/affordablehardwoodkc/static/js/main.5e015545.js",
+    "static/js/787.2b97701a.chunk.js": "/affordablehardwoodkc/static/js/787.2b97701a.chunk.js",
+    "static/media/floor logo.png": "/affordablehardwoodkc/static/media/floor logo.f34f0dbcbab699ee788b.png",
+    "index.html": "/affordablehardwoodkc/index.html",
+    "main.4a0f50ae.css.map": "/affordablehardwoodkc/static/css/main.4a0f50ae.css.map",
+    "main.5e015545.js.map": "/affordablehardwoodkc/static/js/main.5e015545.js.map",
+    "787.2b97701a.chunk.js.map": "/affordablehardwoodkc/static/js/787.2b97701a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a0f50ae.css",
+    "static/js/main.5e015545.js"
+  ]
+}
