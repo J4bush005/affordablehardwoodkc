@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.662a0bb1.css",
-    "main.js": "/static/js/main.186d6e2f.js",
-    "static/js/787.2b97701a.chunk.js": "/static/js/787.2b97701a.chunk.js",
-    "static/media/Logo.png": "/static/media/Logo.3e5e5e2fa26372019d30.png",
-    "index.html": "/index.html",
-    "main.662a0bb1.css.map": "/static/css/main.662a0bb1.css.map",
-    "main.186d6e2f.js.map": "/static/js/main.186d6e2f.js.map",
-    "787.2b97701a.chunk.js.map": "/static/js/787.2b97701a.chunk.js.map"
+    "main.css": "/affordablehardwoodkc/static/css/main.662a0bb1.css",
+    "main.js": "/affordablehardwoodkc/static/js/main.cd09830a.js",
+    "static/js/787.2b97701a.chunk.js": "/affordablehardwoodkc/static/js/787.2b97701a.chunk.js",
+    "static/media/Logo.png": "/affordablehardwoodkc/static/media/Logo.3e5e5e2fa26372019d30.png",
+    "index.html": "/affordablehardwoodkc/index.html",
+    "main.662a0bb1.css.map": "/affordablehardwoodkc/static/css/main.662a0bb1.css.map",
+    "main.cd09830a.js.map": "/affordablehardwoodkc/static/js/main.cd09830a.js.map",
+    "787.2b97701a.chunk.js.map": "/affordablehardwoodkc/static/js/787.2b97701a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.662a0bb1.css",
-    "static/js/main.186d6e2f.js"
+    "static/js/main.cd09830a.js"
   ]
 }
