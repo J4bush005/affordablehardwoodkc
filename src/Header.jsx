@@ -27,8 +27,8 @@ function Header(){
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
-              <li class="nav-item dropdown mx-3">
+      <ul class="navbar-nav ms-auto d-flex flex-row">
+              <li class="nav-item dropdown">
                 
             <Link to="/About" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
           <ul class="dropdown-menu">
@@ -38,7 +38,7 @@ function Header(){
                    <li><Link to="/About" class="nav-link " role="button" aria-expanded="false">Jobs</Link></li>
           </ul>
         </li>
-        <li class="nav-item dropdown mx-3">
+        <li class="nav-item dropdown">
           <Link to="/Gallery" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</Link>
           <ul class="dropdown-menu">
             <li><Link to="/Gallery" class="nav-link" role="button"  aria-expanded="false">Before and After</Link></li>
@@ -49,7 +49,7 @@ function Header(){
             <li><Link to="/Gallery" class="nav-link" role="button" aria-expanded="false">Commercial Jobs</Link></li>
           </ul>
         </li>
-         <li class="nav-item dropdown mx-3">
+         <li class="nav-item dropdown">
             <Link to="/Servicest" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
           <ul class="dropdown-menu">
             <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Installation</Link></li>
@@ -58,7 +58,7 @@ function Header(){
             <li><Link to="/Services" class="nav-link " role="button" aria-expanded="false">Misc.</Link></li>
           </ul>
         </li>
-         <li class="nav-item dropdown mx-3">
+         <li class="nav-item dropdown last">
             <Link to="/Contact" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
           <ul class="dropdown-menu">
             <li><Link to="/Contact" class="nav-link " role="button" aria-expanded="false">Request an Estimate</Link></li>

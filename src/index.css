@@ -43,7 +43,9 @@ img{
   
 }
 
-
+.last {
+  padding-right: 25px;
+}
 
 #sub {
   color: white;
@@ -55,4 +57,9 @@ img{
   text-shadow: 2px 2px 4px black;
   font-family: 'Times New Roman', Times, serif;
 }
+
+   .dropdown:hover .dropdown-menu {
+    display:block;
+  }
+
 
