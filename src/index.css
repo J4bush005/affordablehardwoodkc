@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/src/components/images/Background3.jpeg");
+  background-image: url("/src/components/images/Background4.jpeg");
 }
 
 
@@ -80,6 +80,12 @@ img{
 
 /*Home Page*/
 
+.image-resize{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center center;
+}
 
 
 
