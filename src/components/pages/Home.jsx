@@ -5,6 +5,8 @@ ScrollPage,
 batch,
 Sticky,
 Fade,
+Move,
+FadeIn,
 MoveOut,
 Zoom
 } from "react-scroll-motion";
@@ -18,6 +20,8 @@ import Demo6 from "../images/Demo6.png";
 import { Link } from "react-router-dom";
 
 
+const FadeUp = batch(Fade(), Sticky(15), Move())
+const FadeUp2 = batch(Fade(), Sticky(), Move())
 
 function Home() {
     return(
@@ -53,16 +57,18 @@ function Home() {
         </button>
      </div>
 
+        <div className="container-fluid">
             <ScrollPage page={0}>
-                <Animator animation={batch(Sticky(20,30), Fade(), MoveOut())}>
-                <h2>Let me show you scrtoll animatyion</h2>
+                <Animator animation={FadeUp}>
+                <div className="row">
+                <div className="col-12">
+                <div id="open-heading" className="1-text heading-text">Providing Superior Quality</div>
+                <div id="open-heading" className="1-text heading-text">At An Affordable Price</div>
+                </div>
+                </div>
                 </Animator>
             </ScrollPage>
-             <ScrollPage page={1}>
-                <Animator animation={Zoom()}>
-                <h2>Paragraph 2</h2>
-                </Animator>
-            </ScrollPage>
+        </div>
        </ScrollContainer>
     );
 }
