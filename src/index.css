@@ -87,6 +87,18 @@ img{
   object-position: center center;
 }
 
+.x1.goldbar.home{
+  border: solid rgba(187, 154, 33, 0.7);
+  height: 0px;
+  width: 190px;
+}
+
+.paragraph {
+  color: white;
+  font-size:larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 #open-heading{
   color: white;
   font-size: xx-large;

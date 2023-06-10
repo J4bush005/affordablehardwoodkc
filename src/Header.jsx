@@ -13,7 +13,6 @@ function Header(){
           </Link>
           <Link to="/" id="words" class="navbar-brand">
             <div className="1-text heading-text bigger up">Affordable</div>
-            <div className="space"></div>
              <div className="1-text heading-text bigger">Hardwood LLC</div>
               <div class="flex">
               <div class="x1 goldbar"></div>
