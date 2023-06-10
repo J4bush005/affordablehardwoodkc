@@ -27,7 +27,7 @@ function Header(){
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto d-flex flex-row">
+      <ul class="navbar-nav ms-auto d-flex">
             <li class="nav-item dropdown mx-3">
                 
             <Link to="/About" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
@@ -58,7 +58,7 @@ function Header(){
             <li><Link to="/Services" class="nav-link under" role="button" aria-expanded="false">Misc.</Link></li>
           </ul>
         </li>
-         <li class="nav-item dropdown last">
+         <li class="nav-item dropdown last mx-3">
             <Link to="/Contact" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</Link>
           <ul class="dropdown-menu">
             <li><Link to="/Contact" class="nav-link under" role="button" aria-expanded="false">Request an Estimate</Link></li>
