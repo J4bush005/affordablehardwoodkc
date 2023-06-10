@@ -47,9 +47,23 @@ img{
   padding-right: 25px;
 }
 
+ .dropdown:hover .dropdown-menu {
+   display:block;
+}
+
+.nav-link.under:hover {
+  background-color: rgba(157, 0, 0);
+  color:white;
+  font-weight: bolder;
+}
+
 #sub {
   color: white;
   text-shadow: 2px 2px 4px black;
+}
+
+#sub:hover {
+  color:rgba(157, 0, 0);
 }
 
 #words {
@@ -58,8 +72,7 @@ img{
   font-family: 'Times New Roman', Times, serif;
 }
 
-   .dropdown:hover .dropdown-menu {
-    display:block;
-  }
+
+
 
 
