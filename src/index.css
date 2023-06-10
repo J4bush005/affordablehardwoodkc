@@ -99,6 +99,11 @@ img{
   font-family: 'Times New Roman', Times, serif;
 }
 
+.pics{
+  width: 450px;
+  
+}
+
 #open-heading{
   color: white;
   font-size: xx-large;
