@@ -51,6 +51,10 @@ img{
    display:block;
 }
 
+.nav-link.under {
+  padding-left: 10px;
+}
+
 .nav-link.under:hover {
   background-color: rgba(157, 0, 0);
   color:white;
