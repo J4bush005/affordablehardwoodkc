@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/src/components/images/Background1.png");
 }
 
 
@@ -76,6 +77,8 @@ img{
   text-shadow: 2px 2px 4px black;
   font-family: 'Times New Roman', Times, serif;
 }
+
+/*Home Page*/
 
 
 

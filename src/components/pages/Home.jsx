@@ -1,4 +1,6 @@
 import React from "react";
+import Background from "../images/Background1.png";
+import { Link } from "react-router-dom";
 
 function Home() {
     return(
