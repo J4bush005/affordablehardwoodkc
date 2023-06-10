@@ -59,6 +59,7 @@ img{
   background-color: rgba(157, 0, 0);
   color:white;
   font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 1.8);
 }
 
 #sub {
