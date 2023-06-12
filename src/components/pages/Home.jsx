@@ -13,6 +13,7 @@ import {
   MoveIn,
   Zoom,
 } from "react-scroll-motion";
+import Media from "react-media";
 import Logo from "../images/Logo.png";
 import Demo1 from "../images/Demo1.png";
 import Demo2 from "../images/Demo2.png";
@@ -22,8 +23,17 @@ import Demo5 from "../images/Demo5.png";
 import Demo6 from "../images/Demo6.png";
 import { Link } from "react-router-dom";
 
-const FadeUp = batch(FadeIn(0, 1), MoveIn(400, 300), StickyIn(15, 16));
-const MoveUp = batch(FadeIn(0,1), MoveIn(300,200), StickyIn(10, 22));
+const FadeUp = batch(FadeIn(), MoveIn(400, 300), StickyIn(15, 16));
+
+
+const FadeUpsm = batch(FadeIn(), MoveIn(50, 0), StickyIn(50, 25));
+
+
+const FadeUpmd = batch(FadeIn(), MoveIn(50, 0), StickyIn(50, 25));
+
+
+const FadeUplg = batch(FadeIn(), MoveIn(400, 300), StickyIn(15, 16));
+
 
 function Home() {
   return (
@@ -99,6 +109,48 @@ function Home() {
 
       <ScrollPage page={0}>
         <div className="flex container-fluid">
+
+        <Media query="(min-width: 0px) and (max-width: 480px)">
+         <Animator animation={FadeUpsm}>
+            <div class="row">
+              <div class="col">
+                <div id="open-heading" class="1-text heading-text">
+                  Providing Superior Quality
+                </div>
+                <div id="open-heading" class="1-text heading-text">
+                  At An Affordable Price
+                </div>
+                <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </Animator>
+          </Media>
+
+          <Media query="(min-width: 480px) and (max-width: 768px)">
+          <Animator animation={FadeUpmd}>
+            <div class="row">
+              <div class="col">
+                <div id="open-heading" class="1-text heading-text">
+                  Providing Superior Quality
+                </div>
+                <div id="open-heading" class="1-text heading-text">
+                  At An Affordable Price
+                </div>
+                <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
+              </div>
+            </div>
+            </div>
+            </div>
+          </Animator>
+          </Media>
+
+           <Media query="(min-width: 768px) and (max-width: 1920px)">
           <Animator animation={FadeUp}>
             <div class="row">
               <div class="col">
@@ -108,16 +160,36 @@ function Home() {
                 <div id="open-heading" class="1-text heading-text">
                   At An Affordable Price
                 </div>
-              </div>
-            </div>
-          </Animator>
-          <Animator animation={MoveUp}>
-            <div className="flex">
+                <div className="flex">
               <div className="x1 goldbar home">
                 <div className="x1"></div>
               </div>
             </div>
+              </div>
+            </div>
           </Animator>
+          </Media>
+
+           <Media query="(min-width: 1920px)">
+          <Animator animation={FadeUplg}>
+            <div class="row">
+              <div class="col">
+                <div id="open-heading" class="1-text heading-text">
+                  Providing Superior Quality
+                </div>
+                <div id="open-heading" class="1-text heading-text">
+                  At An Affordable Price
+                </div>
+                <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </Animator>
+          </Media>
+
         </div>
       </ScrollPage>
     </ScrollContainer>
