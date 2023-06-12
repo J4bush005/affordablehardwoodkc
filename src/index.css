@@ -129,5 +129,17 @@ img{
   }
 }
 
+@media screen and (max-width: 480px) {
+  #open-heading {
+    font-size:x-large;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #open-heading {
+    font-size:x-large;
+  }
+}
+
 
 
