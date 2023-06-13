@@ -264,11 +264,8 @@ function Home() {
           </Animator>
         </Media>
         </div>
-      </ScrollPage>
 
-
-      
-    <div class="container my-5">
+        <div class="container my-5">
   <footer class="text-center text-white">
     <div class="container">
      <section class="mt-5">
@@ -355,6 +352,11 @@ function Home() {
   </footer>
 
 </div>
+      </ScrollPage>
+
+
+      
+    
     </ScrollContainer>
 
 
