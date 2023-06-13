@@ -36,6 +36,10 @@ const FadeUpmd = batch(FadeIn(), MoveIn(50, 0));
 
 const FadeUplg = batch(FadeIn(), MoveIn(400, 300));
 
+const insta = 'https://www.instagram.com/hardwoodboss_/'
+const face = 'https://www.facebook.com/profile.php?id=100001292195808'
+const linked = 'https://www.linkedin.com/in/johnathon-forbush-a4ba3373/'
+
 function Home() {
   return (
     <ScrollContainer>
@@ -312,18 +316,18 @@ function Home() {
 
       <hr class="my-5" />
       <section class="mb-4 move">
-          <Link to="/Gallery" class="btn btn-floating m1" role="button"  aria-expanded="false">
+          <Link to="/" class="btn btn-floating m1" role="button"  aria-expanded="false">
           <i class="fab fa-instagram">
-          <img src={Insta} class="img-fluid hover" alt="" />
+          <img src={Insta} class="img-fluid hover" onClick={() => window.open(insta, '_blank')} alt="" />
           </i>
         </Link>
-         <Link to="/Gallery" class="btn btn-floating m1" role="button"  aria-expanded="false">
+         <Link to="/" class="btn btn-floating m1" role="button"  aria-expanded="false">
           <i class="fab fa-facebook-f">
-          <img src={Face} class="img-fluid hover" alt="" /></i>
+          <img src={Face} class="img-fluid hover" onClick={() => window.open(face, '_blank')} alt="" /></i>
         </Link>
-         <Link to="http//:linkedin.com" class="btn btn-floating m1" role="button"  aria-expanded="false">
+         <Link to="/" class="btn btn-floating m1" role="button"  aria-expanded="false">
           <i class="fab fa-linkedin">
-           <img src={Linked} class="img-fluid hover" alt="" /></i>
+           <img src={Linked} class="img-fluid hover" onClick={() => window.open(linked, '_blank')} alt="" /></i>
         </Link>
         <a href="" class="text-white me-4">
           <i class="fab fa-instagram"></i>
