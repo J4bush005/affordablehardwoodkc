@@ -284,29 +284,29 @@ function Home() {
 
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">About us</a>
+              <Link to="/About" class="text-white">About us</Link>
             </h6>
           </div>
 
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Products</a>
+              <Link to="/Services" class="text-white">Services</Link>
             </h6>
           </div>
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Awards</a>
+              <Link to="/About" class="text-white">Reviews</Link>
             </h6>
           </div>
 
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Help</a>
+              <Link to="/About" class="text-white">Find a Career</Link>
             </h6>
           </div>
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!" class="text-white">Contact</a>
+             <Link to="/Contact" class="text-white">Contact</Link>
             </h6>
           </div>
 
