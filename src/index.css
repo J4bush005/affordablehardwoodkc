@@ -104,9 +104,26 @@ img{
   font-family: 'Times New Roman', Times, serif;
 }
 
+.move{
+  padding-left: 40px;
+}
+
 .article{
 justify-content: center;
 align-items: center;
+}
+
+.hover{
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.m1{
+  border: none;
+}
+
+.hover:hover{
+  transform: scale(1.15);
 }
 
 .pic{

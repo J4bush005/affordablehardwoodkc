@@ -21,6 +21,9 @@ import Demo3 from "../images/Demo3.png";
 import Demo4 from "../images/Demo4.png";
 import Demo5 from "../images/Demo5.png";
 import Demo6 from "../images/Demo6.png";
+import Insta from "../images/ig logo.png"
+import Face from "../images/face.png"
+import Linked from "../images/Linked.png"
 import { Link } from "react-router-dom";
 
 const FadeUp = batch(FadeIn(), MoveIn(400, 300));
@@ -264,8 +267,11 @@ function Home() {
           </Animator>
         </Media>
         </div>
+      </ScrollPage>
 
-        <div class="container my-5">
+
+      
+    <div class="container my-5 foot">
   <footer class="text-center text-white">
     <div class="container">
      <section class="mt-5">
@@ -305,31 +311,20 @@ function Home() {
 
 
       <hr class="my-5" />
-      <section class="mb-5">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-8">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti
-              dicta, aliquam sequi voluptate quas.
-            </p>
-          </div>
-        </div>
-      </section>
-
-
-
-      <section class="text-center mb-5">
-        <a href="" class="text-white me-4">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-google"></i>
-        </a>
+      <section class="mb-4 move">
+          <Link to="/Gallery" class="btn btn-floating m1" role="button"  aria-expanded="false">
+          <i class="fab fa-instagram">
+          <img src={Insta} class="img-fluid hover" alt="" />
+          </i>
+        </Link>
+         <Link to="/Gallery" class="btn btn-floating m1" role="button"  aria-expanded="false">
+          <i class="fab fa-facebook-f">
+          <img src={Face} class="img-fluid hover" alt="" /></i>
+        </Link>
+         <Link to="http//:linkedin.com" class="btn btn-floating m1" role="button"  aria-expanded="false">
+          <i class="fab fa-linkedin">
+           <img src={Linked} class="img-fluid hover" alt="" /></i>
+        </Link>
         <a href="" class="text-white me-4">
           <i class="fab fa-instagram"></i>
         </a>
@@ -340,23 +335,17 @@ function Home() {
           <i class="fab fa-github"></i>
         </a>
       </section>
-
     </div>
     <div
          class="text-center p-3"
          >
 
-      <a class="text-white" href="https://mdbootstrap.com/"> </a>
+      <a class="text-white" href="https://mdbootstrap.com/">Designed by: Johnathon Forbush Jr </a>
     </div>
 
   </footer>
 
 </div>
-      </ScrollPage>
-
-
-      
-    
     </ScrollContainer>
 
 
