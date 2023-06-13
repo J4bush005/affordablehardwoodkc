@@ -9,6 +9,11 @@ body {
   background-image: url("/src/components/images/Background4.jpeg");
 }
 
+.flex {
+  display: flex;
+}
+
+.x2{flex:2;}
 
 /*Header*/
 img{
@@ -99,9 +104,17 @@ img{
   font-family: 'Times New Roman', Times, serif;
 }
 
-.pics{
-  width: 450px;
-  
+.article{
+justify-content: center;
+align-items: center;
+}
+
+.pic{
+  width: 600px;
+  padding-top: 10px;
+  margin-left:350px;
+  justify-content: end;
+  align-items: end;
 }
 
 .first {
@@ -109,12 +122,18 @@ img{
 }
 
 
+.r-text{
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;
+}
 
 
 #open-heading{
   color: white;
   font-size: xx-large;
   font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 
 

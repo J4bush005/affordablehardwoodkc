@@ -23,7 +23,7 @@ import Demo5 from "../images/Demo5.png";
 import Demo6 from "../images/Demo6.png";
 import { Link } from "react-router-dom";
 
-const FadeUp = batch(FadeIn(), MoveIn(400, 300), StickyIn(15, 16));
+const FadeUp = batch(FadeIn(), MoveIn(400, 300), StickyIn(40, 45));
 
 
 const FadeUpsm = batch(FadeIn(), MoveIn(50, 0), StickyIn(50, 25));
@@ -152,20 +152,21 @@ function Home() {
 
            <Media query="(min-width: 768px) and (max-width: 1920px)">
           <Animator animation={FadeUp}>
-            <div class="row">
-              <div class="col">
+            <div class="row align-items-start">
+          
+              <div class="col-4">
                 <div id="open-heading" class="1-text heading-text">
                   Providing Superior Quality
-                </div>
-                <div id="open-heading" class="1-text heading-text">
-                  At An Affordable Price
                 </div>
                 <div className="flex">
               <div className="x1 goldbar home">
                 <div className="x1"></div>
               </div>
             </div>
+            <div className="r-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. </div>
               </div>
+              <div className="col-6">
+              <img src={Demo1} class="img-responsive pic x2 flex" alt="" /></div>
             </div>
           </Animator>
           </Media>
