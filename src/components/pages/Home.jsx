@@ -39,6 +39,7 @@ const FadeUplg = batch(FadeIn(), MoveIn(400, 300));
 const insta = 'https://www.instagram.com/hardwoodboss_/'
 const face = 'https://www.facebook.com/profile.php?id=100001292195808'
 const linked = 'https://www.linkedin.com/in/johnathon-forbush-a4ba3373/'
+const mine = 'https://j4bush005.github.io/'
 
 function Home() {
   return (
@@ -344,7 +345,7 @@ function Home() {
          class="text-center p-3"
          >
 
-      <a class="text-white" href="https://mdbootstrap.com/">Designed by: Johnathon Forbush Jr </a>
+      <Link to="/" class="text-white" onClick={() => window.open(mine, '_blank')}>Designed by: Johnathon Forbush Jr </Link>
     </div>
 
   </footer>
