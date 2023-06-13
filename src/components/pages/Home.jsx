@@ -148,8 +148,8 @@ function Home() {
 
           <Media query="(min-width: 768px) and (max-width: 1920px)">
             <Animator animation={FadeUp}>
-              <div class="row align-items-start">
-                <div class="col-4">
+              <div class="row justify-content-evenly open">
+                <div class="col-6">
                   <div id="open-heading" class="1-text heading-text">
                     Providing Superior Quality
                   </div>
@@ -199,7 +199,7 @@ function Home() {
       <div className="flex container-fluid">
         <Media query="(min-width: 768px) and (max-width: 1920px)">
           <Animator animation={ FadeUpTwo }>
-            <div class="row justify-content-evenly">
+            <div class="row justify-content-evenly last">
               <div class="col-6">
                 <img src={Demo1} class="img-responsive x2 flex second" alt="" />
               </div>

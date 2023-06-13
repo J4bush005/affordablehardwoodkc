@@ -111,12 +111,18 @@ align-items: center;
 
 .pic{
   width: 600px;
-  padding-top: 10px;
-  margin-left:350px;
+  padding-top: 0px;
   justify-content: end;
   align-items: end;
 }
 
+.open {
+  padding-top: 70px;
+}
+
+.last{
+  padding-top: 50px;
+}
 .second {
   width: 600px;
   margin-right: 350px;
