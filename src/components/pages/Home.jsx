@@ -26,11 +26,12 @@ import { Link } from "react-router-dom";
 const FadeUp = batch(FadeIn(), MoveIn(400, 300));
 const FadeUpTwo = batch(FadeIn(), MoveIn(400, 300));
 
-const FadeUpsm = batch(FadeIn(), MoveIn(50, 0), StickyIn(50, 25));
+const FadeUpsm = batch(FadeIn(), MoveIn(50, 0));
+const FadeUpTwosm = batch(FadeIn(), MoveIn(50, 0));
 
-const FadeUpmd = batch(FadeIn(), MoveIn(50, 0), StickyIn(50, 25));
+const FadeUpmd = batch(FadeIn(), MoveIn(50, 0));
 
-const FadeUplg = batch(FadeIn(), MoveIn(400, 300), StickyIn(15, 16));
+const FadeUplg = batch(FadeIn(), MoveIn(400, 300));
 
 function Home() {
   return (
@@ -104,28 +105,37 @@ function Home() {
         </button>
       </div>
 
+      {/* First Paragraph Small Screens */}
       <ScrollPage page={0}>
         <div className="flex container-fluid">
           <Media query="(min-width: 0px) and (max-width: 480px)">
             <Animator animation={FadeUpsm}>
               <div class="row">
                 <div class="col">
-                  <div id="open-heading" class="1-text heading-text">
+                  <div id="open-heading-sm" class="1-text heading-text">
                     Providing Superior Quality
-                  </div>
-                  <div id="open-heading" class="1-text heading-text">
-                    At An Affordable Price
                   </div>
                   <div className="flex">
                     <div className="x1 goldbar home">
                       <div className="x1"></div>
                     </div>
                   </div>
+                  <div className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img src={Demo1} class="img-responsive pic x2 flex sm" alt="" />
                 </div>
               </div>
             </Animator>
           </Media>
 
+          {/* First Paragraph Medium Screens */}
           <Media query="(min-width: 480px) and (max-width: 768px)">
             <Animator animation={FadeUpmd}>
               <div class="row">
@@ -146,6 +156,7 @@ function Home() {
             </Animator>
           </Media>
 
+          {/* First Paragraph Regular Screens */}
           <Media query="(min-width: 768px) and (max-width: 1920px)">
             <Animator animation={FadeUp}>
               <div class="row justify-content-evenly open">
@@ -173,6 +184,7 @@ function Home() {
             </Animator>
           </Media>
 
+          {/* First Paragraph Large Screens */}
           <Media query="(min-width: 1920px)">
             <Animator animation={FadeUplg}>
               <div class="row">
@@ -197,6 +209,34 @@ function Home() {
 
       <ScrollPage page={1}>
       <div className="flex container-fluid">
+        {/* Second Paragraph Small Screens */}
+        <Media query="(min-width: 0px) and (max-width: 480px)">
+          <Animator animation={FadeUpsm}>
+              <div class="row">
+                <div class="col">
+                  <div id="open-heading-sm" class="1-text heading-text">
+                    At An Affordable Price
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img src={Demo1} class="img-responsive pic x2 flex sm" alt="" />
+                </div>
+              </div>
+            </Animator>
+        </Media>
+        {/* Second Paragraph Regular Screens */}
         <Media query="(min-width: 768px) and (max-width: 1920px)">
           <Animator animation={ FadeUpTwo }>
             <div class="row justify-content-evenly lasts">

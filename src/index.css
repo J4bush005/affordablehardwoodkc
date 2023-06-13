@@ -116,6 +116,11 @@ align-items: center;
   align-items: end;
 }
 
+.sm{
+  width: 400px;
+  padding-right: 10px;
+}
+
 .open {
   padding-top: 70px;
 }
@@ -123,6 +128,7 @@ align-items: center;
 .lasts{
   padding-top: 50px;
 }
+
 .second {
   width: 600px;
   margin-right: 350px;
@@ -145,7 +151,15 @@ align-items: center;
   color: white;
   font-size: xx-large;
   font-family: 'Times New Roman', Times, serif;
-  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
+}
+
+#open-heading-sm{
+  padding-top: 30px;
+  color:white;
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
 #open-headings{
