@@ -199,7 +199,7 @@ function Home() {
       <div className="flex container-fluid">
         <Media query="(min-width: 768px) and (max-width: 1920px)">
           <Animator animation={ FadeUpTwo }>
-            <div class="row justify-content-evenly last">
+            <div class="row justify-content-evenly lasts">
               <div class="col-6">
                 <img src={Demo1} class="img-responsive x2 flex second" alt="" />
               </div>
