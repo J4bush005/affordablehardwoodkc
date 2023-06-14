@@ -27,6 +27,7 @@ import Linked from "../images/Linked.png";
 import Boss from "../images/Practice.jpg";
 import Easter from "../images/Easter.jpg";
 import Family from "../images/Family .jpg";
+import Rappers from "../images/Rappers.png"
 import White from "../images/White.jpg";
 import { Link } from "react-router-dom";
 
@@ -40,6 +41,7 @@ const FadeUpmd = batch(FadeIn(), MoveIn(200, 150));
 const FadeUpTwomd = batch(FadeIn(), MoveIn(-200, -150));
 
 const FadeUplg = batch(FadeIn(), MoveIn(400, 300));
+const FadeUpTwolg = batch(FadeIn(), MoveIn(-400, -300));
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -153,7 +155,7 @@ function Home() {
           </Media>
 
           {/* First Paragraph Medium Screens */}
-          <Media query="(min-width: 480px) and (max-width: 768px)">
+          <Media query="(min-width: 481px) and (max-width: 768px)">
             <Animator animation={FadeUpmd}>
               <div class="row">
                 <div class="col">
@@ -187,7 +189,7 @@ function Home() {
           </Media>
 
           {/* First Paragraph Regular Screens */}
-          <Media query="(min-width: 768px) and (max-width: 1920px)">
+          <Media query="(min-width: 769px) and (max-width: 1920px)">
             <Animator animation={FadeUp}>
               <div class="row justify-content-evenly open">
                 <div class="col-6">
@@ -215,21 +217,28 @@ function Home() {
           </Media>
 
           {/* First Paragraph Large Screens */}
-          <Media query="(min-width: 1920px)">
+          <Media query="(min-width: 1921px)">
             <Animator animation={FadeUplg}>
-              <div class="row">
-                <div class="col">
-                  <div id="open-heading" class="1-text heading-text">
+              <div class="row justify-content-evenly open lg">
+                <div class="col-6">
+                  <div id="open-heading-lg" class="1-text heading-text">
                     Providing Superior Quality
-                  </div>
-                  <div id="open-heading" class="1-text heading-text">
-                    At An Affordable Price
                   </div>
                   <div className="flex">
                     <div className="x1 goldbar home">
                       <div className="x1"></div>
                     </div>
                   </div>
+                  <div id="lg-text" className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img src={Boss} class="img-responsive pic x2 flex lg-image" alt="" />
                 </div>
               </div>
             </Animator>
@@ -239,6 +248,7 @@ function Home() {
 
       <ScrollPage page={1}>
         <div className="flex container-fluid">
+
           {/* Second Paragraph Small Screens */}
           <Media query="(min-width: 0px) and (max-width: 480px)">
             <Animator animation={FadeUpTwosm}>
@@ -262,7 +272,7 @@ function Home() {
                 </div>
                 <div className="col-6">
                   <img
-                    src={White}
+                    src={Rappers}
                     class="img-responsive pic x2 flex sm"
                     alt=""
                   />
@@ -272,7 +282,7 @@ function Home() {
           </Media>
 
           {/* Second Paragraph Medium Screens */}
-          <Media query="(min-width:480px) and (max-width: 768px)">
+          <Media query="(min-width:481px) and (max-width: 768px)">
             <Animator animation={FadeUpTwomd}>
               <div class="row">
                 <div class="col">
@@ -296,22 +306,24 @@ function Home() {
               <div className="row">
                <div className="col-6">
                   <img
-                    src={White}
+                    src={Rappers}
                     class="img-responsive pic x2 flex mediums"
                     alt=""
                   />
                 </div></div>
             </Animator>
           </Media>
+
           {/* Second Paragraph Regular Screens */}
-          <Media query="(min-width: 768px) and (max-width: 1920px)">
+          <Media query="(min-width: 769px) and (max-width: 1920px)">
             <Animator animation={FadeUpTwo}>
               <div class="row justify-content-evenly lasts">
                 <div class="col-6">
                   <img
-                    src={White}
+                    src={Rappers}
                     class="img-responsive x2 flex second"
                     alt=""
+                    
                   />
                 </div>
                 <div id="test" className="col-6">
@@ -324,6 +336,38 @@ function Home() {
                     </div>
                   </div>
                   <div id="second-paragraph" className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.{" "}
+                  </div>
+                </div>
+              </div>
+            </Animator>
+          </Media>
+
+          {/* Second Paragraph Large Screens */}
+          <Media query="(min-width: 1921px)">
+            <Animator animation={FadeUpTwolg}>
+              <div class="row justify-content-evenly lasts">
+                <div class="col-6">
+                  <img
+                    src={Rappers}
+                    class="img-responsive x2 flex second lg-image"
+                    alt=""
+                  />
+                </div>
+                <div id="test" className="col-6">
+                  <div id="open-heading-lg" class="1-text heading-text">
+                    At An Affordable Price
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div id="lg-text" className="r-text">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Maecenas porttitor congue massa. Fusce posuere, magna sed
                     pulvinar ultricies, purus lectus malesuada libero, sit amet
