@@ -123,7 +123,7 @@ function Home() {
       {/* First Paragraph Small Screens */}
       <ScrollPage page={0}>
         <div className="flex container-fluid">
-          <Media query="(min-width: 0px) and (max-width: 480px)">
+          <Media query="(min-width: 0px) and (max-width: 640px)">
             <Animator animation={FadeUpsm}>
               <div class="row">
                 <div class="col">
@@ -135,7 +135,7 @@ function Home() {
                       <div className="x1"></div>
                     </div>
                   </div>
-                  <div className="r-text">
+                  <div className="r-text-sm">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Maecenas porttitor congue massa. Fusce posuere, magna sed
                     pulvinar ultricies, purus lectus malesuada libero, sit amet
@@ -143,7 +143,7 @@ function Home() {
                     Fusce est. Vivamus a tellus.
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col">
                   <img
                     src={Boss}
                     class="img-responsive pic x2 flex sm"
@@ -155,10 +155,10 @@ function Home() {
           </Media>
 
           {/* First Paragraph Medium Screens */}
-          <Media query="(min-width: 481px) and (max-width: 768px)">
+          <Media query="(min-width: 641px) and (max-width: 1007px)">
             <Animator animation={FadeUpmd}>
               <div class="row">
-                <div class="col">
+                <div class="col-12">
                   <div id="open-heading-md" class="1-text heading-text">
                     Providing Superior Quality
                   </div>
@@ -176,7 +176,6 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="row">
                 <div className="col">
                   <img
                     src={Boss}
@@ -184,12 +183,11 @@ function Home() {
                     alt=""
                   />
                 </div>
-              </div>
             </Animator>
           </Media>
 
           {/* First Paragraph Regular Screens */}
-          <Media query="(min-width: 769px) and (max-width: 1920px)">
+          <Media query="(min-width: 1008px) and (max-width: 2000px)">
             <Animator animation={FadeUp}>
               <div class="row justify-content-evenly open">
                 <div class="col-6">
@@ -217,7 +215,7 @@ function Home() {
           </Media>
 
           {/* First Paragraph Large Screens */}
-          <Media query="(min-width: 1921px)">
+          <Media query="(min-width: 2001px)">
             <Animator animation={FadeUplg}>
               <div class="row justify-content-evenly open lg">
                 <div class="col-6">
@@ -250,7 +248,7 @@ function Home() {
         <div className="flex container-fluid">
 
           {/* Second Paragraph Small Screens */}
-          <Media query="(min-width: 0px) and (max-width: 480px)">
+          <Media query="(min-width: 0px) and (max-width: 640px)">
             <Animator animation={FadeUpTwosm}>
               <div class="row">
                 <div class="col">
@@ -273,7 +271,7 @@ function Home() {
                 <div className="col-6">
                   <img
                     src={Rappers}
-                    class="img-responsive pic x2 flex sm"
+                    class="img-responsive pic x2 flex sms"
                     alt=""
                   />
                 </div>
@@ -282,7 +280,7 @@ function Home() {
           </Media>
 
           {/* Second Paragraph Medium Screens */}
-          <Media query="(min-width:481px) and (max-width: 768px)">
+          <Media query="(min-width:641px) and (max-width: 1007px)">
             <Animator animation={FadeUpTwomd}>
               <div class="row">
                 <div class="col">
@@ -315,7 +313,7 @@ function Home() {
           </Media>
 
           {/* Second Paragraph Regular Screens */}
-          <Media query="(min-width: 769px) and (max-width: 1920px)">
+          <Media query="(min-width: 1008px) and (max-width: 2000px)">
             <Animator animation={FadeUpTwo}>
               <div class="row justify-content-evenly lasts">
                 <div class="col-6">
@@ -348,7 +346,7 @@ function Home() {
           </Media>
 
           {/* Second Paragraph Large Screens */}
-          <Media query="(min-width: 1921px)">
+          <Media query="(min-width: 2001px)">
             <Animator animation={FadeUpTwolg}>
               <div class="row justify-content-evenly lasts">
                 <div class="col-6">
