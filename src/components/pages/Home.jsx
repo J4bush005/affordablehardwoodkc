@@ -418,6 +418,38 @@ function Home() {
               </div>
             </Animator>
           </Media>
+           {/* Third Paragraph Medium Screens */}
+          <Media query="(min-width:641px) and (max-width: 1007px)">
+            <Animator animation={FadeUpTwomd}>
+              <div class="row">
+                <div class="col">
+                  <div id="open-heading-md" class="1-text heading-text">
+                    Meet The Hardwood Boss
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+               <div className="col-6">
+                  <img
+                    src={Boss}
+                    class="img-responsive pic x2 flex mediums"
+                    alt=""
+                  />
+                </div></div>
+            </Animator>
+          </Media>
           </div>
       </ScrollPage>
 
