@@ -256,6 +256,10 @@ align-items: center;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
+#third-paragraph-image{
+  width: 350px;
+}
+
 @media screen and (min-width: 1920px) {
   .image-resize {
     width: 100%;
