@@ -232,6 +232,10 @@ align-items: center;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
+#third-image-small{
+  width: 350px;
+}
+
 #open-headings{
   color: white;
   font-size: xx-large;
@@ -242,6 +246,14 @@ align-items: center;
 #second-paragraph{
   color: white;
   font-size: larger;
+}
+
+#third-open-heading-sm{
+  padding-top: 25px;
+  color:white;
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
 @media screen and (min-width: 1920px) {

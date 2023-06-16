@@ -34,15 +34,19 @@ import { Link } from "react-router-dom";
 
 const FadeUp = batch(FadeIn(), MoveIn(400, 300));
 const FadeUpTwo = batch(FadeIn(), MoveIn(-400, -300));
+const FadeUpThree = batch(FadeIn(), MoveIn(400, 300));
 
 const FadeUpsm = batch(FadeIn(), MoveIn(50, 0));
 const FadeUpTwosm = batch(FadeIn(), MoveIn(-50, -30));
+const FadeUpThreesm = batch(FadeIn(), MoveIn(50, 0));
 
 const FadeUpmd = batch(FadeIn(), MoveIn(200, 150));
 const FadeUpTwomd = batch(FadeIn(), MoveIn(-200, -150));
+const FadeUpThreemd = batch(FadeIn(), MoveIn(200, 150));
 
 const FadeUplg = batch(FadeIn(), MoveIn(400, 300));
 const FadeUpTwolg = batch(FadeIn(), MoveIn(-400, -300));
+const FadeUpThreelg = batch(FadeIn(), MoveIn(400, 300));
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -381,8 +385,40 @@ function Home() {
       </ScrollPage>
 
       <ScrollPage page={2}>
-
       {/* Third Paragraph Small Screens */}
+       <div className="flex container-fluid">
+          <Media query="(min-width: 0px) and (max-width: 640px)">
+            <Animator animation={FadeUpThreesm}>
+              <div class="row">
+                <div class="col">
+                  <div id="third-open-heading-sm" class="1-text heading-text">
+                    Meet The Hardwood Boss
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text-sm">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    id="third-image-small"
+                    src={Boss}
+                    class="img-responsive pic x2 flex sm"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </Animator>
+          </Media>
+          </div>
       </ScrollPage>
 
       {/* Footer */}
