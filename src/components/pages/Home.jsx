@@ -26,6 +26,7 @@ import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
 import Boss from "../images/Practice.jpg";
 import Kids from "../images/kids.png";
+import Buffer from "../images/buff.png";
 import Easter from "../images/Easter.jpg";
 import Family from "../images/Family .jpg";
 import Rappers from "../images/Rappers.png"
@@ -249,7 +250,7 @@ function Home() {
         </div>
       </ScrollPage>
 
-      <ScrollPage page={1}>
+      <ScrollPage page={2}>
         <div className="flex container-fluid">
 
           {/* Second Paragraph Small Screens */}
@@ -275,7 +276,7 @@ function Home() {
                 </div>
                 <div className="col-6">
                   <img
-                    src={Rappers}
+                    src={Buffer}
                     class="img-responsive pic x2 flex sms"
                     alt=""
                   />
@@ -309,7 +310,7 @@ function Home() {
               <div className="row">
                <div className="col-6">
                   <img
-                    src={Rappers}
+                    src={Buffer}
                     class="img-responsive pic x2 flex mediums"
                     alt=""
                   />
@@ -323,7 +324,7 @@ function Home() {
               <div class="row justify-content-evenly lasts">
                 <div class="col-6">
                   <img
-                    src={Rappers}
+                    src={Buffer}
                     class="img-responsive x2 flex second"
                     alt=""
                     
@@ -356,7 +357,7 @@ function Home() {
               <div class="row justify-content-evenly lasts">
                 <div class="col-6">
                   <img
-                    src={Rappers}
+                    src={Buffer}
                     class="img-responsive x2 flex second lg-image"
                     alt=""
                   />
@@ -410,7 +411,7 @@ function Home() {
                 <div className="col">
                   <img
                     id="third-image-small"
-                    src={Boss}
+                    src={Rappers}
                     class="img-responsive pic x2 flex sm"
                     alt=""
                   />
@@ -443,7 +444,7 @@ function Home() {
               <div className="row">
                <div className="col-6">
                   <img
-                    src={Boss}
+                    src={Rappers}
                     class="img-responsive pic x2 flex mediums"
                     alt=""
                   />
@@ -472,7 +473,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="col-6">
-                  <img id="third-paragraph-image" src={Boss} class="img-responsive pic x2 flex" alt="" />
+                  <img id="third-paragraph-image" src={Rappers} class="img-responsive pic x2 flex" alt="" />
                 </div>
               </div>
             </Animator>
@@ -480,6 +481,7 @@ function Home() {
           </div>
       </ScrollPage>
 
+      <ScrollPage page={3}>
       {/* Footer */}
       <div class="container my-5 foot">
         <footer class="text-center text-white">
@@ -587,6 +589,7 @@ function Home() {
           </div>
         </footer>
       </div>
+      </ScrollPage>
     </ScrollContainer>
   );
 }
