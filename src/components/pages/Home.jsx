@@ -481,12 +481,13 @@ function Home() {
             </section>
           </div>
           <div class="text-center p-3">
+          Designed by: 
             <Link
               to="/"
-              class="text-white"
+              class="text-white space"
               onClick={() => window.open(mine, "_blank")}
             >
-              Designed by: Johnathon Forbush Jr{" "}
+              Forbush Technologies LLC{" "}
             </Link>
           </div>
         </footer>

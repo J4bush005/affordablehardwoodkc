@@ -192,6 +192,10 @@ align-items: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
+.space {
+  margin-left: 5px;
+}
+
 
 #open-heading{
   color: white;
