@@ -126,14 +126,16 @@ align-items: center;
 }
 
 .pic{
-  width: 600px;
+  /*was 600? */
+  width: 700px;
   padding-top: 0px;
   justify-content: end;
   align-items: end;
 }
 
 .sm{
-  width: 300px;
+   /*was 300? */
+  width: 365px;
   padding-right: 10px;
 }
 
@@ -157,7 +159,7 @@ align-items: center;
 }
 
 .mediums{
-  width: 500px;
+  width: 600px;
 }
 
 .text-white{
@@ -174,7 +176,8 @@ align-items: center;
 }
 
 .lg-image{
-  width: 700px;
+  width: 1000px;
+  /*was 700 */
 }
 
 .r-text{
@@ -203,7 +206,6 @@ align-items: center;
 }
 
 #open-heading-sm{
-  padding-top: 30px;
   color:white;
   font-size: xx-large;
   font-family:'Times New Roman', Times, serif;
@@ -211,7 +213,7 @@ align-items: center;
 }
 
 #open-heading-md{
-  padding-top: 150px;
+  padding-top: 350px;
   color:white;
   font-size: xx-large;
   font-family:'Times New Roman', Times, serif;

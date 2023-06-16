@@ -25,6 +25,7 @@ import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
 import Boss from "../images/Practice.jpg";
+import Kids from "../images/kids.png";
 import Easter from "../images/Easter.jpg";
 import Family from "../images/Family .jpg";
 import Rappers from "../images/Rappers.png"
@@ -35,7 +36,7 @@ const FadeUp = batch(FadeIn(), MoveIn(400, 300));
 const FadeUpTwo = batch(FadeIn(), MoveIn(-400, -300));
 
 const FadeUpsm = batch(FadeIn(), MoveIn(50, 0));
-const FadeUpTwosm = batch(FadeIn(), MoveIn(-50, 0));
+const FadeUpTwosm = batch(FadeIn(), MoveIn(-50, -30));
 
 const FadeUpmd = batch(FadeIn(), MoveIn(200, 150));
 const FadeUpTwomd = batch(FadeIn(), MoveIn(-200, -150));
@@ -145,7 +146,7 @@ function Home() {
                 </div>
                 <div className="col">
                   <img
-                    src={Boss}
+                    src={Kids}
                     class="img-responsive pic x2 flex sm"
                     alt=""
                   />
@@ -178,7 +179,7 @@ function Home() {
               </div>
                 <div className="col">
                   <img
-                    src={Boss}
+                    src={Kids}
                     class="img-responsive pic x2 flex mediums"
                     alt=""
                   />
@@ -208,7 +209,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="col-6">
-                  <img src={Boss} class="img-responsive pic x2 flex" alt="" />
+                  <img src={Kids} class="img-responsive pic x2 flex" alt="" />
                 </div>
               </div>
             </Animator>
@@ -236,7 +237,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="col-6">
-                  <img src={Boss} class="img-responsive pic x2 flex lg-image" alt="" />
+                  <img src={Kids} class="img-responsive pic x2 flex lg-image" alt="" />
                 </div>
               </div>
             </Animator>
@@ -377,6 +378,11 @@ function Home() {
             </Animator>
           </Media>
         </div>
+      </ScrollPage>
+
+      <ScrollPage page={2}>
+
+      {/* Third Paragraph Small Screens */}
       </ScrollPage>
 
       {/* Footer */}

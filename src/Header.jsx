@@ -32,7 +32,6 @@ function Header(){
             <Link to="/About" id="sub" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
             <ul class="dropdown-menu">
             <li><Link to="/About" class="nav-link under" role="button" aria-expanded="false">Reviews</Link></li>
-            <li><Link to="/About" class="nav-link under " role="button" aria-expanded="false">Our Mission</Link></li>
             <li><Link to="/About" class="nav-link under " role="button" aria-expanded="false">Floor Caring Tips</Link></li>
             <li><Link to="/About" class="nav-link under " role="button" aria-expanded="false">Jobs</Link></li>
           </ul>
