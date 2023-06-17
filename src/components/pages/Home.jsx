@@ -131,7 +131,7 @@ function Home() {
         <div className="flex container-fluid">
           <Media query="(min-width: 0px) and (max-width: 640px)">
             <Animator animation={FadeUpsm}>
-              <div class="row">
+              <div class="row sm-screen">
                 <div class="col">
                   <div id="open-heading-sm" class="1-text heading-text">
                     Providing Superior Quality
@@ -256,12 +256,12 @@ function Home() {
           {/* Second Paragraph Small Screens */}
           <Media query="(min-width: 0px) and (max-width: 640px)">
             <Animator animation={FadeUpTwosm}>
-              <div class="row">
+              <div id="sm-screen" class="row">
                 <div class="col">
                   <div id="open-heading-sm" class="1-text heading-text">
                     At An Affordable Price
                   </div>
-                  <div className="flex">
+                  <div className="flex small">
                     <div className="x1 goldbar home">
                       <div className="x1"></div>
                     </div>
@@ -390,7 +390,7 @@ function Home() {
        <div className="flex container-fluid">
           <Media query="(min-width: 0px) and (max-width: 640px)">
             <Animator animation={FadeUpThreesm}>
-              <div class="row">
+              <div class="row screen">
                 <div class="col">
                   <div id="third-open-heading-sm" class="1-text heading-text">
                     Meet The Hardwood Boss
@@ -412,7 +412,7 @@ function Home() {
                   <img
                     id="third-image-small"
                     src={Rappers}
-                    class="img-responsive pic x2 flex sm"
+                    class="img-responsive pic x2 flex small pic"
                     alt=""
                   />
                 </div>

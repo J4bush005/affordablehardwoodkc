@@ -135,7 +135,7 @@ align-items: center;
 
 .sm{
    /*was 300? */
-  width: 365px;
+  width: 405px;
   padding-right: 10px;
 }
 
@@ -166,13 +166,21 @@ align-items: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
+.screen{
+  padding-top: 90px;
+}
+
 .sms{
-  width: 350px;
+  width: 400px;
 }
 
 
 .first {
   padding-top: 100px;
+}
+
+.sm-screen{
+  padding-top: 80px;
 }
 
 
@@ -205,6 +213,7 @@ align-items: center;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
+
 #lg-text{
   font-size: xx-large;
 
@@ -234,7 +243,8 @@ align-items: center;
 }
 
 #third-image-small{
-  width: 350px;
+  width: 400px;
+  padding-right: 2px;
 }
 
 #open-headings{
