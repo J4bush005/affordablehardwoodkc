@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.510bc3e6.css",
-    "main.js": "/static/js/main.8580d62f.js",
+    "main.js": "/static/js/main.69395397.js",
     "static/js/787.2b97701a.chunk.js": "/static/js/787.2b97701a.chunk.js",
     "static/media/kids.png": "/static/media/kids.d6acb138345b77cab7f9.png",
     "static/media/Rappers.png": "/static/media/Rappers.b3d50918e88a607d12af.png",
@@ -23,11 +23,11 @@
     "static/media/Linked.png": "/static/media/Linked.238ec218997ad981225e.png",
     "index.html": "/index.html",
     "main.510bc3e6.css.map": "/static/css/main.510bc3e6.css.map",
-    "main.8580d62f.js.map": "/static/js/main.8580d62f.js.map",
+    "main.69395397.js.map": "/static/js/main.69395397.js.map",
     "787.2b97701a.chunk.js.map": "/static/js/787.2b97701a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.510bc3e6.css",
-    "static/js/main.8580d62f.js"
+    "static/js/main.69395397.js"
   ]
 }
