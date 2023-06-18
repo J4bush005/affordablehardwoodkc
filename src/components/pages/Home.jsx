@@ -412,7 +412,7 @@ function Home() {
                   <img
                     id="third-image-small"
                     src={Rappers}
-                    class="img-responsive pic x2 flex small pic"
+                    class="img-responsive pic x2 flex small"
                     alt=""
                   />
                 </div>

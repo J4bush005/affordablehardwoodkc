@@ -135,7 +135,7 @@ align-items: center;
 
 .sm{
    /*was 300? */
-  width: 405px;
+  width: 350px;
   padding-right: 10px;
 }
 
@@ -166,12 +166,8 @@ align-items: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.screen{
-  padding-top: 90px;
-}
-
 .sms{
-  width: 400px;
+  width: 350px;
 }
 
 
@@ -243,8 +239,7 @@ align-items: center;
 }
 
 #third-image-small{
-  width: 400px;
-  padding-right: 2px;
+  width: 350px;
 }
 
 #open-headings{
@@ -298,6 +293,13 @@ align-items: center;
     font-size:x-large;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 640px){
+  
+}
+
+
+
 
 
 
