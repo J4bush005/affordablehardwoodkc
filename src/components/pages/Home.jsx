@@ -161,7 +161,7 @@ function Home() {
           </Media>
 
           {/* First Paragraph Medium Screens */}
-          <Media query="(min-width: 641px) and (max-width: 1007px)">
+          <Media query="(min-width: 641px) and (max-width: 1220px)">
             <Animator animation={FadeUpmd}>
               <div class="row">
                 <div class="col-12">
@@ -193,7 +193,7 @@ function Home() {
           </Media>
 
           {/* First Paragraph Regular Screens */}
-          <Media query="(min-width: 1008px) and (max-width: 2000px)">
+          <Media query="(min-width: 1221px) and (max-width: 2000px)">
             <Animator animation={FadeUp}>
               <div class="row justify-content-evenly open">
                 <div class="col-6">
@@ -286,7 +286,7 @@ function Home() {
           </Media>
 
           {/* Second Paragraph Medium Screens */}
-          <Media query="(min-width:641px) and (max-width: 1007px)">
+          <Media query="(min-width:641px) and (max-width: 1220px)">
             <Animator animation={FadeUpTwomd}>
               <div class="row">
                 <div class="col">
@@ -319,7 +319,7 @@ function Home() {
           </Media>
 
           {/* Second Paragraph Regular Screens */}
-          <Media query="(min-width: 1008px) and (max-width: 2000px)">
+          <Media query="(min-width: 1221px) and (max-width: 2000px)">
             <Animator animation={FadeUpTwo}>
               <div class="row justify-content-evenly lasts">
                 <div class="col-6">
@@ -420,8 +420,8 @@ function Home() {
             </Animator>
           </Media>
            {/* Third Paragraph Medium Screens */}
-          <Media query="(min-width:641px) and (max-width: 1007px)">
-            <Animator animation={FadeUpTwomd}>
+          <Media query="(min-width:641px) and (max-width: 1220px)">
+            <Animator animation={FadeUpmd}>
               <div class="row">
                 <div class="col">
                   <div id="open-heading-md" class="1-text heading-text">
@@ -452,7 +452,7 @@ function Home() {
             </Animator>
           </Media>
 
-          <Media query="(min-width: 1008px) and (max-width: 2000px)">
+          <Media query="(min-width: 1221px) and (max-width: 2000px)">
             <Animator animation={FadeUp}>
               <div class="row justify-content-evenly open">
                 <div class="col-6">

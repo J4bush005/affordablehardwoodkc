@@ -294,8 +294,10 @@ align-items: center;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 640px){
-
+@media screen and (min-width: 1007) {
+  .mediums{
+    width: 00px;
+  }
 }
 
 /*COntact Page*/
