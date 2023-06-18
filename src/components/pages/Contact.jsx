@@ -34,12 +34,13 @@ export const Contact = () => {
       <div className="col-6">
        <label class="form-label" >Message:</label>
         <textarea className="width d-flex justify-content-center" name="message" />
+        <input class="send" type="submit" value="Send" />
        </div>
        </div>
      
       </div>
 
-      <input type="submit" value="Send" />
+  
     </form>
     </div>
   );
