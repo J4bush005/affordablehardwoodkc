@@ -295,7 +295,25 @@ align-items: center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 640px){
-  
+
+}
+
+/*COntact Page*/
+
+.width{
+  height: 200px;
+  width: 740px;
+}
+
+.form-label{
+  color: white;
+  font-size:large
+}
+
+@media screen and (min-width: 0px) and (max-width: 640px){
+  .width{
+    width: 200px;
+  }
 }
 
 
