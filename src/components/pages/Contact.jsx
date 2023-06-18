@@ -26,6 +26,7 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Email successfully sent")
         },
         (error) => {
           console.log(error.text);
