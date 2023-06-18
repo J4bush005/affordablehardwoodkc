@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.510bc3e6.css",
-    "main.js": "/static/js/main.69395397.js",
+    "main.css": "/static/css/main.4225d254.css",
+    "main.js": "/static/js/main.e52498ad.js",
     "static/js/787.2b97701a.chunk.js": "/static/js/787.2b97701a.chunk.js",
     "static/media/kids.png": "/static/media/kids.d6acb138345b77cab7f9.png",
     "static/media/Rappers.png": "/static/media/Rappers.b3d50918e88a607d12af.png",
@@ -22,12 +22,12 @@
     "static/media/ig logo.png": "/static/media/ig logo.b55fd04bd886b2b63a87.png",
     "static/media/Linked.png": "/static/media/Linked.238ec218997ad981225e.png",
     "index.html": "/index.html",
-    "main.510bc3e6.css.map": "/static/css/main.510bc3e6.css.map",
-    "main.69395397.js.map": "/static/js/main.69395397.js.map",
+    "main.4225d254.css.map": "/static/css/main.4225d254.css.map",
+    "main.e52498ad.js.map": "/static/js/main.e52498ad.js.map",
     "787.2b97701a.chunk.js.map": "/static/js/787.2b97701a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.510bc3e6.css",
-    "static/js/main.69395397.js"
+    "static/css/main.4225d254.css",
+    "static/js/main.e52498ad.js"
   ]
 }
