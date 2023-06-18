@@ -481,7 +481,6 @@ function Home() {
           </div>
       </ScrollPage>
 
-      <ScrollPage page={3}>
       {/* Footer */}
       <div class="container my-5 foot">
         <footer class="text-center text-white">
@@ -589,7 +588,6 @@ function Home() {
           </div>
         </footer>
       </div>
-      </ScrollPage>
     </ScrollContainer>
   );
 }
