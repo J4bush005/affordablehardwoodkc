@@ -39,7 +39,7 @@ export const Contact = () => {
       <form ref={form} onSubmit={sendEmail}>
         <div class="row g-3 d-flex justify-content-center">
           <div className="col-6">
-            <label class="form-label">Name:</label>
+            <label class="form-label topper">Name:</label>
             <input
               type="text"
               class="form-control"
