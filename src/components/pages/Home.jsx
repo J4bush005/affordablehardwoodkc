@@ -34,7 +34,6 @@ import Rappers from "../images/Rappers.png";
 import White from "../images/White.jpg";
 import { Link } from "react-router-dom";
 
-
 const FadeUp = batch(FadeIn(), MoveIn(400, 300));
 const FadeUpTwo = batch(FadeIn(), MoveIn(-400, -300));
 const FadeUpThree = batch(FadeIn(), MoveIn(400, 300));
@@ -129,370 +128,77 @@ function Home() {
         </button>
       </div>
 
-      {/* First Paragraph Small Screens */}
-      <ScrollPage page={0}>
-        <div className="flex container-fluid">
-          <Media query="(min-width: 0px) and (max-width: 640px)">
-            <Animator animation={FadeUpsm}>
-              <div class="row sm-screen">
-                <div class="col">
-                  <div id="open-heading-sm" class="1-text heading-text">
-                    Providing Superior Quality
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text-sm">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-                <div className="col-12">
-                  <img
-                    src={Kids}
-                    class="img-fluid pic x2 flex sm"
-                    alt=""
-                  />
-                </div>
+      <div className="flex container-fluid">
+      <div className="row">
+        <div className="row justify-centent-evenly open">
+          <div className="col-6">
+            <div id="open-heading" className="1-text heading-text">
+              Providing Superior Quality
+            </div>
+            <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
               </div>
-            </Animator>
-          </Media>
-
-
-          {/* First Paragraph Medium Screens */}
-          <Media query="(min-width: 641px) and (max-width: 1220px)">
-            <Animator animation={FadeUpmd}>
-              <div class="row">
-                <div class="col-12">
-                  <div id="open-heading-md" class="1-text heading-text">
-                    Providing Superior Quality
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-              </div>
-                <div className="col">
-                  <img
-                    src={Kids}
-                    class="img-fluid pic x2 flex mediums"
-                    alt=""
-                  />
-                </div>
-            </Animator>
-          </Media>
-
-
-          {/* First Paragraph Regular Screens */}
-          <Media query="(min-width: 1221px) and (max-width: 2000px)">
-            <Animator animation={FadeUp}>
-              <div class="row justify-content-evenly open">
-                <div class="col-6">
-                  <div id="open-heading" class="1-text heading-text">
-                    Providing Superior Quality
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-                <div className="col-6">
-                  <img src={Kids} class="img-fluid pic x2 flex" alt="" />
-                </div>
-              </div>
-            </Animator>
-          </Media>
-
-
-          {/* First Paragraph Large Screens */}
-          <Media query="(min-width: 2001px)">
-            <Animator animation={FadeUplg}>
-              <div class="row justify-content-evenly open lg">
-                <div class="col-6">
-                  <div id="open-heading-lg" class="1-text heading-text">
-                    Providing Superior Quality
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div id="lg-text" className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-                <div className="col-6">
-                  <img src={Kids} class="img-fluid pic x2 flex lg-image" alt="" />
-                </div>
-              </div>
-            </Animator>
-          </Media>
-        </div>
-      </ScrollPage>
-
-
-      <ScrollPage page={2}>
-        <div className="flex container-fluid">
-
-
-          {/* Second Paragraph Small Screens */}
-          <Media query="(min-width: 0px) and (max-width: 640px)">
-            <Animator animation={FadeUpTwosm}>
-              <div id="sm-screen" class="row">
-                <div class="col">
-                  <div id="open-heading-sm" class="1-text heading-text">
-                    At An Affordable Price
-                  </div>
-                  <div className="flex small">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-                <div className="col-12">
-                  <img
-                    src={Buffer}
-                    class="img-fluid pic x2 flex sms"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </Animator>
-          </Media>
-
-
-          {/* Second Paragraph Medium Screens */}
-          <Media query="(min-width:641px) and (max-width: 1220px)">
-            <Animator animation={FadeUpTwomd}>
-              <div class="row">
-                <div class="col">
-                  <div id="open-heading-md" class="1-text heading-text">
-                    At An Affordable Price
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-               <div className="col-6">
-                  <img
-                    src={Buffer}
-                    class="img-fluid pic x2 flex mediums"
-                    alt=""
-                  />
-                </div></div>
-            </Animator>
-          </Media>
-
-
-          {/* Second Paragraph Regular Screens */}
-          <Media query="(min-width: 1221px) and (max-width: 2000px)">
-            <Animator animation={FadeUpTwo}>
-              <div class="row justify-content-evenly lasts">
-                <div class="col-6">
-                  <img
-                    src={Buffer}
-                    class="img-fluid x2 flex second"
-                    alt=""
-                   
-                  />
-                </div>
-                <div id="test" className="col-6">
-                  <div id="open-headings" class="1-text heading-text">
-                    At An Affordable Price
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div id="second-paragraph" className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.{" "}
-                  </div>
-                </div>
-              </div>
-            </Animator>
-          </Media>
-
-
-          {/* Second Paragraph Large Screens */}
-          <Media query="(min-width: 2001px)">
-            <Animator animation={FadeUpTwolg}>
-              <div class="row justify-content-evenly lasts">
-                <div class="col-6">
-                  <img
-                    src={Buffer}
-                    class="img-fluid x2 flex second lg-image"
-                    alt=""
-                  />
-                </div>
-                <div id="test" className="col-6">
-                  <div id="open-heading-lg" class="1-text heading-text">
-                    At An Affordable Price
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div id="lg-text" className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.{" "}
-                  </div>
-                </div>
-              </div>
-            </Animator>
-          </Media>
-        </div>
-      </ScrollPage>
-
-
-      <ScrollPage page={2}>
-      {/* Third Paragraph Small Screens */}
-       <div className="flex container-fluid">
-          <Media query="(min-width: 0px) and (max-width: 640px)">
-            <Animator animation={FadeUpThreesm}>
-              <div class="row screen">
-                <div class="col">
-                  <div id="third-open-heading-sm" class="1-text heading-text">
-                    Meet The Hardwood Boss
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text-sm">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-                <div className="col-12">
-                  <img
-                    id="third-image-small"
-                    src={Rappers}
-                    class="img-fluid pic x2 flex small"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </Animator>
-          </Media>
-           {/* Third Paragraph Medium Screens */}
-          <Media query="(min-width:641px) and (max-width: 1220px)">
-            <Animator animation={FadeUpmd}>
-              <div class="row">
-                <div class="col">
-                  <div id="open-heading-md" class="1-text heading-text">
-                    Meet The Hardwood Boss
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-               <div className="col-6">
-                  <img
-                    src={Rappers}
-                    class="img-fluid pic x2 flex mediums"
-                    alt=""
-                  />
-                </div></div>
-            </Animator>
-          </Media>
-
-
-          <Media query="(min-width: 1221px) and (max-width: 2000px)">
-            <Animator animation={FadeUp}>
-              <div class="row justify-content-evenly open">
-                <div class="col-6">
-                  <div id="open-heading" class="1-text heading-text">
-                    Meet The Hardwood Boss
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="r-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
-                  </div>
-                </div>
-                <div className="col-6">
-                  <img id="third-paragraph-image" src={Rappers} class="img-fluid pic x2 flex" alt="" />
-                </div>
-              </div>
-            </Animator>
-          </Media>
+            </div>
+            <div className="r-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+              porttitor congue massa. Fusce posuere, magna sed pulvinar
+              ultricies, purus lectus malesuada libero, sit amet commodo magna
+              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+              tellus.
+            </div>
           </div>
-      </ScrollPage>
+          <div className="col-6">
+            <img src={Kids} alt="" className="img-fluid pic x2 flex" />
+          </div>
+        </div>
+        <div className="row justify-content-evenly lasts">
+          <div className="col-6">
+            <img src={Buffer} alt="" className="img-fluid x2 flex second" />
+          </div>
+          <div id="test" className="col-6">
+            <div id="open-headings" className="1-text heading-text">
+              At An Affordable Price
+            </div>
+            <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
+              </div>
+            </div>
+            <div id="second-paragraph" className="r-text">
+              {" "}
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+              porttitor congue massa. Fusce posuere, magna sed pulvinar
+              ultricies, purus lectus malesuada libero, sit amet commodo magna
+              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+              tellus.{" "}
+            </div>
+          </div>
+        </div>
+         <div className="row justify-centent-evenly open">
+          <div className="col-6">
+            <div id="open-heading" className="1-text heading-text">
+              Meet The Hardwood Boss
+            </div>
+            <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
+              </div>
+            </div>
+            <div className="r-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+              porttitor congue massa. Fusce posuere, magna sed pulvinar
+              ultricies, purus lectus malesuada libero, sit amet commodo magna
+              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+              tellus.
+            </div>
+          </div>
+          <div className="col-6">
+            <img src={Kids} alt="" className="img-fluid pic x2 flex" />
+          </div>
+        </div>
+        </div>
+      </div>
 
       {/* Footer */}
       <div class="container my-5 foot">

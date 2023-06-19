@@ -294,10 +294,21 @@ align-items: center;
   }
 }
 
-@media screen and (min-width: 1007) {
-  .mediums{
-    width: 00px;
+@media screen and (min-height: 770px) {
+  .open {
+    padding-top: 0;
   }
+
+  .sm-screen{
+    padding: 0px;
+    
+  }
+
+  #sm-screen{
+    margin-top: -100px;
+  }
+
+  
 }
 
 /*COntact Page*/
