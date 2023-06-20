@@ -225,14 +225,69 @@ function Home() {
               tellus.
             </div>
           </div>
-           <div className="col">
-          <img src={Kids} alt="" className="img-responsive pic x2 flex mediums" />
+          <div className="col">
+            <img
+              src={Kids}
+              alt=""
+              className="img-responsive pic x2 flex mediums"
+            />
+          </div>
         </div>
-        </div>
-       
       </Media>
-      <Media query="(min-width: 641px) and (max-width: 1024px)"></Media>
-      <Media query="(min-width: 641px) and (max-width: 1024px)"></Media>
+      <Media query="(min-width: 641px) and (max-width: 1024px)">
+        <div className="row">
+          <div className="col-12">
+            <div id="open-heading-md" className="1-text heading-text">
+              At An Affordable Price
+            </div>
+            <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
+              </div>
+            </div>
+            <div className="r-text">
+              {" "}
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+              porttitor congue massa. Fusce posuere, magna sed pulvinar
+              ultricies, purus lectus malesuada libero, sit amet commodo magna
+              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+              tellus.
+            </div>
+          </div>
+          <div className="col">
+            <img
+              src={Buffer}
+              alt=""
+              className="img-responsive pic x2 flex mediums"
+            />
+          </div>
+        </div>
+      </Media>
+      <Media query="(min-width: 641px) and (max-width: 1024px)">
+         <div className="row">
+          <div className="col-12">
+            <div id="open-heading-md" className="1-text heading-text">
+              Providing Superior Quality
+            </div>
+            <div className="flex">
+              <div className="x1 goldbar home">
+                <div className="x1"></div>
+              </div>
+            </div>
+            <div className="r-text">
+              {" "}
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+              porttitor congue massa. Fusce posuere, magna sed pulvinar
+              ultricies, purus lectus malesuada libero, sit amet commodo magna
+              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+              tellus.
+            </div>
+          </div>
+           <div className="col">
+          <img src={Rappers} alt="" className="img-responsive pic x2 flex mediums" />
+        </div>
+        </div>
+      </Media>
 
       <Media query="(min-width: 1025px) and (max-width: 2000)">
         <div className="flex container-fluid">
