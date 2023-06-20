@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import { motion, useInView, Variants, useAnimation } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 import Media from "react-media";
 import Demo1 from "../images/Demo1.png";
 import Demo2 from "../images/Demo2.png";
