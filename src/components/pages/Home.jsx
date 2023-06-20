@@ -206,6 +206,12 @@ function Home() {
 
       {/*Tablets*/}
       <Media query="(min-width: 641px) and (max-width: 1024px)">
+       <motion.div
+          className="graph-container"
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+        >
         <div className="row justify-content-evenly open">
           <div className="col-4">
             <div id="open-heading" className="1-text heading-text">
@@ -232,8 +238,15 @@ function Home() {
             />
           </div>
         </div>
+        </motion.div>
       </Media>
       <Media query="(min-width: 641px) and (max-width: 1024px)">
+       <motion.div
+          className="graph-container"
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+        >
         <div className="row justify-content-evenly lasts">
           <div className="col-6">
             <img
@@ -260,8 +273,15 @@ function Home() {
             </div>
           </div>
         </div>
+        </motion.div>
       </Media>
       <Media query="(min-width: 641px) and (max-width: 1024px)">
+      <motion.div
+          className="graph-container"
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+        >
         <div className="row justify-content-evenly open">
           <div className="col-4">
             <div id="open-heading" className="1-text heading-text">
@@ -288,6 +308,7 @@ function Home() {
             />
           </div>
         </div>
+        </motion.div>
       </Media>
 
       <Media query="(min-width: 1025px) and (max-width: 2000)">
