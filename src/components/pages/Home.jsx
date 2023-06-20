@@ -206,9 +206,9 @@ function Home() {
 
       {/*Tablets*/}
       <Media query="(min-width: 641px) and (max-width: 1024px)">
-        <div className="row">
-          <div className="col-12">
-            <div id="open-heading-md" className="1-text heading-text">
+        <div className="row justify-content-evenly open">
+          <div className="col-4">
+            <div id="open-heading" className="1-text heading-text">
               Providing Superior Quality
             </div>
             <div className="flex">
@@ -217,7 +217,6 @@ function Home() {
               </div>
             </div>
             <div className="r-text">
-              {" "}
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
               porttitor congue massa. Fusce posuere, magna sed pulvinar
               ultricies, purus lectus malesuada libero, sit amet commodo magna
@@ -225,7 +224,7 @@ function Home() {
               tellus.
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <img
               src={Kids}
               alt=""
@@ -235,9 +234,16 @@ function Home() {
         </div>
       </Media>
       <Media query="(min-width: 641px) and (max-width: 1024px)">
-        <div className="row">
-          <div className="col-12">
-            <div id="open-heading-md" className="1-text heading-text">
+        <div className="row justify-content-evenly lasts">
+          <div className="col-6">
+            <img
+              src={Buffer}
+              alt=""
+              className="img-responsive x2 flex mediums-buff"
+            />
+          </div>
+           <div className="col-4">
+            <div id="open-heading" className="1-text heading-text">
               At An Affordable Price
             </div>
             <div className="flex">
@@ -246,7 +252,6 @@ function Home() {
               </div>
             </div>
             <div className="r-text">
-              {" "}
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
               porttitor congue massa. Fusce posuere, magna sed pulvinar
               ultricies, purus lectus malesuada libero, sit amet commodo magna
@@ -254,19 +259,12 @@ function Home() {
               tellus.
             </div>
           </div>
-          <div className="col">
-            <img
-              src={Buffer}
-              alt=""
-              className="img-responsive pic x2 flex mediums"
-            />
-          </div>
         </div>
       </Media>
       <Media query="(min-width: 641px) and (max-width: 1024px)">
-         <div className="row">
-          <div className="col-12">
-            <div id="open-heading-md" className="1-text heading-text">
+        <div className="row justify-content-evenly open">
+          <div className="col-4">
+            <div id="open-heading" className="1-text heading-text">
               Providing Superior Quality
             </div>
             <div className="flex">
@@ -275,7 +273,6 @@ function Home() {
               </div>
             </div>
             <div className="r-text">
-              {" "}
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
               porttitor congue massa. Fusce posuere, magna sed pulvinar
               ultricies, purus lectus malesuada libero, sit amet commodo magna
@@ -283,9 +280,13 @@ function Home() {
               tellus.
             </div>
           </div>
-           <div className="col">
-          <img src={Rappers} alt="" className="img-responsive pic x2 flex mediums" />
-        </div>
+          <div className="col-6">
+            <img
+              src={Rappers}
+              alt=""
+              className="img-responsive pic x2 flex mediums-sc"
+            />
+          </div>
         </div>
       </Media>
 

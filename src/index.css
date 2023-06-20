@@ -201,6 +201,13 @@ align-items: center;
   margin-left: 5px;
 }
 
+.mediums-sc{
+  width: 400px;
+}
+.mediums-buff{
+  width: 400px;
+}
+
 
 #open-heading{
   color: white;
@@ -266,6 +273,11 @@ align-items: center;
   width:500px;
 }
 
+@media screen and (min-width: 641px) and (max-width: 825px) {
+  .mediums-buff{
+    width: 350px;
+  }
+}
 
 @media screen and (min-width: 1920px) {
   .image-resize {
