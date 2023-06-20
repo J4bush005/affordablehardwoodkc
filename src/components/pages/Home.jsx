@@ -100,7 +100,7 @@ function Home() {
         </div>
 
       {/*PHONES*/}
-      <Media query="(min-width: 0px) and (max-width: 481px)">
+      <Media query="(min-width: 0px) and (max-width: 640px)">
       <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: 9 }}
@@ -132,7 +132,7 @@ function Home() {
         </div>
         </motion.div>
       </Media>
-      <Media query="(min-width: 0px) and (max-width: 481px)">
+      <Media query="(min-width: 0px) and (max-width: 640px)">
        <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: 9 }}
@@ -168,7 +168,7 @@ function Home() {
         </div>
         </motion.div>
       </Media>
-      <Media query="(min-width: 0px) and (max-width: 481px)">
+      <Media query="(min-width: 0px) and (max-width: 640px)">
       <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -9 }}
@@ -204,6 +204,17 @@ function Home() {
           </div>
         </div>
         </motion.div>
+      </Media>
+
+      {/*Tablets*/}
+      <Media query="(min-width: 641px) and (max-width: 1024px)">
+
+      </Media>
+      <Media query="(min-width: 641px) and (max-width: 1024px)">
+        
+      </Media>
+      <Media query="(min-width: 641px) and (max-width: 1024px)">
+        
       </Media>
 
       <Media query="(min-width: 1900px)">
