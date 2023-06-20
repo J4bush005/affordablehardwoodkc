@@ -418,6 +418,115 @@ function Home() {
         </div>
       </Media>
 
+      {/*Large Screens*/}
+      <Media query="(min-width: 2000px)">
+        <div className="flex container-fluid">
+          <div className="row">
+            <section className="paragraph1">
+              <motion.div
+                className="graph-container"
+                initial={{ opacity: 0, x: -900 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1, delay: 0.3 }}
+              >
+                <div className="row justify-centent-evenly open">
+                  <div className="col-6">
+                    <div id="open-heading" className="1-text heading-text">
+                      Providing Superior Quality
+                    </div>
+                    <div className="flex">
+                      <div className="x1 goldbar home">
+                        <div className="x1"></div>
+                      </div>
+                    </div>
+                    <div className="r-text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <img src={Kids} alt="" className="img-fluid pic x2 flex" style={{width: "600px"}}/>
+                  </div>
+                </div>
+              </motion.div>
+            </section>
+
+            <section className="paragraph2">
+              <motion.div
+                className="graph-container"
+                initial={{ opacity: 0, x: 900 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1, delay: 0.5 }}
+              >
+                <div className="row justify-content-evenly open">
+                  <div className="col-4">
+                    <img
+                      src={Buffer}
+                      alt=""
+                      className="img-fluid x2 flex second-lg"
+                      style={{width: "500px"}}
+                    />
+                  </div>
+                  <div className="col-6 lgs">
+                    <div id="open-headings" className="1-text heading-text">
+                      At An Affordable Price
+                    </div>
+                    <div className="flex">
+                      <div className="x1 goldbar home">
+                        <div className="x1"></div>
+                      </div>
+                    </div>
+                    <div id="second-paragraph" className="r-text">
+                      {" "}
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.{" "}
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </section>
+
+            <section className="paragraph3">
+              <motion.div
+                className="graph-container"
+                initial={{ opacity: 0, x: -900 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1, delay: 0.3 }}
+              >
+                <div className="row justify-centent-evenly open">
+                  <div className="col-6">
+                    <div id="open-heading" className="1-text heading-text">
+                      Meet The Hardwood Boss
+                    </div>
+                    <div className="flex">
+                      <div className="x1 goldbar home">
+                        <div className="x1"></div>
+                      </div>
+                    </div>
+                    <div className="r-text">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <img src={Rappers} alt="" className="img-fluid pic x2 flex" style={{width: "500px"}}/>
+                  </div>
+                </div>
+              </motion.div>
+            </section>
+          </div>
+        </div>
+      </Media>
+
       {/* Footer */}
       <div class="container my-5 foot">
         <footer class="text-center text-white">
