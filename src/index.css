@@ -188,7 +188,7 @@ align-items: center;
 .r-text{
   color: white;
   font-family:'Times New Roman', Times, serif;
-  font-size: larger;
+  font-size: medium;
 }
 
 .r-text-sm {
@@ -294,22 +294,7 @@ align-items: center;
   }
 }
 
-@media screen and (min-height: 770px) {
-  .open {
-    padding-top: 0;
-  }
 
-  .sm-screen{
-    padding: 0px;
-    
-  }
-
-  #sm-screen{
-    margin-top: -100px;
-  }
-
-  
-}
 
 /*COntact Page*/
 

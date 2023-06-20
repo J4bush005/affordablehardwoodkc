@@ -28,9 +28,8 @@ const mine = "https://j4bush005.github.io/";
 
 function Home() {
   return (
-    <ScrollContainer>
+    <>
       {/*Image Carousel*/}
-      <section className="images">
         <div
           id="carouselExampleAutoplaying"
           class="carousel slide"
@@ -99,18 +98,17 @@ function Home() {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </section>
 
       {/*PHONES*/}
       <Media query="(min-width: 0px) and (max-width: 481px)">
       <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: 9 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 15 }}
               transition={{ duration: 1, delay: 0.3 }}
             >
         <div className="row sm-screen">
-          <div className="col">
+          <div className="col-9">
             <div id="open-heading-sm" className="1-text heading-text">
               Providing Superior Quality
             </div>
@@ -138,11 +136,11 @@ function Home() {
        <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: 9 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 15 }}
               transition={{ duration: 1, delay: 0.3 }}
             >
         <div id="sm-screen" className="row">
-          <div className="col">
+          <div className="col-9">
             <div id="open-heading-sm" className="1-text heading-text">
               At An Affordable Price
             </div>
@@ -151,7 +149,7 @@ function Home() {
                 <div className="x1"></div>
               </div>
             </div>
-            <div className="r-text">
+            <div className="r-text-sm">
               {" "}
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
               porttitor congue massa. Fusce posuere, magna sed pulvinar
@@ -174,11 +172,11 @@ function Home() {
       <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -9 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 15 }}
               transition={{ duration: 1, delay: 0.3 }}
             >
         <div className="row screen">
-          <div className="col">
+          <div className="col-9">
             <div id="third-open-heading-sm" className="1-text-heading-text">
               Meet The HardwoodBoss
             </div>
@@ -320,7 +318,7 @@ function Home() {
         <footer class="text-center text-white">
           <div class="container">
             <section class="mt-5">
-              <div class="row text-center d-flex justify-content-center pt-5">
+              <div class="row text-center d-flex justify-content-center">
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
                     <Link to="/About" class="text-white">
@@ -422,7 +420,7 @@ function Home() {
           </div>
         </footer>
       </div>
-    </ScrollContainer>
+    </>
   );
 }
 
