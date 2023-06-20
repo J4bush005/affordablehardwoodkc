@@ -429,9 +429,9 @@ function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.3 }}
               >
-                <div className="row justify-centent-evenly open">
+                <div className="pad row justify-centent-evenly open">
                   <div className="col-6">
-                    <div id="open-heading" className="1-text heading-text">
+                    <div id="open-heading-lg" className="1-text heading-text">
                       Providing Superior Quality
                     </div>
                     <div className="flex">
@@ -439,7 +439,7 @@ function Home() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div className="r-text">
+                    <div className="r-text-lg">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Maecenas porttitor congue massa. Fusce posuere, magna sed
                       pulvinar ultricies, purus lectus malesuada libero, sit
@@ -461,17 +461,17 @@ function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
               >
-                <div className="row justify-content-evenly open">
+                <div className="dap row justify-content-evenly open">
                   <div className="col-4">
                     <img
                       src={Buffer}
                       alt=""
-                      className="img-fluid x2 flex second-lg"
+                      className="img-fluid x2 flex second"
                       style={{width: "500px"}}
                     />
                   </div>
                   <div className="col-6 lgs">
-                    <div id="open-headings" className="1-text heading-text">
+                    <div id="open-heading-lg" className="1-text heading-text">
                       At An Affordable Price
                     </div>
                     <div className="flex">
@@ -479,8 +479,7 @@ function Home() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div id="second-paragraph" className="r-text">
-                      {" "}
+                    <div  className="r-text-lg">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Maecenas porttitor congue massa. Fusce posuere, magna sed
                       pulvinar ultricies, purus lectus malesuada libero, sit
@@ -499,9 +498,9 @@ function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.3 }}
               >
-                <div className="row justify-centent-evenly open">
+                <div className="pad row justify-centent-evenly open">
                   <div className="col-6">
-                    <div id="open-heading" className="1-text heading-text">
+                    <div id="open-heading-lg" className="1-text heading-text">
                       Meet The Hardwood Boss
                     </div>
                     <div className="flex">
@@ -509,7 +508,7 @@ function Home() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div className="r-text">
+                    <div className="r-text-lg">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Maecenas porttitor congue massa. Fusce posuere, magna sed
                       pulvinar ultricies, purus lectus malesuada libero, sit

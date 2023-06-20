@@ -111,10 +111,19 @@ justify-content: center;
 align-items: center;
 }
 
-.second-lg{
-  
+.r-text-lg{
+  font-size:x-large;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
+.pad{
+  padding-left: 50px;
+}
+
+.dap {
+  padding-right: 50px;
+}
 
 
 .hover{
