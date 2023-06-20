@@ -311,7 +311,7 @@ function Home() {
         </motion.div>
       </Media>
 
-      <Media query="(min-width: 1025px) and (max-width: 2000)">
+      <Media query="(min-width: 1025px) and (max-width: 2000px)">
         <div className="flex container-fluid">
           <div className="row">
             <section className="paragraph1">
@@ -409,7 +409,7 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-6">
-                    <img src={Kids} alt="" className="img-fluid pic x2 flex" />
+                    <img src={Rappers} alt="" className="img-fluid pic x2 flex" />
                   </div>
                 </div>
               </motion.div>
