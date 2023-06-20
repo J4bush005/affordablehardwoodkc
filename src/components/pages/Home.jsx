@@ -1,19 +1,6 @@
-import React, { useEffect, useRef } from "react";
-import { motion, useInView, useAnimation } from "framer-motion";
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Sticky,
-  Fade,
-  Move,
-  FadeIn,
-  MoveOut,
-  StickyIn,
-  MoveIn,
-  Zoom,
-} from "react-scroll-motion";
+import React, { useEffect, useRef, useState } from "react";
+import { motion, useInView, Variants, useAnimation } from "framer-motion";
+import { ScrollContainer } from "react-scroll-motion";
 import Media from "react-media";
 import Logo from "../images/Logo.png";
 import Demo1 from "../images/Demo1.png";
@@ -34,31 +21,17 @@ import Rappers from "../images/Rappers.png";
 import White from "../images/White.jpg";
 import { Link } from "react-router-dom";
 
-const FadeUp = batch(FadeIn(), MoveIn(400, 300));
-const FadeUpTwo = batch(FadeIn(), MoveIn(-400, -300));
-const FadeUpThree = batch(FadeIn(), MoveIn(400, 300));
-
-const FadeUpsm = batch(FadeIn(), MoveIn(50, 0));
-const FadeUpTwosm = batch(FadeIn(), MoveIn(-50, -30));
-const FadeUpThreesm = batch(FadeIn(), MoveIn(50, 0));
-
-const FadeUpmd = batch(FadeIn(), MoveIn(200, 150));
-const FadeUpTwomd = batch(FadeIn(), MoveIn(-200, -150));
-const FadeUpThreemd = batch(FadeIn(), MoveIn(200, 150));
-
-const FadeUplg = batch(FadeIn(), MoveIn(400, 300));
-const FadeUpTwolg = batch(FadeIn(), MoveIn(-400, -300));
-const FadeUpThreelg = batch(FadeIn(), MoveIn(400, 300));
-
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
 const mine = "https://j4bush005.github.io/";
 
+
 function Home() {
   return (
     <ScrollContainer>
       {/*Image Carousel*/}
+      <section className="images">
       <div
         id="carouselExampleAutoplaying"
         class="carousel slide"
@@ -127,76 +100,109 @@ function Home() {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      </section>
 
       <div className="flex container-fluid">
-      <div className="row">
-        <div className="row justify-centent-evenly open">
-          <div className="col-6">
-            <div id="open-heading" className="1-text heading-text">
-              Providing Superior Quality
-            </div>
-            <div className="flex">
-              <div className="x1 goldbar home">
-                <div className="x1"></div>
+        <div className="row">
+          <section className="paragraph1">
+          <motion.div
+          className="graph-container"
+          initial={{opacity: 0, x: -900}}
+          whileInView={{opacity: 1, x: 0}}
+          transition={{duration: 1}}
+      
+          >
+            <div className="row justify-centent-evenly open">
+              <div className="col-6">
+                <div id="open-heading" className="1-text heading-text">
+                  Providing Superior Quality
+                </div>
+                <div className="flex">
+                  <div className="x1 goldbar home">
+                    <div className="x1"></div>
+                  </div>
+                </div>
+                <div className="r-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Maecenas porttitor congue massa. Fusce posuere, magna sed
+                  pulvinar ultricies, purus lectus malesuada libero, sit amet
+                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                  Fusce est. Vivamus a tellus.
+                </div>
+              </div>
+              <div className="col-6">
+                <img src={Kids} alt="" className="img-fluid pic x2 flex" />
               </div>
             </div>
-            <div className="r-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus.
-            </div>
-          </div>
-          <div className="col-6">
-            <img src={Kids} alt="" className="img-fluid pic x2 flex" />
-          </div>
-        </div>
-        <div className="row justify-content-evenly lasts">
-          <div className="col-6">
-            <img src={Buffer} alt="" className="img-fluid x2 flex second" />
-          </div>
-          <div id="test" className="col-6">
-            <div id="open-headings" className="1-text heading-text">
-              At An Affordable Price
-            </div>
-            <div className="flex">
-              <div className="x1 goldbar home">
-                <div className="x1"></div>
+            </motion.div>
+          </section>
+
+          <section className="paragraph2">
+          <motion.div
+          className="graph-container"
+          initial={{opacity: 0, x: 900}}
+          whileInView={{opacity: 1, x: 0}}
+          transition={{duration: 1}}
+      
+          >
+            <div className="row justify-content-evenly lasts">
+              <div className="col-6">
+                <img src={Buffer} alt="" className="img-fluid x2 flex second" />
+              </div>
+              <div id="test" className="col-6">
+                <div id="open-headings" className="1-text heading-text">
+                  At An Affordable Price
+                </div>
+                <div className="flex">
+                  <div className="x1 goldbar home">
+                    <div className="x1"></div>
+                  </div>
+                </div>
+                <div id="second-paragraph" className="r-text">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Maecenas porttitor congue massa. Fusce posuere, magna sed
+                  pulvinar ultricies, purus lectus malesuada libero, sit amet
+                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                  Fusce est. Vivamus a tellus.{" "}
+                </div>
               </div>
             </div>
-            <div id="second-paragraph" className="r-text">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus.{" "}
-            </div>
-          </div>
-        </div>
-         <div className="row justify-centent-evenly open">
-          <div className="col-6">
-            <div id="open-heading" className="1-text heading-text">
-              Meet The Hardwood Boss
-            </div>
-            <div className="flex">
-              <div className="x1 goldbar home">
-                <div className="x1"></div>
+            </motion.div>
+          </section>
+
+          <section className="paragraph3">
+           <motion.div
+          className="graph-container"
+          initial={{opacity: 0, x: -900}}
+          whileInView={{opacity: 1, x: 0}}
+          transition={{duration: 1}}
+      
+          >
+            <div className="row justify-centent-evenly open">
+              <div className="col-6">
+                <div id="open-heading" className="1-text heading-text">
+                  Meet The Hardwood Boss
+                </div>
+                <div className="flex">
+                  <div className="x1 goldbar home">
+                    <div className="x1"></div>
+                  </div>
+                </div>
+                <div className="r-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Maecenas porttitor congue massa. Fusce posuere, magna sed
+                  pulvinar ultricies, purus lectus malesuada libero, sit amet
+                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                  Fusce est. Vivamus a tellus.
+                </div>
+              </div>
+              <div className="col-6">
+                <img src={Kids} alt="" className="img-fluid pic x2 flex" />
               </div>
             </div>
-            <div className="r-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus.
-            </div>
-          </div>
-          <div className="col-6">
-            <img src={Kids} alt="" className="img-fluid pic x2 flex" />
-          </div>
-        </div>
+            </motion.div>
+          </section>
         </div>
       </div>
 
