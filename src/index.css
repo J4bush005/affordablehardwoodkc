@@ -131,6 +131,16 @@ align-items: center;
   width: 50px;
 }
 
+.foot-hover{
+  color: white;
+  transition: all 0.3s;
+}
+
+.foot-hover:hover{
+  transform:scale(1.15);
+  color: rgba(187, 154, 33, 0.8);
+  text-shadow: 2px 2px 4px black;
+}
 
 .m1{
   border: none;
@@ -204,7 +214,7 @@ align-items: center;
 .r-text{
   color: white;
   font-family:'Times New Roman', Times, serif;
-  font-size: medium;
+  font-size: x-large;
 }
 
 .r-text-sm {
@@ -274,7 +284,7 @@ align-items: center;
 
 #second-paragraph{
   color: white;
-  font-size: larger;
+  font-size: x-large;
 }
 
 #third-open-heading-sm{

@@ -534,7 +534,7 @@ function Home() {
               <div class="row text-center d-flex justify-content-center">
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="text-white">
+                    <Link to="/About" class="foot-hover">
                       About us
                     </Link>
                   </h6>
@@ -542,14 +542,14 @@ function Home() {
 
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Services" class="text-white">
+                    <Link to="/Services" class="foot-hover">
                       Services
                     </Link>
                   </h6>
                 </div>
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="text-white">
+                    <Link to="/About" class="foot-hover">
                       Reviews
                     </Link>
                   </h6>
@@ -557,14 +557,14 @@ function Home() {
 
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="text-white">
+                    <Link to="/About" class="foot-hover">
                       Find a Career
                     </Link>
                   </h6>
                 </div>
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Contact" class="text-white">
+                    <Link to="/Contact" class="foot-hover">
                       Contact
                     </Link>
                   </h6>
@@ -625,7 +625,7 @@ function Home() {
             Designed by:
             <Link
               to="/"
-              class="text-white space"
+              class="foot-hover space"
               onClick={() => window.open(mine, "_blank")}
             >
               Forbush Technologies LLC{" "}
