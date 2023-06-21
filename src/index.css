@@ -366,6 +366,22 @@ align-items: center;
   }
 }
 
+/*Thank You Page*/
+
+.confirm{
+  color: white;
+  padding-top: 20px;
+  font-size: xxx-large;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
+}
+
+.thank-you{
+  color: white;
+  font-size:larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 
 
 
