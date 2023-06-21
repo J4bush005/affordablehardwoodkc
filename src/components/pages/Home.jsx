@@ -97,8 +97,8 @@ function Home() {
       <Media query="(min-width: 0px) and (max-width: 640px)">
         <motion.div
           className="graph-container"
-          initial={{ opacity: 0, x: 9 }}
-          whileInView={{ opacity: 1, x: 15 }}
+          initial={{ opacity: 0, x: -9 }}
+          whileInView={{ opacity: 1, x: 25 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
           <div className="row sm-screen">
@@ -133,8 +133,8 @@ function Home() {
       <Media query="(min-width: 0px) and (max-width: 640px)">
         <motion.div
           className="graph-container"
-          initial={{ opacity: 0, x: 9 }}
-          whileInView={{ opacity: 1, x: 15 }}
+          initial={{ opacity: 0, x: -9 }}
+          whileInView={{ opacity: 1, x: 25 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
           <div id="sm-screen" className="row">
@@ -170,7 +170,7 @@ function Home() {
         <motion.div
           className="graph-container"
           initial={{ opacity: 0, x: -9 }}
-          whileInView={{ opacity: 1, x: 15 }}
+          whileInView={{ opacity: 1, x: 25 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
           <div className="row screen">

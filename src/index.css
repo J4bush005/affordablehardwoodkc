@@ -150,7 +150,7 @@ align-items: center;
 
 .sm{
    /*was 300? */
-  width: 350px;
+  width: 250px;
   padding-right: 10px;
 }
 
@@ -182,7 +182,7 @@ align-items: center;
 }
 
 .sms{
-  width: 350px;
+  width: 250px;
 }
 
 
@@ -191,7 +191,8 @@ align-items: center;
 }
 
 .sm-screen{
-  padding-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -261,7 +262,7 @@ align-items: center;
 }
 
 #third-image-small{
-  width: 350px;
+  width: 250px;
 }
 
 #open-headings{
