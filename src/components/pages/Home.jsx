@@ -96,222 +96,228 @@ function Home() {
 
       {/*PHONES*/}
       <Media query="(min-width: 0px) and (max-width: 640px)">
-        <motion.div
-          className="graph-container"
-          initial={{ opacity: 0, x: -9 }}
-          whileInView={{ opacity: 1, x: 25 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-          <div className="row sm-screen">
-            <div className="col-9">
-              <div id="open-heading-sm" className="1-text heading-text">
-                Providing Superior Quality
-              </div>
-              <div className="flex">
-                <div className="x1 goldbar home">
-                  <div className="x1"></div>
+        <div className="flex container">
+          <div className="row">
+            <motion.div
+              className="graph-container"
+              initial={{ opacity: 0, x: -9 }}
+              whileInView={{ opacity: 1, x: 25 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <div className="row sm-screen">
+                <div className="col-9">
+                  <div id="open-heading-sm" className="1-text heading-text">
+                    Providing Superior Quality
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text-sm">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src={Kids}
+                    alt=""
+                    className="img-responsive pic x2 flex sm"
+                  />
                 </div>
               </div>
-              <div className="r-text-sm">
-                {" "}
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Maecenas porttitor congue massa. Fusce posuere, magna sed
-                pulvinar ultricies, purus lectus malesuada libero, sit amet
-                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
-                est. Vivamus a tellus.
-              </div>
-            </div>
-            <div className="col">
-              <img
-                src={Kids}
-                alt=""
-                className="img-responsive pic x2 flex sm"
-              />
-            </div>
-          </div>
-        </motion.div>
-      </Media>
-      <Media query="(min-width: 0px) and (max-width: 640px)">
-        <motion.div
-          className="graph-container"
-          initial={{ opacity: 0, x: -9 }}
-          whileInView={{ opacity: 1, x: 25 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-          <div id="sm-screen" className="row">
-            <div className="col-9">
-              <div id="open-heading-sm" className="1-text heading-text">
-                At An Affordable Price
-              </div>
-              <div className="flex small">
-                <div className="x1 goldbar home">
-                  <div className="x1"></div>
+            </motion.div>
+            <motion.div
+              className="graph-container"
+              initial={{ opacity: 0, x: -9 }}
+              whileInView={{ opacity: 1, x: 25 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <div id="sm-screen" className="row">
+                <div className="col-9">
+                  <div id="open-heading-sm" className="1-text heading-text">
+                    At An Affordable Price
+                  </div>
+                  <div className="flex small">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text-sm">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src={Buffer}
+                    alt=""
+                    className="img-responsive pic x2 flex sms"
+                  />
                 </div>
               </div>
-              <div className="r-text-sm">
-                {" "}
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Maecenas porttitor congue massa. Fusce posuere, magna sed
-                pulvinar ultricies, purus lectus malesuada libero, sit amet
-                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
-                est. Vivamus a tellus.
-              </div>
-            </div>
-            <div className="col">
-              <img
-                src={Buffer}
-                alt=""
-                className="img-responsive pic x2 flex sms"
-              />
-            </div>
-          </div>
-        </motion.div>
-      </Media>
-      <Media query="(min-width: 0px) and (max-width: 640px)">
-        <motion.div
-          className="graph-container"
-          initial={{ opacity: 0, x: -9 }}
-          whileInView={{ opacity: 1, x: 25 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-          <div className="row screen">
-            <div className="col-9">
-              <div id="third-open-heading-sm" className="1-text heading-text">
-                Meet The HardwoodBoss
-              </div>
-              <div className="flex">
-                <div className="x1 goldbar home">
-                  <div className="x1"></div>
-                </div>
-              </div>
-              <div className="r-text-sm">
-                {" "}
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Maecenas porttitor congue massa. Fusce posuere, magna sed
-                pulvinar ultricies, purus lectus malesuada libero, sit amet
-                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
-                est. Vivamus a tellus.
-              </div>
-            </div>
-            <div className="col">
-              <img
-                src={Rappers}
-                alt=""
-                id="third-image-small"
-                className="img-responsive pic x2 flex small"
-              />
-            </div>
-          </div>
-        </motion.div>
-      </Media>
+            </motion.div>
 
+            <motion.div
+              className="graph-container"
+              initial={{ opacity: 0, x: -9 }}
+              whileInView={{ opacity: 1, x: 25 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <div className="row screen">
+                <div className="col-9">
+                  <div
+                    id="third-open-heading-sm"
+                    className="1-text heading-text"
+                  >
+                    Meet The HardwoodBoss
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text-sm">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col">
+                  <img
+                    src={Rappers}
+                    alt=""
+                    id="third-image-small"
+                    className="img-responsive pic x2 flex small"
+                  />
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </Media>
       {/*Tablets*/}
       <Media query="(min-width: 641px) and (max-width: 1024px)">
-        <motion.div
-          className="graph-container"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-          <div className="row justify-content-evenly open">
-            <div className="col-4">
-              <div id="open-heading" className="1-text heading-text">
-                Providing Superior Quality
-              </div>
-              <div className="flex">
-                <div className="x1 goldbar home">
-                  <div className="x1"></div>
+        <div className="flex container">
+          <div className="row">
+            <motion.div
+              className="graph-container"
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <div className="row justify-content-evenly open">
+                <div className="col-4">
+                  <div id="open-heading" className="1-text heading-text">
+                    Providing Superior Quality
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img
+                    src={Kids}
+                    alt=""
+                    className="img-responsive pic x2 flex mediums"
+                  />
                 </div>
               </div>
-              <div className="r-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Maecenas porttitor congue massa. Fusce posuere, magna sed
-                pulvinar ultricies, purus lectus malesuada libero, sit amet
-                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
-                est. Vivamus a tellus.
-              </div>
-            </div>
-            <div className="col-6">
-              <img
-                src={Kids}
-                alt=""
-                className="img-responsive pic x2 flex mediums"
-              />
-            </div>
-          </div>
-        </motion.div>
-      </Media>
-      <Media query="(min-width: 641px) and (max-width: 1024px)">
-        <motion.div
-          className="graph-container"
-          initial={{ opacity: 0, x: 100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-          <div className="row justify-content-evenly lasts">
-            <div className="col-6">
-              <img
-                src={Buffer}
-                alt=""
-                className="img-responsive x2 flex mediums-buff"
-              />
-            </div>
-            <div className="col-4">
-              <div id="open-heading" className="1-text heading-text">
-                At An Affordable Price
-              </div>
-              <div className="flex">
-                <div className="x1 goldbar home">
-                  <div className="x1"></div>
+            </motion.div>
+
+            <motion.div
+              className="graph-container"
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <div className="row justify-content-evenly lasts">
+                <div className="col-6">
+                  <img
+                    src={Buffer}
+                    alt=""
+                    className="img-responsive x2 flex mediums-buff"
+                  />
+                </div>
+                <div className="col-4">
+                  <div id="open-heading" className="1-text heading-text">
+                    At An Affordable Price
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
                 </div>
               </div>
-              <div className="r-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Maecenas porttitor congue massa. Fusce posuere, magna sed
-                pulvinar ultricies, purus lectus malesuada libero, sit amet
-                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
-                est. Vivamus a tellus.
-              </div>
-            </div>
-          </div>
-        </motion.div>
-      </Media>
-      <Media query="(min-width: 641px) and (max-width: 1024px)">
-        <motion.div
-          className="graph-container"
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-          <div className="row justify-content-evenly open">
-            <div className="col-4">
-              <div id="open-heading" className="1-text heading-text">
-                Providing Superior Quality
-              </div>
-              <div className="flex">
-                <div className="x1 goldbar home">
-                  <div className="x1"></div>
+            </motion.div>
+
+            <motion.div
+              className="graph-container"
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <div className="row justify-content-evenly open">
+                <div className="col-4">
+                  <div id="open-heading" className="1-text heading-text">
+                    Providing Superior Quality
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="r-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img
+                    src={Rappers}
+                    alt=""
+                    className="img-responsive pic x2 flex mediums-sc"
+                  />
                 </div>
               </div>
-              <div className="r-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Maecenas porttitor congue massa. Fusce posuere, magna sed
-                pulvinar ultricies, purus lectus malesuada libero, sit amet
-                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
-                est. Vivamus a tellus.
-              </div>
-            </div>
-            <div className="col-6">
-              <img
-                src={Rappers}
-                alt=""
-                className="img-responsive pic x2 flex mediums-sc"
-              />
-            </div>
+            </motion.div>
           </div>
-        </motion.div>
+        </div>
       </Media>
 
+      {/*Laptops*/}
       <Media query="(min-width: 1025px) and (max-width: 2000px)">
         <div className="flex container-fluid">
           <div className="row">
@@ -383,44 +389,40 @@ function Home() {
                 </div>
               </motion.div>
             </section>
-             <motion.div
-             className="install-container"
-                initial={{ opacity: 0}}
-                whileInView={{ opacity: 1}}
-                transition={{ duration: 1, delay: 0.3 }}
-              >
-            <section className="install mt-5">
-              <div className="row justify-content-center">
-                <div className="col-5">
-                  <div className="1-text heading-text brag">
-                    Kansas City's Number One Floor Company
+            <motion.div
+              className="install-container"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <section className="install mt-5">
+                <div className="row justify-content-center">
+                  <div className="col-5">
+                    <div className="1-text heading-text brag">
+                      Kansas City's Number One Floor Company
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="row justify-content-evenly mt-5">
-                <div className="col-3">
-                  <img src={Demo10} alt="" className="demo-pic" />
-                </div>
-                <div className="col-6">
-                  <div className="r-text-brag">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
+                <div className="row justify-content-evenly mt-5">
+                  <div className="col-3">
+                    <img src={Demo10} alt="" className="demo-pic" />
+                  </div>
+                  <div className="col-6">
+                    <div className="r-text-brag">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="row">
-                <Link
-                  to={"/Services"}
-                  className="service"
-                  role="button"
-                >
-                  View Our Services
-                </Link>
-              </div>
-            </section>
+                <div className="row">
+                  <Link to={"/Services"} className="service" role="button">
+                    View Our Services
+                  </Link>
+                </div>
+              </section>
             </motion.div>
 
             <section className="paragraph3">
