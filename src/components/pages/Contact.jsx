@@ -58,7 +58,10 @@ export const Contact = () => {
                 name="user_email"
               />
             </div>
+            
           </div>
+
+          
           <div className="row g-3 d-flex justify-content-center">
             <div className="col-6">
               <label class="form-label">Message:</label>

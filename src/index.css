@@ -234,6 +234,42 @@ align-items: center;
   width: 400px;
 }
 
+.install{
+  background-color: rgba(187, 154, 33, 0.7);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.brag{
+  color: white;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.demo-pic{
+  width: 450px;
+}
+
+
+.r-text-brag{
+  color: white;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.service{
+  background-color: rgba(157, 0, 0);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.service:hover{
+  color: rgba(187, 154, 33, 0.7)
+}
 
 #open-heading{
   color: white;

@@ -7,6 +7,7 @@ import Demo3 from "../images/Demo3.png";
 import Demo4 from "../images/Demo4.png";
 import Demo5 from "../images/Demo5.png";
 import Demo6 from "../images/Demo6.png";
+import Demo10 from "../images/Demo 10.jpg";
 import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
@@ -206,108 +207,108 @@ function Home() {
 
       {/*Tablets*/}
       <Media query="(min-width: 641px) and (max-width: 1024px)">
-       <motion.div
+        <motion.div
           className="graph-container"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-        <div className="row justify-content-evenly open">
-          <div className="col-4">
-            <div id="open-heading" className="1-text heading-text">
-              Providing Superior Quality
-            </div>
-            <div className="flex">
-              <div className="x1 goldbar home">
-                <div className="x1"></div>
+          <div className="row justify-content-evenly open">
+            <div className="col-4">
+              <div id="open-heading" className="1-text heading-text">
+                Providing Superior Quality
+              </div>
+              <div className="flex">
+                <div className="x1 goldbar home">
+                  <div className="x1"></div>
+                </div>
+              </div>
+              <div className="r-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Maecenas porttitor congue massa. Fusce posuere, magna sed
+                pulvinar ultricies, purus lectus malesuada libero, sit amet
+                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
+                est. Vivamus a tellus.
               </div>
             </div>
-            <div className="r-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus.
+            <div className="col-6">
+              <img
+                src={Kids}
+                alt=""
+                className="img-responsive pic x2 flex mediums"
+              />
             </div>
           </div>
-          <div className="col-6">
-            <img
-              src={Kids}
-              alt=""
-              className="img-responsive pic x2 flex mediums"
-            />
-          </div>
-        </div>
         </motion.div>
       </Media>
       <Media query="(min-width: 641px) and (max-width: 1024px)">
-       <motion.div
+        <motion.div
           className="graph-container"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-        <div className="row justify-content-evenly lasts">
-          <div className="col-6">
-            <img
-              src={Buffer}
-              alt=""
-              className="img-responsive x2 flex mediums-buff"
-            />
-          </div>
-           <div className="col-4">
-            <div id="open-heading" className="1-text heading-text">
-              At An Affordable Price
+          <div className="row justify-content-evenly lasts">
+            <div className="col-6">
+              <img
+                src={Buffer}
+                alt=""
+                className="img-responsive x2 flex mediums-buff"
+              />
             </div>
-            <div className="flex">
-              <div className="x1 goldbar home">
-                <div className="x1"></div>
+            <div className="col-4">
+              <div id="open-heading" className="1-text heading-text">
+                At An Affordable Price
+              </div>
+              <div className="flex">
+                <div className="x1 goldbar home">
+                  <div className="x1"></div>
+                </div>
+              </div>
+              <div className="r-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Maecenas porttitor congue massa. Fusce posuere, magna sed
+                pulvinar ultricies, purus lectus malesuada libero, sit amet
+                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
+                est. Vivamus a tellus.
               </div>
             </div>
-            <div className="r-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus.
-            </div>
           </div>
-        </div>
         </motion.div>
       </Media>
       <Media query="(min-width: 641px) and (max-width: 1024px)">
-      <motion.div
+        <motion.div
           className="graph-container"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-        <div className="row justify-content-evenly open">
-          <div className="col-4">
-            <div id="open-heading" className="1-text heading-text">
-              Providing Superior Quality
-            </div>
-            <div className="flex">
-              <div className="x1 goldbar home">
-                <div className="x1"></div>
+          <div className="row justify-content-evenly open">
+            <div className="col-4">
+              <div id="open-heading" className="1-text heading-text">
+                Providing Superior Quality
+              </div>
+              <div className="flex">
+                <div className="x1 goldbar home">
+                  <div className="x1"></div>
+                </div>
+              </div>
+              <div className="r-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Maecenas porttitor congue massa. Fusce posuere, magna sed
+                pulvinar ultricies, purus lectus malesuada libero, sit amet
+                commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce
+                est. Vivamus a tellus.
               </div>
             </div>
-            <div className="r-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus.
+            <div className="col-6">
+              <img
+                src={Rappers}
+                alt=""
+                className="img-responsive pic x2 flex mediums-sc"
+              />
             </div>
           </div>
-          <div className="col-6">
-            <img
-              src={Rappers}
-              alt=""
-              className="img-responsive pic x2 flex mediums-sc"
-            />
-          </div>
-        </div>
         </motion.div>
       </Media>
 
@@ -382,6 +383,45 @@ function Home() {
                 </div>
               </motion.div>
             </section>
+             <motion.div
+             className="install-container"
+                initial={{ opacity: 0}}
+                whileInView={{ opacity: 1}}
+                transition={{ duration: 1, delay: 0.3 }}
+              >
+            <section className="install mt-5">
+              <div className="row justify-content-center">
+                <div className="col-5">
+                  <div className="1-text heading-text brag">
+                    Kansas City's Number One Floor Company
+                  </div>
+                </div>
+              </div>
+              <div className="row justify-content-evenly mt-5">
+                <div className="col-3">
+                  <img src={Demo10} alt="" className="demo-pic" />
+                </div>
+                <div className="col-6">
+                  <div className="r-text-brag">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <Link
+                  to={"/Services"}
+                  className="service"
+                  role="button"
+                >
+                  View Our Services
+                </Link>
+              </div>
+            </section>
+            </motion.div>
 
             <section className="paragraph3">
               <motion.div
@@ -390,7 +430,7 @@ function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.3 }}
               >
-                <div className="row justify-centent-evenly open">
+                <div className="row justify-content-evenly open">
                   <div className="col-6">
                     <div id="open-heading" className="1-text heading-text">
                       Meet The Hardwood Boss
@@ -409,7 +449,11 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-6">
-                    <img src={Rappers} alt="" className="img-fluid pic x2 flex" />
+                    <img
+                      src={Rappers}
+                      alt=""
+                      className="img-fluid pic x2 flex"
+                    />
                   </div>
                 </div>
               </motion.div>
@@ -448,7 +492,12 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-6">
-                    <img src={Kids} alt="" className="img-fluid pic x2 flex" style={{width: "600px"}}/>
+                    <img
+                      src={Kids}
+                      alt=""
+                      className="img-fluid pic x2 flex"
+                      style={{ width: "600px" }}
+                    />
                   </div>
                 </div>
               </motion.div>
@@ -467,7 +516,7 @@ function Home() {
                       src={Buffer}
                       alt=""
                       className="img-fluid x2 flex second"
-                      style={{width: "500px"}}
+                      style={{ width: "500px" }}
                     />
                   </div>
                   <div className="col-6 lgs">
@@ -479,7 +528,7 @@ function Home() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div  className="r-text-lg">
+                    <div className="r-text-lg">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Maecenas porttitor congue massa. Fusce posuere, magna sed
                       pulvinar ultricies, purus lectus malesuada libero, sit
@@ -490,7 +539,6 @@ function Home() {
                 </div>
               </motion.div>
             </section>
-
             <section className="paragraph3">
               <motion.div
                 className="graph-container"
@@ -517,7 +565,12 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-6">
-                    <img src={Rappers} alt="" className="img-fluid pic x2 flex" style={{width: "500px"}}/>
+                    <img
+                      src={Rappers}
+                      alt=""
+                      className="img-fluid pic x2 flex"
+                      style={{ width: "500px" }}
+                    />
                   </div>
                 </div>
               </motion.div>
