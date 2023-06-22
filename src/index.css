@@ -432,6 +432,23 @@ align-items: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
+/*Reviews*/
+#reviews{
+  margin: 0 0 0 0;
+  justify-content: center;
+  text-align: center;
+  background-image: url('/src/components/images/LVT\ 3\ copy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: center;
+  height: 200px;
+  color: white;
+  font-size: 100px;
+  
+
+}
+
 
 
 

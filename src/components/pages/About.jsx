@@ -1,15 +1,17 @@
 import React from "react";
 
 function About() {
-    return(
-        <div className="container">
-            <div className="card mt-4">
-                <div className="card-body">
-                    <h2>About Page</h2>
-                </div>
-            </div>
+  return (
+    <>
+      <section id="reviews" className="page-section call-to-action d-flex mt-10">
+        <div className="py-lg-5">
+          <div className="col-lg-12 col-md-8 mx-auto">
+            <h1 className="mb-5">Customer Reviews</h1>
+          </div>
         </div>
-    );
+      </section>
+    </>
+  );
 }
 
 export default About;
