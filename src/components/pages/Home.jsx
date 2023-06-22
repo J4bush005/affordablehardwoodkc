@@ -23,7 +23,7 @@ const mine = "https://j4bush005.github.io/";
 
 function Home() {
   return (
-    <>
+    <div className="wrap">
       {/*Image Carousel*/}
       <div
         id="carouselExampleAutoplaying"
@@ -205,6 +205,8 @@ function Home() {
                 </div>
               </div>
             </motion.div>
+
+            
           </div>
         </div>
       </Media>
@@ -688,7 +690,7 @@ function Home() {
           </div>
         </footer>
       </div>
-    </>
+    </div>
   );
 }
 

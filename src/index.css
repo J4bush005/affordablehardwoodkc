@@ -7,6 +7,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("/src/components/images/Background4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .flex {
@@ -233,6 +237,8 @@ align-items: center;
 .mediums-buff{
   width: 400px;
 }
+
+
 
 .install{
   background-color: rgba(187, 154, 33, 0.7);
