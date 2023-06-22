@@ -433,6 +433,13 @@ align-items: center;
 }
 
 /*Reviews*/
+
+.rev{
+  color: white;
+  font-size: larger;
+  
+}
+
 #reviews{
   margin: 0 0 0 0;
   justify-content: center;
@@ -444,7 +451,7 @@ align-items: center;
   background-position: center;
   height: 300px;
   color: white;
-  font-size: larger;
+  font-size: xx-large;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
   
 
