@@ -436,13 +436,13 @@ align-items: center;
 #reviews{
   margin: 0 0 0 0;
   justify-content: center;
+  align-items: center;
   text-align: center;
   background-image: url('/src/components/images/LVT\ 3\ copy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-position-y: center;
-  height: auto;
+  height: 300px;
   color: white;
   font-size: larger;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);

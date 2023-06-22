@@ -14,7 +14,9 @@ function About() {
         </div>
       </section>
       <section className="page-section call-to-action d-flex">
-        <div className="container-fluid"></div>
+        <div className="container-fluid">
+            
+        </div>
       </section>
     </>
   );
