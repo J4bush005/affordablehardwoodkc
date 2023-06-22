@@ -103,6 +103,7 @@ function Home() {
               initial={{ opacity: 0, x: -9 }}
               whileInView={{ opacity: 1, x: 25 }}
               transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
             >
               <div className="row sm-screen">
                 <div className="col-9">
@@ -137,6 +138,7 @@ function Home() {
               initial={{ opacity: 0, x: -9 }}
               whileInView={{ opacity: 1, x: 25 }}
               transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
             >
               <div id="sm-screen" className="row">
                 <div className="col-9">
@@ -172,6 +174,7 @@ function Home() {
               initial={{ opacity: 0, x: -9 }}
               whileInView={{ opacity: 1, x: 25 }}
               transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
             >
               <div className="row screen">
                 <div className="col-9">
