@@ -217,6 +217,7 @@ function Home() {
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
             >
               <div className="row justify-content-evenly open">
                 <div className="col-4">
@@ -251,6 +252,7 @@ function Home() {
               initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
             >
               <div className="row justify-content-evenly lasts">
                 <div className="col-6">
@@ -285,6 +287,7 @@ function Home() {
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
             >
               <div className="row justify-content-evenly open">
                 <div className="col-4">
