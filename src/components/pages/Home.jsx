@@ -23,7 +23,7 @@ const mine = "https://j4bush005.github.io/";
 
 function Home() {
   return (
-    <div className="wrap">
+    <>
       {/*Image Carousel*/}
       <div
         id="carouselExampleAutoplaying"
@@ -205,8 +205,6 @@ function Home() {
                 </div>
               </div>
             </motion.div>
-
-            
           </div>
         </div>
       </Media>
@@ -406,7 +404,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="row justify-content-evenly mt-5">
-                  <div className="col-3">
+                  <div className="col-6">
                     <img src={Demo10} alt="" className="demo-pic" />
                   </div>
                   <div className="col-6">
@@ -417,12 +415,12 @@ function Home() {
                       amet commodo magna eros quis urna. Nunc viverra imperdiet
                       enim. Fusce est. Vivamus a tellus.
                     </div>
+                    <div className="row view">
+                      <Link to={"/Services"} className="service" type="button" role="button">
+                        View Our Services
+                      </Link>
+                    </div>
                   </div>
-                </div>
-                <div className="row">
-                  <Link to={"/Services"} className="service" role="button">
-                    View Our Services
-                  </Link>
                 </div>
               </section>
             </motion.div>
@@ -690,7 +688,7 @@ function Home() {
           </div>
         </footer>
       </div>
-    </div>
+    </>
   );
 }
 
