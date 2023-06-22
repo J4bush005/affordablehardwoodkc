@@ -390,12 +390,12 @@ function Home() {
               </motion.div>
             </section>
             <motion.div
-              className="install-container"
+              className="install mt-5"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.3 }}
             >
-              <section className="install mt-5">
+              <section className="mt-5">
                 <div className="row justify-content-center">
                   <div className="col-5">
                     <div className="1-text heading-text brag">

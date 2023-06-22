@@ -442,9 +442,10 @@ align-items: center;
   background-size: cover;
   background-position: center;
   background-position-y: center;
-  height: 200px;
+  height: auto;
   color: white;
-  font-size: 100px;
+  font-size: larger;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
   
 
 }
