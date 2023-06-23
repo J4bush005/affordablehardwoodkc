@@ -1,4 +1,5 @@
 import React from "react";
+import Quote from "../images/My project.png";
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
           </div>
         </div>
       </section>
-      <section className="page-section call-to-action d-flex">
+      <section id="open-review" className="page-section call-to-action d-flex">
         <div className="container-fluid">
           <div className="row">
             <div className="col">
@@ -25,6 +26,25 @@ function About() {
                 est. Vivamus a tellus.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="review-cards">
+        <div className="container-fluid text-center">
+          <div className="row">
+            <div className="col-md-8">z</div>
+            <div className="col-6 col-md-4">z</div>
+          </div>
+
+          <div className="row">
+            <div className="col-6 col-md-4">z</div>
+            <div className="col-6 col-md-4">z</div>
+            <div className="col-6 col-md-4">z</div>
+          </div>
+
+          <div className="row">
+            <div className="col-6">z</div>
+            <div className="col-6">z</div>
           </div>
         </div>
       </section>

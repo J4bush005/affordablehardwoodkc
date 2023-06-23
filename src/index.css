@@ -382,6 +382,15 @@ align-items: center;
   }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .brag{
+    font-size: x-large;
+  }
+
+  .demo-pic{
+    width: 470px;
+  }
+}
 
 
 /*COntact Page*/
