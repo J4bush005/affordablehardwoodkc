@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8aafd6c2.css",
-    "main.js": "/static/js/main.c7085e5c.js",
+    "main.css": "/static/css/main.548d4efe.css",
+    "main.js": "/static/js/main.e9816a28.js",
     "static/js/787.2b97701a.chunk.js": "/static/js/787.2b97701a.chunk.js",
     "static/media/kids.png": "/static/media/kids.d6acb138345b77cab7f9.png",
+    "static/media/My project.png": "/static/media/My project.0acfcb903bca4a6d21c4.png",
     "static/media/Rappers.png": "/static/media/Rappers.b3d50918e88a607d12af.png",
     "static/media/Demo5.png": "/static/media/Demo5.3f315d25b2f313b1da52.png",
     "static/media/Background4.jpeg": "/static/media/Background4.32ac3fecca6f89d26262.jpeg",
@@ -13,18 +14,19 @@
     "static/media/Demo3.png": "/static/media/Demo3.041d0e1aca07883a45f2.png",
     "static/media/buff.png": "/static/media/buff.df679e35cd77fcd620f4.png",
     "static/media/Demo6.png": "/static/media/Demo6.1f2165e9350e14166e5d.png",
+    "static/media/LVT 3 copy.jpg": "/static/media/LVT 3 copy.f75e49c6c80fd1b9c95a.jpg",
     "static/media/Demo 10.jpg": "/static/media/Demo 10.bbc964d85e1a35fd35e2.jpg",
     "static/media/Logo.png": "/static/media/Logo.3e5e5e2fa26372019d30.png",
     "static/media/face.png": "/static/media/face.d752020dcaba29ed5d56.png",
     "static/media/ig logo.png": "/static/media/ig logo.b55fd04bd886b2b63a87.png",
     "static/media/Linked.png": "/static/media/Linked.238ec218997ad981225e.png",
     "index.html": "/index.html",
-    "main.8aafd6c2.css.map": "/static/css/main.8aafd6c2.css.map",
-    "main.c7085e5c.js.map": "/static/js/main.c7085e5c.js.map",
+    "main.548d4efe.css.map": "/static/css/main.548d4efe.css.map",
+    "main.e9816a28.js.map": "/static/js/main.e9816a28.js.map",
     "787.2b97701a.chunk.js.map": "/static/js/787.2b97701a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aafd6c2.css",
-    "static/js/main.c7085e5c.js"
+    "static/css/main.548d4efe.css",
+    "static/js/main.e9816a28.js"
   ]
 }
