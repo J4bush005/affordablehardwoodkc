@@ -31,7 +31,7 @@ function About() {
       </section>
       <section id="review-cards">
         <div className="container-fluid text-center">
-          <div className="row">
+          <div className="row first-row">
             <div className="col-md-8">
               <div className="card">
                 <div className="card-body">
@@ -75,7 +75,7 @@ function About() {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row second-row">
             <div className="col-6 col-md-4">
               <div className="card">
                 <div className="card-body">
@@ -124,7 +124,7 @@ function About() {
                       enim. Fusce est. Vivamus a tellus.
                     </p>
                     <footer className="blockquote-footer">
-                      -Valued Customer
+                      Valued Customer
                     </footer>
                   </blockquote>
                 </div>
@@ -132,7 +132,7 @@ function About() {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row third-row">
             <div className="col-6">
               <div className="card">
                 <div className="card-body">
