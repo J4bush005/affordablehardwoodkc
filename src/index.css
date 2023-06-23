@@ -461,8 +461,16 @@ align-items: center;
   padding-top: 20px;
 }
 
+.marks{
+  size: 500px;
+  color: rgba(187, 154, 33);
+  position:relative;
+  top: 10px;
+  
+}
+
 #reviews{
-  margin: 0 0 0 0;
+   margin: 0 0 0 0;
   justify-content: center;
   align-items: center;
   text-align: center;
