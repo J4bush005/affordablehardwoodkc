@@ -521,6 +521,7 @@ img {
 
 #body:hover{
   transform: scale(1.03);
+  box-shadow: 2px 2px 4px gold
 }
 
 #cards {
