@@ -50,8 +50,8 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                  <div className="card">
-                    <div className="card-body">
+                   <div id="body" className="card">
+                    <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
                           "Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -65,7 +65,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                        <footer className="blockquote-footer">
+                          <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -77,8 +77,8 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                  <div className="card">
-                    <div className="card-body">
+                   <div id="body" className="card">
+                    <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
                           "Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -92,7 +92,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                        <footer className="blockquote-footer">
+                          <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -104,8 +104,8 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                  <div className="card">
-                    <div className="card-body">
+                  <div id="body" className="card">
+                    <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
                           "Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -119,7 +119,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                        <footer className="blockquote-footer">
+                          <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -131,8 +131,8 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                  <div className="card">
-                    <div className="card-body">
+                   <div id="body" className="card">
+                    <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
                           "Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -146,7 +146,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                        <footer className="blockquote-footer">
+                          <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -158,8 +158,8 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                  <div className="card">
-                    <div className="card-body">
+                   <div id="body" className="card">
+                    <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
                           "Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -173,7 +173,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                        <footer className="blockquote-footer">
+                         <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -185,8 +185,8 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                  <div className="card">
-                    <div className="card-body">
+                   <div id="body" className="card">
+                    <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
                           "Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -200,7 +200,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                        <footer className="blockquote-footer">
+                        <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
