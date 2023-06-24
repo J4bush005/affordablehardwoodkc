@@ -541,6 +541,29 @@ img {
 
 
 /*Care*/
+
+.new{
+  margin-left: 15px;
+}
+
+.first-row{
+  display: flex;
+}
+
+.first-word{
+  color: rgba(187, 154, 33, 0.8);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-right: 3px;
+}
+
+.second-word{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
 #floor-care {
   justify-content: center;
   align-items: center;
@@ -554,4 +577,16 @@ img {
   font-size: xx-large;
   font-family:'Times New Roman', Times, serif;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
+
+#care-heading{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  margin-left: 15px;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
+}
+
+#inline{
+  display: inline-block;
 }
