@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
+import Clean from "../images/clean.jpg";
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -50,7 +51,7 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                   <div id="body" className="card">
+                  <div id="body" className="card">
                     <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
@@ -65,34 +66,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                          <footer id="value" className="blockquote-footer">
-                          Valued Customer
-                        </footer>
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="container-fluid text-center">
-              <div className="row first-row">
-                <div className="col-md-8">
-                   <div id="body" className="card">
-                    <div id="cards" className="card-body">
-                      <blockquote className="blockquote mb-0">
-                        <p>
-                          "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus."
-                        </p>
-                          <footer id="value" className="blockquote-footer">
+                        <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -119,7 +93,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                          <footer id="value" className="blockquote-footer">
+                        <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -131,7 +105,7 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                   <div id="body" className="card">
+                  <div id="body" className="card">
                     <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
@@ -146,7 +120,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                          <footer id="value" className="blockquote-footer">
+                        <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -158,7 +132,7 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                   <div id="body" className="card">
+                  <div id="body" className="card">
                     <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
@@ -173,7 +147,7 @@ function About() {
                           libero, sit amet commodo magna eros quis urna. Nunc
                           viverra imperdiet enim. Fusce est. Vivamus a tellus."
                         </p>
-                         <footer id="value" className="blockquote-footer">
+                        <footer id="value" className="blockquote-footer">
                           Valued Customer
                         </footer>
                       </blockquote>
@@ -185,7 +159,34 @@ function About() {
             <div className="container-fluid text-center">
               <div className="row first-row">
                 <div className="col-md-8">
-                   <div id="body" className="card">
+                  <div id="body" className="card">
+                    <div id="cards" className="card-body">
+                      <blockquote className="blockquote mb-0">
+                        <p>
+                          "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                        </p>
+                        <footer id="value" className="blockquote-footer">
+                          Valued Customer
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container-fluid text-center">
+              <div className="row first-row">
+                <div className="col-md-8">
+                  <div id="body" className="card">
                     <div id="cards" className="card-body">
                       <blockquote className="blockquote mb-0">
                         <p>
@@ -380,16 +381,45 @@ function About() {
         </div>
       </Media>
 
-      <section
-        id="floor-care"
-        className="page-section call-to-action d-flex mt-10"
-      >
-        <div className="py-lg-5">
-          <div className="col-lg-12 col-md-8 mx-auto">
-            <h1 className="mb-5">Hardwood Care Instructions</h1>
-          </div>
+      <Media query="(min-width: 769px)">
+        <div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, delay: 0.3 }}
+            viewport={{ once: true }}
+          >
+            <section
+              id="floor-care"
+              className="page-section call-to-action d-flex mt-3"
+            >
+              <div className="py-lg-5">
+                <div className="col-lg-12 col-md-8 mx-auto">
+                  <h1 className="mb-5">Hardwood Care Instructions</h1>
+                </div>
+              </div>
+            </section>
+            <section
+              id="open-review"
+              className=" mt-2 page-section call-to-action d-flex"
+            >
+              <div className="container-fluid">
+                <div className="row justify-content-center">
+                  <div className="col-5">
+                    <p className="text-center rev mt-3">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </motion.div>
         </div>
-      </section>
+      </Media>
 
       {/* Footer */}
       <div class="container my-5 foot">
