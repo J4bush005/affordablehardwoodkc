@@ -546,6 +546,16 @@ img {
   margin-left: 15px;
 }
 
+.mop{
+  width: 600px;
+  height: 600px;;
+  position: relative;
+  left: 500px;
+  top: -550px;
+  object-fit: cover;
+  
+}
+
 .first-row{
   display: flex;
 }

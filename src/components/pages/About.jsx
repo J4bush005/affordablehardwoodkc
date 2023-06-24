@@ -419,8 +419,8 @@ function About() {
             </section>
 
             <section id="caring-steps">
-              <div className="row">
-                <div className="col-7">
+              <div className="row justify-content-evenly">
+                <div className="col-12">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
                     How to Take Care of Your Hardwood Floors
@@ -430,81 +430,84 @@ function About() {
                       <div className="x1"></div>
                     </div>
                   </div>
-                </div>
-                <div className="row">
-                  <div className="col-6">
-                    <div className="first-row">
-                      <div className="first-word">Step</div>
-                      <div className="second-word">
-                        {" "}
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                  <div className="row">
+                    <div className="col-6">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-6">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-6">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-6">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-6">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                 <div className="row">
-                  <div className="col-6">
-                    <div className="first-row">
-                      <div className="first-word">Step</div>
-                      <div className="second-word">
-                        {" "}
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                 <div className="row">
-                  <div className="col-6">
-                    <div className="first-row">
-                      <div className="first-word">Step</div>
-                      <div className="second-word">
-                        {" "}
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                 <div className="row">
-                  <div className="col-6">
-                    <div className="first-row">
-                      <div className="first-word">Step</div>
-                      <div className="second-word">
-                        {" "}
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                 <div className="row">
-                  <div className="col-6">
-                    <div className="first-row">
-                      <div className="first-word">Step</div>
-                      <div className="second-word">
-                        {" "}
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                      </div>
-                    </div>
-                  </div>
+                <div className="col-6">
+                  <img className="mop" src={Clean} alt="" />
                 </div>
               </div>
             </section>
