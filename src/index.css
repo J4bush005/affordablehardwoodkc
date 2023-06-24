@@ -547,12 +547,9 @@ img {
 }
 
 .mop{
-  width: 600px;
-  height: 600px;;
-  position: relative;
-  left: 500px;
-  top: -550px;
-  object-fit: cover;
+  width: 770px;
+  padding-top: 10px;
+
   
 }
 

@@ -419,8 +419,8 @@ function About() {
             </section>
 
             <section id="caring-steps">
-              <div className="row justify-content-evenly">
-                <div className="col-12">
+              <div className="row justify-content-evenly d-flex">
+                <div className="col-6">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
                     How to Take Care of Your Hardwood Floors
@@ -431,7 +431,7 @@ function About() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-6">
+                    <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Step</div>
                         <div className="second-word">
@@ -446,7 +446,7 @@ function About() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-6">
+                    <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Step</div>
                         <div className="second-word">
@@ -461,7 +461,7 @@ function About() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-6">
+                    <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Step</div>
                         <div className="second-word">
@@ -476,7 +476,7 @@ function About() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-6">
+                    <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Step</div>
                         <div className="second-word">
@@ -491,7 +491,7 @@ function About() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-6">
+                    <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Step</div>
                         <div className="second-word">
@@ -505,11 +505,13 @@ function About() {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-6">
+                  
+                  </div>
+                   <div className="col-6">
                   <img className="mop" src={Clean} alt="" />
                 </div>
-              </div>
+                  
+                </div>
             </section>
           </motion.div>
         </div>
