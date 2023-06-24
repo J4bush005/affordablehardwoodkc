@@ -332,6 +332,48 @@ function Home() {
               </div>
             </motion.div>
 
+             <motion.div
+              className="install mt-5"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <section className="mt-5">
+                <div className="row justify-content-center">
+                  <div className="col-11">
+                    <div className="1-text heading-text brag">
+                      Kansas City's Number One Floor Company
+                    </div>
+                  </div>
+                </div>
+                <div className="row justify-content-evenly mt-5">
+                  <div className="col-6">
+                    <img src={Demo10} alt="" className="demo-pic-md" />
+                  </div>
+                  <div className="col-6">
+                    <div className="r-text-brag">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.
+                    </div>
+                    <div className="row view">
+                      <Link
+                        to={"/Services"}
+                        className="service"
+                        type="button"
+                        role="button"
+                      >
+                        View Our Services
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </motion.div>
+
             <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -100 }}
@@ -342,7 +384,7 @@ function Home() {
               <div className="row justify-content-evenly open">
                 <div className="col-4">
                   <div id="open-heading" className="1-text heading-text">
-                    Providing Superior Quality
+                    Meet The Hardwood Boss
                   </div>
                   <div className="flex">
                     <div className="x1 goldbar home">
