@@ -456,7 +456,8 @@ img {
 
 .rev {
   color: white;
-  font-size: larger;
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .second-row {
@@ -510,6 +511,7 @@ img {
   height: 300px;
   color: white;
   font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
@@ -548,5 +550,6 @@ img {
   height: 300px;
   color: white;
   font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
