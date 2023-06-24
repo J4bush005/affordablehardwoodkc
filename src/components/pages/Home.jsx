@@ -106,7 +106,7 @@ function Home() {
               viewport={{ once: true }}
             >
               <div className="row sm-screen">
-                <div className="col-9">
+                <div className="col-11">
                   <div id="open-heading-sm" className="1-text heading-text">
                     Providing Superior Quality
                   </div>
@@ -141,7 +141,7 @@ function Home() {
               viewport={{ once: true }}
             >
               <div id="sm-screen" className="row">
-                <div className="col-9">
+                <div className="col-11">
                   <div id="open-heading-sm" className="1-text heading-text">
                     At An Affordable Price
                   </div>
@@ -169,6 +169,55 @@ function Home() {
               </div>
             </motion.div>
 
+             <motion.div
+              className="install-small mt-4"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <section className="">
+                <div className="row justify-content-center">
+                  <div className="col-11">
+                    <div className="1-text heading-text brag-small">
+                      Kansas City's Number One Floor Company
+                    </div>
+                     <div className="flex">
+                    <div className="x1 goldbar-small home">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row justify-content-evenly">
+                 
+                  <div className="col-11">
+                    <div className="r-text-brag-small">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.
+                    </div>
+                     <div className="col-11">
+                    <img src={Demo10} alt="" className="demo-pic-small" />
+                  </div>
+                    <div className="row view">
+                      <Link
+                        to={"/Services"}
+                        className="service-small"
+                        type="button"
+                        role="button"
+                      >
+                        View Our Services
+                      </Link>
+                    </div>
+                  </div>
+                  
+                </div>
+                </div>
+              </section>
+            </motion.div>
+
             <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -9 }}
@@ -177,7 +226,7 @@ function Home() {
               viewport={{ once: true }}
             >
               <div className="row screen">
-                <div className="col-9">
+                <div className="col-11">
                   <div
                     id="third-open-heading-sm"
                     className="1-text heading-text"

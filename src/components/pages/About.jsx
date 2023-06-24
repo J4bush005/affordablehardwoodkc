@@ -355,28 +355,16 @@ function About() {
         </section>
       </Media>
 
-      <table class="table table-hover d-flex justify-content-center">
-        <thead>
-        </thead>
-        <tbody>
-          <tr className="craft">
-            <th scope="row">+</th>
-            <td>Floor Craftsman</td>
-          </tr>
-          <tr className="installer">
-            <th scope="row ">+</th>
-            <td>Floor Installer</td>
-          </tr>
-          <tr className="sander">
-            <th scope="row">+</th>
-            <td colspan="2">Floor Sander</td>
-          </tr>
-          <tr className="finisher">
-            <th scope="row">+</th>
-            <td>Floor Finisher</td>
-          </tr>
-        </tbody>
-      </table>
+       <section
+        id="floor-care"
+        className="page-section call-to-action d-flex mt-10"
+      >
+        <div className="py-lg-5">
+          <div className="col-lg-12 col-md-8 mx-auto">
+            <h1 className="mb-5">Hardwood Care Instructions</h1>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <div class="container my-5 foot">

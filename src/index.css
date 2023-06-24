@@ -1,8 +1,7 @@
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,10 +16,12 @@ body {
   display: flex;
 }
 
-.x2{flex:2;}
+.x2 {
+  flex: 2;
+}
 
 /*Header*/
-img{
+img {
   width: 145px;
 }
 .navbar {
@@ -35,30 +36,27 @@ img{
 
 .bigger {
   font-size: xx-large;
-  
 }
 
 .custom-toggler.navbar-toggler {
-   border-color: black;
-        }
+  border-color: black;
+}
 
 .custom-toggler .navbar-toggler-icon {
-   background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(157, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(157, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-nav {
   font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
-  
+  font-family: "Times New Roman", Times, serif;
 }
 
 .last {
   padding-right: 25px;
 }
 
- .dropdown:hover .dropdown-menu {
-   display:block;
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 .nav-link.under {
@@ -67,7 +65,7 @@ img{
 
 .nav-link.under:hover {
   background-color: rgba(157, 0, 0);
-  color:white;
+  color: white;
   font-weight: bolder;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 1.8);
 }
@@ -78,25 +76,25 @@ img{
 }
 
 #sub:hover {
-  color:rgba(157, 0, 0);
+  color: rgba(157, 0, 0);
 }
 
 #words {
   color: white;
   text-shadow: 2px 2px 4px black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Home Page*/
 
-.image-resize{
+.image-resize {
   width: 100%;
   height: 600px;
   object-fit: cover;
   object-position: center center;
 }
 
-.x1.goldbar.home{
+.x1.goldbar.home {
   border: solid rgba(187, 154, 33, 0.7);
   height: 0px;
   width: 190px;
@@ -104,24 +102,22 @@ img{
 
 .paragraph {
   color: white;
-  font-size:larger;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
 }
 
-
-
-.article{
-justify-content: center;
-align-items: center;
+.article {
+  justify-content: center;
+  align-items: center;
 }
 
-.r-text-lg{
-  font-size:x-large;
+.r-text-lg {
+  font-size: x-large;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.pad{
+.pad {
   padding-left: 50px;
 }
 
@@ -129,32 +125,31 @@ align-items: center;
   padding-right: 50px;
 }
 
-
-.hover{
+.hover {
   transition: all 0.3s;
   width: 50px;
 }
 
-.foot-hover{
+.foot-hover {
   color: white;
   transition: all 0.3s;
 }
 
-.foot-hover:hover{
-  transform:scale(1.15);
+.foot-hover:hover {
+  transform: scale(1.15);
   color: rgba(187, 154, 33, 0.8);
   text-shadow: 2px 2px 4px black;
 }
 
-.m1{
+.m1 {
   border: none;
 }
 
-.hover:hover{
+.hover:hover {
   transform: scale(1.15);
 }
 
-.pic{
+.pic {
   /*was 600? */
   width: 700px;
   padding-top: 0px;
@@ -162,8 +157,8 @@ align-items: center;
   align-items: end;
 }
 
-.sm{
-   /*was 300? */
+.sm {
+  /*was 300? */
   width: 250px;
   padding-right: 10px;
 }
@@ -172,11 +167,11 @@ align-items: center;
   padding-top: 70px;
 }
 
-.lasts{
+.lasts {
   padding-top: 150px;
 }
 
-.lg{
+.lg {
   padding-top: 200px;
   padding-left: 35px;
 }
@@ -184,173 +179,173 @@ align-items: center;
 .second {
   width: 600px;
   margin-right: 350px;
-  
 }
 
-.mediums{
+.mediums {
   width: 450px;
 }
 
-.text-white{
-  font-family: 'Times New Roman', Times, serif;
+.text-white {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.sms{
+.sms {
   width: 250px;
 }
-
 
 .first {
   padding-top: 100px;
 }
 
-.sm-screen{
+.sm-screen {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-
-.lg-image{
+.lg-image {
   width: 1000px;
   /*was 700 */
 }
 
-.r-text{
+.r-text {
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
 }
 
 .r-text-sm {
   font-size: larger;
-  color:white;
-  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .space {
   margin-left: 5px;
 }
 
-.mediums-sc{
+.mediums-sc {
   width: 400px;
 }
-.mediums-buff{
+.mediums-buff {
   width: 400px;
 }
 
-
-
-.install{
+.install {
   background-color: rgba(187, 154, 33, 0.7);
   margin-bottom: 20px;
   margin-top: 20px;
-  width:fit-content;
+  width: fit-content;
 }
 
-.brag{
+.install-small{
+  background-color: rgba(187, 154, 33, 0.7);
+  width: fit-content;
+}
+
+.brag {
   color: white;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: xx-large;
 }
 
-.demo-pic{
+.brag-small{
+  
+}
+
+.demo-pic {
   width: 650px;
 }
 
-.view{
+.view {
   width: 200px;
   padding-top: 20px;
 }
 
-
-.r-text-brag{
+.r-text-brag {
   color: white;
   font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.service{
+.service {
   background-color: rgba(157, 0, 0);
   color: white;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   font-size: large;
   border-radius: 10px;
-
 }
 
-.service:hover{
-  color: rgba(187, 154, 33, 0.7)
+.service:hover {
+  color: rgba(187, 154, 33, 0.7);
 }
 
-#open-heading{
+#open-heading {
   color: white;
   font-size: xx-large;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-
-#lg-text{
+#lg-text {
   font-size: xx-large;
-
 }
 
-#open-heading-sm{
-  color:white;
+#open-heading-sm {
+  color: white;
   font-size: xx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#open-heading-md{
+#open-heading-md {
   padding-top: 150px;
-  color:white;
+  color: white;
   font-size: xx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#open-heading-lg{
+#open-heading-lg {
   padding-top: 150px;
-  color:white;
+  color: white;
   font-size: xxx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#third-image-small{
+#third-image-small {
   width: 250px;
 }
 
-#open-headings{
+#open-headings {
   color: white;
   font-size: xx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#second-paragraph{
+#second-paragraph {
   color: white;
   font-size: x-large;
 }
 
-#third-open-heading-sm{
+#third-open-heading-sm {
   padding-top: 25px;
-  color:white;
+  color: white;
   font-size: xx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#third-paragraph-image{
-  width:500px;
+#third-paragraph-image {
+  width: 500px;
 }
 
 @media screen and (min-width: 641px) and (max-width: 825px) {
-  .mediums-buff{
+  .mediums-buff {
     width: 350px;
   }
 }
@@ -361,7 +356,7 @@ align-items: center;
     height: 1050px;
   }
 
-  .text-white{
+  .text-white {
     font-size: x-large;
   }
 
@@ -372,114 +367,126 @@ align-items: center;
 
 @media screen and (max-width: 480px) {
   #open-heading {
-    font-size:x-large;
+    font-size: x-large;
   }
 }
 
 @media screen and (max-width: 768px) {
   #open-heading {
-    font-size:x-large;
+    font-size: x-large;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1400px) {
-  .brag{
+  .brag {
     font-size: x-large;
   }
 
-  .demo-pic{
+  .demo-pic {
     width: 470px;
   }
 }
 
-
 /*COntact Page*/
 
-.width{
+.width {
   height: 200px;
   width: 740px;
 }
 
-.form-label{
+.form-label {
   color: white;
-  font-size:large
+  font-size: large;
 }
-.send{
+.send {
   background-color: rgba(187, 154, 33, 0.7);
   color: white;
 }
 
-.topper{
+.topper {
   padding-top: 15px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 640px){
-  .width{
+@media screen and (min-width: 0px) and (max-width: 640px) {
+  .width {
     width: 200px;
   }
 }
 
-@media screen and (min-width: 641px) and (max-width: 1007px){
-  .width{
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .width {
     width: 400px;
   }
 }
 
 /*Thank You Page*/
 
-.confirm{
+.confirm {
   color: white;
   padding-top: 20px;
   font-size: xxx-large;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-.thank-you{
+.thank-you {
   color: white;
-  font-size:larger;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Reviews*/
 
-.rev{
+.rev {
   color: white;
   font-size: larger;
-  
 }
 
-.second-row{
+.second-row {
   padding-top: 20px;
 }
 
-.third-row{
+.third-row {
   padding-top: 20px;
 }
 
-.first-row{
+.first-row {
   padding-top: 20px;
 }
 
-.marks{
+.marks {
   size: 500px;
   color: rgba(187, 154, 33);
-  position:relative;
+  position: relative;
   top: 10px;
-  
 }
 
-.craft{
+.craft {
   font-size: xxx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-#reviews{
-   margin: 0 0 0 0;
+.installer {
+  font-size: xxx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sander{
+  font-size: xxx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.finisher {
+  font-size: xxx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#reviews {
+  margin: 0 0 0 0;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('/src/components/images/LVT\ 3\ copy.jpg');
+  background-image: url("/src/components/images/LVT\ 3\ copy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -487,13 +494,19 @@ align-items: center;
   color: white;
   font-size: xx-large;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
-  
-
 }
 
-
-
-
-
-
-
+#floor-care{
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/src/components/images/Sand\ 6\ After.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
