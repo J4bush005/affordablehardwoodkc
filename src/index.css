@@ -100,6 +100,12 @@ img {
   width: 190px;
 }
 
+.goldbar-small {
+  border: solid rgba(157, 0, 0, 0.7);
+  height: 0px;
+  width: 190px;
+}
+
 .paragraph {
   color: white;
   font-size: larger;
@@ -159,7 +165,7 @@ img {
 
 .sm {
   /*was 300? */
-  width: 250px;
+  width: 300px;
   padding-right: 10px;
 }
 
@@ -190,7 +196,7 @@ img {
 }
 
 .sms {
-  width: 250px;
+  width: 300px;
 }
 
 .first {
@@ -250,11 +256,18 @@ img {
 }
 
 .brag-small{
-  
+  color: white;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+  font-family:'Times New Roman', Times, serif;
+  font-size: xx-large;
 }
 
 .demo-pic {
   width: 650px;
+}
+
+.demo-pic-small{
+  width: 300px;
 }
 
 .view {
@@ -317,7 +330,7 @@ img {
 }
 
 #third-image-small {
-  width: 250px;
+  width: 300px;
 }
 
 #open-headings {

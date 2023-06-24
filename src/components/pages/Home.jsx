@@ -101,7 +101,7 @@ function Home() {
             <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -9 }}
-              whileInView={{ opacity: 1, x: 25 }}
+              whileInView={{ opacity: 1, x: 10 }}
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
             >
@@ -136,7 +136,7 @@ function Home() {
             <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -9 }}
-              whileInView={{ opacity: 1, x: 25 }}
+              whileInView={{ opacity: 1, x: 10 }}
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
             >
@@ -187,24 +187,22 @@ function Home() {
                       <div className="x1"></div>
                     </div>
                   </div>
-                </div>
                 <div className="row justify-content-evenly">
                  
-                  <div className="col-11">
-                    <div className="r-text-brag-small">
+                    <div className="r-text-sm">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Maecenas porttitor congue massa. Fusce posuere, magna sed
                       pulvinar ultricies, purus lectus malesuada libero, sit
                       amet commodo magna eros quis urna. Nunc viverra imperdiet
                       enim. Fusce est. Vivamus a tellus.
                     </div>
-                     <div className="col-11">
+                     <div className="col">
                     <img src={Demo10} alt="" className="demo-pic-small" />
                   </div>
                     <div className="row view">
                       <Link
                         to={"/Services"}
-                        className="service-small"
+                        className="service mb-2"
                         type="button"
                         role="button"
                       >
@@ -221,7 +219,7 @@ function Home() {
             <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -9 }}
-              whileInView={{ opacity: 1, x: 25 }}
+              whileInView={{ opacity: 1, x: 10 }}
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
             >
