@@ -225,7 +225,7 @@ img {
   font-family: "Times New Roman", Times, serif;
 }
 
-.demo-pic-md{
+.demo-pic-md {
   width: 300px;
 }
 
@@ -247,7 +247,7 @@ img {
   width: fit-content;
 }
 
-.install-small{
+.install-small {
   background-color: rgba(187, 154, 33, 0.7);
   width: fit-content;
 }
@@ -259,10 +259,10 @@ img {
   font-size: xx-large;
 }
 
-.brag-small{
+.brag-small {
   color: white;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: xx-large;
 }
 
@@ -270,7 +270,7 @@ img {
   width: 650px;
 }
 
-.demo-pic-small{
+.demo-pic-small {
   width: 300px;
 }
 
@@ -488,7 +488,7 @@ img {
   font-family: "Times New Roman", Times, serif;
 }
 
-.sander{
+.sander {
   font-size: xxx-large;
   font-family: "Times New Roman", Times, serif;
 }
@@ -513,7 +513,30 @@ img {
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
-#floor-care{
+#body {
+  transition: 0.3s;
+}
+
+#body:hover{
+  transform: scale(1.03);
+}
+
+#cards {
+  background-color: rgba(187, 154, 33, 0.7);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#cards:hover {
+  text-shadow: 2px 2px 4px rgba(157, 0, 0, 0.7);
+}
+
+#value {
+  color: rgba(157, 0, 0, 0.7);
+  font-family: "Times New Roman", Times, serif;
+}
+
+#floor-care {
   margin-top: 90px;
   justify-content: center;
   align-items: center;
