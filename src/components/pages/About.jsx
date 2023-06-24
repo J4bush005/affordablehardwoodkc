@@ -6,13 +6,10 @@ import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
 
-
-
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
 const mine = "https://j4bush005.github.io/";
-
 
 function About() {
   return (
@@ -46,320 +43,342 @@ function About() {
       {/*Phones*/}
       <Media query="(max-width: 768px)">
         <section id="review-cards">
-        <div className="container-fluid text-center">
-          <div className="row first-row">
-            <div className="col-md-8">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Maecenas porttitor
-                      congue massa. Fusce posuere, magna sed pulvinar ultricies,
-                      purus lectus malesuada libero, sit amet commodo magna eros
-                      quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus
-                      a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+          <div className="container-fluid text-center">
+            <div className="row first-row">
+              <div className="col-md-8">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-            </div>
-             <div className="container-fluid text-center">
-          <div className="row first-row">
-            <div className="col-md-8">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Maecenas porttitor
-                      congue massa. Fusce posuere, magna sed pulvinar ultricies,
-                      purus lectus malesuada libero, sit amet commodo magna eros
-                      quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus
-                      a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+          </div>
+          <div className="container-fluid text-center">
+            <div className="row first-row">
+              <div className="col-md-8">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-            </div>
-             <div className="container-fluid text-center">
-          <div className="row first-row">
-            <div className="col-md-8">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Maecenas porttitor
-                      congue massa. Fusce posuere, magna sed pulvinar ultricies,
-                      purus lectus malesuada libero, sit amet commodo magna eros
-                      quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus
-                      a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+          </div>
+          <div className="container-fluid text-center">
+            <div className="row first-row">
+              <div className="col-md-8">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-            </div>
-             <div className="container-fluid text-center">
-          <div className="row first-row">
-            <div className="col-md-8">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Maecenas porttitor
-                      congue massa. Fusce posuere, magna sed pulvinar ultricies,
-                      purus lectus malesuada libero, sit amet commodo magna eros
-                      quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus
-                      a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+          </div>
+          <div className="container-fluid text-center">
+            <div className="row first-row">
+              <div className="col-md-8">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-            </div>
-             <div className="container-fluid text-center">
-          <div className="row first-row">
-            <div className="col-md-8">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Maecenas porttitor
-                      congue massa. Fusce posuere, magna sed pulvinar ultricies,
-                      purus lectus malesuada libero, sit amet commodo magna eros
-                      quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus
-                      a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+          </div>
+          <div className="container-fluid text-center">
+            <div className="row first-row">
+              <div className="col-md-8">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-            </div>
-             <div className="container-fluid text-center">
-          <div className="row first-row">
-            <div className="col-md-8">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Maecenas porttitor
-                      congue massa. Fusce posuere, magna sed pulvinar ultricies,
-                      purus lectus malesuada libero, sit amet commodo magna eros
-                      quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus
-                      a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+          </div>
+          <div className="container-fluid text-center">
+            <div className="row first-row">
+              <div className="col-md-8">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-            </div>
-
-            </section>
+          </div>
+        </section>
       </Media>
 
       <Media query="(min-width: 769px)">
-      <section id="review-cards">
-        <div className="container-fluid text-center">
-          <div className="row first-row">
-            <div className="col-md-8">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Maecenas porttitor
-                      congue massa. Fusce posuere, magna sed pulvinar ultricies,
-                      purus lectus malesuada libero, sit amet commodo magna eros
-                      quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus
-                      a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+        <section id="review-cards">
+          <div className="container-fluid text-center">
+            <div className="row first-row">
+              <div className="col-md-8">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-md-4">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-4">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="row second-row">
-            <div className="col-6 col-md-4">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+            <div className="row second-row">
+              <div className="col-6 col-md-4">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-md-4">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-md-4">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-6 col-md-4">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-            <div className="col-6 col-md-4">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="row third-row">
-            <div className="col-6">
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+            <div className="row third-row">
+              <div className="col-6">
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-6">
-              {" "}
-              <div className="card">
-                <div className="card-body">
-                  <blockquote className="blockquote mb-0">
-                    <p>
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus."
-                    </p>
-                    <footer className="blockquote-footer">
-                      Valued Customer
-                    </footer>
-                  </blockquote>
+              <div className="col-6">
+                {" "}
+                <div className="card">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Maecenas porttitor congue massa. Fusce posuere,
+                        magna sed pulvinar ultricies, purus lectus malesuada
+                        libero, sit amet commodo magna eros quis urna. Nunc
+                        viverra imperdiet enim. Fusce est. Vivamus a tellus."
+                      </p>
+                      <footer className="blockquote-footer">
+                        Valued Customer
+                      </footer>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </Media>
 
-       {/* Footer */}
+      <table class="table table-hover d-flex justify-content-center">
+        <thead>
+        </thead>
+        <tbody>
+          <tr className="craft">
+            <th scope="row">+</th>
+            <td>Floor Craftsman</td>
+          </tr>
+          <tr className="installer">
+            <th scope="row ">+</th>
+            <td>Floor Installer</td>
+          </tr>
+          <tr className="sander">
+            <th scope="row">+</th>
+            <td colspan="2">Floor Sander</td>
+          </tr>
+          <tr className="finisher">
+            <th scope="row">+</th>
+            <td>Floor Finisher</td>
+          </tr>
+        </tbody>
+      </table>
+
+      {/* Footer */}
       <div class="container my-5 foot">
         <footer class="text-center text-white">
           <div class="container">

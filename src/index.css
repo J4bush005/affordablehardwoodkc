@@ -469,6 +469,11 @@ align-items: center;
   
 }
 
+.craft{
+  font-size: xxx-large;
+  font-family:'Times New Roman', Times, serif;
+}
+
 #reviews{
    margin: 0 0 0 0;
   justify-content: center;
