@@ -570,6 +570,13 @@ img {
   padding-right: 3px;
 }
 
+.mistake{
+  color: rgba(187, 154, 33, 0.8);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+
 .second-word {
   color: white;
   font-family: "Times New Roman", Times, serif;

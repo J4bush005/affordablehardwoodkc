@@ -518,7 +518,7 @@ function About() {
                 <div className="col-6">
                   <img src={Damage} alt="" className="damage" />
                 </div>
-                 <div className="col-5">
+                <div className="col-5">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
                     How to Not Damage Your Floors
@@ -588,7 +588,71 @@ function About() {
                       </div>
                     </div>
                   </div>
+                </div>
               </div>
+            </section>
+
+            <section id="mistakes">
+              <div className="row justify-content-evenly d-flex">
+                <div className="col-5">
+                  {" "}
+                  <div id="care-heading" className="1-text heading-text">
+                    Common Mistakes
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home new">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="first-row">
+                        <div className="mistake">Step:</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="first-row">
+                        <div className="mistake">Step:</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="first-row">
+                        <div className="mistake">Step:</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img className="mop" src={Clean} alt="" />
+                </div>
               </div>
             </section>
           </motion.div>
