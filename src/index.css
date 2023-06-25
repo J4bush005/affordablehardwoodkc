@@ -457,7 +457,7 @@ img {
 .rev {
   color: white;
   font-size: x-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .second-row {
@@ -511,7 +511,7 @@ img {
   height: 300px;
   color: white;
   font-size: xx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
@@ -519,9 +519,9 @@ img {
   transition: 0.3s;
 }
 
-#body:hover{
+#body:hover {
   transform: scale(1.03);
-  box-shadow: 2px 2px 4px gold
+  box-shadow: 2px 2px 4px gold;
 }
 
 #cards {
@@ -539,38 +539,40 @@ img {
   font-family: "Times New Roman", Times, serif;
 }
 
-
 /*Care*/
 
-.new{
+.new {
   margin-left: 15px;
 }
 
-.mop{
+.mop {
   width: 770px;
+  height: 100%;
   padding-top: 25px;
+  object-fit: cover;
+  object-position: center center;
 }
 
-.damage{
-  width: 500px;
-  padding-top: 95px;
+.damage {
+  width: 700px;
+  padding-top: 75px;
 }
 
-.first-row{
+.first-row {
   display: flex;
 }
 
-.first-word{
+.first-word {
   color: rgba(187, 154, 33, 0.8);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
   font-weight: bolder;
   padding-right: 3px;
 }
 
-.second-word{
+.second-word {
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: large;
 }
 
@@ -585,22 +587,35 @@ img {
   height: 300px;
   color: white;
   font-size: xx-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
-#care-heading{
+#care-heading {
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: xx-large;
   margin-left: 15px;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#inline{
+#inline {
   display: inline-block;
 }
 
-#dont{
-  margin-top: 150px;
+#dont {
+  margin-top: 120px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1330px) {
+  .mop {
+    width: 470px;
+    height: auto;
+    padding-top: 400px;
+  }
+
+  .damage{
+    width: 400px;
+    padding-top: 300px;
+  }
 }

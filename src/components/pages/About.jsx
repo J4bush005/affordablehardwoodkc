@@ -421,7 +421,7 @@ function About() {
 
             <section id="caring-steps">
               <div className="row justify-content-evenly d-flex">
-                <div className="col-6">
+                <div className="col-5">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
                     How to Take Care of Your Hardwood Floors
@@ -518,7 +518,7 @@ function About() {
                 <div className="col-6">
                   <img src={Damage} alt="" className="damage" />
                 </div>
-                 <div className="col-6">
+                 <div className="col-5">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
                     How to Not Damage Your Floors
