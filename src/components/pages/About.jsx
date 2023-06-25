@@ -7,6 +7,7 @@ import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
 import Clean from "../images/clean.jpg";
 import Damage from "../images/water floors.png";
+import Milk from "../images/milk.jpg";
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -651,7 +652,7 @@ function About() {
                   </div>
                 </div>
                 <div className="col-6">
-                  <img className="mop" src={Clean} alt="" />
+                  <img className="milk" src={Milk} alt="" />
                 </div>
               </div>
             </section>

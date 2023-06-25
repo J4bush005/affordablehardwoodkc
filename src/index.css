@@ -558,6 +558,11 @@ img {
   padding-top: 75px;
 }
 
+.milk{
+  padding-top: 20px;
+  width: 610px;
+}
+
 .first-row {
   display: flex;
 }
@@ -611,6 +616,10 @@ img {
 }
 
 #dont {
+  margin-top: 120px;
+}
+
+#mistakes{
   margin-top: 120px;
 }
 
