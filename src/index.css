@@ -548,9 +548,12 @@ img {
 
 .mop{
   width: 770px;
-  padding-top: 10px;
+  padding-top: 25px;
+}
 
-  
+.damage{
+  width: 500px;
+  padding-top: 25px;
 }
 
 .first-row{
@@ -596,4 +599,8 @@ img {
 
 #inline{
   display: inline-block;
+}
+
+#dont{
+  margin-top: 150px;
 }

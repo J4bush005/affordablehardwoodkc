@@ -6,6 +6,7 @@ import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
 import Clean from "../images/clean.jpg";
+import Damage from "../images/water floors.png";
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -505,13 +506,90 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  
-                  </div>
-                   <div className="col-6">
+                </div>
+                <div className="col-6">
                   <img className="mop" src={Clean} alt="" />
                 </div>
-                  
+              </div>
+            </section>
+
+            <section id="dont" className="page-section call-to-action d-flex">
+              <div className="row justify-content-evenly">
+                <div className="col-6">
+                  <img src={Damage} alt="" className="damage" />
                 </div>
+                 <div className="col-6">
+                  {" "}
+                  <div id="care-heading" className="1-text heading-text">
+                    How to Not Damage Your Floors
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home new">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
             </section>
           </motion.div>
         </div>
