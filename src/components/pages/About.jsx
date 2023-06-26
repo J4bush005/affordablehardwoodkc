@@ -500,6 +500,365 @@ function About() {
               </div>
             </section>
           </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, delay: 0.3 }}
+            viewport={{ once: true }}
+          >
+          <section
+              id="find-career"
+              className="page-section call-to-action d-flex mt-3"
+            >
+              <div className="py-lg-5">
+                <div className="col-lg-12 col-md-8 mx-auto">
+                  <h1 className="mb-5">Find a Career</h1>
+                </div>
+              </div>
+            </section>
+
+            <section id="join-fam">
+              <div className="row">
+                <div className="col">
+                  <div id="care-heading" className="1-text heading-text">
+                    Join Our Family
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home new">
+                      <div className="x2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col">
+                  <div id="fam" className="second-word">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="job-table">
+              <div className="row justify-content-center mt-5">
+                <div className="col-10">
+                  <table className="table table-hover">
+                    <tbody>
+                      <tr>
+                        <th id="plus" scope="row">
+                          +
+                        </th>
+                        <td
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#Crafts-desc"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                          id="title"
+                          colspan="2"
+                        >
+                          Craftsman
+                        </td>
+                        <section
+                          id="Crafts-desc"
+                          className="collapse multi-collapse"
+                        >
+                          <div className="row">
+                            <div className="col-12">
+                              <div className="second-word">
+                                {" "}
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar
+                                ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna. Nunc viverra
+                                imperdiet enim. Fusce est. Vivamus a tellus.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col">
+                              <div
+                                id="sand-res"
+                                className="1-text heading-text"
+                              >
+                                Responsibilites Include:
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col-12">
+                              <ol
+                                id="list"
+                                className="list-group list-group-numbered"
+                              >
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                              </ol>
+                              <button id="apply" className="btn">
+                                Apply for Position
+                              </button>
+                            </div>
+                          </div>
+                        </section>
+                      </tr>
+                      <tr>
+                        <th id="plus" scope="row">
+                          +
+                        </th>
+                        <td
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#Installer-desc"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                          id="title"
+                          colspan="2"
+                        >
+                          Installer
+                        </td>
+                        <section
+                          id="Installer-desc"
+                          className="collapse multi-collapse"
+                        >
+                          <div className="row">
+                            <div className="col-12">
+                              <div className="second-word">
+                                {" "}
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar
+                                ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna. Nunc viverra
+                                imperdiet enim. Fusce est. Vivamus a tellus.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col">
+                              <div
+                                id="sand-res"
+                                className="1-text heading-text"
+                              >
+                                Responsibilites Include:
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col-12">
+                              <ol
+                                id="list"
+                                className="list-group list-group-numbered"
+                              >
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                              </ol>
+                              <button id="apply" className="btn">
+                                Apply for Position
+                              </button>
+                            </div>
+                          </div>
+                        </section>
+                      </tr>
+                      <tr>
+                        <th id="plus" scope="row">
+                          +
+                        </th>
+                        <td
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#Sander-desc"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                          id="title"
+                          colspan="2"
+                        >
+                          Sander
+                        </td>
+                        <section
+                          id="Sander-desc"
+                          className="collapse multi-collapse"
+                        >
+                          <div className="row">
+                            <div className="col-12">
+                              <div className="second-word">
+                                {" "}
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar
+                                ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna. Nunc viverra
+                                imperdiet enim. Fusce est. Vivamus a tellus.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col">
+                              <div
+                                id="sand-res"
+                                className="1-text heading-text"
+                              >
+                                Responsibilites Include:
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col-12">
+                              <ol
+                                id="list"
+                                className="list-group list-group-numbered"
+                              >
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                              </ol>
+                              <button id="apply" className="btn">
+                                Apply for Position
+                              </button>
+                            </div>
+                          </div>
+                        </section>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+          </motion.div>
         </div>
       </Media>
 
@@ -1046,7 +1405,10 @@ function About() {
                           </div>
                           <div className="row">
                             <div className="col-12">
-                              <ol id="list" className="list-group list-group-numbered">
+                              <ol
+                                id="list"
+                                className="list-group list-group-numbered"
+                              >
                                 <li id="list" className="list-group-item">
                                   Lorem ipsum dolor sit amet, consectetuer
                                   adipiscing elit. Maecenas porttitor congue
@@ -1092,9 +1454,10 @@ function About() {
                                   viverra imperdiet enim. Fusce est. Vivamus a
                                   tellus.
                                 </li>
-                                
                               </ol>
-                              <button id="apply" className="btn">Apply for Position</button>
+                              <button id="apply" className="btn">
+                                Apply for Position
+                              </button>
                             </div>
                           </div>
                         </section>
@@ -1103,7 +1466,7 @@ function About() {
                         <th id="plus" scope="row">
                           +
                         </th>
-                         <td
+                        <td
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#Installer-desc"
@@ -1143,7 +1506,10 @@ function About() {
                           </div>
                           <div className="row">
                             <div className="col-12">
-                              <ol id="list" className="list-group list-group-numbered">
+                              <ol
+                                id="list"
+                                className="list-group list-group-numbered"
+                              >
                                 <li id="list" className="list-group-item">
                                   Lorem ipsum dolor sit amet, consectetuer
                                   adipiscing elit. Maecenas porttitor congue
@@ -1190,7 +1556,9 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">Apply for Position</button>
+                              <button id="apply" className="btn">
+                                Apply for Position
+                              </button>
                             </div>
                           </div>
                         </section>
@@ -1239,7 +1607,10 @@ function About() {
                           </div>
                           <div className="row">
                             <div className="col-12">
-                              <ol id="list" className="list-group list-group-numbered">
+                              <ol
+                                id="list"
+                                className="list-group list-group-numbered"
+                              >
                                 <li id="list" className="list-group-item">
                                   Lorem ipsum dolor sit amet, consectetuer
                                   adipiscing elit. Maecenas porttitor congue
@@ -1286,7 +1657,9 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">Apply for Position</button>
+                              <button id="apply" className="btn">
+                                Apply for Position
+                              </button>
                             </div>
                           </div>
                         </section>
