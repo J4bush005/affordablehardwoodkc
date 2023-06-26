@@ -642,6 +642,22 @@ img {
   margin-top: 15px;
 }
 
+#table{
+  background-color: rgba(187, 154, 33, 0.8);
+}
+
+#title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:x-large;
+  display: flex;
+  justify-content: center;
+}
+
+#plus{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 #fam{
   margin-left: 15px;
 }
