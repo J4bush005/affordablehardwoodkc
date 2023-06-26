@@ -356,6 +356,86 @@ function About() {
                 </div>
               </div>
             </section>
+
+            <section id="dont">
+              <div className="row">
+               
+                <div className="col">
+                  {" "}
+                  <div id="care-heading" className="1-text heading-text">
+                    How to Not Damage Your Floors
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home new">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 <div className="col">
+                  <img src={Damage} alt="" className="damage-sm" />
+                </div>
+              </div>
+            </section>
           </motion.div>
         </div>
       </Media>
