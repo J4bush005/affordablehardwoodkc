@@ -615,6 +615,21 @@ img {
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
+#find-career{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/src/components/images/trash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 600px;
+  color: white;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
+
 #care-heading {
   color: white;
   font-family: "Times New Roman", Times, serif;

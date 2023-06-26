@@ -9,6 +9,7 @@ import Clean from "../images/clean.jpg";
 import Damage from "../images/water floors.png";
 import Milk from "../images/milk.jpg";
 
+
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
@@ -359,7 +360,6 @@ function About() {
 
             <section id="dont">
               <div className="row">
-               
                 <div className="col">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
@@ -431,7 +431,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-                 <div className="col">
+                <div className="col">
                   <img src={Damage} alt="" className="damage-sm" />
                 </div>
               </div>
@@ -956,6 +956,17 @@ function About() {
                 </div>
                 <div className="col-6">
                   <img className="milk" src={Milk} alt="" />
+                </div>
+              </div>
+            </section>
+
+            <section
+              id="find-career"
+              className="page-section call-to-action d-flex mt-3"
+            >
+              <div className="py-lg-5">
+                <div className="col-lg-12 col-md-8 mx-auto">
+                  <h1 className="mb-5">Find a Career</h1>
                 </div>
               </div>
             </section>
