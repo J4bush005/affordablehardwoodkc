@@ -695,6 +695,16 @@ img {
   
 }
 
+#apply {
+  background-color: rgba(157, 0, 0, 0.7);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+#apply:hover{
+  color: rgba(187, 154, 33, 0.8);
+}
+
 #fam{
   margin-left: 15px;
 }

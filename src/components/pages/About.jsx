@@ -1092,7 +1092,9 @@ function About() {
                                   viverra imperdiet enim. Fusce est. Vivamus a
                                   tellus.
                                 </li>
+                                
                               </ol>
+                              <button id="apply" className="btn">Apply for Position</button>
                             </div>
                           </div>
                         </section>
@@ -1188,6 +1190,7 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
+                              <button id="apply" className="btn">Apply for Position</button>
                             </div>
                           </div>
                         </section>
@@ -1283,6 +1286,7 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
+                              <button id="apply" className="btn">Apply for Position</button>
                             </div>
                           </div>
                         </section>
