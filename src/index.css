@@ -668,6 +668,16 @@ img {
   color: rgba(157, 0, 0);
 }
 
+#Installer-desc{
+  background-color: rgba(187, 154, 33, 0.8);
+  color: rgba(157, 0, 0);
+}
+
+#Crafts-desc{
+  background-color: rgba(187, 154, 33, 0.8);
+  color: rgba(157, 0, 0);
+}
+
 #sand-res{
   font-family:'Times New Roman', Times, serif;
   color: white;

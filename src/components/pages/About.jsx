@@ -1006,13 +1006,191 @@ function About() {
                         <th id="plus" scope="row">
                           +
                         </th>
-                        <td id="title">Crafstman</td>
+                        <td
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#Crafts-desc"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                          id="title"
+                          colspan="2"
+                        >
+                          Craftsman
+                        </td>
+                        <section
+                          id="Crafts-desc"
+                          className="collapse multi-collapse"
+                        >
+                          <div className="row">
+                            <div className="col-12">
+                              <div className="second-word">
+                                {" "}
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar
+                                ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna. Nunc viverra
+                                imperdiet enim. Fusce est. Vivamus a tellus.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col">
+                              <div
+                                id="sand-res"
+                                className="1-text heading-text"
+                              >
+                                Responsibilites Include:
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col-12">
+                              <ol id="list" className="list-group list-group-numbered">
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </section>
                       </tr>
                       <tr>
                         <th id="plus" scope="row">
                           +
                         </th>
-                        <td id="title">Installer</td>
+                         <td
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#Installer-desc"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                          id="title"
+                          colspan="2"
+                        >
+                          Installer
+                        </td>
+                        <section
+                          id="Installer-desc"
+                          className="collapse multi-collapse"
+                        >
+                          <div className="row">
+                            <div className="col-12">
+                              <div className="second-word">
+                                {" "}
+                                Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar
+                                ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna. Nunc viverra
+                                imperdiet enim. Fusce est. Vivamus a tellus.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col">
+                              <div
+                                id="sand-res"
+                                className="1-text heading-text"
+                              >
+                                Responsibilites Include:
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col-12">
+                              <ol id="list" className="list-group list-group-numbered">
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </section>
                       </tr>
                       <tr>
                         <th id="plus" scope="row">
