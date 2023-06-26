@@ -999,7 +999,7 @@ function About() {
 
             <section id="job-table">
               <div className="row justify-content-center mt-5">
-              <div className="col-6">
+              <div className="col-10">
                 <table  className="table table-hover">
                   <tbody>
                     <tr>

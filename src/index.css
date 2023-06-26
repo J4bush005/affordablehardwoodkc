@@ -651,11 +651,19 @@ img {
   font-size:x-large;
   display: flex;
   justify-content: center;
+  background-color: rgba(187, 154, 33, 0.8);
+  border-color: white;
+  color: rgba(157, 0, 0);
 }
 
 #plus{
   font-size: x-large;
   font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(187, 154, 33, 0.8);
+  width: 0px;
+  border: none;
+  color: rgba(157, 0, 0);
+  
 }
 
 #fam{
