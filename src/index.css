@@ -656,6 +656,11 @@ img {
   color: rgba(157, 0, 0);
 }
 
+#Sander-desc{
+  background-color: rgba(187, 154, 33, 0.8);
+  color: rgba(157, 0, 0);
+}
+
 #plus{
   font-size: x-large;
   font-family: 'Times New Roman', Times, serif;
