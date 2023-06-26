@@ -1034,7 +1034,7 @@ function About() {
                           className="collapse multi-collapse"
                         >
                           <div className="row">
-                            <div className="col">
+                            <div className="col-12">
                               <div className="second-word">
                                 {" "}
                                 Lorem ipsum dolor sit amet, consectetuer
@@ -1044,6 +1044,67 @@ function About() {
                                 amet commodo magna eros quis urna. Nunc viverra
                                 imperdiet enim. Fusce est. Vivamus a tellus.
                               </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col">
+                              <div
+                                id="sand-res"
+                                className="1-text heading-text"
+                              >
+                                Responsibilites Include:
+                              </div>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col-12">
+                              <ol id="list" className="list-group list-group-numbered">
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Maecenas porttitor congue
+                                  massa. Fusce posuere, magna sed pulvinar
+                                  ultricies, purus lectus malesuada libero, sit
+                                  amet commodo magna eros quis urna. Nunc
+                                  viverra imperdiet enim. Fusce est. Vivamus a
+                                  tellus.
+                                </li>
+                              </ol>
                             </div>
                           </div>
                         </section>

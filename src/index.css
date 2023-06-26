@@ -646,6 +646,13 @@ img {
   background-color: rgba(187, 154, 33, 0.8);
 }
 
+#list{
+  border: none;
+  background-color: rgba(187, 154, 33, 0.0);
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+}
+
 #title{
   font-family: 'Times New Roman', Times, serif;
   font-size:x-large;
@@ -659,6 +666,13 @@ img {
 #Sander-desc{
   background-color: rgba(187, 154, 33, 0.8);
   color: rgba(157, 0, 0);
+}
+
+#sand-res{
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+  margin-top: 40px;
+  font-size: xx-large;
 }
 
 #plus{
