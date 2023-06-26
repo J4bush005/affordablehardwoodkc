@@ -999,24 +999,39 @@ function About() {
 
             <section id="job-table">
               <div className="row justify-content-center mt-5">
-              <div className="col-10">
-                <table  className="table table-hover">
-                  <tbody>
-                    <tr>
-                      <th id="plus" scope="row">+</th>
-                      <td id="title">Crafstman</td>
-                    </tr>
-                    <tr>
-                      <th id="plus" scope="row">+</th>
-                      <td id="title">Installer</td>
-                    </tr>
-                    <tr>
-                      <th id="plus" scope="row">+</th>
-                      <td id="title" colspan="2">Sander</td>
-
-                    </tr>
-                  </tbody>
-                </table>
+                <div className="col-10">
+                  <table className="table table-hover">
+                    <tbody>
+                      <tr>
+                        <th id="plus" scope="row">
+                          +
+                        </th>
+                        <td id="title">Crafstman</td>
+                      </tr>
+                      <tr>
+                        <th id="plus" scope="row">
+                          +
+                        </th>
+                        <td id="title">Installer</td>
+                      </tr>
+                      <tr>
+                        <th id="plus" scope="row">
+                          +
+                        </th>
+                        <td
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#Sander-desc"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                          id="title"
+                          colspan="2"
+                        >
+                          Sander
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </section>
