@@ -553,6 +553,10 @@ img {
   object-position: center center;
 }
 
+.mop-sm{
+  width: 400px;
+}
+
 .damage {
   width: 700px;
   padding-top: 75px;

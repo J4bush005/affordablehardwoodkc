@@ -233,13 +233,126 @@ function About() {
             transition={{ duration: 2, delay: 0.3 }}
             viewport={{ once: true }}
           >
-          <section
+            <section
               id="floor-care"
               className="page-section call-to-action d-flex mt-3"
             >
               <div className="py-lg-5">
                 <div className="col-lg-12 col-md-8 mx-auto">
                   <h1 className="mb-5">Hardwood Care Instructions</h1>
+                </div>
+              </div>
+            </section>
+
+            <section
+              id="open-review"
+              className=" mt-2 page-section call-to-action d-flex"
+            >
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col">
+                    <p className="text-center rev mt-3">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed
+                      pulvinar ultricies, purus lectus malesuada libero, sit
+                      amet commodo magna eros quis urna. Nunc viverra imperdiet
+                      enim. Fusce est. Vivamus a tellus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="caring-steps-sm">
+              <div className="row">
+                <div className="col">
+                  {" "}
+                  <div id="care-heading" className="1-text heading-text">
+                    How to Take Care of Your Hardwood Floors
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home new">
+                      <div className="x1"></div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-11">
+                      <div className="first-row">
+                        <div className="first-word">Step</div>
+                        <div className="second-word">
+                          {" "}
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing
+                          elit. Maecenas porttitor congue massa. Fusce posuere,
+                          magna sed pulvinar ultricies, purus lectus malesuada
+                          libero, sit amet commodo magna eros quis urna. Nunc
+                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <img className="mop-sm" src={Clean} alt="" />
                 </div>
               </div>
             </section>
