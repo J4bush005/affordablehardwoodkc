@@ -7,6 +7,7 @@ import Contact from './components/pages/Contact';
 import Gallery from './components/pages/Gallery';
 import Services from './components/pages/Services';
 import ThankYou from './components/pages/ThankYou';
+import Application from './components/pages/Application';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
    <Route path="/Gallery" element={<Gallery />} />
    <Route path="/Services" element={<Services />} />
    <Route path="/ThankYou" element={<ThankYou />} />
+   <Route path="/Application" element={<Application />} />
    </Routes>
    </div>
   );
