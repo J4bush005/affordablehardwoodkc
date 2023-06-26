@@ -9,7 +9,6 @@ import Clean from "../images/clean.jpg";
 import Damage from "../images/water floors.png";
 import Milk from "../images/milk.jpg";
 
-
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
@@ -967,6 +966,33 @@ function About() {
               <div className="py-lg-5">
                 <div className="col-lg-12 col-md-8 mx-auto">
                   <h1 className="mb-5">Find a Career</h1>
+                </div>
+              </div>
+            </section>
+
+            <section id="join-fam">
+              <div className="row">
+                <div className="col">
+                  <div id="care-heading" className="1-text heading-text">
+                    Join Our Family
+                  </div>
+                  <div className="flex">
+                    <div className="x1 goldbar home new">
+                      <div className="x2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-7">
+                  <div id="fam" className="second-word">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas porttitor congue massa. Fusce posuere, magna sed
+                    pulvinar ultricies, purus lectus malesuada libero, sit amet
+                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                    Fusce est. Vivamus a tellus.
+                  </div>
                 </div>
               </div>
             </section>
