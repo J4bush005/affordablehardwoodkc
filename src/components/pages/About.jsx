@@ -507,7 +507,7 @@ function About() {
             transition={{ duration: 2, delay: 0.3 }}
             viewport={{ once: true }}
           >
-          <section
+            <section
               id="find-career"
               className="page-section call-to-action d-flex mt-3"
             >
@@ -1455,9 +1455,15 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">
-                                Apply for Position
-                              </button>
+                              <Link
+                                to={"/Application"}
+                                id="apply"
+                                className="btn"
+                                type="button"
+                                role="button"
+                              >
+                                Apply For Position
+                              </Link>
                             </div>
                           </div>
                         </section>
