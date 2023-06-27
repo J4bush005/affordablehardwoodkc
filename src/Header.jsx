@@ -50,34 +50,34 @@ function Header() {
               </Link>
               <ul class="dropdown-menu">
                 <li>
-                  <a
-                    href="/About#reviews"
+                  <Link
+                    to="/About"
                     class="nav-link under "
                     role="button"
                     aria-expanded="false"
                   >
                     Reviews
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/About#floor-care"
+                  <Link
+                    to="/About"
                     class="nav-link under "
                     role="button"
                     aria-expanded="false"
                   >
                     Floor Caring Tips
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/About#find-career"
+                  <Link
+                    to="/About"
                     class="nav-link under "
                     role="button"
                     aria-expanded="false"
                   >
                     Jobs
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
