@@ -16,12 +16,14 @@ import Buffer from "../images/buff.png";
 import Rappers from "../images/Rappers.png";
 import { Link } from "react-router-dom";
 
+
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
 const mine = "https://j4bush005.github.io/";
 
 function Home() {
+ 
   return (
     <>
       {/*Image Carousel*/}

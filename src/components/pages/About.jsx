@@ -9,6 +9,8 @@ import Clean from "../images/clean.jpg";
 import Damage from "../images/water floors.png";
 import Milk from "../images/milk.jpg";
 
+import { useRef } from "react";
+
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
@@ -644,9 +646,15 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">
-                                Apply for Position
-                              </button>
+                             <Link
+                                to={"/Application"}
+                                id="apply"
+                                className="btn"
+                                type="button"
+                                role="button"
+                              >
+                                Apply For Position
+                              </Link>
                             </div>
                           </div>
                         </section>
@@ -745,9 +753,15 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">
-                                Apply for Position
-                              </button>
+                              <Link
+                                to={"/Application"}
+                                id="apply"
+                                className="btn"
+                                type="button"
+                                role="button"
+                              >
+                                Apply For Position
+                              </Link>
                             </div>
                           </div>
                         </section>
@@ -846,9 +860,15 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">
-                                Apply for Position
-                              </button>
+                              <Link
+                                to={"/Application"}
+                                id="apply"
+                                className="btn"
+                                type="button"
+                                role="button"
+                              >
+                                Apply For Position
+                              </Link>
                             </div>
                           </div>
                         </section>
@@ -1053,6 +1073,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
+              
               id="floor-care"
               className="page-section call-to-action d-flex mt-3"
             >
@@ -1562,9 +1583,15 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">
-                                Apply for Position
-                              </button>
+                              <Link
+                                to={"/Application"}
+                                id="apply"
+                                className="btn"
+                                type="button"
+                                role="button"
+                              >
+                                Apply For Position
+                              </Link>
                             </div>
                           </div>
                         </section>
@@ -1663,9 +1690,15 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                              <button id="apply" className="btn">
-                                Apply for Position
-                              </button>
+                              <Link
+                                to={"/Application"}
+                                id="apply"
+                                className="btn"
+                                type="button"
+                                role="button"
+                              >
+                                Apply For Position
+                              </Link>
                             </div>
                           </div>
                         </section>
