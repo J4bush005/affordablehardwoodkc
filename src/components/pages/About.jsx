@@ -930,7 +930,7 @@ function About() {
                       type="button"
                       role="button"
                     >
-                      floor
+                      Our Reviews
                     </li>
                     <li
                       id="section-scroll-about"
@@ -939,7 +939,7 @@ function About() {
                       type="button"
                       role="button"
                     >
-                      floor
+                      Floor Caring Tips
                     </li>
                     <li
                       id="section-scroll-about"
@@ -948,7 +948,7 @@ function About() {
                       type="button"
                       role="button"
                     >
-                      floor
+                      Find A Career
                     </li>
                   </ul>
                 </div>

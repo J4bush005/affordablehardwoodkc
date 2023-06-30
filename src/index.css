@@ -741,6 +741,12 @@ img {
   line-height: 250px;
 }
 
+#section-scroll-about:hover{
+   transform: scale(1.15);
+   border: 2px solid rgba(157, 0, 0);
+   transition: all 0.3s;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1330px) {
   .mop {
     width: 470px;
