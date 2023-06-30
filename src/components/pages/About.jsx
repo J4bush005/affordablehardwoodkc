@@ -17,30 +17,19 @@ const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
 const mine = "https://j4bush005.github.io/";
 
 function About() {
+  const reviews = useRef(null);
+  const care = useRef(null);
+  const jobs = useRef(null);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
-      <section id="welcome">
-        <div className="row d-flex justify-content-center">
-          <div className="col-4">
-            <div id="open-heading" className="1-text heading-text">
-              Meet The Hardwood Boss
-            </div>
-            <div className="flex">
-              <div className="x1 goldbar home-ab">
-                <div className="x1"></div>
-              </div>
-            </div>
-            <div className="r-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
-              porttitor congue massa. Fusce posuere, magna sed pulvinar
-              ultricies, purus lectus malesuada libero, sit amet commodo magna
-              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
-              tellus.
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/*Phones*/}
       <Media query="(max-width: 768px)">
         <div>
@@ -905,6 +894,51 @@ function About() {
 
       <Media query="(min-width: 769px)">
         <div>
+          <section id="welcome">
+            <div className="row d-flex justify-content-center">
+              <div className="col-4">
+                <div id="open-heading" className="1-text heading-text">
+                  About Our Family
+                </div>
+                <div className="flex">
+                  <div className="x1 goldbar home-ab">
+                    <div className="x1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row d-flex justify-content-center">
+              <div className="col-4">
+                <div className="r-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Maecenas porttitor congue massa. Fusce posuere, magna sed
+                  pulvinar ultricies, purus lectus malesuada libero, sit amet
+                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                  Fusce est. Vivamus a tellus.
+                </div>
+              </div>
+            </div>
+            <div className="row d-flex justify-content-center">
+              <div className="col-4">
+                <div>
+                  <ul>
+                    <li
+                      onClick={() => scrollToSection(reviews)}
+                      className="btn"
+                    >
+                      floor
+                    </li>
+                    <li onClick={() => scrollToSection(care)} className="btn">
+                      floor
+                    </li>
+                    <li onClick={() => scrollToSection(jobs)} className="btn">
+                      floor
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -914,6 +948,7 @@ function About() {
             <section
               id="reviews"
               className="page-section call-to-action d-flex mt-10"
+              ref={reviews}
             >
               <div className="py-lg-5">
                 <div className="col-lg-12 col-md-8 mx-auto">
@@ -1104,6 +1139,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
+              ref={care}
               id="floor-care"
               className="page-section call-to-action d-flex mt-3"
             >
@@ -1370,6 +1406,7 @@ function About() {
             </section>
 
             <section
+              ref={jobs}
               id="find-career"
               className="page-section call-to-action d-flex mt-3"
             >
