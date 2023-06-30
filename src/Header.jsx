@@ -41,7 +41,7 @@ function Header() {
               <Link
                 to="/About"
                 id="sub"
-                class="nav-link dropdown-toggle"
+                class="nav-link"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"

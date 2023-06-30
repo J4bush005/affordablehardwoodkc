@@ -19,13 +19,24 @@ const mine = "https://j4bush005.github.io/";
 function About() {
   return (
     <>
-      <section
-        id="reviews"
-        className="page-section call-to-action d-flex mt-10"
-      >
-        <div className="py-lg-5">
-          <div className="col-lg-12 col-md-8 mx-auto">
-            <h1 className="mb-5">Customer Reviews</h1>
+      <section id="welcome">
+        <div className="row d-flex justify-content-center">
+          <div className="col-4">
+            <div id="open-heading" className="1-text heading-text">
+              Meet The Hardwood Boss
+            </div>
+            <div className="flex">
+              <div className="x1 goldbar home-ab">
+                <div className="x1"></div>
+              </div>
+            </div>
+            <div className="r-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+              porttitor congue massa. Fusce posuere, magna sed pulvinar
+              ultricies, purus lectus malesuada libero, sit amet commodo magna
+              eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a
+              tellus.
+            </div>
           </div>
         </div>
       </section>
@@ -39,6 +50,16 @@ function About() {
             transition={{ duration: 2, delay: 0.3 }}
             viewport={{ once: true }}
           >
+            <section
+              id="reviews"
+              className="page-section call-to-action d-flex mt-10"
+            >
+              <div className="py-lg-5">
+                <div className="col-lg-12 col-md-8 mx-auto">
+                  <h1 className="mb-5">Customer Reviews</h1>
+                </div>
+              </div>
+            </section>
             <section
               id="open-review"
               className=" mt-2 page-section call-to-action d-flex"
@@ -646,7 +667,7 @@ function About() {
                                   tellus.
                                 </li>
                               </ol>
-                             <Link
+                              <Link
                                 to={"/Application"}
                                 id="apply"
                                 className="btn"
@@ -891,6 +912,16 @@ function About() {
             viewport={{ once: true }}
           >
             <section
+              id="reviews"
+              className="page-section call-to-action d-flex mt-10"
+            >
+              <div className="py-lg-5">
+                <div className="col-lg-12 col-md-8 mx-auto">
+                  <h1 className="mb-5">Customer Reviews</h1>
+                </div>
+              </div>
+            </section>
+            <section
               id="open-review"
               className=" mt-2 page-section call-to-action d-flex"
             >
@@ -1073,7 +1104,6 @@ function About() {
             viewport={{ once: true }}
           >
             <section
-              
               id="floor-care"
               className="page-section call-to-action d-flex mt-3"
             >

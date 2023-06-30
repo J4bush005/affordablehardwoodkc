@@ -100,6 +100,12 @@ img {
   width: 190px;
 }
 
+.home-ab{
+  border: solid rgba(187, 154, 33, 0.7);
+  height: 0px;
+  width: 350px;
+}
+
 .goldbar-small {
   border: solid rgba(157, 0, 0, 0.7);
   height: 0px;
@@ -704,6 +710,8 @@ img {
 #apply:hover{
   color: rgba(187, 154, 33, 0.8);
 }
+
+
 
 #fam{
   margin-left: 15px;
