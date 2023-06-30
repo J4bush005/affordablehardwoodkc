@@ -804,14 +804,15 @@ img {
   position: fixed;
   bottom: 15px;
   right: 20px;
-}
-
-.top-bt-style{
- height: 40px;
+   height: 40px;
  width: 40px;
  border-radius: 50%;
  border: 2px solid white;
  background-color: rgba(187, 154, 33, 0.7);
  color: rgba(157, 0, 0);
  cursor: pointer;
+}
+
+.top-bt-style{
+
 }

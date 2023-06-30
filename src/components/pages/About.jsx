@@ -8,6 +8,7 @@ import Linked from "../images/Linked.png";
 import Clean from "../images/clean.jpg";
 import Damage from "../images/water floors.png";
 import Milk from "../images/milk.jpg";
+import ScrollToTop from "../ScrollToTop";
 
 import { useRef } from "react";
 import { Button } from "bootstrap";
@@ -31,6 +32,7 @@ function About() {
 
   return (
     <>
+    <ScrollToTop />
       {/*Phones*/}
       <Media query="(max-width: 768px)">
         <div>
