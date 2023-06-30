@@ -560,15 +560,15 @@ img {
 }
 
 .mop-sm {
-  width: 450px;
+  width: 380px;
 }
 
 .damage-sm {
-  width: 450px;
+  width: 380px;
 }
 
 .milk-sm {
-  width: 450px;
+  width: 380px;
 }
 
 .damage {
@@ -813,6 +813,10 @@ img {
  cursor: pointer;
 }
 
-.top-bt-style{
-
+@media screen and (max-width:768px) {
+  .top-bt-position{
+    position: fixed;
+    right: 20px;
+  }
 }
+
