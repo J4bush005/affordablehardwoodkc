@@ -43,43 +43,10 @@ function Header() {
                 id="sub"
                 class="nav-link"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 About
               </Link>
-              <ul class="dropdown-menu">
-                <li>
-                  <Link
-                    to="/About"
-                    class="nav-link under "
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Reviews
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/About"
-                    class="nav-link under "
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Floor Caring Tips
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/About"
-                    class="nav-link under "
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Jobs
-                  </Link>
-                </li>
-              </ul>
+             
             </li>
             <li class="nav-item dropdown mx-3">
               <Link

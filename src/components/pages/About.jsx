@@ -897,7 +897,7 @@ function About() {
         <div>
           <section id="welcome">
             <div className="row d-flex justify-content-center">
-              <div className="col-4">
+              <div className="col-6">
                 <div id="open-heading" className="1-text heading-text">
                   About Our Family
                 </div>
@@ -909,7 +909,7 @@ function About() {
               </div>
             </div>
             <div className="row d-flex justify-content-center">
-              <div className="col-4">
+              <div className="col-6">
                 <div className="r-text">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Maecenas porttitor congue massa. Fusce posuere, magna sed
@@ -924,7 +924,7 @@ function About() {
                 <div>
                   <ul>
                     <li
-                      id="section-scroll-about"
+                      id="move-left"
                       onClick={() => scrollToSection(reviews)}
                       className="btn"
                       type="button"
@@ -942,7 +942,7 @@ function About() {
                       Floor Caring Tips
                     </li>
                     <li
-                      id="section-scroll-about"
+                      id="move-right"
                       onClick={() => scrollToSection(jobs)}
                       className="btn"
                       type="button"

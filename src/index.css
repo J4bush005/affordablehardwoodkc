@@ -100,7 +100,7 @@ img {
   width: 190px;
 }
 
-.home-ab{
+.home-ab {
   border: solid rgba(187, 154, 33, 0.7);
   height: 0px;
   width: 225px;
@@ -559,15 +559,15 @@ img {
   object-position: center center;
 }
 
-.mop-sm{
+.mop-sm {
   width: 450px;
 }
 
-.damage-sm{
+.damage-sm {
   width: 450px;
 }
 
-.milk-sm{
+.milk-sm {
   width: 450px;
 }
 
@@ -576,7 +576,7 @@ img {
   padding-top: 75px;
 }
 
-.milk{
+.milk {
   padding-top: 20px;
   width: 610px;
 }
@@ -593,9 +593,9 @@ img {
   padding-right: 3px;
 }
 
-.mistake{
+.mistake {
   color: rgba(187, 154, 33, 0.8);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
   font-size: larger;
 }
@@ -621,7 +621,7 @@ img {
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
-#find-career{
+#find-career {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -644,24 +644,24 @@ img {
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#join-fam{
+#join-fam {
   margin-top: 15px;
 }
 
-#table{
+#table {
   background-color: rgba(187, 154, 33, 0.8);
 }
 
-#list{
+#list {
   border: none;
-  background-color: rgba(187, 154, 33, 0.0);
-  font-family: 'Times New Roman', Times, serif;
-  color:white;
+  background-color: rgba(187, 154, 33, 0);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 
-#title{
-  font-family: 'Times New Roman', Times, serif;
-  font-size:x-large;
+#title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
   display: flex;
   justify-content: center;
   background-color: rgba(187, 154, 33, 0.8);
@@ -669,51 +669,48 @@ img {
   color: rgba(157, 0, 0);
 }
 
-#Sander-desc{
+#Sander-desc {
   background-color: rgba(187, 154, 33, 0.8);
   color: rgba(157, 0, 0);
 }
 
-#Installer-desc{
+#Installer-desc {
   background-color: rgba(187, 154, 33, 0.8);
   color: rgba(157, 0, 0);
 }
 
-#Crafts-desc{
+#Crafts-desc {
   background-color: rgba(187, 154, 33, 0.8);
   color: rgba(157, 0, 0);
 }
 
-#sand-res{
-  font-family:'Times New Roman', Times, serif;
+#sand-res {
+  font-family: "Times New Roman", Times, serif;
   color: white;
   margin-top: 40px;
   font-size: xx-large;
 }
 
-#plus{
+#plus {
   font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: rgba(187, 154, 33, 0.8);
   width: 0px;
   border: none;
   color: rgba(157, 0, 0);
-  
 }
 
 #apply {
   background-color: rgba(157, 0, 0, 0.7);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: white;
 }
 
-#apply:hover{
+#apply:hover {
   color: rgba(187, 154, 33, 0.8);
 }
 
-
-
-#fam{
+#fam {
   margin-left: 15px;
 }
 
@@ -725,11 +722,11 @@ img {
   margin-top: 120px;
 }
 
-#mistakes{
+#mistakes {
   margin-top: 120px;
 }
 
-#section-scroll-about{
+#section-scroll-about {
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -737,14 +734,56 @@ img {
   background-color: rgba(187, 154, 33, 0.7);
   color: rgba(157, 0, 0);
   font-size: xx-large;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 250px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
-#section-scroll-about:hover{
-   transform: scale(1.15);
-   border: 2px solid rgba(157, 0, 0);
-   transition: all 0.3s;
+#section-scroll-about:hover {
+  transform: scale(1.15);
+  border: 2px solid rgba(157, 0, 0);
+  transition: all 0.3s;
+}
+
+#move-left {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 250px;
+  margin-right: 25px;
+  margin-top: 40px;
+}
+
+#move-left:hover {
+  transform: scale(1.15);
+  border: 2px solid rgba(157, 0, 0);
+  transition: all 0.3s;
+}
+
+#move-right {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 250px;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+#move-right:hover {
+  transform: scale(1.15);
+  border: 2px solid rgba(157, 0, 0);
+  transition: all 0.3s;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1330px) {
@@ -754,7 +793,7 @@ img {
     padding-top: 400px;
   }
 
-  .damage{
+  .damage {
     width: 400px;
     padding-top: 300px;
   }
