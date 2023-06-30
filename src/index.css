@@ -828,6 +828,10 @@ img {
   transition: all 0.3s;
 }
 
+#style{
+  padding-top: 20px;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1330px) {
   .mop {
     width: 470px;

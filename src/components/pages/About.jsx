@@ -38,8 +38,8 @@ function About() {
         <div>
          <section id="welcome">
             <div className="row d-flex justify-content-center">
-              <div className="col text-center">
-                <div id="open-heading" className="1-text heading-text ">
+              <div id="style" className="col text-center">
+                <div id="open-heading-sm" className="1-text heading-text ">
                   About Our Family
                 </div>
                 <div className="flex d-flex justify-content-center">
