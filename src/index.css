@@ -800,7 +800,13 @@ img {
 }
 
 /*SCROLL BUTTON*/
-.top-btn-position{
+.top-bt-position{
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-bt-style{
   position: fixed;
   bottom: 15px;
   right: 20px;
