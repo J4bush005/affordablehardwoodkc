@@ -729,6 +729,18 @@ img {
   margin-top: 120px;
 }
 
+#section-scroll-about{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 250px;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1330px) {
   .mop {
     width: 470px;

@@ -10,6 +10,7 @@ import Damage from "../images/water floors.png";
 import Milk from "../images/milk.jpg";
 
 import { useRef } from "react";
+import { Button } from "bootstrap";
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -919,19 +920,34 @@ function About() {
               </div>
             </div>
             <div className="row d-flex justify-content-center">
-              <div className="col-4">
+              <div className="col-8">
                 <div>
                   <ul>
                     <li
+                      id="section-scroll-about"
                       onClick={() => scrollToSection(reviews)}
                       className="btn"
+                      type="button"
+                      role="button"
                     >
                       floor
                     </li>
-                    <li onClick={() => scrollToSection(care)} className="btn">
+                    <li
+                      id="section-scroll-about"
+                      onClick={() => scrollToSection(care)}
+                      className="btn"
+                      type="button"
+                      role="button"
+                    >
                       floor
                     </li>
-                    <li onClick={() => scrollToSection(jobs)} className="btn">
+                    <li
+                      id="section-scroll-about"
+                      onClick={() => scrollToSection(jobs)}
+                      className="btn"
+                      type="button"
+                      role="button"
+                    >
                       floor
                     </li>
                   </ul>
@@ -956,6 +972,7 @@ function About() {
                 </div>
               </div>
             </section>
+
             <section
               id="open-review"
               className=" mt-2 page-section call-to-action d-flex"
