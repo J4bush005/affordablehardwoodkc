@@ -798,3 +798,10 @@ img {
     padding-top: 300px;
   }
 }
+
+/*SCROLL BUTTON*/
+.top-btn-position{
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}

@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
+import {FaAngleDoubleUp} from 'react-icons/fa'
 
 const ScrollToTop = () => {
     const [showScrollTopButton, sethowScrollTopButton] = useState(false);
@@ -11,9 +12,18 @@ const ScrollToTop = () => {
         }
     }, []);
 
+    const ScrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
     return (
-        <div></div>
-    )
-}
+        <div>
+       {showScrollTopButton &&  <FaAngleDoubleUp onclick={ScrollToTop} />}
+       </div>
+    );
+};
 
 export default ScrollToTop 
