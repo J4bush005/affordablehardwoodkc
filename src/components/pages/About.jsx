@@ -36,6 +36,66 @@ function About() {
       {/*Phones*/}
       <Media query="(max-width: 768px)">
         <div>
+         <section id="welcome">
+            <div className="row d-flex justify-content-center">
+              <div className="col text-center">
+                <div id="open-heading" className="1-text heading-text ">
+                  About Our Family
+                </div>
+                <div className="flex d-flex justify-content-center">
+                  <div className="x1 goldbar home-ab">
+                    <div className="x1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row d-flex justify-content-center">
+              <div className="col">
+                <div className="text-center rev">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Maecenas porttitor congue massa. Fusce posuere, magna sed
+                  pulvinar ultricies, purus lectus malesuada libero, sit amet
+                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                  Fusce est. Vivamus a tellus.
+                </div>
+              </div>
+            </div>
+            <div className="row d-flex justify-content-center">
+              <div className="col-8">
+                <div>
+                  <ul>
+                    <li
+                      id="move-left-sm"
+                      onClick={() => scrollToSection(reviews)}
+                      className="btn"
+                      type="button"
+                      role="button"
+                    >
+                      Our Reviews
+                    </li>
+                    <li
+                      id="section-scroll-about-sm"
+                      onClick={() => scrollToSection(care)}
+                      className="btn"
+                      type="button"
+                      role="button"
+                    >
+                      Floor Caring Tips
+                    </li>
+                    <li
+                      id="move-right-sm"
+                      onClick={() => scrollToSection(jobs)}
+                      className="btn"
+                      type="button"
+                      role="button"
+                    >
+                      Find A Career
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -43,6 +103,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
+            ref={reviews}
               id="reviews"
               className="page-section call-to-action d-flex mt-10"
             >
@@ -249,6 +310,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
+            ref={care}
               id="floor-care"
               className="page-section call-to-action d-flex mt-3"
             >
@@ -260,6 +322,7 @@ function About() {
             </section>
 
             <section
+         
               id="open-review"
               className=" mt-2 page-section call-to-action d-flex"
             >
@@ -523,6 +586,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
+            ref={jobs}
               id="find-career"
               className="page-section call-to-action d-flex mt-3"
             >
