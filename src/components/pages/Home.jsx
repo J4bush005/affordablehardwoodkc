@@ -14,6 +14,7 @@ import Linked from "../images/Linked.png";
 import Kids from "../images/kids.png";
 import Buffer from "../images/buff.png";
 import Rappers from "../images/Rappers.png";
+import ScrollToTop from "../ScrollToTop";
 import { Link } from "react-router-dom";
 
 
@@ -26,6 +27,7 @@ function Home() {
  
   return (
     <>
+    <ScrollToTop />
       {/*Image Carousel*/}
       <div
         id="carouselExampleAutoplaying"
