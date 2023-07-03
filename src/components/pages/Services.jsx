@@ -146,7 +146,7 @@ function Services() {
                       Typical Floor Installation Process
                     </div>
                     <div className="flex">
-                      <div className="x1 goldbar home new-install">
+                      <div className="x1 goldbar home new">
                         <div className="x1"></div>
                       </div>
                     </div>
@@ -288,7 +288,7 @@ function Services() {
                       Typical Floor Refinishing Process
                     </div>
                     <div className="flex">
-                      <div className="x1 goldbar home new-install">
+                      <div className="x1 goldbar home new">
                         <div className="x1"></div>
                       </div>
                     </div>
