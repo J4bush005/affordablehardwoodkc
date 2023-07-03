@@ -63,7 +63,7 @@ function Services() {
                   <ul>
                     <li
                       id="move-left"
-                      onClick={() => scrollToSection(reviews)}
+                      onClick={() => scrollToSection(install)}
                       className="btn"
                       type="button"
                       role="button"
@@ -72,7 +72,7 @@ function Services() {
                     </li>
                     <li
                       id="section-scroll-about"
-                      onClick={() => scrollToSection(care)}
+                      onClick={() => scrollToSection(finish)}
                       className="btn"
                       type="button"
                       role="button"
@@ -81,7 +81,7 @@ function Services() {
                     </li>
                     <li
                       id="move-right"
-                      onClick={() => scrollToSection(jobs)}
+                      onClick={() => scrollToSection(misc)}
                       className="btn"
                       type="button"
                       role="button"
