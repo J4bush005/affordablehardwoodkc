@@ -126,55 +126,11 @@ function Header() {
               <Link
                 to="/Services"
                 id="sub"
-                class="nav-link dropdown-toggle"
+                class="nav-link"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Services
               </Link>
-              <ul class="dropdown-menu">
-                <li>
-                  <Link
-                    to="/Services"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Installation
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Services"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Sanding and Finishing
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Services"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Repairs
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Services"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Misc.
-                  </Link>
-                </li>
-              </ul>
             </li>
             <li class="nav-item dropdown last mx-3">
               <Link
