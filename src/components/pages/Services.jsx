@@ -62,7 +62,7 @@ function Services() {
                 <div>
                   <ul>
                     <li
-                      id="move-left-sm"
+                      id="move-left-sms"
                       onClick={() => scrollToSection(install)}
                       className="btn"
                       type="button"
@@ -71,7 +71,7 @@ function Services() {
                       Installation
                     </li>
                     <li
-                      id="section-scroll-about-sm"
+                      id="section-scroll-about-sms"
                       onClick={() => scrollToSection(finish)}
                       className="btn"
                       type="button"
@@ -80,7 +80,7 @@ function Services() {
                       Refinishing
                     </li>
                     <li
-                      id="move-right-sm"
+                      id="move-right-sms"
                       onClick={() => scrollToSection(misc)}
                       className="btn"
                       type="button"

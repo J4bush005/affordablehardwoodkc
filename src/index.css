@@ -910,3 +910,39 @@ img {
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
 }
+
+#move-left-sms {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 80px;
+}
+
+#move-right-sms {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 80px;
+}
+
+#section-scroll-about-sms {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 80px;
+}
