@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
-import Media from "react-media";
 import { motion } from "framer-motion";
 import Classic from "../images/Floor 2 After 6.jpg";
 import LVT from "../images/LVT.jpg";
@@ -22,6 +21,7 @@ const mine = "https://j4bush005.github.io/";
 function Gallery() {
   return (
     <>
+    <ScrollToTop/>
       <div className="row justify-content-evely mt-3">
         <div className="col-6">
           {" "}
