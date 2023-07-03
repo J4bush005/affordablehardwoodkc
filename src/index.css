@@ -895,3 +895,18 @@ img {
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
 }
+
+#video-text-sm {
+  position: absolute;
+  height: 500px;
+  width: 60px;
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0, 0.7);
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}

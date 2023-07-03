@@ -112,7 +112,7 @@ function Services() {
                   loop
                   muted
                 ></video>
-                <div id="video-text" className="py-lg-5">
+                <div id="video-text-sm" className="py-lg-5">
                   <div className="col-lg-1 col-md-8 mx-auto">
                     <h1 className="mb-5">Installation</h1>
                   </div>
@@ -125,7 +125,7 @@ function Services() {
               >
                 <div className="container-fluid">
                   <div className="row">
-                    <div className="col-12">
+                    <div className="col">
                       <p className="text-center rev mt-3">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit. Maecenas porttitor congue massa. Fusce posuere,
@@ -140,7 +140,7 @@ function Services() {
 
               <section id="caring-steps">
                 <div className="row justify-content-evenly d-flex">
-                  <div className="col-5">
+                  <div className="col">
                     {" "}
                     <div id="care-heading" className="1-text heading-text">
                       Typical Floor Installation Process
@@ -151,7 +151,7 @@ function Services() {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-12">
+                      <div className="col">
                         <div className="first-row">
                           <div className="first-word">Step</div>
                           <div className="second-word">
@@ -167,7 +167,7 @@ function Services() {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-12">
+                      <div className="col">
                         <div className="first-row">
                           <div className="first-word">Step</div>
                           <div className="second-word">
@@ -254,7 +254,7 @@ function Services() {
                   loop
                   muted
                 ></video>
-                <div id="video-text" className="py-lg-5">
+                <div id="video-text-sm" className="py-lg-5">
                   <div className="col-lg-1 col-md-8 mx-auto">
                     <h1 className="mb-5">Refinishing</h1>
                   </div>
@@ -267,7 +267,7 @@ function Services() {
               >
                 <div className="container-fluid">
                   <div className="row">
-                    <div className="col-12">
+                    <div className="col">
                       <p className="text-center rev mt-3">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit. Maecenas porttitor congue massa. Fusce posuere,
@@ -281,8 +281,8 @@ function Services() {
               </section>
 
               <section id="caring-steps">
-                <div className="row justify-content-evenly d-flex">
-                  <div className="col-5">
+                <div className="row justify-content-evenly d-flex mt-3">
+                  <div className="col">
                     {" "}
                     <div id="care-heading" className="1-text heading-text">
                       Typical Floor Refinishing Process
@@ -396,7 +396,7 @@ function Services() {
                   loop
                   muted
                 ></video>
-                <div id="video-text" className="py-lg-5">
+                <div id="video-text-sm" className="py-lg-5">
                   <div className="col-lg-1 col-md-8 mx-auto">
                     <h1 className="mb-5">Miscellaneous</h1>
                   </div>
@@ -424,7 +424,7 @@ function Services() {
 
               <section id="caring-steps">
                 <div className="row justify-content-evenly d-flex">
-                  <div className="col-11">
+                  <div className="col">
                     {" "}
                     <div id="care-heading" className="1-text heading-text">
                       Typical Miscellaneous Jobs
