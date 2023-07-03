@@ -149,12 +149,12 @@ function Gallery() {
       <section id="lvt-pictures">
         <section
           ref={lvt}
-          id="classic"
+          id="lvt"
           className="page-section call-to-action d-flex mt-3"
         >
           <div className="py-lg-5">
             <div className="col-lg-12 col-md-8 mx-auto">
-              <h1 className="mb-5">Classic Hardwood</h1>
+              <h1 className="mb-5">Luxury Vinyl Tile</h1>
             </div>
           </div>
         </section>
@@ -163,12 +163,40 @@ function Gallery() {
       <section id="commercial-pictures">
         <section
           ref={commercial}
-          id="classic"
+          id="commercial"
           className="page-section call-to-action d-flex mt-3"
         >
           <div className="py-lg-5">
             <div className="col-lg-12 col-md-8 mx-auto">
-              <h1 className="mb-5">Classic Hardwood</h1>
+              <h1 className="mb-5">Commercial Projects</h1>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="custom-pictures">
+        <section
+          ref={custom}
+          id="custom"
+          className="page-section call-to-action d-flex mt-3"
+        >
+          <div className="py-lg-5">
+            <div className="col-lg-12 col-md-8 mx-auto">
+              <h1 className="mb-5">Custom Designs</h1>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="stair-pictures">
+        <section
+          ref={stair}
+          id="stair"
+          className="page-section call-to-action d-flex mt-3"
+        >
+          <div className="py-lg-5">
+            <div className="col-lg-12 col-md-8 mx-auto">
+              <h1 className="mb-5">Stairs</h1>
             </div>
           </div>
         </section>

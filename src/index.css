@@ -948,23 +948,23 @@ img {
 }
 
 /*GALLERY*/
-#picture-width{
+#picture-width {
   max-width: 400px;
 }
 
-#classic-image{
+#classic-image {
   width: 100%;
   transition: 0.3s;
 }
 
-#classic-text{
+#classic-text {
   color: white;
   font-size: x-large;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
 
-#classic-image:hover{
+#classic-image:hover {
   transform: scale(1.03);
   box-shadow: 2px 2px 4px gold;
 }
@@ -974,6 +974,54 @@ img {
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/Sand\ After\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
+
+#lvt {
+}
+
+#commercial {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/src/components/images/commercial\ floor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
+
+#custom {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/src/components/images/custom\ floor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
+
+#stair {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/src/components/images/Stairs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
