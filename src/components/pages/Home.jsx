@@ -428,7 +428,7 @@ function Home() {
                 transition={{ duration: 1, delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                <div className="row justify-centent-evenly open">
+                <div className="row justify-content-evenly open">
                   <div className="col-6">
                     <div id="open-heading" className="1-text heading-text">
                       Providing Superior Quality

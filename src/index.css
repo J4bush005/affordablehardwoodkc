@@ -946,3 +946,19 @@ img {
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
 }
+
+/*GALLERY*/
+#picture-width{
+  max-width: 400px;
+}
+
+#classic-image{
+  width: 100%;
+}
+
+#classic-text{
+  color: white;
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
+}
