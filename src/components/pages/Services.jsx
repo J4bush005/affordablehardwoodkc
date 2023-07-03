@@ -37,7 +37,7 @@ function Services() {
             <div className="row d-flex justify-content-center">
               <div id="style" className="col text-center">
                 <div id="open-heading-sm" className="1-text heading-text ">
-                  About Our Family
+                  What We Can Do For You
                 </div>
                 <div className="flex d-flex justify-content-center">
                   <div className="x1 goldbar home-ab">
@@ -531,7 +531,7 @@ function Services() {
             <div className="row d-flex justify-content-center">
               <div className="col-6">
                 <div id="open-heading" className="1-text heading-text">
-                  Our Services
+                  What We Can Do For You
                 </div>
                 <div className="flex">
                   <div className="x1 goldbar home">

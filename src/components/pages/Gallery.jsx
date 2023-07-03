@@ -19,7 +19,6 @@ const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
 const mine = "https://j4bush005.github.io/";
 
 function Gallery() {
-
   const classic = useRef(null);
   const lvt = useRef(null);
   const commercial = useRef(null);
@@ -36,92 +35,146 @@ function Gallery() {
   return (
     <>
       <ScrollToTop />
-      <div className="row justify-content-evely mt-3">
-        <div className="col-6">
-          {" "}
-          <div id="picture-width" className="container-fluid">
-            <figure className="figure">
-              <img
-                id="classic-image"
-                src={Classic}
-                alt=""
-                className="figure-img img-fluid rounded"
-              />
-              <figcaption id="classic-text" className="figure-caption">
-                Classic Hardwood
-              </figcaption>
-            </figure>
+      <section id="first-row">
+        <div className="row justify-content-evely mt-3">
+          <div className="col-6">
+            {" "}
+            <div id="picture-width" className="container-fluid">
+              <figure className="figure">
+                <img
+                  onClick={() => scrollToSection(classic)}
+                  id="classic-image"
+                  src={Classic}
+                  alt=""
+                  className="figure-img img-fluid rounded"
+                />
+                <figcaption id="classic-text" className="figure-caption">
+                  Classic Hardwood
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div className="col-6">
+            <div id="picture-width" className="container-fluid">
+              <figure className="figure">
+                <img
+                  onClick={() => scrollToSection(lvt)}
+                  id="classic-image"
+                  src={LVT}
+                  alt=""
+                  className="figure-img img-fluid rounded"
+                />
+                <figcaption id="classic-text" className="figure-caption">
+                  Luxury Vinyl Tile
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
-        <div className="col-6">
-          <div id="picture-width" className="container-fluid">
-            <figure className="figure">
-              <img
-                id="classic-image"
-                src={LVT}
-                alt=""
-                className="figure-img img-fluid rounded"
-              />
-              <figcaption id="classic-text" className="figure-caption">
-                Luxury Vinyl Tile
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
+      </section>
 
-      <div className="row d-flex justify-content-center align-items-center">
-        <div className="col-6">
-          <div id="picture-width" className="container-fluid">
-            <figure className="figure">
-              <img
-                id="classic-image"
-                src={Church}
-                alt=""
-                className="figure-img img-fluid rounded"
-              />
-              <figcaption id="classic-text" className="figure-caption">
-                Commercial Floors
-              </figcaption>
-            </figure>
+      <section id="second-row">
+        <div className="row d-flex justify-content-center align-items-center">
+          <div className="col-6">
+            <div id="picture-width" className="container-fluid">
+              <figure className="figure">
+                <img
+                  onClick={() => scrollToSection(commercial)}
+                  id="classic-image"
+                  src={Church}
+                  alt=""
+                  className="figure-img img-fluid rounded"
+                />
+                <figcaption id="classic-text" className="figure-caption">
+                  Commercial Floors
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="row justify-content-evely">
-        <div className="col-6">
-          {" "}
-          <div id="picture-width" className="container-fluid">
-            <figure className="figure">
-              <img
-                id="classic-image"
-                src={Custom}
-                alt=""
-                className="figure-img img-fluid rounded"
-              />
-              <figcaption id="classic-text" className="figure-caption">
-                Custom Designs
-              </figcaption>
-            </figure>
+      <section id="third-row">
+        <div className="row justify-content-evely">
+          <div className="col-6">
+            {" "}
+            <div id="picture-width" className="container-fluid">
+              <figure className="figure">
+                <img
+                  onClick={() => scrollToSection(custom)}
+                  id="classic-image"
+                  src={Custom}
+                  alt=""
+                  className="figure-img img-fluid rounded"
+                />
+                <figcaption id="classic-text" className="figure-caption">
+                  Custom Designs
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div className="col-6">
+            <div id="picture-width" className="container-fluid">
+              <figure className="figure">
+                <img
+                  onClick={() => scrollToSection(stair)}
+                  id="classic-image"
+                  src={Stair}
+                  alt=""
+                  className="figure-img img-fluid rounded"
+                />
+                <figcaption id="classic-text" className="figure-caption">
+                  Stairs
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
-        <div className="col-6">
-          <div id="picture-width" className="container-fluid">
-            <figure className="figure">
-              <img
-                id="classic-image"
-                src={Stair}
-                alt=""
-                className="figure-img img-fluid rounded"
-              />
-              <figcaption id="classic-text" className="figure-caption">
-                Stairs
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
+      </section>
 
+      <section id="classic-pictures">
+        <section
+          ref={classic}
+          id="classic"
+          className="page-section call-to-action d-flex mt-3"
+        >
+          <div className="py-lg-5">
+            <div className="col-lg-12 col-md-8 mx-auto">
+              <h1 className="mb-5">Classic Hardwood</h1>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="lvt-pictures">
+        <section
+          ref={lvt}
+          id="classic"
+          className="page-section call-to-action d-flex mt-3"
+        >
+          <div className="py-lg-5">
+            <div className="col-lg-12 col-md-8 mx-auto">
+              <h1 className="mb-5">Classic Hardwood</h1>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="commercial-pictures">
+        <section
+          ref={commercial}
+          id="classic"
+          className="page-section call-to-action d-flex mt-3"
+        >
+          <div className="py-lg-5">
+            <div className="col-lg-12 col-md-8 mx-auto">
+              <h1 className="mb-5">Classic Hardwood</h1>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      {/*FOOTER*/}
       <div class="container my-5 foot">
         <footer class="text-center text-white">
           <div class="container">
