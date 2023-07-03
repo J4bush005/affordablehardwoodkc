@@ -94,7 +94,7 @@ function Services() {
             </div>
           </section>
 
-          <section id="install-section">
+          <section id="install-section" ref={install}>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -236,7 +236,7 @@ function Services() {
             </motion.div>
           </section>
 
-          <section id="Refinishing-section">
+          <section id="Refinishing-section" ref={finish}>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -378,7 +378,7 @@ function Services() {
             </motion.div>
           </section>
 
-          <section id="misc-section">
+          <section id="misc-section" ref={misc}>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
