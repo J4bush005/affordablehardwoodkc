@@ -111,6 +111,7 @@ function Services() {
                   autoPlay
                   loop
                   muted
+                  playsInline
                 ></video>
                 <div id="video-text-sm" className="py-lg-5">
                   <div className="col-lg-1 col-md-8 mx-auto">
@@ -253,6 +254,7 @@ function Services() {
                   autoPlay
                   loop
                   muted
+                  playsInline
                 ></video>
                 <div id="video-text-sm" className="py-lg-5">
                   <div className="col-lg-1 col-md-8 mx-auto">
@@ -395,6 +397,7 @@ function Services() {
                   autoPlay
                   loop
                   muted
+                  playsInline
                 ></video>
                 <div id="video-text-sm" className="py-lg-5">
                   <div className="col-lg-1 col-md-8 mx-auto">
