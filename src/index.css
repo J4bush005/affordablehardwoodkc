@@ -954,6 +954,7 @@ img {
 
 #classic-image{
   width: 100%;
+  transition: 0.3s;
 }
 
 #classic-text{
@@ -961,4 +962,9 @@ img {
   font-size: x-large;
   font-family:'Times New Roman', Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
+}
+
+#classic-image:hover{
+  transform: scale(1.03);
+  box-shadow: 2px 2px 4px gold;
 }
