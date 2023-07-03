@@ -19,9 +19,23 @@ const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
 const mine = "https://j4bush005.github.io/";
 
 function Gallery() {
+
+  const classic = useRef(null);
+  const lvt = useRef(null);
+  const commercial = useRef(null);
+  const custom = useRef(null);
+  const stair = useRef(null);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
-    <ScrollToTop/>
+      <ScrollToTop />
       <div className="row justify-content-evely mt-3">
         <div className="col-6">
           {" "}

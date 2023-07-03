@@ -48,79 +48,15 @@ function Header() {
               </Link>
              
             </li>
-            <li class="nav-item dropdown mx-3">
+            <li class="nav-item mx-3">
               <Link
                 to="/Gallery"
                 id="sub"
-                class="nav-link dropdown-toggle"
+                class="nav-link"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Gallery
               </Link>
-              <ul class="dropdown-menu">
-                <li>
-                  <Link
-                    to="/Gallery"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Before and After
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Gallery"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Custom Designs
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Gallery"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Luxury Vinyl Tiles
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Gallery"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Classic Hardwood
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Gallery"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Stairs
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Gallery"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Commercial Jobs
-                  </Link>
-                </li>
-              </ul>
             </li>
             <li class="nav-item dropdown mx-3">
               <Link
