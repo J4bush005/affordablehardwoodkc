@@ -774,6 +774,25 @@ img {
   margin-top: 40px;
 }
 
+#move-left-last {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 250px;
+  margin-right: 25px;
+}
+
+#move-left-last:hover {
+  transform: scale(1.15);
+  border: 2px solid rgba(157, 0, 0);
+  transition: all 0.3s;
+}
+
 #move-left-sm {
   height: 100px;
   width: 100px;
@@ -985,7 +1004,7 @@ img {
 }
 
 #lvt {
-    justify-content: center;
+  justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/LVT\ 4.jpg");

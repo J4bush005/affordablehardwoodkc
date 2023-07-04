@@ -586,6 +586,25 @@ function Services() {
                 </div>
               </div>
             </div>
+
+             <div className="row d-flex justify-content-center">
+              <div className="col-3">
+                <div>
+                  <ul>
+                    <li
+                      id="move-left-last"
+                      onClick={() => scrollToSection(install)}
+                      className="btn"
+                      type="button"
+                      role="button"
+                    >
+                      Installation
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
           </section>
 
           <section id="install-section" ref={install}>
