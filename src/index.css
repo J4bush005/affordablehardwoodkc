@@ -1083,7 +1083,29 @@ img {
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
-#classic-img{
-  padding-top: 25px;
+#classic-img {
+  margin-top: 25px;
   width: 400px;
+  color: rgba(187, 154, 33, 0.7);
+  background-color: rgba(187, 154, 33, 0.8);
+  border-color: rgba(187, 154, 33, 0.8);
+  transition: 0.3s;
+}
+
+#classic-img:hover {
+  background-color: rgba(157, 0, 0, 0.7);
+  transform: scale(1.03);
+}
+
+#classic-img-cus {
+  margin-top: 25px;
+  width: 500px;
+  transition: 0.3s;
+  background-color: rgba(187, 154, 33, 0.7);
+  border-color: rgba(187, 154, 33, 0.7);
+}
+
+#classic-img-cus:hover {
+  transform: scale(1.03);
+  background-color: rgba(157, 0, 0, 0.7);
 }

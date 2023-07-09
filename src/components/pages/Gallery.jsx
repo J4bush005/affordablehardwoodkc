@@ -159,35 +159,35 @@ function Gallery() {
         <section id="row-clasic">
           <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Floor1} alt="" className="img-fluid" />{" "}
+              <img id="classic-img" src={Floor1} alt="" className="img-fluid img-thumbnail" />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor2} alt="" className="img-fluid" />
+              <img id="classic-img" src={Floor2} alt="" className="img-fluid img-thumbnail" />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor5} alt="" className="img-fluid" />
+              <img id="classic-img" src={Floor5} alt="" className="img-fluid img-thumbnail" />
             </div>
           </div>
            <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Floor6} alt="" className="img-fluid" />{" "}
+              <img id="classic-img" src={Floor6} alt="" className="img-fluid img-thumbnail" />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor9} alt="" className="img-fluid" />
+              <img id="classic-img" src={Floor9} alt="" className="img-fluid img-thumbnail" />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor10} alt="" className="img-fluid" />
+              <img id="classic-img" src={Floor10} alt="" className="img-fluid img-thumbnail" />
             </div>
           </div>
           <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Floor3} alt="" className="img-fluid" />{" "}
+              <img id="classic-img-cus" src={Floor3} alt="" className="img-fluid img-thumbnail" />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor4} alt="" className="img-fluid" />
+              <img id="classic-img-cus" src={Floor4} alt="" className="img-fluid img-thumbnail" />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor8} alt="" className="img-fluid" />
+              <img id="classic-img" src={Floor8} alt="" className="img-fluid img-thumbnail" />
             </div>
           </div>
         </section>
