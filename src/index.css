@@ -899,6 +899,13 @@ img {
   height: 500px;
   object-fit: cover;
   object-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
 #video-text {
@@ -918,8 +925,7 @@ img {
 #video-text-sm {
   position: absolute;
   height: 500px;
-  width: 60px;
-  padding-left: 120px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -928,6 +934,20 @@ img {
   text-shadow: 2px 2px 4px rgba(157, 0, 0, 0.7);
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
+}
+
+#install-video-sm {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
 #move-left-sms {
@@ -1061,4 +1081,9 @@ img {
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
+
+#classic-img{
+  padding-top: 25px;
+  width: 400px;
 }

@@ -34,7 +34,7 @@ function Services() {
       <ScrollToTop />
       <Media query="(max-width: 768px)">
         <div>
-           <section id="welcome">
+          <section id="welcome">
             <div className="row d-flex justify-content-center">
               <div id="style" className="col text-center">
                 <div id="open-heading-sm" className="1-text heading-text ">
@@ -107,7 +107,7 @@ function Services() {
                 className="page-section call-to-action d-flex"
               >
                 <video
-                  id="install-video"
+                  id="install-video-sm"
                   src={Install}
                   autoPlay
                   loop
@@ -115,8 +115,10 @@ function Services() {
                   playsInline
                 ></video>
                 <div id="video-text-sm" className="py-lg-5">
-                  <div className="col-lg-1 col-md-8 mx-auto">
-                    <h1 className="mb-5">Installation</h1>
+                  <div className="col-lg-12 col-md-8 mx-auto">
+                    <h1 className="mb-5">
+                      Installation
+                    </h1>
                   </div>
                 </div>
               </section>
@@ -250,7 +252,7 @@ function Services() {
                 className="page-section call-to-action d-flex mt-5"
               >
                 <video
-                  id="install-video"
+                  id="install-video-sm"
                   src={Stain}
                   autoPlay
                   loop
@@ -393,7 +395,7 @@ function Services() {
                 className="page-section call-to-action d-flex mt-5"
               >
                 <video
-                  id="install-video"
+                  id="install-video-sm"
                   src={Misc}
                   autoPlay
                   loop
@@ -587,7 +589,6 @@ function Services() {
                 </div>
               </div>
             </div>
-
           </section>
 
           <section id="install-section" ref={install}>

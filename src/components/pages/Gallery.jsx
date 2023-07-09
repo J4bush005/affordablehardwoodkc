@@ -13,6 +13,13 @@ import Floor1 from "../images/Sand 6 After.jpg";
 import Floor2 from "../images/Floor 2 After 6.jpg";
 import Floor3 from "../images/Demo6.png";
 import Floor4 from "../images/Demo 10.jpg";
+import Floor5 from "../images/Repair 3 After 2.jpg";
+import Floor6 from "../images/Repair 3 After 3.jpg";
+import Floor7 from "../images/Demo6.png";
+import Floor8 from "../images/Demo 13.jpg";
+import Floor9 from "../images/Demo 14.jpg";
+import Floor10 from "../images/Demo 15.jpg";
+import Floor11 from "../images/Demo.jpg";
 import Church from "../images/Church 14.jpg";
 
 import { useRef } from "react";
@@ -146,6 +153,13 @@ function Gallery() {
             <div className="col-lg-12 col-md-8 mx-auto">
               <h1 className="mb-5">Classic Hardwood</h1>
             </div>
+          </div>
+        </section>
+
+        <section id="row-clasic">
+          <div className="row">
+            <div className="col">
+            <img id="classic-img" src={Floor1} alt="" className="img-fluid" />  </div>
           </div>
         </section>
       </section>
