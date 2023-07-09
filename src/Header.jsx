@@ -82,7 +82,7 @@ function Header() {
               <ul class="dropdown-menu">
                 <li>
                   <Link
-                    to="/Contact"
+                    to="/Estimate"
                     class="nav-link under"
                     role="button"
                     aria-expanded="false"
@@ -98,16 +98,6 @@ function Header() {
                     aria-expanded="false"
                   >
                     Contact Us
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/Contact"
-                    class="nav-link under"
-                    role="button"
-                    aria-expanded="false"
-                  >
-                    Online Payment
                   </Link>
                 </li>
               </ul>

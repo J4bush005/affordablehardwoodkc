@@ -1025,8 +1025,8 @@ function Services() {
               <div class="row text-center d-flex justify-content-center">
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="foot-hover">
-                      About us
+                    <Link to="/Estimate" class="foot-hover">
+                      Request An Estimate
                     </Link>
                   </h6>
                 </div>

@@ -8,6 +8,7 @@ import Services from './components/pages/Services';
 import ThankYou from './components/pages/ThankYou';
 import Application from './components/pages/Application';
 import { Route, Routes } from 'react-router-dom';
+import { Estimate } from './components/pages/Estimate';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
    <Route path="/Services" element={<Services />} />
    <Route path="/ThankYou" element={<ThankYou />} />
    <Route path="/Application" element={<Application />} />
+   <Route path="/Estimate" element={<Estimate />} />
    </Routes>
    </div>
   );
