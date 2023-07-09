@@ -20,6 +20,13 @@ import Floor8 from "../images/Demo 13.jpg";
 import Floor9 from "../images/Demo 14.jpg";
 import Floor10 from "../images/Demo 15.jpg";
 import Floor11 from "../images/Demo.jpg";
+import LVT1 from "../images/LVT.jpg";
+import LVT2 from "../images/LVT 2.jpg";
+import LVT3 from "../images/LVT 3 copy.jpg";
+import LVT4 from "../images/LVT 4.jpg";
+import LVT5 from "../images/LVT 5.jpg";
+import LVT6 from "../images/LVT 6.jpg";
+import LVT7 from "../images/LVT 7.jpg";
 import Church from "../images/Church 14.jpg";
 
 import { useRef } from "react";
@@ -205,7 +212,38 @@ function Gallery() {
             </div>
           </div>
         </section>
+
+        <section id="row-clasic">
+          <div className="row">
+            <div className="col-4">
+              <img id="classic-img" src={LVT1} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={LVT2} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img-cus" src={LVT3} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+           <div className="row">
+            <div className="col-4">
+              <img id="classic-img" src={LVT4} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={LVT5} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={LVT6} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <img id="classic-img" src={LVT7} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+          </div>
+        </section>
       </section>
+
 
       <section id="commercial-pictures">
         <section
