@@ -9,6 +9,10 @@ import Classic from "../images/Floor 2 After 6.jpg";
 import LVT from "../images/LVT.jpg";
 import Custom from "../images/Finish After 4.jpg";
 import Stair from "../images/IMG_0286.jpg";
+import Floor1 from "../images/Sand 6 After.jpg";
+import Floor2 from "../images/Floor 2 After 6.jpg";
+import Floor3 from "../images/Demo6.png";
+import Floor4 from "../images/Demo 10.jpg";
 import Church from "../images/Church 14.jpg";
 
 import { useRef } from "react";
