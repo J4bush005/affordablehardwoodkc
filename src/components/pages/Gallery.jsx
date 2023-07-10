@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
 import Linked from "../images/Linked.png";
-import { motion } from "framer-motion";
 import Classic from "../images/Floor 2 After 6.jpg";
 import LVT from "../images/LVT.jpg";
 import Custom from "../images/Finish After 4.jpg";
@@ -15,11 +14,16 @@ import Floor3 from "../images/Demo6.png";
 import Floor4 from "../images/Demo 10.jpg";
 import Floor5 from "../images/Repair 3 After 2.jpg";
 import Floor6 from "../images/Repair 3 After 3.jpg";
-import Floor7 from "../images/Demo6.png";
 import Floor8 from "../images/Demo 13.jpg";
 import Floor9 from "../images/Demo 14.jpg";
 import Floor10 from "../images/Demo 15.jpg";
-import Floor11 from "../images/Demo.jpg";
+import Floor12 from "../images/Normal.png";
+import Floor13 from "../images/Normal2.png";
+import Floor14 from "../images/Normal5.png";
+import Floor15 from "../images/Normal3.png";
+import Floor16 from "../images/Normal4.png";
+import Floor17 from "../images/Normal6.png";
+import Floor19 from "../images/Normal8.png";
 import LVT1 from "../images/LVT.jpg";
 import LVT2 from "../images/LVT 2.jpg";
 import LVT3 from "../images/LVT 3 copy.jpg";
@@ -200,6 +204,33 @@ function Gallery() {
             </div>
             <div className="col-4">
               <img id="classic-img" src={Floor8} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+           <div className="row">
+            <div className="col-4">
+              <img id="classic-img-cus" src={Floor12} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img-cus" src={Floor13} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img-cus" src={Floor14} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+           <div className="row">
+            <div className="col-4">
+              <img id="classic-img-cus" src={Floor15} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img-cus" src={Floor16} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img-cus" src={Floor17} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+           <div className="row">
+            <div className="col-4">
+              <img id="classic-img-cus" src={Floor19} alt="" className="img-fluid img-thumbnail" />
             </div>
           </div>
         </section>
