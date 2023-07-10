@@ -43,6 +43,8 @@ import Custom4 from "../images/Custom Floor 3.jpg";
 import Custom5 from "../images/Custom Floor 4.jpg";
 import Custom6 from "../images/Custom Floor 5.jpg";
 import Custom7 from "../images/Custom Floor 6.jpg";
+import Stair2 from "../images/Stairs2.png";
+import Stair3 from "../images/Stairs.jpg";
 
 import { useRef } from "react";
 
@@ -181,62 +183,142 @@ function Gallery() {
         <section id="row-clasic">
           <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Floor1} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={Floor1}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor2} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Floor2}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor5} alt="" className="img-fluid img-thumbnail" />
-            </div>
-          </div>
-           <div className="row">
-            <div className="col-4">
-              <img id="classic-img" src={Floor6} alt="" className="img-fluid img-thumbnail" />{" "}
-            </div>
-            <div className="col-4">
-              <img id="classic-img" src={Floor9} alt="" className="img-fluid img-thumbnail" />
-            </div>
-            <div className="col-4">
-              <img id="classic-img" src={Floor10} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Floor5}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
           <div className="row">
             <div className="col-4">
-              <img id="classic-img-cus" src={Floor3} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={Floor6}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img-cus" src={Floor4} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Floor9}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Floor8} alt="" className="img-fluid img-thumbnail" />
-            </div>
-          </div>
-           <div className="row">
-            <div className="col-4">
-              <img id="classic-img-cus" src={Floor12} alt="" className="img-fluid img-thumbnail" />{" "}
-            </div>
-            <div className="col-4">
-              <img id="classic-img-cus" src={Floor13} alt="" className="img-fluid img-thumbnail" />
-            </div>
-            <div className="col-4">
-              <img id="classic-img-cus" src={Floor14} alt="" className="img-fluid img-thumbnail" />
-            </div>
-          </div>
-           <div className="row">
-            <div className="col-4">
-              <img id="classic-img-cus" src={Floor15} alt="" className="img-fluid img-thumbnail" />{" "}
-            </div>
-            <div className="col-4">
-              <img id="classic-img-cus" src={Floor16} alt="" className="img-fluid img-thumbnail" />
-            </div>
-            <div className="col-4">
-              <img id="classic-img-cus" src={Floor17} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Floor10}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
-           <div className="row">
+          <div className="row">
             <div className="col-4">
-              <img id="classic-img-cus" src={Floor19} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img-cus"
+                src={Floor3}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor4}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img"
+                src={Floor8}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor12}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor13}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor14}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor15}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor16}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor17}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Floor19}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
         </section>
@@ -258,34 +340,68 @@ function Gallery() {
         <section id="row-clasic">
           <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={LVT1} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={LVT1}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={LVT2} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={LVT2}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
             <div className="col-4">
-              <img id="classic-img-cus" src={LVT3} alt="" className="img-fluid img-thumbnail" />
-            </div>
-          </div>
-           <div className="row">
-            <div className="col-4">
-              <img id="classic-img" src={LVT4} alt="" className="img-fluid img-thumbnail" />{" "}
-            </div>
-            <div className="col-4">
-              <img id="classic-img" src={LVT5} alt="" className="img-fluid img-thumbnail" />
-            </div>
-            <div className="col-4">
-              <img id="classic-img" src={LVT6} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img-cus"
+                src={LVT3}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
           <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={LVT7} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={LVT4}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img"
+                src={LVT5}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img"
+                src={LVT6}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img"
+                src={LVT7}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
           </div>
         </section>
       </section>
-
 
       <section id="commercial-pictures">
         <section
@@ -303,29 +419,58 @@ function Gallery() {
         <section id="row-clasic">
           <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Church} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={Church}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Church2} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Church2}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Church3} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Church3}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
-           <div className="row">
+          <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Church4} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={Church4}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Church5} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Church5}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Church6} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Church6}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
         </section>
       </section>
-
 
       <section id="custom-pictures">
         <section
@@ -340,27 +485,65 @@ function Gallery() {
           </div>
         </section>
 
-         <section id="row-clasic">
+        <section id="row-clasic">
           <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Custom} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={Custom}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img-cus" src={Custom2} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img-cus"
+                src={Custom2}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Custom3} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Custom3}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
-           <div className="row">
+          <div className="row">
             <div className="col-4">
-              <img id="classic-img" src={Custom4} alt="" className="img-fluid img-thumbnail" />{" "}
+              <img
+                id="classic-img"
+                src={Custom4}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Custom5} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Custom5}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
             <div className="col-4">
-              <img id="classic-img" src={Custom6} alt="" className="img-fluid img-thumbnail" />
+              <img
+                id="classic-img"
+                src={Custom6}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img"
+                src={Custom7}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
             </div>
           </div>
         </section>
@@ -378,8 +561,36 @@ function Gallery() {
             </div>
           </div>
         </section>
-
-        
+        <section id="row-clasic">
+          <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img"
+                src={Stair}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cus"
+                src={Stair2}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img"
+                src={Stair3}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+         
+    
+        </section>
       </section>
 
       {/*FOOTER*/}
