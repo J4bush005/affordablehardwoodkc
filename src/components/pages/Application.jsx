@@ -27,7 +27,7 @@ export const Contact = () => {
         (result) => {
           console.log(result.text);
           
-          alert("Your Application Has Been Sent!");
+         window.open("/ThankYou");
         },
         (error) => {
           console.log(error.text);

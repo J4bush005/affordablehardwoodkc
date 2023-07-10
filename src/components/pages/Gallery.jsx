@@ -28,6 +28,11 @@ import LVT5 from "../images/LVT 5.jpg";
 import LVT6 from "../images/LVT 6.jpg";
 import LVT7 from "../images/LVT 7.jpg";
 import Church from "../images/Church 14.jpg";
+import Church2 from "../images/Church 15.jpg";
+import Church3 from "../images/Church 16.jpg";
+import Church4 from "../images/Church 17.jpg";
+import Church5 from "../images/Church 18.jpg";
+import Church6 from "../images/Church 19.jpg";
 
 import { useRef } from "react";
 
@@ -257,7 +262,33 @@ function Gallery() {
             </div>
           </div>
         </section>
+
+        <section id="row-clasic">
+          <div className="row">
+            <div className="col-4">
+              <img id="classic-img" src={Church} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={Church2} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={Church3} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+           <div className="row">
+            <div className="col-4">
+              <img id="classic-img" src={Church4} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={Church5} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={Church6} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+        </section>
       </section>
+
 
       <section id="custom-pictures">
         <section
