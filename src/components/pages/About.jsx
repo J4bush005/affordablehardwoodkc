@@ -32,11 +32,11 @@ function About() {
 
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       {/*Phones*/}
       <Media query="(max-width: 768px)">
         <div>
-         <section id="welcome">
+          <section id="welcome">
             <div className="row d-flex justify-content-center">
               <div id="style" className="col text-center">
                 <div id="open-heading-sm" className="1-text heading-text ">
@@ -103,7 +103,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
-            ref={reviews}
+              ref={reviews}
               id="reviews"
               className="page-section call-to-action d-flex mt-10"
             >
@@ -139,17 +139,15 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Maecenas porttitor
-                            congue massa. Fusce posuere, magna sed pulvinar
-                            ultricies, purus lectus malesuada libero, sit amet
-                            commodo magna eros quis urna. Nunc viverra imperdiet
-                            enim. Fusce est. Vivamus a tellus."
+                            "My sister kitchen floor was dry-rotted and needed
+                            someone to look at it to get a quote/estimate my
+                            neice referred him/******** to us but I failed to
+                            take a before and after shot of the damage
+                            floor...the repair was priceless the entire family
+                            gave him a 50 ?? rating for an outstanding job as
+                            well as being very professional, knowledgeable,
+                            honest, kind and polite...I highly recommend his
+                            service"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -167,17 +165,13 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Maecenas porttitor
-                            congue massa. Fusce posuere, magna sed pulvinar
-                            ultricies, purus lectus malesuada libero, sit amet
-                            commodo magna eros quis urna. Nunc viverra imperdiet
-                            enim. Fusce est. Vivamus a tellus."
+                            "I contacted Johnathon/Affordable Hardwood for a
+                            quote on refinishing my existing floors. I explained
+                            what I wanted and he was knowledgeable about the
+                            finish and look I was going for. Pricing was
+                            competitive and quality is amazing! The team worked
+                            diligently! I highly recommend this company for your
+                            flooring needs!"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -195,17 +189,14 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Maecenas porttitor
-                            congue massa. Fusce posuere, magna sed pulvinar
-                            ultricies, purus lectus malesuada libero, sit amet
-                            commodo magna eros quis urna. Nunc viverra imperdiet
-                            enim. Fusce est. Vivamus a tellus."
+                            "I want to thank Johnathon and his team for the
+                            amazing job on my floors not only were they
+                            professional they also was very efficient and clean
+                            , They got the job done in a timely manner. My
+                            floors look absolutely amazing ... I would recommend
+                            them to ANYONE! If you want the job done right ..
+                            contact Affordable hardwood .. you will not be
+                            disappointed!!!!"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -310,7 +301,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
-            ref={care}
+              ref={care}
               id="floor-care"
               className="page-section call-to-action d-flex mt-3"
             >
@@ -322,7 +313,6 @@ function About() {
             </section>
 
             <section
-         
               id="open-review"
               className=" mt-2 page-section call-to-action d-flex"
             >
@@ -522,7 +512,7 @@ function About() {
             viewport={{ once: true }}
           >
             <section
-            ref={jobs}
+              ref={jobs}
               id="find-career"
               className="page-section call-to-action d-flex mt-3"
             >
@@ -1002,17 +992,14 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Maecenas porttitor
-                            congue massa. Fusce posuere, magna sed pulvinar
-                            ultricies, purus lectus malesuada libero, sit amet
-                            commodo magna eros quis urna. Nunc viverra imperdiet
-                            enim. Fusce est. Vivamus a tellus."
+                            "My sister kitchen floor was dry-rotted and needed
+                            someone to look at it to get a quote/estimate my
+                            neice referred him to us but I failed to take a
+                            before and after shot of the damage floor...the
+                            repair was priceless the entire family gave him a
+                            rating for an outstanding job as well as being very
+                            professional, knowledgeable, honest, kind and
+                            polite...I highly recommend his service"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -1026,12 +1013,13 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus."
+                            "I contacted Johnathon/Affordable Hardwood for a
+                            quote on refinishing my existing floors. I explained
+                            what I wanted and he was knowledgeable about the
+                            finish and look I was going for. Pricing was
+                            competitive and quality is amazing! The team worked
+                            diligently! I highly recommend this company for your
+                            flooring needs!"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -1048,12 +1036,14 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus."
+                            "I want to thank Johnathon and his team for the
+                            amazing job on my floors not only were they
+                            professional they also was very efficient and clean
+                            , They got the job done in a timely manner. My
+                            floors look absolutely amazing ... I would recommend
+                            them to ANYONE! If you want the job done right ..
+                            contact Affordable hardwood .. you will not be
+                            disappointed!!!!"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -1067,12 +1057,13 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus."
+                            "I recently had the pleasure of working with
+                            Affordable Hardwood KC for the installation of
+                            hardwood flooring in my home, and I must say that
+                            the experience was nothing short of excellent.
+                            Johnathon, the owner, and his team are true
+                            professionals who prioritize customer satisfaction
+                            and deliver outstanding results."
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -1359,8 +1350,6 @@ function About() {
                 </div>
               </div>
             </section>
-
-           
 
             <section
               ref={jobs}
