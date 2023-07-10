@@ -9,10 +9,12 @@ import ThankYou from './components/pages/ThankYou';
 import Application from './components/pages/Application';
 import { Route, Routes } from 'react-router-dom';
 import { Estimate } from './components/pages/Estimate';
+import AutoScroll from './components/AutoScroll';
 
 function App() {
   return (
    <div>
+   <AutoScroll />
    <Header />
    <Routes>
    <Route index element={<Home />} />
