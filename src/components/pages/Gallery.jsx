@@ -37,6 +37,12 @@ import Church3 from "../images/Church 16.jpg";
 import Church4 from "../images/Church 17.jpg";
 import Church5 from "../images/Church 18.jpg";
 import Church6 from "../images/Church 19.jpg";
+import Custom2 from "../images/custom floor.png";
+import Custom3 from "../images/Custom Floor 2.jpg";
+import Custom4 from "../images/Custom Floor 3.jpg";
+import Custom5 from "../images/Custom Floor 4.jpg";
+import Custom6 from "../images/Custom Floor 5.jpg";
+import Custom7 from "../images/Custom Floor 6.jpg";
 
 import { useRef } from "react";
 
@@ -333,6 +339,31 @@ function Gallery() {
             </div>
           </div>
         </section>
+
+         <section id="row-clasic">
+          <div className="row">
+            <div className="col-4">
+              <img id="classic-img" src={Custom} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img-cus" src={Custom2} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={Custom3} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+           <div className="row">
+            <div className="col-4">
+              <img id="classic-img" src={Custom4} alt="" className="img-fluid img-thumbnail" />{" "}
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={Custom5} alt="" className="img-fluid img-thumbnail" />
+            </div>
+            <div className="col-4">
+              <img id="classic-img" src={Custom6} alt="" className="img-fluid img-thumbnail" />
+            </div>
+          </div>
+        </section>
       </section>
 
       <section id="stair-pictures">
@@ -347,6 +378,8 @@ function Gallery() {
             </div>
           </div>
         </section>
+
+        
       </section>
 
       {/*FOOTER*/}
