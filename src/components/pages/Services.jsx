@@ -115,7 +115,7 @@ function Services() {
                   playsInline
                 ></video>
                 <div id="video-text-sm" className="py-lg-5">
-                  <div className="col-lg-12 col-md-8 mx-auto">
+                  <div className="col-lg-1 ">
                     <h1 className="mb-5">
                       Installation
                     </h1>
