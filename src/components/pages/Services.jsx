@@ -295,11 +295,17 @@ function Services() {
                   <div className="row">
                     <div className="col">
                       <p className="text-center rev mt-3">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        At Affordable Hardwood, our refinishing service
+                        exemplifies a standard of excellence in the industry.
+                        With meticulous attention to detail and a passion for
+                        restoring the natural beauty of hardwood floors, we go
+                        above and beyond to deliver exceptional refinishing
+                        results. Our skilled professionals utilize
+                        state-of-the-art sanding equipment and techniques to
+                        remove old finishes, stains, and imperfections,
+                        revealing the true splendor of the wood. We offer
+                        optional staining to enhance the floor's color and
+                        grain, customizing the result to your preferences.
                       </p>
                     </div>
                   </div>
@@ -321,9 +327,7 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">
-                            Inspection and Preparation:
-                          </div>
+                          <div className="first-word">Inspect and Prep:</div>
                           <div className="second-word">
                             {" "}
                             Inspect the existing hardwood floors to assess their
@@ -354,7 +358,7 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Stain Application:</div>
+                          <div className="first-word">Apply Stain:</div>
                           <div className="second-word">
                             {" "}
                             If desired, apply stain to the sanded hardwood floor
@@ -370,7 +374,7 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Finish Application:</div>
+                          <div className="first-word">Apply Finish:</div>
                           <div className="second-word">
                             {" "}
                             Apply a protective finish, such as polyurethane or
@@ -387,7 +391,7 @@ function Services() {
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">
-                            Buffing and Polishing:
+                            Apply a Buff and Polish:
                           </div>
                           <div className="second-word">
                             {" "}
@@ -402,9 +406,7 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">
-                            Cleaning and Inspection:
-                          </div>
+                          <div className="first-word">Clean and Inspect:</div>
                           <div className="second-word">
                             {" "}
                             Thoroughly clean the refinished hardwood floor,
@@ -456,11 +458,12 @@ function Services() {
                   <div className="row">
                     <div className="col-12">
                       <p className="text-center rev mt-3">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        At Affordable Hardwood, we offer a range of services
+                        that go beyond traditional hardwood flooring, ensuring
+                        we meet all of our customers' needs. Our skilled team is
+                        equipped to provide additional services such as concrete
+                        leveling, building staircases, installing Luxury Vinyl
+                        Tile (LVT) flooring, and performing floor repairs.
                       </p>
                     </div>
                   </div>
@@ -482,15 +485,20 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Concrete Leveling</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            At Affordable Hardwood, our concrete leveling
+                            service is designed to address uneven or sunken
+                            concrete surfaces. Our skilled technicians utilize
+                            advanced techniques and leveling materials to
+                            restore the integrity and stability of the concrete.
+                            The process involves assessing the condition of the
+                            concrete, selecting the appropriate leveling
+                            material, and applying it to the affected areas. The
+                            leveling material self-levels, filling in low spots
+                            and raising sunken sections to create a smooth and
+                            even surface.
                           </div>
                         </div>
                       </div>
@@ -498,15 +506,21 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Floor Repairs</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            At Affordable Hardwood, our floor repair service is
+                            dedicated to addressing a range of issues and
+                            restoring the integrity of your hardwood floors. Our
+                            skilled technicians have the expertise to handle
+                            various types of floor repairs, including damaged
+                            boards, scratches, or minor imperfections. The
+                            process begins with a thorough assessment of the
+                            floor to identify the specific areas that require
+                            attention. Our team then employs precise techniques
+                            to address the damage, such as replacing damaged
+                            boards, sanding and refinishing scratched areas, or
+                            filling in minor imperfections.
                           </div>
                         </div>
                       </div>
@@ -514,47 +528,20 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">LVT Installs</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="first-row">
-                          <div className="first-word">Step</div>
-                          <div className="second-word">
-                            {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="first-row">
-                          <div className="first-word">Step</div>
-                          <div className="second-word">
-                            {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            At Affordable Hardwood, our Luxury Vinyl Tile (LVT)
+                            installation service brings the beauty and
+                            resilience of this versatile flooring option to your
+                            space. Our experienced team is well-versed in the
+                            precise techniques required for LVT installation.
+                            The process begins with meticulous planning and
+                            preparation, including measuring the area and
+                            assessing the subfloor condition. Our skilled
+                            installers then carefully lay the LVT planks or
+                            tiles, ensuring precise fitting and alignment for a
+                            seamless and visually appealing result.
                           </div>
                         </div>
                       </div>
@@ -585,11 +572,15 @@ function Services() {
             <div className="row d-flex justify-content-center">
               <div className="col-6">
                 <div className="r-text">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Maecenas porttitor congue massa. Fusce posuere, magna sed
-                  pulvinar ultricies, purus lectus malesuada libero, sit amet
-                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                  Fusce est. Vivamus a tellus.
+                   At Affordable Hardwood, we pride ourselves on our ability to
+                  fulfill a wide range of hardwood floor requests and go beyond
+                  traditional services. Our expertise extends far beyond the
+                  installation, refinishing, and repair of hardwood floors. We
+                  understand that each customer may have unique needs and
+                  desires, and we are dedicated to accommodating them. Whether
+                  you have a specific design vision, require custom staining or
+                  inlays, or seek unique finishes or textures, we have the skill
+                  and creativity to bring your ideas to life.
                 </div>
               </div>
             </div>
@@ -663,11 +654,15 @@ function Services() {
                   <div className="row">
                     <div className="col-12">
                       <p className="text-center rev mt-3">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        At Affordable Hardwood, our installation service sets
+                        the standard of excellence in the industry. With
+                        meticulous attention to detail and unwavering dedication
+                        to quality, we go above and beyond to ensure flawless
+                        installations that surpass customer expectations. Our
+                        team of skilled professionals possesses extensive
+                        expertise in hardwood floor installation, employing
+                        precise techniques and utilizing top-of-the-line
+                        equipment to deliver impeccable results.
                       </p>
                     </div>
                   </div>
@@ -689,15 +684,14 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Subfloor Preparation:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                           Assess the condition of the subfloor and ensure it
+                            is clean, level, and free from any debris. Address
+                            any issues, such as unevenness or moisture, to
+                            create a suitable foundation for the hardwood
+                            flooring.
                           </div>
                         </div>
                       </div>
@@ -705,15 +699,14 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Layout and Planning:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                             Plan the layout of the hardwood flooring,
+                            considering factors such as room size, direction of
+                            the wood grain, and transitions between different
+                            areas or flooring materials. Ensure an aesthetically
+                            pleasing and functional arrangement.
                           </div>
                         </div>
                       </div>
@@ -721,15 +714,15 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Installation Method:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Choose the appropriate installation method based on
+                            the type of hardwood flooring and the subfloor.
+                            Common methods include glue-down, nail-down, or
+                            floating installations. Follow manufacturer
+                            guidelines and industry best practices for each
+                            method.
                           </div>
                         </div>
                       </div>
@@ -737,15 +730,13 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Plank Installation:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Begin installing the hardwood planks according to
+                            the chosen layout and installation method. Use
+                            appropriate fasteners or adhesives to securely
+                            attach the planks to the subfloor.
                           </div>
                         </div>
                       </div>
@@ -753,15 +744,28 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Cutting and Trimming:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Cut and trim the hardwood planks as needed to fit
+                            around obstacles, walls, or architectural features.
+                            Ensure precise measurements and clean cuts for a
+                            professional finish.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     <div className="row">
+                      <div className="col-12">
+                        <div className="first-row">
+                          <div className="first-word">Transitions and Trim Work:</div>
+                          <div className="second-word">
+                            {" "}
+                            Install transitions and molding pieces to create
+                            smooth and aesthetically pleasing transitions
+                            between different rooms, flooring materials, or
+                            surfaces. Install baseboards or trim around the
+                            perimeter of the room for a polished look.
                           </div>
                         </div>
                       </div>
@@ -805,11 +809,17 @@ function Services() {
                   <div className="row">
                     <div className="col-12">
                       <p className="text-center rev mt-3">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        At Affordable Hardwood, our refinishing service
+                        exemplifies a standard of excellence in the industry.
+                        With meticulous attention to detail and a passion for
+                        restoring the natural beauty of hardwood floors, we go
+                        above and beyond to deliver exceptional refinishing
+                        results. Our skilled professionals utilize
+                        state-of-the-art sanding equipment and techniques to
+                        remove old finishes, stains, and imperfections,
+                        revealing the true splendor of the wood. We offer
+                        optional staining to enhance the floor's color and
+                        grain, customizing the result to your preferences.
                       </p>
                     </div>
                   </div>
@@ -829,17 +839,15 @@ function Services() {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-12">
+                      <div className="col-10">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Inspect and Prep:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Inspect the existing hardwood floors to assess their
+                            condition, including any wear, scratches, or damage.
+                            Prepare the area by removing furniture, rugs, and
+                            other objects from the space.
                           </div>
                         </div>
                       </div>
@@ -847,15 +855,16 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Sanding:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Use professional-grade sanding equipment to remove
+                            the old finish, stains, scratches, and imperfections
+                            from the hardwood surface. Begin with a coarse grit
+                            sandpaper and gradually progress to finer grits for
+                            a smooth and even result. Take care to maintain
+                            consistent pressure and movement during the sanding
+                            process.
                           </div>
                         </div>
                       </div>
@@ -863,15 +872,31 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Apply Stain:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                             If desired, apply stain to the sanded hardwood floor
+                            to achieve a specific color or enhance the natural
+                            wood grain. Ensure even coverage and follow the
+                            manufacturer's instructions for the staining
+                            product, including drying time and recommended
+                            number of coats.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-10">
+                        <div className="first-row">
+                          <div className="first-word">Apply Finish:</div>
+                          <div className="second-word">
+                            {" "}
+                            Apply a protective finish, such as polyurethane or
+                            varnish, to seal and enhance the appearance of the
+                            hardwood floor. Use a brush, roller, or applicator
+                            pad to evenly distribute the finish, following the
+                            grain of the wood. Apply multiple coats as needed,
+                            allowing sufficient drying time between coats.
                           </div>
                         </div>
                       </div>
@@ -879,31 +904,28 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Apply a Buff and Polish:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                           After the final coat of finish has dried, buff the
+                            hardwood floor to smooth out any imperfections or
+                            unevenness. Use a buffer or a buffing machine with a
+                            fine-grit pad to achieve a smooth and glossy finish.
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-12">
+                      <div className="col-10">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Clean and Inspect:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Thoroughly clean the refinished hardwood floor,
+                            removing any dust or debris. Conduct a final
+                            inspection to ensure the finish is even, smooth, and
+                            free from blemishes. Make any necessary touch-ups or
+                            corrections.
                           </div>
                         </div>
                       </div>
@@ -947,11 +969,12 @@ function Services() {
                   <div className="row">
                     <div className="col-12">
                       <p className="text-center rev mt-3">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        At Affordable Hardwood, we offer a range of services
+                        that go beyond traditional hardwood flooring, ensuring
+                        we meet all of our customers' needs. Our skilled team is
+                        equipped to provide additional services such as concrete
+                        leveling, building staircases, installing Luxury Vinyl
+                        Tile (LVT) flooring, and performing floor repairs.
                       </p>
                     </div>
                   </div>
@@ -973,15 +996,20 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Concrete Leveling:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            At Affordable Hardwood, our concrete leveling
+                            service is designed to address uneven or sunken
+                            concrete surfaces. Our skilled technicians utilize
+                            advanced techniques and leveling materials to
+                            restore the integrity and stability of the concrete.
+                            The process involves assessing the condition of the
+                            concrete, selecting the appropriate leveling
+                            material, and applying it to the affected areas. The
+                            leveling material self-levels, filling in low spots
+                            and raising sunken sections to create a smooth and
+                            even surface.
                           </div>
                         </div>
                       </div>
@@ -989,15 +1017,21 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Floor Repairs:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                           At Affordable Hardwood, our floor repair service is
+                            dedicated to addressing a range of issues and
+                            restoring the integrity of your hardwood floors. Our
+                            skilled technicians have the expertise to handle
+                            various types of floor repairs, including damaged
+                            boards, scratches, or minor imperfections. The
+                            process begins with a thorough assessment of the
+                            floor to identify the specific areas that require
+                            attention. Our team then employs precise techniques
+                            to address the damage, such as replacing damaged
+                            boards, sanding and refinishing scratched areas, or
+                            filling in minor imperfections.
                           </div>
                         </div>
                       </div>
@@ -1005,47 +1039,20 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">LVT Installs:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="first-row">
-                          <div className="first-word">Step</div>
-                          <div className="second-word">
-                            {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="first-row">
-                          <div className="first-word">Step</div>
-                          <div className="second-word">
-                            {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            At Affordable Hardwood, our Luxury Vinyl Tile (LVT)
+                            installation service brings the beauty and
+                            resilience of this versatile flooring option to your
+                            space. Our experienced team is well-versed in the
+                            precise techniques required for LVT installation.
+                            The process begins with meticulous planning and
+                            preparation, including measuring the area and
+                            assessing the subfloor condition. Our skilled
+                            installers then carefully lay the LVT planks or
+                            tiles, ensuring precise fitting and alignment for a
+                            seamless and visually appealing result.
                           </div>
                         </div>
                       </div>

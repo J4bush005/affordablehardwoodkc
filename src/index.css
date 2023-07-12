@@ -336,7 +336,7 @@ img {
 #open-heading-lg {
   padding-top: 150px;
   color: white;
-  font-size: xxx-large;
+  font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
@@ -449,7 +449,7 @@ img {
 .confirm {
   color: white;
   padding-top: 20px;
-  font-size: xxx-large;
+  font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
@@ -488,22 +488,22 @@ img {
 }
 
 .craft {
-  font-size: xxx-large;
+  font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
 }
 
 .installer {
-  font-size: xxx-large;
+  font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
 }
 
 .sander {
-  font-size: xxx-large;
+  font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
 }
 
 .finisher {
-  font-size: xxx-large;
+  font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
 }
 
