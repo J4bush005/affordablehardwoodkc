@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollToTop from "../ScrollToTop";
+import BeforeAfter from "../BeforeAfter";
 import { Link } from "react-router-dom";
 import Insta from "../images/ig logo.png";
 import Face from "../images/face.png";
@@ -70,6 +71,7 @@ function Gallery() {
   return (
     <>
       <ScrollToTop />
+      <BeforeAfter />
       <section id="first-row">
         <div className="row justify-content-evely mt-3">
           <div className="col-6">
