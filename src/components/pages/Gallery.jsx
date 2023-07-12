@@ -24,6 +24,10 @@ import Floor14 from "../images/Normal5.png";
 import Floor15 from "../images/Normal3.png";
 import Floor16 from "../images/Normal4.png";
 import Floor17 from "../images/Normal6.png";
+import Floor20 from "../BeforeAfterPics/DB3.jpg";
+import Floor21 from "../BeforeAfterPics/DB4.jpg";
+import Floor22 from "../BeforeAfterPics/DB7.jpg";
+import Floor23 from "../BeforeAfterPics/DB8.jpg";
 import Floor19 from "../images/Normal8.png";
 import LVT1 from "../images/LVT.jpg";
 import LVT2 from "../images/LVT 2.jpg";
@@ -38,6 +42,12 @@ import Church3 from "../images/Church 16.jpg";
 import Church4 from "../images/Church 17.jpg";
 import Church5 from "../images/Church 18.jpg";
 import Church6 from "../images/Church 19.jpg";
+import BB1 from "../BeforeAfterPics/DB16.jpg";
+import BB from "../BeforeAfterPics/DB17.jpg";
+import BB2 from "../BeforeAfterPics/DB18.jpg";
+import BB3 from "../BeforeAfterPics/DB19.jpg";
+import BB4 from "../BeforeAfterPics/DB20.jpg";
+import BB5 from "../BeforeAfterPics/DB21.jpg";
 import Custom2 from "../images/custom floor.png";
 import Custom3 from "../images/Custom Floor 2.jpg";
 import Custom4 from "../images/Custom Floor 3.jpg";
@@ -46,6 +56,7 @@ import Custom6 from "../images/Custom Floor 5.jpg";
 import Custom7 from "../images/Custom Floor 6.jpg";
 import Stair2 from "../images/Stairs2.png";
 import Stair3 from "../images/Stairs.jpg";
+
 
 import { useRef } from "react";
 
@@ -322,7 +333,50 @@ function Gallery() {
                 className="img-fluid img-thumbnail"
               />
             </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={Floor20}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+             <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={Floor21}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
           </div>
+           <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={Floor22}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={Floor23}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+             <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={Floor2}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+          
         </section>
       </section>
 
@@ -466,6 +520,58 @@ function Gallery() {
               <img
                 id="classic-img"
                 src={Church6}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={BB1}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={BB}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={BB2}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+          </div>
+           <div className="row">
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={BB3}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />{" "}
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={BB4}
+                alt=""
+                className="img-fluid img-thumbnail"
+              />
+            </div>
+            <div className="col-4">
+              <img
+                id="classic-img-cust"
+                src={BB5}
                 alt=""
                 className="img-fluid img-thumbnail"
               />

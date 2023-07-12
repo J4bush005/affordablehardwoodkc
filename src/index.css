@@ -851,7 +851,7 @@ img {
   padding-top: 20px;
 }
 
-#mop{
+#mop {
   width: 800px;
   padding-top: 25px;
 }
@@ -1111,6 +1111,23 @@ img {
 }
 
 #classic-img-cus:hover {
+  transform: scale(1.03);
+  background-color: rgba(157, 0, 0, 0.7);
+}
+
+#classic-img-cust {
+  margin-top: 25px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  color: rgba(187, 154, 33, 0.7);
+  background-color: rgba(187, 154, 33, 0.8);
+  border-color: rgba(187, 154, 33, 0.8);
+  transition: 0.3s;
+}
+
+#classic-img-cust:hover {
   transform: scale(1.03);
   background-color: rgba(157, 0, 0, 0.7);
 }
