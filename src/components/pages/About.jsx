@@ -529,16 +529,7 @@ function About() {
                                 every project. They possess a deep understanding
                                 of different wood species, finishes, and
                                 installation techniques, ensuring precise and
-                                flawless results. From meticulously preparing
-                                the subfloor to expertly laying the planks and
-                                applying the perfect finish, our craftsmen take
-                                pride in their craftsmanship and attention to
-                                detail. They possess an eye for aesthetics and
-                                can transform any space into a stunning showcase
-                                of natural beauty. With their expertise, they
-                                can handle various aspects of hardwood flooring,
-                                including installation, refinishing, repairs,
-                                and maintenance.
+                                flawless results.
                               </div>
                             </div>
                           </div>
@@ -876,11 +867,12 @@ function About() {
             <div className="row d-flex justify-content-center">
               <div className="col-6">
                 <div className="r-text">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Maecenas porttitor congue massa. Fusce posuere, magna sed
-                  pulvinar ultricies, purus lectus malesuada libero, sit amet
-                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                  Fusce est. Vivamus a tellus.
+                  At Affordable Hardwood, we pride ourselves on fostering a
+                  welcoming and inclusive environment that feels like family. We
+                  treat our customers with the same care and respect that we
+                  would extend to our own loved ones. We prioritize open
+                  communication, trust, and a genuine commitment to your
+                  satisfaction.
                 </div>
               </div>
             </div>
@@ -946,11 +938,13 @@ function About() {
                 <div className="row justify-content-center">
                   <div className="col-5">
                     <p className="text-center rev mt-3">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus.
+                      At Affordable Hardwood, we consistently exceed customer
+                      expectations. From attentive listening to meticulous
+                      execution, our dedicated professionals go the extra mile
+                      to deliver exceptional results. With open communication
+                      and personalized solutions, we transform your space into a
+                      true reflection of your vision. Trust us to exceed your
+                      needs and provide unparalleled customer satisfaction.
                     </p>
                   </div>
                 </div>
@@ -1146,11 +1140,13 @@ function About() {
                 <div className="row">
                   <div className="col-7">
                     <p className="text-center rev mt-3">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus.
+                      At Affordable Hardwood, we understand the importance of
+                      maintaining the pristine condition of your newly installed
+                      floors. To help you protect your investment and ensure
+                      their long-lasting beauty, we provide valuable floor care
+                      instructions. By following these guidelines, you can
+                      safeguard your floors from damage and enjoy their
+                      impeccable appearance for years to come.
                     </p>
                   </div>
                 </div>
@@ -1172,14 +1168,14 @@ function About() {
                   <div className="row">
                     <div className="col-12">
                       <div className="first-row">
-                        <div className="first-word">Step</div>
+                        <div className="first-word">Prevent Measures</div>
                         <div className="second-word">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                          Protect your floors by using felt pads or furniture
+                          glides under your furniture to prevent scratches.
+                          Avoid dragging heavy objects across the floor and
+                          consider using area rugs or mats in high-traffic areas
+                          to minimize wear.
                         </div>
                       </div>
                     </div>
@@ -1187,14 +1183,14 @@ function About() {
                   <div className="row">
                     <div className="col-12">
                       <div className="first-row">
-                        <div className="first-word">Step</div>
+                        <div className="first-word">Regular Cleaning</div>
                         <div className="second-word">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                          Sweep or vacuum your hardwood floors regularly to
+                          remove dust, dirt, and debris. Use a soft-bristle
+                          broom or a vacuum with a floor attachment to avoid
+                          scratching the surface. Avoid using a vacuum with a
+                          beater bar, as it can damage the floor.
                         </div>
                       </div>
                     </div>
@@ -1202,14 +1198,15 @@ function About() {
                   <div className="row">
                     <div className="col-12">
                       <div className="first-row">
-                        <div className="first-word">Step</div>
+                        <div className="first-word">Spill Cleanup</div>
                         <div className="second-word">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                          Accidents happen, so it's essential to clean up spills
+                          promptly to prevent staining or warping. Use a soft,
+                          damp cloth or mop to gently blot the spill, working
+                          from the edges toward the center. Avoid excessive
+                          moisture and ensure the floor is completely dry after
+                          cleaning.
                         </div>
                       </div>
                     </div>
@@ -1217,14 +1214,17 @@ function About() {
                   <div className="row">
                     <div className="col-12">
                       <div className="first-row">
-                        <div className="first-word">Step</div>
+                        <div className="first-word">
+                          Proper Cleaning Products
+                        </div>
                         <div className="second-word">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                          Use hardwood floor cleaners specifically designed for
+                          your floor type. Avoid using harsh chemicals, abrasive
+                          cleaners, or excessive water, as they can damage the
+                          finish. Follow the manufacturer's instructions and
+                          test any new cleaning product in an inconspicuous area
+                          first.
                         </div>
                       </div>
                     </div>
@@ -1232,100 +1232,22 @@ function About() {
                   <div className="row">
                     <div className="col-12">
                       <div className="first-row">
-                        <div className="first-word">Step</div>
+                        <div className="first-word">Expert Cleaning</div>
                         <div className="second-word">
                           {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                          Consider scheduling professional hardwood floor
+                          maintenance periodically to ensure your floors receive
+                          the care they need. Professional cleaning and
+                          refinishing can help restore the shine and luster of
+                          your hardwood floors, enhancing their longevity and
+                          beauty.
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-6">
-                  <img className="mop" src={Clean} alt="" />
-                </div>
-              </div>
-            </section>
-
-            <section id="dont" className="page-section call-to-action d-flex">
-              <div className="row justify-content-evenly">
-                <div className="col-6">
-                  <img src={Damage} alt="" className="damage" />
-                </div>
-                <div className="col-5">
-                  {" "}
-                  <div id="care-heading" className="1-text heading-text">
-                    How to Not Damage Your Floors
-                  </div>
-                  <div className="flex">
-                    <div className="x1 goldbar home new">
-                      <div className="x1"></div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="first-row">
-                        <div className="first-word">Step</div>
-                        <div className="second-word">
-                          {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="first-row">
-                        <div className="first-word">Step</div>
-                        <div className="second-word">
-                          {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="first-row">
-                        <div className="first-word">Step</div>
-                        <div className="second-word">
-                          {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="first-row">
-                        <div className="first-word">Step</div>
-                        <div className="second-word">
-                          {" "}
-                          Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Maecenas porttitor congue massa. Fusce posuere,
-                          magna sed pulvinar ultricies, purus lectus malesuada
-                          libero, sit amet commodo magna eros quis urna. Nunc
-                          viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <img id="mop" className="img-fluid" src={Clean} alt="" />
                 </div>
               </div>
             </section>
@@ -1359,11 +1281,18 @@ function About() {
                 <div className="col-7">
                   <div id="fam" className="second-word">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Maecenas porttitor congue massa. Fusce posuere, magna sed
-                    pulvinar ultricies, purus lectus malesuada libero, sit amet
-                    commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                    Fusce est. Vivamus a tellus.
+                    We welcome dedicated individuals who are eager to join our
+                    family-oriented team. As a leading hardwood flooring
+                    company, we prioritize excellence, professionalism, and a
+                    supportive work environment. We value the contributions of
+                    each team member and foster a sense of belonging and growth.
+                    Whether you have experience in installation, refinishing,
+                    customer service, or administration, we invite you to apply
+                    and become a part of our thriving family at Affordable
+                    Hardwood. Embrace the opportunity to work alongside industry
+                    experts, enhance your skills, and contribute to our
+                    continued success. Join us on this exciting journey and
+                    let's create beautiful spaces together.
                   </div>
                 </div>
               </div>
@@ -1375,13 +1304,20 @@ function About() {
                   <table className="table table-hover">
                     <tbody>
                       <tr>
-                        <th id="plus" scope="row">
+                        <th
+                          id="plus"
+                          scope="row"
+                          data-bs-toggle="collapse"
+                          data-bs-target=".collapse"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                        >
                           +
                         </th>
                         <td
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#Crafts-desc"
+                          data-bs-target=".collapse"
                           aria-expanded="false"
                           aria-controls="Sander-desc"
                           id="title"
@@ -1397,12 +1333,15 @@ function About() {
                             <div className="col-12">
                               <div className="second-word">
                                 {" "}
-                                Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit. Maecenas porttitor congue
-                                massa. Fusce posuere, magna sed pulvinar
-                                ultricies, purus lectus malesuada libero, sit
-                                amet commodo magna eros quis urna. Nunc viverra
-                                imperdiet enim. Fusce est. Vivamus a tellus.
+                                A hardwood floor craftsman is a skilled
+                                professional who specializes in the artistry of
+                                hardwood flooring. At Affordable Hardwood, our
+                                craftsmen are the backbone of our business,
+                                bringing years of experience and expertise to
+                                every project. They possess a deep understanding
+                                of different wood species, finishes, and
+                                installation techniques, ensuring precise and
+                                flawless results.
                               </div>
                             </div>
                           </div>
@@ -1423,49 +1362,39 @@ function About() {
                                 className="list-group list-group-numbered"
                               >
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Hardwood Floor Installation: Perform expert
+                                  installation of hardwood floors, ensuring
+                                  precise measurements, proper subfloor
+                                  preparation, and secure placement of the
+                                  flooring materials.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Refinishing and Sanding: Skillfully sand and
+                                  refinish hardwood floors, removing old
+                                  finishes, repairing any imperfections, and
+                                  applying new coatings to restore the floor's
+                                  beauty and durability.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Repairs and Maintenance: Assess and repair
+                                  damaged hardwood floors, including replacing
+                                  damaged boards, fixing gaps or squeaks, and
+                                  addressing any issues with the floor's
+                                  stability.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Attention to Detail: Exhibit meticulous
+                                  attention to detail throughout the entire
+                                  process, from assessing the space and making
+                                  precise measurements to ensuring a flawless
+                                  finish and seamless transitions between floor
+                                  sections.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Continuous Learning: Stay updated with
+                                  industry trends, techniques, and new products
+                                  to enhance skills and knowledge in hardwood
+                                  flooring craftsmanship.
                                 </li>
                               </ol>
                               <Link
@@ -1482,13 +1411,20 @@ function About() {
                         </section>
                       </tr>
                       <tr>
-                        <th id="plus" scope="row">
+                        <th
+                          id="plus"
+                          scope="row"
+                          data-bs-toggle="collapse"
+                          data-bs-target=".inst.collapse"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                        >
                           +
                         </th>
                         <td
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#Installer-desc"
+                          data-bs-target=".inst.collapse"
                           aria-expanded="false"
                           aria-controls="Sander-desc"
                           id="title"
@@ -1498,18 +1434,19 @@ function About() {
                         </td>
                         <section
                           id="Installer-desc"
-                          className="collapse multi-collapse"
+                          className="inst collapse multi-collapse"
                         >
                           <div className="row">
                             <div className="col-12">
                               <div className="second-word">
                                 {" "}
-                                Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit. Maecenas porttitor congue
-                                massa. Fusce posuere, magna sed pulvinar
-                                ultricies, purus lectus malesuada libero, sit
-                                amet commodo magna eros quis urna. Nunc viverra
-                                imperdiet enim. Fusce est. Vivamus a tellus.
+                                A hardwood floor installer at Affordable
+                                Hardwood is a skilled professional responsible
+                                for expertly installing hardwood floors in
+                                residential and commercial settings. With a keen
+                                eye for detail and a focus on precision, our
+                                installers take pride in transforming spaces
+                                with the timeless beauty of hardwood flooring.
                               </div>
                             </div>
                           </div>
@@ -1525,54 +1462,59 @@ function About() {
                           </div>
                           <div className="row">
                             <div className="col-12">
-                              <ol
+                               <ol
                                 id="list"
                                 className="list-group list-group-numbered"
                               >
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Measurement and Assessment: Accurately measure
+                                  the installation area and assess the condition
+                                  of the subfloor, ensuring it is level, clean,
+                                  and suitable for hardwood flooring
+                                  installation.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Subfloor Preparation: Prepare the subfloor by
+                                  removing existing flooring materials,
+                                  smoothing rough areas, and addressing any
+                                  issues such as moisture or unevenness to
+                                  create a solid foundation for the hardwood
+                                  flooring.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Installation Techniques: Apply appropriate
+                                  installation techniques such as glue-down,
+                                  nail-down, or floating methods based on the
+                                  project requirements, ensuring proper
+                                  alignment, spacing, and secure attachment of
+                                  hardwood planks.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Cutting and Fitting: Use precise cutting tools
+                                  to trim hardwood planks as needed, ensuring
+                                  seamless integration with existing structures,
+                                  corners, and edges for a professional and
+                                  finished appearance.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Equipment and Tools: Operate and maintain a
+                                  variety of installation tools and equipment,
+                                  including saws, nailers, adhesive applicators,
+                                  and moisture meters, ensuring they are in good
+                                  working condition.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Safety and Compliance: Adhere to safety
+                                  protocols, including proper handling of tools,
+                                  following safety guidelines for the use of
+                                  adhesives and finishing products, and
+                                  maintaining a safe work environment.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Collaboration: Work collaboratively with other
+                                  team members, such as contractors or project
+                                  managers, to ensure seamless coordination and
+                                  timely completion of projects.
                                 </li>
                               </ol>
                               <Link
@@ -1589,13 +1531,20 @@ function About() {
                         </section>
                       </tr>
                       <tr>
-                        <th id="plus" scope="row">
+                        <th
+                          id="plus"
+                          scope="row"
+                          data-bs-toggle="collapse"
+                          data-bs-target=".sand.collapse"
+                          aria-expanded="false"
+                          aria-controls="Sander-desc"
+                        >
                           +
                         </th>
                         <td
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#Sander-desc"
+                          data-bs-target=".sand.collapse"
                           aria-expanded="false"
                           aria-controls="Sander-desc"
                           id="title"
@@ -1605,18 +1554,22 @@ function About() {
                         </td>
                         <section
                           id="Sander-desc"
-                          className="collapse multi-collapse"
+                          className="sand collapse multi-collapse"
                         >
                           <div className="row">
                             <div className="col-12">
                               <div className="second-word">
                                 {" "}
-                                Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit. Maecenas porttitor congue
-                                massa. Fusce posuere, magna sed pulvinar
-                                ultricies, purus lectus malesuada libero, sit
-                                amet commodo magna eros quis urna. Nunc viverra
-                                imperdiet enim. Fusce est. Vivamus a tellus.
+                                A hardwood floor sander and finisher at
+                                Affordable Hardwood is a skilled professional
+                                responsible for refinishing and restoring the
+                                natural beauty of hardwood floors. With
+                                precision and expertise, our sanders and
+                                finishers take worn or damaged floors and
+                                transform them into stunning masterpieces. They
+                                use state-of-the-art sanding equipment to remove
+                                old finishes, stains, and imperfections,
+                                preparing the surface for a fresh new look.
                               </div>
                             </div>
                           </div>
@@ -1637,49 +1590,53 @@ function About() {
                                 className="list-group list-group-numbered"
                               >
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Floor Assessment: Inspect hardwood floors to
+                                  evaluate their condition and determine the
+                                  appropriate refinishing process required.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Sanding: Utilize professional sanding
+                                  equipment to remove old finishes, stains,
+                                  scratches, and imperfections from the hardwood
+                                  surface, ensuring a smooth and level result.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Dust Containment: Implement proper dust
+                                  containment measures during the sanding
+                                  process to minimize the spread of dust and
+                                  debris throughout the space.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Finish Application: Apply the chosen finish,
+                                  such as oil-based, water-based, or other
+                                  appropriate coatings, using proper techniques
+                                  to achieve an even and smooth finish.
                                 </li>
                                 <li id="list" className="list-group-item">
-                                  Lorem ipsum dolor sit amet, consectetuer
-                                  adipiscing elit. Maecenas porttitor congue
-                                  massa. Fusce posuere, magna sed pulvinar
-                                  ultricies, purus lectus malesuada libero, sit
-                                  amet commodo magna eros quis urna. Nunc
-                                  viverra imperdiet enim. Fusce est. Vivamus a
-                                  tellus.
+                                  Stain Application (if applicable): Apply
+                                  stains to the hardwood floor surface as per
+                                  the customer's preferences or design
+                                  requirements, ensuring an even application and
+                                  desired color outcome.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Protective Coating: Apply protective coats of
+                                  finish to enhance the durability and longevity
+                                  of the hardwood floor, ensuring proper drying
+                                  and curing times between coats.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Repair and Patching: Address any necessary
+                                  repairs or patching of the hardwood floor,
+                                  such as filling gaps, replacing damaged
+                                  boards, or repairing minor imperfections.
+                                </li>
+                                <li id="list" className="list-group-item">
+                                  Safety Compliance: Adhere to safety protocols
+                                  and guidelines, including proper handling and
+                                  disposal of finishing products, utilization of
+                                  personal protective equipment, and maintaining
+                                  a safe work environment.
                                 </li>
                               </ol>
                               <Link

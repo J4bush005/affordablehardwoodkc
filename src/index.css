@@ -851,6 +851,11 @@ img {
   padding-top: 20px;
 }
 
+#mop{
+  width: 800px;
+  padding-top: 25px;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1330px) {
   .mop {
     width: 470px;
