@@ -137,7 +137,7 @@ function Home() {
                   <img
                     src={Kids}
                     alt=""
-                    className="img-responsive pic x2 flex sm img-fluid"
+                    className="img-responsive pic x2 flex sm"
                   />
                 </div>
               </div>
@@ -179,7 +179,7 @@ function Home() {
                   <img
                     src={Buffer}
                     alt=""
-                    className="img-responsive pic x2 flex sms img-fluid"
+                    className="img-responsive pic x2 flex sms"
                   />
                 </div>
               </div>
@@ -220,7 +220,7 @@ function Home() {
                         leading hardwood flooring specialists in Kansas City.
                       </div>
                       <div className="col">
-                        <img src={Demo10} alt="" className="demo-pic-small img-fluid" />
+                        <img src={Demo10} alt="" className="demo-pic-small" />
                       </div>
                       <div className="row view">
                         <Link
@@ -282,7 +282,7 @@ function Home() {
                     src={Rappers}
                     alt=""
                     id="third-image-small"
-                    className="img-responsive pic x2 flex small img-fluid"
+                    className="img-responsive pic x2 flex small"
                   />
                 </div>
               </div>
