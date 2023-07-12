@@ -52,11 +52,12 @@ function About() {
             <div className="row d-flex justify-content-center">
               <div className="col">
                 <div className="text-center rev">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Maecenas porttitor congue massa. Fusce posuere, magna sed
-                  pulvinar ultricies, purus lectus malesuada libero, sit amet
-                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                  Fusce est. Vivamus a tellus.
+                  At Affordable Hardwood, we pride ourselves on fostering a
+                  welcoming and inclusive environment that feels like family. We
+                  treat our customers with the same care and respect that we
+                  would extend to our own loved ones. We prioritize open
+                  communication, trust, and a genuine commitment to your
+                  satisfaction.
                 </div>
               </div>
             </div>
@@ -121,11 +122,13 @@ function About() {
                 <div className="row">
                   <div className="col">
                     <p className="text-center rev mt-3">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus.
+                      At Affordable Hardwood, we consistently exceed customer
+                      expectations. From attentive listening to meticulous
+                      execution, our dedicated professionals go the extra mile
+                      to deliver exceptional results. With open communication
+                      and personalized solutions, we transform your space into a
+                      true reflection of your vision. Trust us to exceed your
+                      needs and provide unparalleled customer satisfaction.
                     </p>
                   </div>
                 </div>
@@ -141,13 +144,12 @@ function About() {
                           <p>
                             "My sister kitchen floor was dry-rotted and needed
                             someone to look at it to get a quote/estimate my
-                            neice referred him/******** to us but I failed to
-                            take a before and after shot of the damage
-                            floor...the repair was priceless the entire family
-                            gave him a 50 ?? rating for an outstanding job as
-                            well as being very professional, knowledgeable,
-                            honest, kind and polite...I highly recommend his
-                            service"
+                            neice referred him to us but I failed to take a
+                            before and after shot of the damage floor...the
+                            repair was priceless the entire family gave him a
+                            100% rating for an outstanding job as well as being
+                            very professional, knowledgeable, honest, kind and
+                            polite...I highly recommend his service"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -320,11 +322,13 @@ function About() {
                 <div className="row">
                   <div className="col">
                     <p className="text-center rev mt-3">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Maecenas porttitor congue massa. Fusce posuere, magna sed
-                      pulvinar ultricies, purus lectus malesuada libero, sit
-                      amet commodo magna eros quis urna. Nunc viverra imperdiet
-                      enim. Fusce est. Vivamus a tellus.
+                      At Affordable Hardwood, we understand the importance of
+                      maintaining the pristine condition of your newly installed
+                      floors. To help you protect your investment and ensure
+                      their long-lasting beauty, we provide valuable floor care
+                      instructions. By following these guidelines, you can
+                      safeguard your floors from damage and enjoy their
+                      impeccable appearance for years to come.
                     </p>
                   </div>
                 </div>
@@ -1059,9 +1063,9 @@ function About() {
                         <blockquote className="blockquote mb-0">
                           <p>
                             "I recently had the pleasure of working with
-                            Affordable Hardwood for the installation of
-                            hardwood flooring in my home, and I must say that
-                            the experience was nothing short of excellent.
+                            Affordable Hardwood for the installation of hardwood
+                            flooring in my home, and I must say that the
+                            experience was nothing short of excellent.
                             Johnathon, the owner, and his team are true
                             professionals who prioritize customer satisfaction
                             and deliver outstanding results."
@@ -1123,8 +1127,8 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "I highly recommend Affordable Hardwood to anyone
-                            in need of hardwood flooring services. Johnathon and
+                            "I highly recommend Affordable Hardwood to anyone in
+                            need of hardwood flooring services. Johnathon and
                             his team have exceeded my expectations in terms of
                             professionalism, craftsmanship, and affordability. I
                             am delighted with the outcome and grateful for their
