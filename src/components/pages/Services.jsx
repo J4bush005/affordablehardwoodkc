@@ -50,11 +50,15 @@ function Services() {
             <div className="row d-flex justify-content-center">
               <div className="col">
                 <div className="text-center rev">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Maecenas porttitor congue massa. Fusce posuere, magna sed
-                  pulvinar ultricies, purus lectus malesuada libero, sit amet
-                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
-                  Fusce est. Vivamus a tellus.
+                  At Affordable Hardwood, we pride ourselves on our ability to
+                  fulfill a wide range of hardwood floor requests and go beyond
+                  traditional services. Our expertise extends far beyond the
+                  installation, refinishing, and repair of hardwood floors. We
+                  understand that each customer may have unique needs and
+                  desires, and we are dedicated to accommodating them. Whether
+                  you have a specific design vision, require custom staining or
+                  inlays, or seek unique finishes or textures, we have the skill
+                  and creativity to bring your ideas to life.
                 </div>
               </div>
             </div>
@@ -116,9 +120,7 @@ function Services() {
                 ></video>
                 <div id="video-text-sm" className="py-lg-5">
                   <div className="col-lg-1 ">
-                    <h1 className="mb-5">
-                      Installation
-                    </h1>
+                    <h1 className="mb-5">Installation</h1>
                   </div>
                 </div>
               </section>
@@ -131,11 +133,15 @@ function Services() {
                   <div className="row">
                     <div className="col">
                       <p className="text-center rev mt-3">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Maecenas porttitor congue massa. Fusce posuere,
-                        magna sed pulvinar ultricies, purus lectus malesuada
-                        libero, sit amet commodo magna eros quis urna. Nunc
-                        viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                        At Affordable Hardwood, our installation service sets
+                        the standard of excellence in the industry. With
+                        meticulous attention to detail and unwavering dedication
+                        to quality, we go above and beyond to ensure flawless
+                        installations that surpass customer expectations. Our
+                        team of skilled professionals possesses extensive
+                        expertise in hardwood floor installation, employing
+                        precise techniques and utilizing top-of-the-line
+                        equipment to deliver impeccable results.
                       </p>
                     </div>
                   </div>
@@ -157,31 +163,16 @@ function Services() {
                     <div className="row">
                       <div className="col">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
-                          <div className="second-word">
-                            {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                          <div className="first-word">
+                            Subfloor Preparation:
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col">
-                        <div className="first-row">
-                          <div className="first-word">Step</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Assess the condition of the subfloor and ensure it
+                            is clean, level, and free from any debris. Address
+                            any issues, such as unevenness or moisture, to
+                            create a suitable foundation for the hardwood
+                            flooring.
                           </div>
                         </div>
                       </div>
@@ -189,15 +180,14 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Layout and Planning:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Plan the layout of the hardwood flooring,
+                            considering factors such as room size, direction of
+                            the wood grain, and transitions between different
+                            areas or flooring materials. Ensure an aesthetically
+                            pleasing and functional arrangement.
                           </div>
                         </div>
                       </div>
@@ -205,15 +195,15 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Installation Method:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Choose the appropriate installation method based on
+                            the type of hardwood flooring and the subfloor.
+                            Common methods include glue-down, nail-down, or
+                            floating installations. Follow manufacturer
+                            guidelines and industry best practices for each
+                            method.
                           </div>
                         </div>
                       </div>
@@ -221,15 +211,46 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Plank Installation:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Begin installing the hardwood planks according to
+                            the chosen layout and installation method. Use
+                            appropriate fasteners or adhesives to securely
+                            attach the planks to the subfloor.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-12">
+                        <div className="first-row">
+                          <div className="first-word">
+                            Cutting and Trimming:
+                          </div>
+                          <div className="second-word">
+                            {" "}
+                            Cut and trim the hardwood planks as needed to fit
+                            around obstacles, walls, or architectural features.
+                            Ensure precise measurements and clean cuts for a
+                            professional finish.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-12">
+                        <div className="first-row">
+                          <div className="first-word">
+                            Transitions and Trim Work:
+                          </div>
+                          <div className="second-word">
+                            {" "}
+                            Install transitions and molding pieces to create
+                            smooth and aesthetically pleasing transitions
+                            between different rooms, flooring materials, or
+                            surfaces. Install baseboards or trim around the
+                            perimeter of the room for a polished look.
                           </div>
                         </div>
                       </div>
@@ -300,15 +321,15 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">
+                            Inspection and Preparation:
+                          </div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Inspect the existing hardwood floors to assess their
+                            condition, including any wear, scratches, or damage.
+                            Prepare the area by removing furniture, rugs, and
+                            other objects from the space.
                           </div>
                         </div>
                       </div>
@@ -316,15 +337,16 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Sanding:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Use professional-grade sanding equipment to remove
+                            the old finish, stains, scratches, and imperfections
+                            from the hardwood surface. Begin with a coarse grit
+                            sandpaper and gradually progress to finer grits for
+                            a smooth and even result. Take care to maintain
+                            consistent pressure and movement during the sanding
+                            process.
                           </div>
                         </div>
                       </div>
@@ -332,15 +354,15 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Stain Application:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            If desired, apply stain to the sanded hardwood floor
+                            to achieve a specific color or enhance the natural
+                            wood grain. Ensure even coverage and follow the
+                            manufacturer's instructions for the staining
+                            product, including drying time and recommended
+                            number of coats.
                           </div>
                         </div>
                       </div>
@@ -348,15 +370,15 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">Finish Application:</div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            Apply a protective finish, such as polyurethane or
+                            varnish, to seal and enhance the appearance of the
+                            hardwood floor. Use a brush, roller, or applicator
+                            pad to evenly distribute the finish, following the
+                            grain of the wood. Apply multiple coats as needed,
+                            allowing sufficient drying time between coats.
                           </div>
                         </div>
                       </div>
@@ -364,15 +386,32 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Step</div>
+                          <div className="first-word">
+                            Buffing and Polishing:
+                          </div>
                           <div className="second-word">
                             {" "}
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus.
+                            After the final coat of finish has dried, buff the
+                            hardwood floor to smooth out any imperfections or
+                            unevenness. Use a buffer or a buffing machine with a
+                            fine-grit pad to achieve a smooth and glossy finish.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-12">
+                        <div className="first-row">
+                          <div className="first-word">
+                            Cleaning and Inspection:
+                          </div>
+                          <div className="second-word">
+                            {" "}
+                            Thoroughly clean the refinished hardwood floor,
+                            removing any dust or debris. Conduct a final
+                            inspection to ensure the finish is even, smooth, and
+                            free from blemishes. Make any necessary touch-ups or
+                            corrections.
                           </div>
                         </div>
                       </div>
