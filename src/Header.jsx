@@ -1,6 +1,6 @@
 import "./index.css";
 import React from "react";
-import Logo from "./components/images/Logo.png";
+import Logo from "./components/images/Logo.webp";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 

@@ -2,16 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import Media from "react-media";
 import { Link } from "react-router-dom";
-import Insta from "../images/ig logo.png";
-import Face from "../images/face.png";
-import Linked from "../images/Linked.png";
-import Clean from "../images/clean.jpg";
-import Damage from "../images/water floors.png";
-import Milk from "../images/milk.jpg";
+import Insta from "../images/ig logo.webp";
+import Face from "../images/face.webp";
+import Linked from "../images/Linked.webp";
+import Clean from "../images/clean.webp";
 import ScrollToTop from "../ScrollToTop";
-
 import { useRef } from "react";
-import { Button } from "bootstrap";
+
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";

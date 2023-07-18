@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
-import Insta from "../images/ig logo.png";
-import Face from "../images/face.png";
-import Linked from "../images/Linked.png";
+import Insta from "../images/ig logo.webp";
+import Face from "../images/face.webp";
+import Linked from "../images/Linked.webp";
 
 export const Contact = () => {
   const form = useRef();

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/src/components/images/Background4.jpeg");
+  background-image: url("/src/components/images/Background4.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1047,7 +1047,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("/src/components/images/commercial\ floor.png");
+  background-image: url("/src/components/images/Calvary.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1062,7 +1062,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("/src/components/images/custom\ floor.png");
+  background-image: url("/src/components/images/custom\ floor.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
