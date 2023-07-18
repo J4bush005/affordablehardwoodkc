@@ -36,43 +36,49 @@ function Home() {
           <div class="carousel-item active">
             <img
               src={Demo1}
-              class="d-block img-responsive image-resize"
+              class="d-block   img-fluid"
               alt=""
+              id="large-screens"
             ></img>
           </div>
           <div class="carousel-item">
             <img
               src={Demo2}
-              class="d-block img-responsive image-resize"
+              class="d-block   img-fluid"
               alt=""
+              id="large-screens"
             ></img>
           </div>
           <div class="carousel-item">
             <img
               src={Demo3}
-              class="d-block img-responsive image-resize"
+              class="d-block  img-fluid"
               alt=""
+              id="large-screens"
             ></img>
           </div>
           <div class="carousel-item">
             <img
               src={Demo4}
-              class="d-block img-responsive image-resize"
+              class="d-block   img-fluid"
               alt=""
+              id="large-screens"
             ></img>
           </div>
           <div class="carousel-item">
             <img
               src={Demo5}
-              class="d-block img-responsive image-resize"
+              class="d-block  img-fluid"
               alt=""
+              id="large-screens"
             ></img>
           </div>
           <div class="carousel-item">
             <img
               src={Demo6}
-              class="d-block img-responsive image-resize"
+              class="d-block   img-fluid"
               alt=""
+              id="large-screens"
             ></img>
           </div>
         </div>

@@ -412,6 +412,24 @@ img {
   }
 }
 
+@media screen and (min-width: 769px) {
+  #large-screens {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #large-screens {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
 /*COntact Page*/
 
 .width {
