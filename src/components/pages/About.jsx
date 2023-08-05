@@ -59,7 +59,7 @@ function About() {
               </div>
             </div>
             <div className="row d-flex justify-content-center">
-              <div className="col-8">
+              <div className="col-12">
                 <div>
                   <ul>
                     <li
