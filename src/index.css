@@ -861,46 +861,46 @@ img {
   transition: all 0.3s;
 }
 
-@media  screen and (min-width: 769px) and (max-width: 980px) {
-#move-right {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: 1px solid white;
-  background-color: rgba(187, 154, 33, 0.7);
-  color: rgba(157, 0, 0);
-  font-size: x-large;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 180px;
-  margin-left: 25px;
-  margin-top: 40px;
-}
-#move-left {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: 1px solid white;
-  background-color: rgba(187, 154, 33, 0.7);
-  color: rgba(157, 0, 0);
-  font-size: x-large;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 180px;
-  margin-right: 25px;
-  margin-top: 40px;
-}
-#section-scroll-about {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: 1px solid white;
-  background-color: rgba(187, 154, 33, 0.7);
-  color: rgba(157, 0, 0);
-  font-size: x-large;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 180px;
-  margin-top: 40px;
-  margin-bottom: 80px;
-}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  #move-right {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: rgba(187, 154, 33, 0.7);
+    color: rgba(157, 0, 0);
+    font-size: x-large;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 180px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  #move-left {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: rgba(187, 154, 33, 0.7);
+    color: rgba(157, 0, 0);
+    font-size: x-large;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 180px;
+    margin-right: 25px;
+    margin-top: 40px;
+  }
+  #section-scroll-about {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: rgba(187, 154, 33, 0.7);
+    color: rgba(157, 0, 0);
+    font-size: x-large;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 180px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
 }
 
 #main {
@@ -948,9 +948,7 @@ img {
     position: fixed;
     right: 20px;
   }
-   
 }
-
 
 /*SERVICES*/
 
@@ -1035,6 +1033,7 @@ img {
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
+  margin-top: 40px;
 }
 
 #move-right-sms {
@@ -1047,6 +1046,7 @@ img {
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
+  margin-top: 40px;
 }
 
 #section-scroll-about-sms {
@@ -1059,6 +1059,7 @@ img {
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
+
 }
 
 /*GALLERY*/
