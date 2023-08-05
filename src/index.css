@@ -821,6 +821,8 @@ img {
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   line-height: 35px;
+  margin-top: 40px;
+  margin-right: 5px;
 }
 
 #move-left:hover {
@@ -853,6 +855,8 @@ img {
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   line-height: 35px;
+  margin-top: 40px;
+  margin-left: 5px;
 }
 
 #move-right:hover {
@@ -1034,6 +1038,7 @@ img {
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
   margin-top: 40px;
+  margin-right: 5px;
 }
 
 #move-right-sms {
@@ -1047,6 +1052,7 @@ img {
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
   margin-top: 40px;
+  margin-left: 5px;
 }
 
 #section-scroll-about-sms {
