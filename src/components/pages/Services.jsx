@@ -62,6 +62,7 @@ function Services() {
                 </div>
               </div>
             </div>
+            <div className="moves">
             <div className="row d-flex justify-content-center">
               <div id="circles" className="col-12">
                 <div>
@@ -96,6 +97,7 @@ function Services() {
                   </ul>
                 </div>
               </div>
+           </div>
             </div>
           </section>
 

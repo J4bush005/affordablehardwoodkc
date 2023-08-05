@@ -977,6 +977,10 @@ img {
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
+.moves {
+  margin-right: 20px;
+}
+
 #video-text {
   position: absolute;
   display: flex;
@@ -1038,7 +1042,7 @@ img {
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
   margin-top: 40px;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 
 #move-right-sms {
@@ -1052,7 +1056,7 @@ img {
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
   margin-top: 40px;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 #section-scroll-about-sms {
