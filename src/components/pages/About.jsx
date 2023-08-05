@@ -58,6 +58,7 @@ function About() {
                 </div>
               </div>
             </div>
+            <div className="movess">
             <div className="row d-flex justify-content-center">
               <div className="col-12">
                 <div>
@@ -92,6 +93,7 @@ function About() {
                   </ul>
                 </div>
               </div>
+           </div>
             </div>
           </section>
           <motion.div
