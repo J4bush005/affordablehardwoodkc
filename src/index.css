@@ -942,6 +942,11 @@ img {
   font-family: "Times New Roman", Times, serif;
 }
 
+#circles{
+  display: flex;
+  justify-content: center;
+}
+
 #mained{
  display: flex;
  align-items: center;
