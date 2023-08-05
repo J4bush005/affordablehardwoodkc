@@ -874,7 +874,7 @@ function About() {
               </div>
             </div>
             <div className="row d-flex justify-content-center">
-              <div id="circles" className="col-8">
+              <div id="circles" className="col-12">
                 <div>
                   <ul>
                     <li
