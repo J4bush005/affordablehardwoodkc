@@ -21,7 +21,7 @@ function Services() {
   const install = useRef(null);
   const finish = useRef(null);
   const misc = useRef(null);
-  const estimate = useRef(null);
+
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
