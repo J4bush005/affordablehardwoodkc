@@ -639,9 +639,9 @@ function Services() {
                   loop
                   muted
                 ></video>
-                <div id="video-text" className="py-lg-5">
-                  <div className="col-lg-1 col-md-8 mx-auto">
-                    <h1 className="mb-5">Installation</h1>
+                <div id="video-text">
+                  <div className="">
+                    <h1 className="">Installation</h1>
                   </div>
                 </div>
               </section>

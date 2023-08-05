@@ -933,16 +933,19 @@ img {
 
 #video-text {
   position: absolute;
-  height: 500px;
-  width: 1450px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   text-shadow: 2px 2px 4px rgba(157, 0, 0, 0.7);
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
+}
+
+#mained{
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 #video-text-sm {
