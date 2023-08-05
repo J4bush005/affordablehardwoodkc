@@ -906,7 +906,9 @@ img {
     position: fixed;
     right: 20px;
   }
+   
 }
+
 
 /*SERVICES*/
 
@@ -942,15 +944,15 @@ img {
   font-family: "Times New Roman", Times, serif;
 }
 
-#circles{
+#circles {
   display: flex;
   justify-content: center;
 }
 
-#mained{
- display: flex;
- align-items: center;
- justify-content: center;
+#mained {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #video-text-sm {
