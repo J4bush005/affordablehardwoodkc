@@ -47,7 +47,7 @@ function About() {
               </div>
             </div>
             <div className="row d-flex justify-content-center">
-              <div className="col">
+              <div className="col-12">
                 <div className="text-center rev">
                   At Affordable Hardwood, we pride ourselves on fostering a
                   welcoming and inclusive environment that feels like family. We
@@ -139,14 +139,15 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "My sister kitchen floor was dry-rotted and needed
-                            someone to look at it to get a quote/estimate my
-                            neice referred him to us but I failed to take a
-                            before and after shot of the damage floor...the
-                            repair was priceless the entire family gave him a
-                            100% rating for an outstanding job as well as being
-                            very professional, knowledgeable, honest, kind and
-                            polite...I highly recommend his service"
+                           "I am incredibly satisfied with the services
+                            provided by Affordable Hardwood KC and would highly
+                            recommend them to anyone in need of hardwood
+                            flooring. Johnathon and his team have exceeded my
+                            expectations in every aspect, and I am grateful for
+                            their dedication to delivering exceptional results.
+                            Look no further than Affordable Hardwood KC for
+                            unmatched value and craftsmanship that will
+                            transform your home."
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -213,17 +214,13 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Maecenas porttitor
-                            congue massa. Fusce posuere, magna sed pulvinar
-                            ultricies, purus lectus malesuada libero, sit amet
-                            commodo magna eros quis urna. Nunc viverra imperdiet
-                            enim. Fusce est. Vivamus a tellus."
+                             "I recently had the pleasure of working with
+                            Affordable Hardwood for the installation of hardwood
+                            flooring in my home, and I must say that the
+                            experience was nothing short of excellent.
+                            Johnathon, the owner, and his team are true
+                            professionals who prioritize customer satisfaction
+                            and deliver outstanding results."
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -241,17 +238,14 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Maecenas porttitor
-                            congue massa. Fusce posuere, magna sed pulvinar
-                            ultricies, purus lectus malesuada libero, sit amet
-                            commodo magna eros quis urna. Nunc viverra imperdiet
-                            enim. Fusce est. Vivamus a tellus."
+                             "What sets Affordable Hardwood apart is their
+                            commitment to providing unbeatable value. Their
+                            pricing is affordable without compromising on the
+                            quality of materials or craftsmanship. Johnathon's
+                            transparency and honesty in pricing made the entire
+                            process stress-free and enjoyable. It's rare to find
+                            such a perfect balance of affordability and
+                            quality."
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -269,17 +263,38 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Maecenas porttitor congue massa. Fusce
-                            posuere, magna sed pulvinar ultricies, purus lectus
-                            malesuada libero, sit amet commodo magna eros quis
-                            urna. Nunc viverra imperdiet enim. Fusce est.
-                            Vivamus a tellus. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Maecenas porttitor
-                            congue massa. Fusce posuere, magna sed pulvinar
-                            ultricies, purus lectus malesuada libero, sit amet
-                            commodo magna eros quis urna. Nunc viverra imperdiet
-                            enim. Fusce est. Vivamus a tellus."
+                            "The installation process was seamless and
+                            efficient. The team arrived promptly and completed
+                            the project within the agreed timeline. Their
+                            craftsmanship was exceptional, leaving me with
+                            beautiful hardwood floors that added elegance to my
+                            home. I appreciate their commitment to ensuring
+                            every detail was perfect."
+                          </p>
+                          <footer id="value" className="blockquote-footer">
+                            Valued Customer
+                          </footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div className="container-fluid text-center">
+                <div className="row first-row">
+                  <div className="col-md-8">
+                    <div id="body" className="card">
+                      <div id="cards" className="card-body">
+                        <blockquote className="blockquote mb-0">
+                          <p>
+                            "I highly recommend Affordable Hardwood to anyone in
+                            need of hardwood flooring services. Johnathon and
+                            his team have exceeded my expectations in terms of
+                            professionalism, craftsmanship, and affordability. I
+                            am delighted with the outcome and grateful for their
+                            dedication. Thank you, Affordable Hardwood KC, for
+                            transforming my home with beautiful hardwood
+                            floors."
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer

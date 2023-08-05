@@ -48,7 +48,7 @@ function Services() {
               </div>
             </div>
             <div className="row d-flex justify-content-center">
-              <div className="col">
+              <div className="col-12">
                 <div className="text-center rev">
                   At Affordable Hardwood, we pride ourselves on our ability to
                   fulfill a wide range of hardwood floor requests and go beyond
