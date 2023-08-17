@@ -510,7 +510,7 @@ function About() {
                         <th
                           id="plus"
                           data-bs-toggle="collapse"
-                          data-bs-target=".collapse"
+                          data-bs-target=".grow"
                           aria-expanded="false"
                           aria-controls="Sander-desc"
                         >
@@ -519,7 +519,7 @@ function About() {
                         <td
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target=".collapse"
+                          data-bs-target=".grow"
                           aria-expanded="false"
                           aria-controls="Sander-desc"
                           id="title"
@@ -529,7 +529,7 @@ function About() {
                         </td>
                         <section
                           id="Crafts-desc"
-                          className="collapse multi-collapse"
+                          className="collapse multi-collapse grow"
                         >
                           <div className="row">
                             <div className="col-12">
@@ -1322,7 +1322,7 @@ function About() {
                           id="plus"
                           scope="row"
                           data-bs-toggle="collapse"
-                          data-bs-target=".collapse"
+                          data-bs-target=".grow"
                           aria-expanded="false"
                           aria-controls="Sander-desc"
                         >
@@ -1331,7 +1331,7 @@ function About() {
                         <td
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target=".collapse"
+                          data-bs-target=".grow"
                           aria-expanded="false"
                           aria-controls="Sander-desc"
                           id="title"
@@ -1341,7 +1341,7 @@ function About() {
                         </td>
                         <section
                           id="Crafts-desc"
-                          className="collapse multi-collapse"
+                          className="collapse multi-collapse grow"
                         >
                           <div className="row">
                             <div className="col-12">
