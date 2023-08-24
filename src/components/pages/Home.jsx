@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
-const mine = "https://j4bush005.github.io/";
+const mine = "https://www.forbushtech.com/";
 
 function Home() {
   return (
@@ -168,17 +168,16 @@ function Home() {
                   <div className="r-text-sm">
                     {" "}
                     At Affordable Hardwood, we believe that superior quality
-                      shouldn't come at a premium price. We are proud to offer
-                      some of the most affordable prices in the industry without
-                      compromising on the excellence of our work. Our commitment
-                      to providing exceptional craftsmanship and top-notch
-                      materials extends to ensuring that our services remain
-                      accessible to all. With our competitive pricing, you can
-                      experience the highest level of quality and
-                      professionalism without breaking the bank. We understand
-                      the importance of value for our customers, and that's why
-                      we strive to deliver the perfect balance of affordability
-                      and superior results.
+                    shouldn't come at a premium price. We are proud to offer
+                    some of the most affordable prices in the industry without
+                    compromising on the excellence of our work. Our commitment
+                    to providing exceptional craftsmanship and top-notch
+                    materials extends to ensuring that our services remain
+                    accessible to all. With our competitive pricing, you can
+                    experience the highest level of quality and professionalism
+                    without breaking the bank. We understand the importance of
+                    value for our customers, and that's why we strive to deliver
+                    the perfect balance of affordability and superior results.
                   </div>
                 </div>
                 <div className="col">
@@ -296,7 +295,6 @@ function Home() {
           </div>
         </div>
       </Media>
-  
 
       {/*Laptops*/}
       <Media query="(min-width: 769px)">
@@ -485,8 +483,6 @@ function Home() {
           </div>
         </div>
       </Media>
-
-      
 
       {/* Footer */}
       <div class="container my-5 foot">

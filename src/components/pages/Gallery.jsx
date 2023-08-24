@@ -70,7 +70,7 @@ import { useRef } from "react";
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
-const mine = "https://j4bush005.github.io/";
+const mine = "https://www.forbushtech.com/";
 
 function Gallery() {
   const classic = useRef(null);
@@ -98,7 +98,7 @@ function Gallery() {
               <figure className="figure">
                 <img
                   onClick={() => scrollToSection(classic)}
-                  id="classic-image"
+                  id=""
                   src={Classic}
                   alt=""
                   className="figure-img img-fluid rounded"
