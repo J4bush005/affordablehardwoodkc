@@ -98,7 +98,7 @@ function Gallery() {
               <figure className="figure">
                 <img
                   onClick={() => scrollToSection(classic)}
-                  id=""
+                  id="classic-img"
                   src={Classic}
                   alt=""
                   className="figure-img img-fluid rounded"
