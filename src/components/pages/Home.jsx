@@ -474,7 +474,7 @@ function Home() {
                     <img
                       src={Rappers}
                       alt=""
-                      className="img-fluid pic x2 flex"
+                      className="img-fluid pic"
                     />
                   </div>
                 </div>
