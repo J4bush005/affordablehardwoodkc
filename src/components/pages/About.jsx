@@ -9,7 +9,6 @@ import Clean from "../images/clean.webp";
 import ScrollToTop from "../ScrollToTop";
 import { useRef } from "react";
 
-
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
@@ -59,41 +58,41 @@ function About() {
               </div>
             </div>
             <div className="movess">
-            <div className="row d-flex justify-content-center">
-              <div className="col-12">
-                <div>
-                  <ul>
-                    <li
-                      id="move-left-sm"
-                      onClick={() => scrollToSection(reviews)}
-                      className="btn"
-                      type="button"
-                      role="button"
-                    >
-                      Our Reviews
-                    </li>
-                    <li
-                      id="section-scroll-about-sm"
-                      onClick={() => scrollToSection(care)}
-                      className="btn"
-                      type="button"
-                      role="button"
-                    >
-                      Floor Caring Tips
-                    </li>
-                    <li
-                      id="move-right-sm"
-                      onClick={() => scrollToSection(jobs)}
-                      className="btn"
-                      type="button"
-                      role="button"
-                    >
-                      Find A Career
-                    </li>
-                  </ul>
+              <div className="row d-flex justify-content-center">
+                <div className="col-12">
+                  <div>
+                    <ul>
+                      <li
+                        id="move-left-sm"
+                        onClick={() => scrollToSection(reviews)}
+                        className="btn"
+                        type="button"
+                        role="button"
+                      >
+                        Our Reviews
+                      </li>
+                      <li
+                        id="section-scroll-about-sm"
+                        onClick={() => scrollToSection(care)}
+                        className="btn"
+                        type="button"
+                        role="button"
+                      >
+                        Floor Caring Tips
+                      </li>
+                      <li
+                        id="move-right-sm"
+                        onClick={() => scrollToSection(jobs)}
+                        className="btn"
+                        type="button"
+                        role="button"
+                      >
+                        Find A Career
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-           </div>
             </div>
           </section>
           <motion.div
@@ -141,7 +140,7 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                           "I am incredibly satisfied with the services
+                            "I am incredibly satisfied with the services
                             provided by Affordable Hardwood KC and would highly
                             recommend them to anyone in need of hardwood
                             flooring. Johnathon and his team have exceeded my
@@ -216,7 +215,7 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                             "I recently had the pleasure of working with
+                            "I recently had the pleasure of working with
                             Affordable Hardwood for the installation of hardwood
                             flooring in my home, and I must say that the
                             experience was nothing short of excellent.
@@ -240,7 +239,7 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                             "What sets Affordable Hardwood apart is their
+                            "What sets Affordable Hardwood apart is their
                             commitment to providing unbeatable value. Their
                             pricing is affordable without compromising on the
                             quality of materials or craftsmanship. Johnathon's
@@ -282,21 +281,28 @@ function About() {
                   </div>
                 </div>
               </div>
-               <div className="container-fluid text-center">
+              <div className="container-fluid text-center">
                 <div className="row first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "I highly recommend Affordable Hardwood to anyone in
-                            need of hardwood flooring services. Johnathon and
-                            his team have exceeded my expectations in terms of
-                            professionalism, craftsmanship, and affordability. I
-                            am delighted with the outcome and grateful for their
-                            dedication. Thank you, Affordable Hardwood KC, for
-                            transforming my home with beautiful hardwood
-                            floors."
+                            "I learned about Affordable Hardwood through a
+                            friend. From the way he described Johnathon's work
+                            and competitive pricing, I thought it was too good
+                            to be true. But I was wrong. Johnathon was able to
+                            restore the original hardwood floors in my house to
+                            a beautiful warm color including matching the floor
+                            perfectly in places he had to patch due to water
+                            damage. It was so good that he was the only person I
+                            wanted to put in new matching hardwood when I added
+                            on to my house. Affordable Hardwood is superb.
+                            Johnathon knows what he's doing and the finished
+                            product is a testament to that. The service is
+                            impeccable and his pricing can't be beat. I have
+                            hired Affordable Hardwood twice and would not
+                            hesitate to do it again!"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -1104,14 +1110,21 @@ function About() {
                       <div id="cards" className="card-body">
                         <blockquote className="blockquote mb-0">
                           <p>
-                            "I highly recommend Affordable Hardwood to anyone in
-                            need of hardwood flooring services. Johnathon and
-                            his team have exceeded my expectations in terms of
-                            professionalism, craftsmanship, and affordability. I
-                            am delighted with the outcome and grateful for their
-                            dedication. Thank you, Affordable Hardwood KC, for
-                            transforming my home with beautiful hardwood
-                            floors."
+                            "I learned about Affordable Hardwood through a
+                            friend. From the way he described Johnathon's work
+                            and competitive pricing, I thought it was too good
+                            to be true. But I was wrong. Johnathon was able to
+                            restore the original hardwood floors in my house to
+                            a beautiful warm color including matching the floor
+                            perfectly in places he had to patch due to water
+                            damage. It was so good that he was the only person I
+                            wanted to put in new matching hardwood when I added
+                            on to my house. Affordable Hardwood is superb.
+                            Johnathon knows what he's doing and the finished
+                            product is a testament to that. The service is
+                            impeccable and his pricing can't be beat. I have
+                            hired Affordable Hardwood twice and would not
+                            hesitate to do it again!"
                           </p>
                           <footer id="value" className="blockquote-footer">
                             Valued Customer
@@ -1476,7 +1489,7 @@ function About() {
                           </div>
                           <div className="row">
                             <div className="col-12">
-                               <ol
+                              <ol
                                 id="list"
                                 className="list-group list-group-numbered"
                               >
