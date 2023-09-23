@@ -1,12 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Media from "react-media";
-import Demo1 from "../images/Demo1.webp";
-import Demo2 from "../images/Demo2.webp";
-import Demo3 from "../images/Demo3.webp";
-import Demo4 from "../images/Demo4.webp";
-import Demo5 from "../images/Demo5.webp";
-import Demo6 from "../images/Demo6.webp";
+import Carousels from "../Carousels";
 import Demo10 from "../images/Demo 10.webp";
 import Insta from "../images/ig logo.webp";
 import Face from "../images/face.webp";
@@ -16,6 +11,7 @@ import Buffer from "../images/buff.webp";
 import Rappers from "../images/Rappers.webp";
 import ScrollToTop from "../ScrollToTop";
 import { Link } from "react-router-dom";
+import { Carousel } from "bootstrap";
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -26,82 +22,7 @@ function Home() {
   return (
     <>
       <ScrollToTop />
-      {/*Image Carousel*/}
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src={Demo1}
-              class="d-block   img-fluid"
-              alt=""
-              id="large-screens"
-            ></img>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Demo2}
-              class="d-block   img-fluid"
-              alt=""
-              id="large-screens"
-            ></img>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Demo3}
-              class="d-block  img-fluid"
-              alt=""
-              id="large-screens"
-            ></img>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Demo4}
-              class="d-block   img-fluid"
-              alt=""
-              id="large-screens"
-            ></img>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Demo5}
-              class="d-block  img-fluid"
-              alt=""
-              id="large-screens"
-            ></img>
-          </div>
-          <div class="carousel-item">
-            <img
-              src={Demo6}
-              class="d-block   img-fluid"
-              alt=""
-              id="large-screens"
-            ></img>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
+      <Carousels />
       {/*PHONES*/}
       <Media query="(max-width: 768px)">
         <div className="flex container">
