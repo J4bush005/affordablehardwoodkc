@@ -21,17 +21,11 @@ function Gallery() {
   const custom = useRef(null);
   const stair = useRef(null);
 
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <>
       <ScrollToTop />
-      <BeforeAfter />
+      
       <section id="first-row">
         <div className="d-flex justify-content-evenly mt-3">
           <div className="col-6">
@@ -39,7 +33,6 @@ function Gallery() {
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
-                  onClick={() => scrollToSection(classic)}
                   id="classic-img"
                   src={Classics}
                   alt=""
@@ -55,7 +48,6 @@ function Gallery() {
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
-                  onClick={() => scrollToSection(lvt)}
                   id="classic-image"
                   src={LVTs}
                   alt=""
@@ -76,7 +68,6 @@ function Gallery() {
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
-                  onClick={() => scrollToSection(commercial)}
                   id="classic-image"
                   src={Church}
                   alt=""
@@ -98,7 +89,6 @@ function Gallery() {
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
-                  onClick={() => scrollToSection(custom)}
                   id="classic-image"
                   src={Customs}
                   alt=""
@@ -114,7 +104,6 @@ function Gallery() {
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
-                  onClick={() => scrollToSection(stair)}
                   id="classic-image"
                   src={Stairss}
                   alt=""
@@ -128,26 +117,6 @@ function Gallery() {
           </div>
         </div>
       </section>
-
-      <section id="classic-pics" ref={classic}>
-      <Classic />
-      </section>
-
-     <section id="lvt-pics" ref={lvt}>
-        <LVT/>
-     </section>
-
-     <section id="commericial-pics"ref={commercial}>
-      <Commercial/>
-     </section>
-
-     <section id="custom-pics"ref={custom}>
-      <Custom/>
-     </section>
-
-     <section id="stair-pics"ref={stair}>
-      <Stairs/>
-     </section>
 
       {/*FOOTER*/}
       <Footer/>

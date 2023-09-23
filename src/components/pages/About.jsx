@@ -948,7 +948,7 @@ function About() {
               className=" mt-2 page-section call-to-action d-flex"
             >
               <div className="container-fluid">
-                <div className="justify-content-center">
+                <div className="d-flex justify-content-center">
                   <div className="col-5">
                     <p className="text-center rev mt-3">
                       At Affordable Hardwood, we consistently exceed customer

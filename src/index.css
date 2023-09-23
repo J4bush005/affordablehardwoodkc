@@ -538,8 +538,9 @@ img {
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/LVT\ 3\ copy.webp");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
   height: 600px;
   color: white;
@@ -642,8 +643,9 @@ img {
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/Sand\ 6\ After.webp");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
   height: 600px;
   color: white;
@@ -657,9 +659,10 @@ img {
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/trash.webp");
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   height: 600px;
   color: white;
   font-size: xx-large;
