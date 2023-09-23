@@ -1,10 +1,10 @@
 import React from 'react';
 import Demo1 from "./images/Demo1.webp";
-import Demo2 from "./images/Demo1.webp";
-import Demo3 from "./images/Demo1.webp";
-import Demo4 from "./images/Demo1.webp";
-import Demo5 from "./images/Demo1.webp";
-import Demo6 from "./images/Demo1.webp";
+import Demo2 from "./images/Demo2.webp";
+import Demo3 from "./images/Demo3.webp";
+import Demo4 from "./images/Demo4.webp";
+import Demo5 from "./images/Demo5.webp";
+import Demo6 from "./images/Demo6.webp";
 
 function Carousels() {
   return (
