@@ -2,7 +2,6 @@ import "./index.css";
 import React from "react";
 import Logo from "./components/images/Logo.webp";
 import { Link } from "react-router-dom";
-import { useRef } from "react";
 
 function Header() {
  
@@ -10,7 +9,7 @@ function Header() {
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <Link to="/" id="words" class="navbar-brand">
-          <img id="logo" src={Logo} alt=""></img>
+          <img id="logo" src={Logo} alt=""/>
         </Link>
         <Link to="/" id="words" class="navbar-brand">
           <div className="1-text heading-text bigger up">Affordable</div>

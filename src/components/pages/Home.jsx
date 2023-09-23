@@ -10,15 +10,12 @@ import Rappers from "../images/Rappers.webp";
 import ScrollToTop from "../ScrollToTop";
 import Footer from "../Footer";
 
-
-
-
-
 function Home() {
   return (
     <>
       <ScrollToTop />
       <Carousels />
+      
       {/*PHONES*/}
       <Media query="(max-width: 768px)">
         <div className="flex container">
@@ -402,7 +399,7 @@ function Home() {
       </Media>
 
       {/* Footer */}
-     <Footer />
+      <Footer />
     </>
   );
 }

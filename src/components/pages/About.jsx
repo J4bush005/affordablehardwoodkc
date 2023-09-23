@@ -2,17 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Media from "react-media";
 import { Link } from "react-router-dom";
-import Insta from "../images/ig logo.webp";
-import Face from "../images/face.webp";
-import Linked from "../images/Linked.webp";
 import Clean from "../images/clean.webp";
 import ScrollToTop from "../ScrollToTop";
 import { useRef } from "react";
-
-const insta = "https://www.instagram.com/hardwoodboss_/";
-const face = "https://www.facebook.com/profile.php?id=100001292195808";
-const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
-const mine = "https://www.forbushtech.com/";
+import Footer from "../Footer";
 
 function About() {
   const reviews = useRef(null);
@@ -870,9 +863,9 @@ function About() {
       </Media>
 
       <Media query="(min-width: 769px)">
-        <div>
+      <div>
           <section id="welcome">
-            <div className="row d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <div className="col-6">
                 <div id="open-heading" className="1-text heading-text">
                   About Our Family
@@ -884,7 +877,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="row d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <div className="col-6">
                 <div className="r-text">
                   At Affordable Hardwood, we pride ourselves on fostering a
@@ -896,7 +889,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="row d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <div id="circles" className="col-12">
                 <div>
                   <ul>
@@ -955,7 +948,7 @@ function About() {
               className=" mt-2 page-section call-to-action d-flex"
             >
               <div className="container-fluid">
-                <div className="row justify-content-center">
+                <div className="justify-content-center">
                   <div className="col-5">
                     <p className="text-center rev mt-3">
                       At Affordable Hardwood, we consistently exceed customer
@@ -1164,7 +1157,7 @@ function About() {
               className=" mt-2 page-section call-to-action d-flex"
             >
               <div className="container-fluid">
-                <div className="row">
+                <div className="">
                   <div className="col-7">
                     <p className="text-center rev mt-3">
                       At Affordable Hardwood, we understand the importance of
@@ -1181,7 +1174,7 @@ function About() {
             </section>
 
             <section id="caring-steps">
-              <div className="row justify-content-evenly d-flex">
+              <div className="justify-content-evenly d-flex">
                 <div className="col-5">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
@@ -1192,7 +1185,7 @@ function About() {
                       <div className="x1"></div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Prevent Measures</div>
@@ -1207,7 +1200,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Regular Cleaning</div>
@@ -1222,7 +1215,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Spill Cleanup</div>
@@ -1238,7 +1231,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">
@@ -1256,7 +1249,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-12">
                       <div className="first-row">
                         <div className="first-word">Expert Cleaning</div>
@@ -1292,7 +1285,7 @@ function About() {
             </section>
 
             <section id="join-fam">
-              <div className="row">
+              <div className="">
                 <div className="col">
                   <div id="care-heading" className="1-text heading-text">
                     Join Our Family
@@ -1304,7 +1297,7 @@ function About() {
                   </div>
                 </div>
               </div>
-              <div className="row">
+              <div className="">
                 <div className="col-7">
                   <div id="fam" className="second-word">
                     {" "}
@@ -1326,7 +1319,7 @@ function About() {
             </section>
 
             <section id="job-table">
-              <div className="row justify-content-center mt-5">
+              <div className="d-flex justify-content-center mt-5">
                 <div className="col-10">
                   <table className="table table-hover">
                     <tbody>
@@ -1689,112 +1682,7 @@ function About() {
       </Media>
 
       {/* Footer */}
-      <div class="container my-5 foot">
-        <footer class="text-center text-white">
-          <div class="container">
-            <section class="mt-5">
-              <div class="row text-center d-flex justify-content-center">
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Estimate" class="foot-hover">
-                      Request An Estimate
-                    </Link>
-                  </h6>
-                </div>
-
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Services" class="foot-hover">
-                      Services
-                    </Link>
-                  </h6>
-                </div>
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="foot-hover">
-                      Reviews
-                    </Link>
-                  </h6>
-                </div>
-
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="foot-hover">
-                      Find a Career
-                    </Link>
-                  </h6>
-                </div>
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Contact" class="foot-hover">
-                      Contact
-                    </Link>
-                  </h6>
-                </div>
-              </div>
-            </section>
-
-            <hr class="my-5" />
-            <section class="mb-4 move">
-              <Link
-                to="/"
-                class="btn btn-floating m1"
-                role="button"
-                aria-expanded="false"
-              >
-                <i class="fab fa-instagram">
-                  <img
-                    src={Insta}
-                    class="img-fluid hover"
-                    onClick={() => window.open(insta, "_blank")}
-                    alt=""
-                  />
-                </i>
-              </Link>
-              <Link
-                to="/"
-                class="btn btn-floating m1"
-                role="button"
-                aria-expanded="false"
-              >
-                <i class="fab fa-facebook-f">
-                  <img
-                    src={Face}
-                    class="img-fluid hover"
-                    onClick={() => window.open(face, "_blank")}
-                    alt=""
-                  />
-                </i>
-              </Link>
-              <Link
-                to="/"
-                class="btn btn-floating m1"
-                role="button"
-                aria-expanded="false"
-              >
-                <i class="fab fa-linkedin">
-                  <img
-                    src={Linked}
-                    class="img-fluid hover"
-                    onClick={() => window.open(linked, "_blank")}
-                    alt=""
-                  />
-                </i>
-              </Link>
-            </section>
-          </div>
-          <div class="text-center p-3">
-            Designed by:
-            <Link
-              to="/"
-              class="foot-hover space"
-              onClick={() => window.open(mine, "_blank")}
-            >
-              Forbush Technologies LLC{" "}
-            </Link>
-          </div>
-        </footer>
-      </div>
+      <Footer />
     </>
   );
 }

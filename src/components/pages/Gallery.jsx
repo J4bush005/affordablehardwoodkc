@@ -1,10 +1,6 @@
 import React from "react";
 import ScrollToTop from "../ScrollToTop";
 import BeforeAfter from "../BeforeAfter";
-import { Link } from "react-router-dom";
-import Insta from "../images/ig logo.webp";
-import Face from "../images/face.webp";
-import Linked from "../images/Linked.webp";
 import Classic from "../images/Floor 2 After 6.webp";
 import LVT from "../images/LVT.webp";
 import Custom from "../images/Finish After 4.webp";
@@ -66,11 +62,9 @@ import Final2 from "../BeforeAfterPics/DB36.webp";
 
 
 import { useRef } from "react";
+import Footer from "../Footer";
 
-const insta = "https://www.instagram.com/hardwoodboss_/";
-const face = "https://www.facebook.com/profile.php?id=100001292195808";
-const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
-const mine = "https://www.forbushtech.com/";
+
 
 function Gallery() {
   const classic = useRef(null);
@@ -91,7 +85,7 @@ function Gallery() {
       <ScrollToTop />
       <BeforeAfter />
       <section id="first-row">
-        <div className="row justify-content-evely mt-3">
+        <div className="d-flex justify-content-evenly mt-3">
           <div className="col-6">
             {" "}
             <div id="picture-width" className="container-fluid">
@@ -129,7 +123,7 @@ function Gallery() {
       </section>
 
       <section id="second-row">
-        <div className="row d-flex justify-content-center align-items-center">
+        <div className="d-flex justify-content-center align-items-center">
           <div className="col-6">
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
@@ -150,7 +144,7 @@ function Gallery() {
       </section>
 
       <section id="third-row">
-        <div className="row justify-content-evely">
+        <div className="d-flex justify-content-evenly">
           <div className="col-6">
             {" "}
             <div id="picture-width" className="container-fluid">
@@ -201,7 +195,7 @@ function Gallery() {
         </section>
 
         <section id="row-clasic">
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -227,7 +221,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -253,7 +247,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cus"
@@ -279,7 +273,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cus"
@@ -305,7 +299,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cus"
@@ -331,7 +325,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cus"
@@ -357,7 +351,7 @@ function Gallery() {
               />
             </div>
           </div>
-           <div className="row">
+           <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cust"
@@ -401,7 +395,7 @@ function Gallery() {
         </section>
 
         <section id="row-clasic">
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -427,7 +421,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -453,7 +447,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -480,7 +474,7 @@ function Gallery() {
         </section>
 
         <section id="row-clasic">
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -506,7 +500,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -532,7 +526,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cust"
@@ -558,7 +552,7 @@ function Gallery() {
               />
             </div>
           </div>
-           <div className="row">
+           <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cust"
@@ -601,7 +595,7 @@ function Gallery() {
         </section>
 
         <section id="row-clasic">
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -627,7 +621,7 @@ function Gallery() {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -652,17 +646,19 @@ function Gallery() {
                 className="img-fluid img-thumbnail"
               />
             </div>
+            </div>
+            <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
                 src={Custom7}
                 alt=""
                 className="img-fluid img-thumbnail"
-              />
+              />{" "}
             </div>
             <div className="col-4">
               <img
-                id="classic-img-cust"
+                id="classic-img-cus"
                 src={Custom8}
                 alt=""
                 className="img-fluid img-thumbnail"
@@ -670,34 +666,18 @@ function Gallery() {
             </div>
             <div className="col-4">
               <img
-                id="classic-img-cust"
+                id="classic-img"
                 src={Custom9}
                 alt=""
                 className="img-fluid img-thumbnail"
               />
             </div>
           </div>
-           <div className="row">
-            <div className="col-4">
-              <img
-                id="classic-img-cust"
-                src={Custom10}
-                alt=""
-                className="img-fluid img-thumbnail"
-              />{" "}
-            </div>
+           <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cust"
                 src={Custom11}
-                alt=""
-                className="img-fluid img-thumbnail"
-              />
-            </div>
-            <div className="col-4">
-              <img
-                id="classic-img-cust"
-                src={Custom12}
                 alt=""
                 className="img-fluid img-thumbnail"
               />
@@ -719,7 +699,7 @@ function Gallery() {
           </div>
         </section>
         <section id="row-clasic">
-          <div className="row">
+          <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img"
@@ -745,7 +725,7 @@ function Gallery() {
               />
             </div>
           </div>
-           <div className="row">
+           <div className="d-flex">
             <div className="col-4">
               <img
                 id="classic-img-cust"
@@ -769,112 +749,7 @@ function Gallery() {
       </section>
 
       {/*FOOTER*/}
-      <div class="container my-5 foot">
-        <footer class="text-center text-white">
-          <div class="container">
-            <section class="mt-5">
-              <div class="row text-center d-flex justify-content-center">
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Estimate" class="foot-hover">
-                      Request An Estimate
-                    </Link>
-                  </h6>
-                </div>
-
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Services" class="foot-hover">
-                      Services
-                    </Link>
-                  </h6>
-                </div>
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="foot-hover">
-                      Reviews
-                    </Link>
-                  </h6>
-                </div>
-
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/About" class="foot-hover">
-                      Find a Career
-                    </Link>
-                  </h6>
-                </div>
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <Link to="/Contact" class="foot-hover">
-                      Contact
-                    </Link>
-                  </h6>
-                </div>
-              </div>
-            </section>
-
-            <hr class="my-5" />
-            <section class="mb-4 move">
-              <Link
-                to="/"
-                class="btn btn-floating m1"
-                role="button"
-                aria-expanded="false"
-              >
-                <i class="fab fa-instagram">
-                  <img
-                    src={Insta}
-                    class="img-fluid hover"
-                    onClick={() => window.open(insta, "_blank")}
-                    alt=""
-                  />
-                </i>
-              </Link>
-              <Link
-                to="/"
-                class="btn btn-floating m1"
-                role="button"
-                aria-expanded="false"
-              >
-                <i class="fab fa-facebook-f">
-                  <img
-                    src={Face}
-                    class="img-fluid hover"
-                    onClick={() => window.open(face, "_blank")}
-                    alt=""
-                  />
-                </i>
-              </Link>
-              <Link
-                to="/"
-                class="btn btn-floating m1"
-                role="button"
-                aria-expanded="false"
-              >
-                <i class="fab fa-linkedin">
-                  <img
-                    src={Linked}
-                    class="img-fluid hover"
-                    onClick={() => window.open(linked, "_blank")}
-                    alt=""
-                  />
-                </i>
-              </Link>
-            </section>
-          </div>
-          <div class="text-center p-3">
-            Designed by:
-            <Link
-              to="/"
-              class="foot-hover space"
-              onClick={() => window.open(mine, "_blank")}
-            >
-              Forbush Technologies LLC{" "}
-            </Link>
-          </div>
-        </footer>
-      </div>
+      <Footer/>
     </>
   );
 }

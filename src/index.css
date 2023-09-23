@@ -20,10 +20,11 @@ body {
   flex: 2;
 }
 
-/*Header*/
 img {
-  width: 145px;
+  width: 100%;
 }
+
+/*Header*/
 .navbar {
   background-color: rgba(187, 154, 33, 0.7);
 }
@@ -83,6 +84,10 @@ img {
   color: white;
   text-shadow: 2px 2px 4px black;
   font-family: "Times New Roman", Times, serif;
+}
+
+#logo{
+  width: 145px;
 }
 
 /*Home Page*/
@@ -369,6 +374,8 @@ img {
   width: 500px;
 }
 
+
+
 @media screen and (min-width: 641px) and (max-width: 825px) {
   .mediums-buff {
     width: 350px;
@@ -564,6 +571,8 @@ img {
   color: rgba(157, 0, 0, 0.7);
   font-family: "Times New Roman", Times, serif;
 }
+
+
 
 /*Care*/
 
@@ -1213,4 +1222,9 @@ img {
 #classic-img-cust:hover {
   transform: scale(1.03);
   background-color: rgba(157, 0, 0, 0.7);
+}
+
+#screen-size{
+  width: 400px;
+
 }
