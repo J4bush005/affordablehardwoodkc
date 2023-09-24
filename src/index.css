@@ -94,7 +94,7 @@ img {
 
 .image-resize {
   width: 100%;
-  height: 600px;
+  height: 10px;
   object-fit: cover;
   object-position: center center;
 }
@@ -1104,11 +1104,14 @@ min-height: 50vh;
 
 /*GALLERY*/
 #picture-width {
-  max-width: 400px;
+  max-width: 700px;
+}
+#picture-height{
+  height: 70vh;
 }
 
+
 #classic-image {
-  width: 100%;
   transition: 0.3s;
 }
 

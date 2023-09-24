@@ -6,34 +6,22 @@ import LVTs from "../images/LVT.webp";
 import Customs from "../images/Finish After 4.webp";
 import Stairss from "../images/IMG_0286.webp";
 import Church from "../images/Church 14.webp";
-import { useRef } from "react";
 import Footer from "../Footer";
-import Classic from "../Classic";
-import LVT from "../LVT";
-import Commercial from "../Commercial";
-import Custom from "../Custom";
-import Stairs from "../Stairs";
 
 function Gallery() {
-  const classic = useRef(null);
-  const lvt = useRef(null);
-  const commercial = useRef(null);
-  const custom = useRef(null);
-  const stair = useRef(null);
-
 
   return (
     <>
       <ScrollToTop />
-      
+      <BeforeAfter/>
       <section id="first-row">
-        <div className="d-flex justify-content-evenly mt-3">
-          <div className="col-6">
+        <div className="d-flex mt-3">
+          <div className="col">
             {" "}
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
-                  id="classic-img"
+                  id="classic-image"
                   src={Classics}
                   alt=""
                   className="figure-img img-fluid rounded"
@@ -44,7 +32,7 @@ function Gallery() {
               </figure>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col">
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
@@ -59,12 +47,7 @@ function Gallery() {
               </figure>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section id="second-row">
-        <div className="d-flex justify-content-center align-items-center">
-          <div className="col-6">
+          <div className="col">
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
@@ -83,8 +66,8 @@ function Gallery() {
       </section>
 
       <section id="third-row">
-        <div className="d-flex justify-content-evenly">
-          <div className="col-6">
+        <div className="d-flex mt-3">
+          <div className="col-4">
             {" "}
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
@@ -100,7 +83,7 @@ function Gallery() {
               </figure>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-4">
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
                 <img
