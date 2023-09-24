@@ -20,7 +20,7 @@ function About() {
   };
 
   return (
-    <>
+    <div id="wrapper">
       <ScrollToTop />
       {/*Phones*/}
       <Media query="(max-width: 768px)">
@@ -1683,7 +1683,7 @@ function About() {
 
       {/* Footer */}
       <Footer />
-    </>
+    </div>
   );
 }
 
