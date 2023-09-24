@@ -38,12 +38,14 @@ function Gallery() {
           <div className="col">
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
+                <Link to={"/LVT"}>
                 <img
                   id="classic-image"
                   src={LVTs}
                   alt=""
                   className="figure-img img-fluid rounded"
                 />
+                </Link>
                 <figcaption id="classic-text" className="figure-caption">
                   Luxury Vinyl Tile
                 </figcaption>
@@ -53,12 +55,14 @@ function Gallery() {
           <div className="col">
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
+                <Link to={"/Commercial"}>
                 <img
                   id="classic-image"
                   src={Church}
                   alt=""
                   className="figure-img img-fluid rounded"
                 />
+                </Link>
                 <figcaption id="classic-text" className="figure-caption">
                   Commercial Floors
                 </figcaption>
@@ -74,12 +78,14 @@ function Gallery() {
             {" "}
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
+                <Link to={"/Custom"}>
                 <img
                   id="classic-image"
                   src={Customs}
                   alt=""
                   className="figure-img img-fluid rounded"
                 />
+                </Link>
                 <figcaption id="classic-text" className="figure-caption">
                   Custom Designs
                 </figcaption>
@@ -89,12 +95,14 @@ function Gallery() {
           <div className="col-4">
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
+                <Link to={"/Stairs"}>
                 <img
                   id="classic-image"
                   src={Stairss}
                   alt=""
                   className="figure-img img-fluid rounded"
                 />
+                </Link>
                 <figcaption id="classic-text" className="figure-caption">
                   Stairs
                 </figcaption>

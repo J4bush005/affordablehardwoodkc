@@ -1,25 +1,28 @@
 import React from 'react';
-import Customs from "./images/Finish After 4.webp";
-import Custom2 from "./images/custom floor.webp";
-import Custom3 from "./images/Custom Floor 2.webp";
-import Custom4 from "./images/Custom Floor 3.webp";
-import Custom5 from "./images/Custom Floor 4.webp";
-import Custom6 from "./images/Custom Floor 5.webp";
-import Custom7 from "./images/Custom Floor 6.webp";
-import Custom8 from "./BeforeAfterPics/DB26.webp";
-import Custom9 from "./BeforeAfterPics/DB27.webp";
-import Custom11 from "./BeforeAfterPics/DB33.webp";
+import Church from "../images/Church 14.webp";
+import Church2 from "../images/Church 15.webp";
+import Church3 from "../images/Church 16.webp";
+import Church4 from "../images/Church 17.webp";
+import Church5 from "../images/Church 18.webp";
+import Church6 from "../images/Church 19.webp";
+import BB1 from "../BeforeAfterPics/DB16.webp";
+import BB from "../BeforeAfterPics/DB17.webp";
+import BB2 from "../BeforeAfterPics/DB18.webp";
+import BB3 from "../BeforeAfterPics/DB19.webp";
+import BB4 from "../BeforeAfterPics/DB20.webp";
+import BB5 from "../BeforeAfterPics/DB21.webp";
 
-function Custom() {
+function Commercial() {
   return (
-    <section id="custom-pictures">
+    <section id="commercial-pictures">
     <section
-      id="custom"
+      
+      id="commercial"
       className="page-section call-to-action d-flex mt-3"
     >
       <div className="py-lg-5">
         <div className="col-lg-12 col-md-8 mx-auto">
-          <h1 className="mb-5">Custom Designs</h1>
+          <h1 className="mb-5">Commercial Projects</h1>
         </div>
       </div>
     </section>
@@ -29,15 +32,15 @@ function Custom() {
         <div className="col-4">
           <img
             id="classic-img"
-            src={Customs}
+            src={Church}
             alt=""
             className="img-fluid img-thumbnail"
           />{" "}
         </div>
         <div className="col-4">
           <img
-            id="classic-img-cus"
-            src={Custom2}
+            id="classic-img"
+            src={Church2}
             alt=""
             className="img-fluid img-thumbnail"
           />
@@ -45,7 +48,7 @@ function Custom() {
         <div className="col-4">
           <img
             id="classic-img"
-            src={Custom3}
+            src={Church3}
             alt=""
             className="img-fluid img-thumbnail"
           />
@@ -55,7 +58,7 @@ function Custom() {
         <div className="col-4">
           <img
             id="classic-img"
-            src={Custom4}
+            src={Church4}
             alt=""
             className="img-fluid img-thumbnail"
           />{" "}
@@ -63,7 +66,7 @@ function Custom() {
         <div className="col-4">
           <img
             id="classic-img"
-            src={Custom5}
+            src={Church5}
             alt=""
             className="img-fluid img-thumbnail"
           />
@@ -71,33 +74,33 @@ function Custom() {
         <div className="col-4">
           <img
             id="classic-img"
-            src={Custom6}
+            src={Church6}
             alt=""
             className="img-fluid img-thumbnail"
           />
         </div>
-        </div>
-        <div className="d-flex">
+      </div>
+      <div className="d-flex">
         <div className="col-4">
           <img
-            id="classic-img"
-            src={Custom7}
+            id="classic-img-cust"
+            src={BB1}
             alt=""
             className="img-fluid img-thumbnail"
           />{" "}
         </div>
         <div className="col-4">
           <img
-            id="classic-img-cus"
-            src={Custom8}
+            id="classic-img-cust"
+            src={BB}
             alt=""
             className="img-fluid img-thumbnail"
           />
         </div>
         <div className="col-4">
           <img
-            id="classic-img"
-            src={Custom9}
+            id="classic-img-cust"
+            src={BB2}
             alt=""
             className="img-fluid img-thumbnail"
           />
@@ -107,7 +110,23 @@ function Custom() {
         <div className="col-4">
           <img
             id="classic-img-cust"
-            src={Custom11}
+            src={BB3}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />{" "}
+        </div>
+        <div className="col-4">
+          <img
+            id="classic-img-cust"
+            src={BB4}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />
+        </div>
+        <div className="col-4">
+          <img
+            id="classic-img-cust"
+            src={BB5}
             alt=""
             className="img-fluid img-thumbnail"
           />
@@ -118,4 +137,4 @@ function Custom() {
   )
 }
 
-export default Custom
+export default Commercial

@@ -11,6 +11,10 @@ import { Route, Routes } from 'react-router-dom';
 import { Estimate } from './components/pages/Estimate';
 import AutoScroll from './components/AutoScroll';
 import Classic from './components/pages/Classic';
+import LVT from './components/pages/LVT';
+import Commercial from './components/pages/Commercial';
+import Custom from './components/pages/Custom';
+import Stairs from './components/pages/Stairs';
 
 function App() {
   return (
@@ -27,6 +31,10 @@ function App() {
    <Route path="/Application" element={<Application />} />
    <Route path="/Estimate" element={<Estimate />} />
    <Route path='/Classic' element={<Classic/>}/>
+   <Route path='/LVT' element={<LVT/>}/>
+   <Route path='/Commercial' element={<Commercial/>}/>
+   <Route path='/Custom' element={<Custom/>}/>
+   <Route path='/Stairs' element={<Stairs/>}/>
    </Routes>
    </div>
   );
