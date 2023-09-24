@@ -121,7 +121,7 @@ function LVT() {
         </div>
       </div>
       <div className="d-flex mt-3">
-        <div className="col">
+        <div className="col-5">
         <div id="picture-widths">
           <img
             id=""

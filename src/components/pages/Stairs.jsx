@@ -96,7 +96,7 @@ function Stairs() {
           />
           </div>
         </div>
-        <div className="col">
+        <div className="col-5">
         <div id="picture-widths">
           <img
             id=""
