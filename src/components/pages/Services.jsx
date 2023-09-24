@@ -9,12 +9,10 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import Footer from "../Footer";
 
-
 function Services() {
   const install = useRef(null);
   const finish = useRef(null);
   const misc = useRef(null);
-
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -56,41 +54,41 @@ function Services() {
               </div>
             </div>
             <div className="">
-            <div className="row d-flex justify-content-center">
-              <div id="circles" className="col-12">
-                <div>
-                  <ul>
-                    <li
-                      id="move-left-sms"
-                      onClick={() => scrollToSection(install)}
-                      className="btn"
-                      type="button"
-                      role="button"
-                    >
-                      Installation
-                    </li>
-                    <li
-                      id="section-scroll-about-sms"
-                      onClick={() => scrollToSection(finish)}
-                      className="btn"
-                      type="button"
-                      role="button"
-                    >
-                      Refinishing
-                    </li>
-                    <li
-                      id="move-right-sms"
-                      onClick={() => scrollToSection(misc)}
-                      className="btn"
-                      type="button"
-                      role="button"
-                    >
-                      Misc
-                    </li>
-                  </ul>
+              <div className="row d-flex justify-content-center">
+                <div id="circles" className="col-12">
+                  <div>
+                    <ul>
+                      <li
+                        id="move-left-sms"
+                        onClick={() => scrollToSection(install)}
+                        className="btn"
+                        type="button"
+                        role="button"
+                      >
+                        Installation
+                      </li>
+                      <li
+                        id="section-scroll-about-sms"
+                        onClick={() => scrollToSection(finish)}
+                        className="btn"
+                        type="button"
+                        role="button"
+                      >
+                        Refinishing
+                      </li>
+                      <li
+                        id="move-right-sms"
+                        onClick={() => scrollToSection(misc)}
+                        className="btn"
+                        type="button"
+                        role="button"
+                      >
+                        Misc
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-           </div>
             </div>
           </section>
 
@@ -567,7 +565,7 @@ function Services() {
             <div className="d-flex justify-content-center">
               <div className="col-6">
                 <div className="r-text">
-                   At Affordable Hardwood, we pride ourselves on our ability to
+                  At Affordable Hardwood, we pride ourselves on our ability to
                   fulfill a wide range of hardwood floor requests and go beyond
                   traditional services. Our expertise extends far beyond the
                   installation, refinishing, and repair of hardwood floors. We
@@ -679,10 +677,12 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Subfloor Preparation:</div>
+                          <div className="first-word">
+                            Subfloor Preparation:
+                          </div>
                           <div className="second-word">
                             {" "}
-                           Assess the condition of the subfloor and ensure it
+                            Assess the condition of the subfloor and ensure it
                             is clean, level, and free from any debris. Address
                             any issues, such as unevenness or moisture, to
                             create a suitable foundation for the hardwood
@@ -697,7 +697,7 @@ function Services() {
                           <div className="first-word">Layout and Planning:</div>
                           <div className="second-word">
                             {" "}
-                             Plan the layout of the hardwood flooring,
+                            Plan the layout of the hardwood flooring,
                             considering factors such as room size, direction of
                             the wood grain, and transitions between different
                             areas or flooring materials. Ensure an aesthetically
@@ -739,7 +739,9 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Cutting and Trimming:</div>
+                          <div className="first-word">
+                            Cutting and Trimming:
+                          </div>
                           <div className="second-word">
                             {" "}
                             Cut and trim the hardwood planks as needed to fit
@@ -750,10 +752,12 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                     <div className="row">
+                    <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Transitions and Trim Work:</div>
+                          <div className="first-word">
+                            Transitions and Trim Work:
+                          </div>
                           <div className="second-word">
                             {" "}
                             Install transitions and molding pieces to create
@@ -870,7 +874,7 @@ function Services() {
                           <div className="first-word">Apply Stain:</div>
                           <div className="second-word">
                             {" "}
-                             If desired, apply stain to the sanded hardwood floor
+                            If desired, apply stain to the sanded hardwood floor
                             to achieve a specific color or enhance the natural
                             wood grain. Ensure even coverage and follow the
                             manufacturer's instructions for the staining
@@ -899,10 +903,12 @@ function Services() {
                     <div className="row">
                       <div className="col-12">
                         <div className="first-row">
-                          <div className="first-word">Apply a Buff and Polish:</div>
+                          <div className="first-word">
+                            Apply a Buff and Polish:
+                          </div>
                           <div className="second-word">
                             {" "}
-                           After the final coat of finish has dried, buff the
+                            After the final coat of finish has dried, buff the
                             hardwood floor to smooth out any imperfections or
                             unevenness. Use a buffer or a buffing machine with a
                             fine-grit pad to achieve a smooth and glossy finish.
@@ -942,18 +948,8 @@ function Services() {
                 id="mained"
                 className="page-section call-to-action d-flex mt-5"
               >
-                <video
-                  id="install-video"
-                  src={Misc}
-                  autoPlay
-                  loop
-                  muted
-                ></video>
-                <div id="video-text" className="">
-                  <div className="">
-                    <h1 className="">Miscellaneous</h1>
-                  </div>
-                </div>
+                <video id="install-video" src={Misc} autoPlay loop muted />
+                <h1 className="">Miscellaneous</h1>
               </section>
 
               <section
@@ -1015,7 +1011,7 @@ function Services() {
                           <div className="first-word">Floor Repairs:</div>
                           <div className="second-word">
                             {" "}
-                           At Affordable Hardwood, our floor repair service is
+                            At Affordable Hardwood, our floor repair service is
                             dedicated to addressing a range of issues and
                             restoring the integrity of your hardwood floors. Our
                             skilled technicians have the expertise to handle
