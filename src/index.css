@@ -669,6 +669,27 @@ img {
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
 
+#find-career {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/src/components/images/trash.webp");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 600px;
+  z-index: -10;
+  color: white;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgba(157, 0, 0);
+}
+
+
 @media(hover: none) {
   #floor-care {
     justify-content: center;
@@ -732,25 +753,6 @@ img {
   
 }
 
-#find-career {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("/src/components/images/trash.webp");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 600px;
-  z-index: -10;
-  color: white;
-  font-size: xx-large;
-  font-family: "Times New Roman", Times, serif;
-  text-shadow: 2px 2px 4px rgba(157, 0, 0);
-}
 
 #care-heading {
   color: white;
