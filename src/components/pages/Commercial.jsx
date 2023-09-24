@@ -12,6 +12,14 @@ import BB3 from "../BeforeAfterPics/DB19.webp";
 import BB4 from "../BeforeAfterPics/DB20.webp";
 import BB5 from "../BeforeAfterPics/DB21.webp";
 import Calvary from "../images/Calvary.webp";
+import Calvary2 from "../images/Calvary2.webp";
+import Calvary3 from "../images/Calvary3.webp";
+import Calvary4 from "../images/Calvary4.webp";
+import Calvary5 from "../images/Calvary5.webp";
+import Calvary7 from "../images/Calvary7.webp";
+import Calvary8 from "../images/Calvary8.webp";
+import Calvary11 from "../images/Calvary11.webp";
+import Calvary10 from "../images/Calvary10.webp";
 import { Link } from 'react-router-dom';
 import Footer from '../Footer';
 
@@ -59,7 +67,7 @@ function Commercial() {
           </div>
         </div>
       </section>
-
+    <div className="move-right">
     <section id="row-clasic">
       <div className="d-flex">
         <div className="col">
@@ -200,8 +208,93 @@ function Commercial() {
           />{" "}
           </div>
         </div>
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary2}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />
+          </div>
+        </div>
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary3}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />
+          </div>
+        </div>
+      </div>
+      <div className="d-flex mt-3">
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary4}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />{" "}
+          </div>
+        </div>
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary5}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />
+          </div>
+        </div>
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary7}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />
+          </div>
+        </div>
+      </div>
+      <div className="d-flex mt-3">
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary8}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />{" "}
+          </div>
+        </div>
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary10}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />
+          </div>
+        </div>
+        <div className="col">
+        <div id="picture-widths">
+          <img
+            id=""
+            src={Calvary11}
+            alt=""
+            className="img-fluid img-thumbnail"
+          />
+          </div>
+        </div>
       </div>
     </section>
+    </div>
     <Footer/>
   </section>
   )

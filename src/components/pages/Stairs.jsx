@@ -5,6 +5,7 @@ import Stair2 from "../images/Stairs2.webp";
 import Stair3 from "../images/Stairs.webp";
 import Stair from "../images/IMG_0286.webp";
 import { Link } from 'react-router-dom';
+import Footer from '../Footer';
 
 function Stairs() {
   return (
@@ -50,7 +51,7 @@ function Stairs() {
           </div>
         </div>
       </section>
-
+    <div className="move-right">
     <section id="row-clasic">
       <div className="d-flex">
         <div className="col">
@@ -109,6 +110,8 @@ function Stairs() {
      
 
     </section>
+    </div>
+    <Footer/>
   </section>
   )
 }

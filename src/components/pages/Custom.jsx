@@ -56,7 +56,7 @@ function Custom() {
           </div>
         </div>
       </section>
-
+    <div className="move-right">
     <section id="row-clasic">
       <div className="d-flex">
         <div className="col">
@@ -167,6 +167,7 @@ function Custom() {
         </div>
       </div>
     </section>
+    </div>
     <Footer/>
   </section>
   )
