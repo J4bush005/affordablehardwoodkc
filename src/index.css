@@ -1301,3 +1301,12 @@ min-height: 50vh;
   width: 200px;
   margin-left: 30px;
 }
+
+.sections{
+  color: white;
+  text-decoration: none;
+}
+
+#picture-widths{
+  max-width: 600px;
+}

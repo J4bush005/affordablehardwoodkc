@@ -19,6 +19,8 @@ import Floor23 from "../BeforeAfterPics/DB8.webp";
 import Floor19 from "../images/Normal8.webp";
 import Final from "../BeforeAfterPics/DB35.webp";
 import Final2 from "../BeforeAfterPics/DB36.webp";
+import { Link } from "react-router-dom";
+import Footer from "../Footer";
 
 function Classic() {
   return (
@@ -40,15 +42,25 @@ function Classic() {
           <div className="col">
             <div id="" className="second-word">
               <ul className="options">
-                <li className="listed-one">Classic</li>
+                <li className="listed-one">
+                  <Link to={"/Classic"} className="sections">Classic</Link>
+                </li>
                 <li className="listed-two">|</li>
-                <li className="listed-three">LVT</li>
+                <li className="listed-three">
+                  <Link to={"/LVT"} className="sections">LVT</Link>
+                </li>
                 <li className="listed-four">|</li>
-                <li className="listed-five">Commercial</li>
+                <li className="listed-five">
+                  <Link to={"/Commercial"} className="sections">Commercial</Link>
+                </li>
                 <li className="listed-six">|</li>
-                <li className="listed-seven">Custom</li>
+                <li className="listed-seven">
+                  <Link to={"/Custom"} className="sections">Custom</Link>
+                </li>
                 <li className="listed-eight">|</li>
-                <li className="listed-nine">Stairs</li>
+                <li className="listed-nine">
+                  <Link to={"/Stairs"} className="sections">Stairs</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -56,189 +68,231 @@ function Classic() {
       </section>
       <section id="row-clasic">
         <div className="d-flex">
-          <div className="col-4">
+          <div className="col">
+            <div id="picture-widths">
             <img
-              id="classic-img"
+              id=""
               src={Floor1}
               alt=""
               className="img-fluid img-thumbnail"
             />{" "}
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img"
+              id=""
               src={Floor2}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img"
+              id=""
               src={Floor5}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
+          </div>
         </div>
-        <div className="d-flex">
-          <div className="col-4">
+
+        <div className="d-flex mt-3">
+          <div className="col">
+            <div id="picture-widths">
             <img
-              id="classic-img"
+              id=""
               src={Floor6}
               alt=""
               className="img-fluid img-thumbnail"
             />{" "}
           </div>
-          <div className="col-4">
-            <img
-              id="classic-img"
-              src={Floor9}
-              alt=""
-              className="img-fluid img-thumbnail"
-            />
           </div>
-          <div className="col-4">
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img"
-              src={Floor10}
-              alt=""
-              className="img-fluid img-thumbnail"
-            />
-          </div>
-        </div>
-        <div className="d-flex">
-          <div className="col-4">
-            <img
-              id="classic-img-cus"
-              src={Floor3}
-              alt=""
-              className="img-fluid img-thumbnail"
-            />{" "}
-          </div>
-          <div className="col-4">
-            <img
-              id="classic-img-cus"
-              src={Floor4}
-              alt=""
-              className="img-fluid img-thumbnail"
-            />
-          </div>
-          <div className="col-4">
-            <img
-              id="classic-img"
+              id=""
               src={Floor8}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
-        </div>
-        <div className="d-flex">
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img-cus"
-              src={Floor12}
+              id=""
+              src={Floor9}
+              alt=""
+              className="img-fluid img-thumbnail"
+            />
+          </div>
+          </div>
+        </div>
+
+        <div className="d-flex mt-3">
+          <div className="col">
+            <div id="picture-widths">
+            <img
+              id=""
+              src={Floor10}
               alt=""
               className="img-fluid img-thumbnail"
             />{" "}
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img-cus"
+              id=""
+              src={Floor4}
+              alt=""
+              className="img-fluid img-thumbnail"
+            />
+          </div>
+          </div>
+          <div className="col">
+          <div id="picture-widths">
+            <img
+              id=""
+              src={Floor12}
+              alt=""
+              className="img-fluid img-thumbnail"
+            />
+          </div>
+          </div>
+        </div>
+        
+        <div className="d-flex mt-3">
+          <div className="col">
+            <div id="picture-widths">
+            <img
+              id=""
+              src={Floor19}
+              alt=""
+              className="img-fluid img-thumbnail"
+            />{" "}
+          </div>
+          </div>
+          <div className="col">
+          <div id="picture-widths">
+            <img
+              id=""
               src={Floor13}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img-cus"
+              id=""
               src={Floor14}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
+          </div>
         </div>
-        <div className="d-flex">
-          <div className="col-4">
+
+        <div className="d-flex mt-3">
+          <div className="col">
+            <div id="picture-widths">
             <img
-              id="classic-img-cus"
+              id=""
               src={Floor15}
               alt=""
               className="img-fluid img-thumbnail"
             />{" "}
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img-cus"
+              id=""
               src={Floor16}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img-cus"
+              id=""
               src={Floor17}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
-        </div>
-        <div className="d-flex">
-          <div className="col-4">
-            <img
-              id="classic-img-cus"
-              src={Floor19}
-              alt=""
-              className="img-fluid img-thumbnail"
-            />
-          </div>
-          <div className="col-4">
-            <img
-              id="classic-img-cust"
-              src={Final}
-              alt=""
-              className="img-fluid img-thumbnail"
-            />
-          </div>
-          <div className="col-4">
-            <img
-              id="classic-img-cust"
-              src={Final2}
-              alt=""
-              className="img-fluid img-thumbnail"
-            />
           </div>
         </div>
-        <div className="d-flex">
-          <div className="col-4">
+
+        <div className="d-flex mt-3">
+          <div className="col">
+            <div id="picture-widths">
             <img
-              id="classic-img-cust"
-              src={Floor22}
+              id=""
+              src={Floor3}
               alt=""
               className="img-fluid img-thumbnail"
-            />
+            />{" "}
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img-cust"
+              id=""
               src={Floor23}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
-          <div className="col-4">
+          </div>
+          <div className="col">
+          <div id="picture-widths">
             <img
-              id="classic-img-cust"
-              src={Floor2}
+              id=""
+              src={Floor22}
               alt=""
               className="img-fluid img-thumbnail"
             />
           </div>
+          </div>
         </div>
+
+        <div className="d-flex mt-3">
+          <div className="col-4">
+            <div id="picture-widths">
+            <img
+              id=""
+              src={Final}
+              alt=""
+              className="img-fluid img-thumbnail"
+            />{" "}
+          </div>
+          </div>
+          <div className="col">
+          <div id="picture-widths">
+            <img
+              id=""
+              src={Final2}
+              alt=""
+              className="img-fluid img-thumbnail"
+            />
+          </div>
+          </div>
+        </div>
+
       </section>
+      <Footer/>
     </section>
+
+    
   );
 }
 
