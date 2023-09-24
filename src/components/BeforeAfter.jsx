@@ -91,44 +91,7 @@ const BeforeAfter = () => {
               alt=""
             ></img>
             </div>
-          </div>
-          <div class="carousel-item">
-          <div id="picture-height">
-            <img
-              src={Eleventh}
-              class="d-block img-responsive image-resize"
-              alt=""
-            ></img>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-          <div id="picture-height">
-            <img
-              src={Fourteen}
-              class="d-block img-responsive image-resize"
-              alt=""
-            ></img>
-            </div>
-          </div>
-          <div class="carousel-item">
-          <div id="picture-height">
-            <img
-              src={Sixteen}
-              class="d-block img-responsive image-resize"
-              alt=""
-            ></img>
-            </div>
-          </div>
-          <div class="carousel-item">
-          <div id="picture-height">
-            <img
-              src={Eighteen}
-              class="d-block img-responsive image-resize"
-              alt=""
-            ></img>
-            </div>
-          </div>    
+          </div>   
            <div class="carousel-item">
            <div id="picture-height">
             <img
