@@ -88,7 +88,7 @@ export const Contact = () => {
               <input
                 type="text"
                 class="form-control"
-                placeholder="JSmith@gmail.com"
+                placeholder="Installer"
                 name="user_position"
               />
             </div>

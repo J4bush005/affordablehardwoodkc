@@ -255,7 +255,7 @@ img {
   margin-bottom: 20px;
   margin-top: 20px;
   width: -moz-fit-content;
-  width: fit-content;
+  width:fit-content;
 }
 
 .install-small {
@@ -1250,10 +1250,23 @@ min-height: 50vh;
 
 }
 
+.number-one{
+  width:100%;
+}
+
 .listed-one{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
+.listed-one:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
+}
+
 .listed-two{
   display: inline-block;
   padding-right: 2px;
@@ -1261,29 +1274,64 @@ min-height: 50vh;
 .listed-three{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-three:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 .listed-four{
   display: inline-block;
   padding-right: 2px;
+
 }
 .listed-five{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-five:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 .listed-six{
   display: inline-block;
   padding-right: 2px;
+
 }
 .listed-seven{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-seven:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 .listed-eight{
   display: inline-block;
   padding-right: 2px;
+
 }
 .listed-nine{
   display: inline-block;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-nine:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 
 #care-headings {
