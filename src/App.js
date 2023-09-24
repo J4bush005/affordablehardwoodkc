@@ -10,6 +10,7 @@ import Application from './components/pages/Application';
 import { Route, Routes } from 'react-router-dom';
 import { Estimate } from './components/pages/Estimate';
 import AutoScroll from './components/AutoScroll';
+import Classic from './components/pages/Classic';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
    <Route path="/ThankYou" element={<ThankYou />} />
    <Route path="/Application" element={<Application />} />
    <Route path="/Estimate" element={<Estimate />} />
+   <Route path='/Classic' element={<Classic/>}/>
    </Routes>
    </div>
   );

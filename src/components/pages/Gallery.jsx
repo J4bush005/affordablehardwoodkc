@@ -7,6 +7,7 @@ import Customs from "../images/Finish After 4.webp";
 import Stairss from "../images/IMG_0286.webp";
 import Church from "../images/Church 14.webp";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 function Gallery() {
 
@@ -20,12 +21,14 @@ function Gallery() {
             {" "}
             <div id="picture-width" className="container-fluid">
               <figure className="figure">
+              <Link to={"/Classic"}>
                 <img
                   id="classic-image"
                   src={Classics}
                   alt=""
                   className="figure-img img-fluid rounded"
-                />
+                ></img>
+                </Link>
                 <figcaption id="classic-text" className="figure-caption">
                   Classic Hardwood
                 </figcaption>

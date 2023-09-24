@@ -1250,3 +1250,54 @@ min-height: 50vh;
   width: 400px;
 
 }
+
+.listed-one{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-two{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-three{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-four{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-five{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-six{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-seven{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-eight{
+  display: inline-block;
+  padding-right: 2px;
+}
+.listed-nine{
+  display: inline-block;
+}
+
+#care-headings {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  margin-left: 30px;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
+}
+
+.x1.goldbar.home.news {
+  border: solid rgba(187, 154, 33, 0.7);
+  height: 0px;
+  width: 200px;
+  margin-left: 30px;
+}
