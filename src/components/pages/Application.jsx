@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "../Footer";
 
@@ -28,6 +28,10 @@ export const Contact = () => {
         }
       );
   };
+
+  useEffect(() => {
+    document.title = "Find a Career | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC"
+  },[]);
 
   return (
     <div className="container-fluid">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ScrollToTop from "../ScrollToTop";
 import Install from "../videos/Install 2.mp4";
 import Stain from "../videos/Stain Video.mp4";
@@ -20,6 +20,11 @@ function Services() {
       behavior: "smooth",
     });
   };
+
+  useEffect(() => {
+    document.title = "Services | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC"
+  },[]);
+
   return (
     <>
       <ScrollToTop />

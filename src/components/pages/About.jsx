@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Media from "react-media";
 import { Link } from "react-router-dom";
@@ -18,6 +18,10 @@ function About() {
       behavior: "smooth",
     });
   };
+
+  useEffect(() => {
+    document.title = "About Us | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC"
+  },[]);
 
   return (
     <div id="wrapper">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ScrollToTop from "../ScrollToTop";
 import BeforeAfter from "../BeforeAfter";
 import Classics from "../images/Floor 2 After 6.webp";
@@ -10,6 +10,10 @@ import Footer from "../Footer";
 import { Link } from "react-router-dom";
 
 function Gallery() {
+
+  useEffect(() => {
+    document.title = "Gallery | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC"
+  },[]);
 
   return (
     <>

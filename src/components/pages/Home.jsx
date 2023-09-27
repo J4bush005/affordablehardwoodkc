@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Media from "react-media";
 import Carousels from "../Carousels";
@@ -11,11 +11,15 @@ import ScrollToTop from "../ScrollToTop";
 import Footer from "../Footer";
 
 function Home() {
+
+  useEffect(() => {
+    document.title = "Kansas City's Top Hardwood Flooring Company-Affordable Hardwood LLC | Installation and Refinishing Specialist"
+  },[]);
+
   return (
     <>
       <ScrollToTop />
       <Carousels />
-      
       {/*PHONES*/}
       <Media query="(max-width: 768px)">
         <div className="flex container">
