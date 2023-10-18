@@ -32,7 +32,7 @@ function About() {
           <section id="welcome">
             <div className="d-flex justify-content-center">
               <div id="style" className="col text-center">
-                <div id="open-heading-sm" className="1-text heading-text ">
+                <div id="open-heading-sm" className="1-text heading-text">
                   About Our Family
                 </div>
                 <div className="flex d-flex justify-content-center">

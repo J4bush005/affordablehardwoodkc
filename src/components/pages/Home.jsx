@@ -405,6 +405,7 @@ function Home() {
       </Media>
 
       {/* Footer */}
+      
       <Footer />
     </>
   );

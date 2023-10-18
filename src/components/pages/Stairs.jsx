@@ -13,8 +13,8 @@ function Stairs() {
        <section id="join-fam">
         <div className="">
           <div className="col">
-            <div id="care-headings" className="1-text heading-text">
-              Classic Floors
+            <div id="heading" className="1-text heading-text">
+              Stairs
             </div>
             <div className="flex">
               <div className="x1 goldbar home news">
@@ -23,9 +23,9 @@ function Stairs() {
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="col">
-            <div id="" className="second-word">
+        
+          <div id="shift" className="col">
+            <div className="second-word">
               <ul className="options">
                 <li className="listed-one">
                   <Link to={"/Classic"} className="sections">Classic</Link>
@@ -49,7 +49,7 @@ function Stairs() {
               </ul>
             </div>
           </div>
-        </div>
+       
       </section>
     <div className="move-right">
     <section id="row-clasic">

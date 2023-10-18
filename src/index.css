@@ -1445,8 +1445,7 @@ min-height: 50vh;
 .x1.goldbar.home.news {
   border: solid rgba(187, 154, 33, 0.7);
   height: 0px;
-  width: 200px;
-  margin-left: 30px;
+  width: 80px;
 }
 
 .sections{
