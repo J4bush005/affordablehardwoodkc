@@ -1,10 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "../Footer";
 
-
 export const Contact = () => {
   const form = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,6 +22,10 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setName("");
+          setEmail("");
+          setNumber("");
+          setMessage("");
           window.open("/ThankYou");
         },
         (error) => {
@@ -28,8 +35,9 @@ export const Contact = () => {
   };
 
   useEffect(() => {
-    document.title = "Contact Us | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC"
-  },[]);
+    document.title =
+      "Contact Us | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC";
+  }, []);
 
   return (
     <div className="container-fluid">
@@ -38,10 +46,13 @@ export const Contact = () => {
           <div className="col-6">
             <label class="form-label topper">Name:</label>
             <input
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               type="text"
               class="form-control"
               placeholder="John Smith"
               name="user_name"
+              required
             />
           </div>
 
@@ -49,22 +60,26 @@ export const Contact = () => {
             <div className="col-6">
               <label class="form-label">Email:</label>
               <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 type="email"
                 class="form-control"
                 placeholder="JSmith@gmail.com"
                 name="user_email"
+                required
               />
             </div>
-            
           </div>
 
-          
           <div className="row g-3 d-flex justify-content-center">
             <div className="col-6">
               <label class="form-label">Message:</label>
               <textarea
                 className="width d-flex justify-content-center"
                 name="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
               />
               <input class="send" type="submit" value="Send" />
             </div>
@@ -72,7 +87,7 @@ export const Contact = () => {
         </div>
       </form>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };
