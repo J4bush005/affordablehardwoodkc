@@ -20,6 +20,12 @@ import Calvary7 from "../images/Calvary7.webp";
 import Calvary8 from "../images/Calvary8.webp";
 import Calvary11 from "../images/Calvary11.webp";
 import Calvary10 from "../images/Calvary10.webp";
+import Phenoms from "../images/IMG_5779.webp";
+import Phenoms2 from "../images/IMG_5753.webp";
+import Phenoms3 from "../images/IMG_5754.webp";
+import Phenoms4 from "../images/IMG_5759.webp";
+import Phenoms5 from "../images/IMG_5762.webp";
+import Phenoms6 from "../images/IMG_5772.webp";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 
@@ -330,6 +336,81 @@ function Commercial() {
                 <img
                   id=""
                   src={Calvary11}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+           <div id="heading" className="mt-5">
+            The Missouri Phenoms:
+          </div>
+          <div id="location" className="">
+            9001 James A Reed Rd, Kansas City, MO
+          </div>
+          <div className="flex">
+            <div className="x1 goldbar home">
+              <div className="x2"></div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Phenoms}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Phenoms2}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Phenoms3}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Phenoms4}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Phenoms5}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Phenoms6}
                   alt=""
                   className="img-fluid img-thumbnail"
                 />
