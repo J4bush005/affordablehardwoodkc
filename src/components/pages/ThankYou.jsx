@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function ThankYou() {
+  useEffect(() => {
+    document.title = "Thank You"
+  },[]);
   return (
     <div className="container">
       <div className="row confirm">

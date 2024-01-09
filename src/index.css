@@ -10,6 +10,21 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#location{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: none;
 }
 
 .flex {
@@ -255,7 +270,7 @@ img {
   margin-bottom: 20px;
   margin-top: 20px;
   width: -moz-fit-content;
-  width: fit-content;
+  width:fit-content;
 }
 
 .install-small {
@@ -537,11 +552,15 @@ img {
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/LVT\ 3\ copy.webp");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 600px;
+  z-index: -10;
   color: white;
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
@@ -642,11 +661,15 @@ img {
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/Sand\ 6\ After.webp");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 600px;
+  z-index: -10;
   color: white;
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
@@ -658,16 +681,85 @@ img {
   align-items: center;
   text-align: center;
   background-image: url("/src/components/images/trash.webp");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 600px;
+  z-index: -10;
   color: white;
   font-size: xx-large;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px rgba(157, 0, 0);
 }
+
+
+@media(hover: none) {
+  #floor-care {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/src/components/images/Sand\ 6\ After.webp");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 600px;
+    z-index: -10;
+    color: white;
+    font-size: xx-large;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 4px rgba(157, 0, 0);
+  }
+
+  #find-career {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/src/components/images/trash.webp");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 600px;
+    z-index: -10;
+    color: white;
+    font-size: xx-large;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 4px rgba(157, 0, 0);
+  }
+  #reviews {
+    margin: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/src/components/images/LVT\ 3\ copy.webp");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 600px;
+    z-index: -10;
+    color: white;
+    font-size: xx-large;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 4px rgba(157, 0, 0);
+  }
+  
+}
+
 
 #care-heading {
   color: white;
@@ -824,19 +916,7 @@ img {
   transition: all 0.3s;
 }
 
-#move-left-sm {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  border: 1px solid white;
-  background-color: rgba(187, 154, 33, 0.7);
-  color: rgba(157, 0, 0);
-  font-size: large;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 35px;
-  margin-top: 40px;
-  margin-right: 5px;
-}
+
 
 #move-left:hover {
   transform: scale(1.15);
@@ -1016,6 +1096,7 @@ img {
 #circles {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #mained {
@@ -1071,7 +1152,20 @@ min-height: 50vh;
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
   margin-top: 40px;
-  margin-right: 2px;
+  margin-right: 5px;
+}
+#move-left-sm {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(187, 154, 33, 0.7);
+  color: rgba(157, 0, 0);
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 35px;
+  margin-top: 40px;
+  margin-right: 5px;
 }
 
 #move-right-sms {
@@ -1085,7 +1179,7 @@ min-height: 50vh;
   font-family: "Times New Roman", Times, serif;
   line-height: 80px;
   margin-top: 40px;
-  margin-left: 2px;
+  margin-left: 5px;
 }
 
 #section-scroll-about-sms {
@@ -1250,10 +1344,23 @@ min-height: 50vh;
 
 }
 
+.number-one{
+  width:100%;
+}
+
 .listed-one{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
+.listed-one:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
+}
+
 .listed-two{
   display: inline-block;
   padding-right: 2px;
@@ -1261,29 +1368,64 @@ min-height: 50vh;
 .listed-three{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-three:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 .listed-four{
   display: inline-block;
   padding-right: 2px;
+
 }
 .listed-five{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-five:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 .listed-six{
   display: inline-block;
   padding-right: 2px;
+
 }
 .listed-seven{
   display: inline-block;
   padding-right: 2px;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-seven:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 .listed-eight{
   display: inline-block;
   padding-right: 2px;
+
 }
 .listed-nine{
   display: inline-block;
+  transition: 0.3s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.listed-nine:hover{
+  transform: scale(1.03);
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.7);
 }
 
 #care-headings {
@@ -1293,12 +1435,17 @@ min-height: 50vh;
   margin-left: 30px;
   text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
 }
+#heading{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px rgba(187, 154, 33, 0.8);
+}
 
 .x1.goldbar.home.news {
   border: solid rgba(187, 154, 33, 0.7);
   height: 0px;
-  width: 200px;
-  margin-left: 30px;
+  width: 80px;
 }
 
 .sections{
@@ -1313,3 +1460,17 @@ min-height: 50vh;
 .move-right{
   padding-left: 0%;
 }
+@media screen and (max-width: 768px) {
+  #picture-height {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+#shift ul{
+  padding-left: 0;
+}
+
+

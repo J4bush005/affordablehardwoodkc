@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ScrollToTop from "../ScrollToTop";
 import Install from "../videos/Install 2.mp4";
 import Stain from "../videos/Stain Video.mp4";
@@ -20,13 +20,18 @@ function Services() {
       behavior: "smooth",
     });
   };
+
+  useEffect(() => {
+    document.title = "Services | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC"
+  },[]);
+
   return (
     <>
       <ScrollToTop />
       <Media query="(max-width: 768px)">
         <div>
           <section id="welcome">
-            <div className="row d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <div id="style" className="col text-center">
                 <div id="open-heading-sm" className="1-text heading-text ">
                   What We Can Do For You
@@ -38,7 +43,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="row d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <div className="col-12">
                 <div className="text-center rev">
                   At Affordable Hardwood, we pride ourselves on our ability to
@@ -53,9 +58,9 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="">
-              <div className="row d-flex justify-content-center">
-                <div id="circles" className="col-12">
+            <div className="movess">
+              <div className="d-flex justify-content-center">
+                <div className="col-12">
                   <div>
                     <ul>
                       <li
@@ -123,7 +128,7 @@ function Services() {
                 className=" mt-2 page-section call-to-action d-flex"
               >
                 <div className="container-fluid">
-                  <div className="row">
+                  <div className="">
                     <div className="col">
                       <p className="text-center rev mt-3">
                         At Affordable Hardwood, our installation service sets
@@ -142,7 +147,7 @@ function Services() {
               </section>
 
               <section id="caring-steps">
-                <div className="row justify-content-evenly d-flex">
+                <div className="justify-content-evenly d-flex">
                   <div className="col">
                     {" "}
                     <div id="care-heading" className="1-text heading-text">
@@ -153,7 +158,7 @@ function Services() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col">
                         <div className="first-row">
                           <div className="first-word">
@@ -170,7 +175,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Layout and Planning:</div>
@@ -185,7 +190,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Installation Method:</div>
@@ -201,7 +206,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Plank Installation:</div>
@@ -215,7 +220,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">
@@ -231,7 +236,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">
@@ -285,7 +290,7 @@ function Services() {
                 className=" mt-2 page-section call-to-action d-flex"
               >
                 <div className="container-fluid">
-                  <div className="row">
+                  <div className="">
                     <div className="col">
                       <p className="text-center rev mt-3">
                         At Affordable Hardwood, our refinishing service
@@ -306,7 +311,7 @@ function Services() {
               </section>
 
               <section id="caring-steps">
-                <div className="row justify-content-evenly d-flex mt-3">
+                <div className="justify-content-evenly d-flex mt-3">
                   <div className="col">
                     {" "}
                     <div id="care-heading" className="1-text heading-text">
@@ -317,7 +322,7 @@ function Services() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Inspect and Prep:</div>
@@ -331,7 +336,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Sanding:</div>
@@ -348,7 +353,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Apply Stain:</div>
@@ -364,7 +369,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Apply Finish:</div>
@@ -380,7 +385,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">
@@ -396,7 +401,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Clean and Inspect:</div>
@@ -448,7 +453,7 @@ function Services() {
                 className=" mt-2 page-section call-to-action d-flex"
               >
                 <div className="container-fluid">
-                  <div className="row">
+                  <div className="">
                     <div className="col-12">
                       <p className="text-center rev mt-3">
                         At Affordable Hardwood, we offer a range of services
@@ -464,7 +469,7 @@ function Services() {
               </section>
 
               <section id="caring-steps">
-                <div className="row justify-content-evenly d-flex">
+                <div className=" justify-content-evenly d-flex">
                   <div className="col">
                     {" "}
                     <div id="care-heading" className="1-text heading-text">
@@ -475,7 +480,7 @@ function Services() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Concrete Leveling</div>
@@ -496,7 +501,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">Floor Repairs</div>
@@ -518,7 +523,7 @@ function Services() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="">
                       <div className="col-12">
                         <div className="first-row">
                           <div className="first-word">LVT Installs</div>

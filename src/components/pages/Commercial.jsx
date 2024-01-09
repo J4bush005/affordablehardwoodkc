@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Church from "../images/Church 14.webp";
 import Church2 from "../images/Church 15.webp";
 import Church3 from "../images/Church 16.webp";
@@ -20,284 +20,327 @@ import Calvary7 from "../images/Calvary7.webp";
 import Calvary8 from "../images/Calvary8.webp";
 import Calvary11 from "../images/Calvary11.webp";
 import Calvary10 from "../images/Calvary10.webp";
-import { Link } from 'react-router-dom';
-import Footer from '../Footer';
+import { Link } from "react-router-dom";
+import Footer from "../Footer";
 
 function Commercial() {
   return (
     <section id="commercial-pictures">
-       <section id="join-fam">
+      <section id="join-fam">
         <div className="">
           <div className="col">
-            <div id="care-headings" className="1-text heading-text">
+            <div id="heading" className="1-text heading-text">
               Commercial Floors
             </div>
             <div className="flex">
-              <div className="x1 goldbar home news">
+              <div className="x1 goldbar home">
                 <div className="x2"></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="col">
-            <div id="" className="second-word">
-              <ul className="options">
+        <div>
+          <div id="shift" className="col">
+            <div className="second-word">
+              <ul>
                 <li className="listed-one">
-                  <Link to={"/Classic"} className="sections">Classic</Link>
+                  <Link to={"/Classic"} className="sections">
+                    Classic
+                  </Link>
                 </li>
                 <li className="listed-two">|</li>
                 <li className="listed-three">
-                  <Link to={"/LVT"} className="sections">LVT</Link>
+                  <Link to={"/LVT"} className="sections">
+                    LVT
+                  </Link>
                 </li>
                 <li className="listed-four">|</li>
                 <li className="listed-five">
-                  <Link to={"/Commercial"} className="sections">Commercial</Link>
+                  <Link to={"/Commercial"} className="sections">
+                    Commercial
+                  </Link>
                 </li>
                 <li className="listed-six">|</li>
                 <li className="listed-seven">
-                  <Link to={"/Custom"} className="sections">Custom</Link>
+                  <Link to={"/Custom"} className="sections">
+                    Custom
+                  </Link>
                 </li>
                 <li className="listed-eight">|</li>
                 <li className="listed-nine">
-                  <Link to={"/Stairs"} className="sections">Stairs</Link>
+                  <Link to={"/Stairs"} className="sections">
+                    Stairs
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </section>
-    <div className="move-right">
-    <section id="row-clasic">
-      <div className="d-flex">
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Church}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />{" "}
-        </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Church2}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-        </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Church3}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-        </div>
-        </div>
+      <div className="move-right">
+        <section id="row-clasic">
+        <div id="heading" className="mt-5">
+            Bannister Road Baptist Church:
+          </div>
+          <div id="location" className="">
+          7503 E Bannister Rd, Kansas City, MO
+          </div>
+          <div className="flex">
+            <div className="x1 goldbar home">
+              <div className="x2"></div>
+            </div>
+          </div>
+          <div className="d-flex">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Church}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Church2}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Church3}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Church4}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Church5}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Church6}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="heading" className="mt-5">
+            The Black Archives:
+          </div>
+          <div id="location" className="">
+            1722 E 17th Ter, Kansas City, MO
+          </div>
+          <div className="flex">
+            <div className="x1 goldbar home">
+              <div className="x2"></div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={BB1}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={BB}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={BB2}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={BB3}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={BB4}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={BB5}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="heading" className="mt-5">
+            Calvary University:
+          </div>
+          <div id="location" className="">
+          15800 Calvary Rd, Kansas City, MO
+          </div>
+          <div className="flex">
+            <div className="x1 goldbar home">
+              <div className="x2"></div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary2}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary3}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary4}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary5}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary7}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex mt-3">
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary8}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />{" "}
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary10}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+            <div className="col">
+              <div id="picture-widths">
+                <img
+                  id=""
+                  src={Calvary11}
+                  alt=""
+                  className="img-fluid img-thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-      <div className="d-flex mt-3">
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Church4}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />{" "}
-        </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Church5}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Church6}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-        </div>
-        </div>
-      </div>
-      <div className="d-flex mt-3">
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={BB1}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />{" "}
-        </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={BB}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={BB2}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-      </div>
-       <div className="d-flex mt-3">
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={BB3}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />{" "}
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={BB4}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={BB5}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-      </div>
-      <div className="d-flex mt-3">
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />{" "}
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary2}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary3}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-      </div>
-      <div className="d-flex mt-3">
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary4}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />{" "}
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary5}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary7}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-      </div>
-      <div className="d-flex mt-3">
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary8}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />{" "}
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary10}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-        <div className="col">
-        <div id="picture-widths">
-          <img
-            id=""
-            src={Calvary11}
-            alt=""
-            className="img-fluid img-thumbnail"
-          />
-          </div>
-        </div>
-      </div>
+      <Footer />
     </section>
-    </div>
-    <Footer/>
-  </section>
-  )
+  );
 }
 
-export default Commercial
+export default Commercial;

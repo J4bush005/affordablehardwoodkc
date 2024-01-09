@@ -28,18 +28,18 @@ function Classic() {
       <section id="join-fam">
         <div className="">
           <div className="col">
-            <div id="care-headings" className="1-text heading-text">
+            <div id="heading" className="1-text heading-text">
               Classic Floors
             </div>
             <div className="flex">
-              <div className="x1 goldbar home news">
+              <div className="x1 goldbar home">
                 <div className="x2"></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="col">
+        
+          <div id="shift" className="col">
             <div id="" className="second-word">
               <ul className="options">
                 <li className="listed-one">
@@ -64,7 +64,7 @@ function Classic() {
               </ul>
             </div>
           </div>
-        </div>
+        
       </section>
       <div className="move-right">
       <section id="row-clasic">
@@ -277,7 +277,7 @@ function Classic() {
             />{" "}
           </div>
           </div>
-          <div className="col">
+          <div className="col-5">
           <div id="picture-widths">
             <img
               id=""

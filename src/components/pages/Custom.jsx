@@ -18,19 +18,19 @@ function Custom() {
         <section id="join-fam">
         <div className="">
           <div className="col">
-            <div id="care-headings" className="1-text heading-text">
+            <div id="heading" className="1-text heading-text">
               Custom Floors
             </div>
             <div className="flex">
-              <div className="x1 goldbar home news">
+              <div className="x1 goldbar home">
                 <div className="x2"></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="col">
-            <div id="" className="second-word">
+        
+          <div id="shift" className="col">
+            <div className="second-word">
               <ul className="options">
                 <li className="listed-one">
                   <Link to={"/Classic"} className="sections">Classic</Link>
@@ -54,7 +54,6 @@ function Custom() {
               </ul>
             </div>
           </div>
-        </div>
       </section>
     <div className="move-right">
     <section id="row-clasic">
@@ -155,7 +154,7 @@ function Custom() {
         </div>
       </div>
        <div className="d-flex mt-3">
-        <div className="col">
+        <div className="col-5">
         <div id="picture-widths">
           <img
             id=""

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Media from "react-media";
 import { Link } from "react-router-dom";
@@ -19,16 +19,20 @@ function About() {
     });
   };
 
+  useEffect(() => {
+    document.title = "About Us | Installation and Refinishing Specialist | Kansas City | Affordable Hardwood LLC"
+  },[]);
+
   return (
-    <>
+    <div id="wrapper">
       <ScrollToTop />
       {/*Phones*/}
       <Media query="(max-width: 768px)">
         <div>
           <section id="welcome">
-            <div className="row d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <div id="style" className="col text-center">
-                <div id="open-heading-sm" className="1-text heading-text ">
+                <div id="open-heading-sm" className="1-text heading-text">
                   About Our Family
                 </div>
                 <div className="flex d-flex justify-content-center">
@@ -38,7 +42,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="row d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <div className="col-12">
                 <div className="text-center rev">
                   At Affordable Hardwood, we pride ourselves on fostering a
@@ -51,7 +55,7 @@ function About() {
               </div>
             </div>
             <div className="movess">
-              <div className="row d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <div className="col-12">
                   <div>
                     <ul>
@@ -110,7 +114,7 @@ function About() {
               className=" mt-2 page-section call-to-action d-flex"
             >
               <div className="container-fluid">
-                <div className="row">
+                <div className="">
                   <div className="col">
                     <p className="text-center rev mt-3">
                       At Affordable Hardwood, we consistently exceed customer
@@ -127,7 +131,7 @@ function About() {
             </section>
             <section id="review-cards">
               <div className="container-fluid text-center">
-                <div className="row first-row">
+                <div className=" first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
@@ -153,7 +157,7 @@ function About() {
                 </div>
               </div>
               <div className="container-fluid text-center">
-                <div className="row first-row">
+                <div className=" first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
@@ -177,7 +181,7 @@ function About() {
                 </div>
               </div>
               <div className="container-fluid text-center">
-                <div className="row first-row">
+                <div className="first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
@@ -202,7 +206,7 @@ function About() {
                 </div>
               </div>
               <div className="container-fluid text-center">
-                <div className="row first-row">
+                <div className="first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
@@ -226,7 +230,7 @@ function About() {
                 </div>
               </div>
               <div className="container-fluid text-center">
-                <div className="row first-row">
+                <div className="first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
@@ -251,7 +255,7 @@ function About() {
                 </div>
               </div>
               <div className="container-fluid text-center">
-                <div className="row first-row">
+                <div className="first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
@@ -275,7 +279,7 @@ function About() {
                 </div>
               </div>
               <div className="container-fluid text-center">
-                <div className="row first-row">
+                <div className="first-row">
                   <div className="col-md-8">
                     <div id="body" className="card">
                       <div id="cards" className="card-body">
@@ -332,7 +336,7 @@ function About() {
               className=" mt-2 page-section call-to-action d-flex"
             >
               <div className="container-fluid">
-                <div className="row">
+                <div className="">
                   <div className="col">
                     <p className="text-center rev mt-3">
                       At Affordable Hardwood, we understand the importance of
@@ -349,7 +353,7 @@ function About() {
             </section>
 
             <section id="caring-steps-sm">
-              <div className="row">
+              <div className="">
                 <div className="col">
                   {" "}
                   <div id="care-heading" className="1-text heading-text">
@@ -360,7 +364,7 @@ function About() {
                       <div className="x1"></div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-11">
                       <div className="first-row">
                         <div className="first-word">Prevent Measures</div>
@@ -375,7 +379,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-11">
                       <div className="first-row">
                         <div className="first-word">Regular Cleaning</div>
@@ -390,7 +394,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-11">
                       <div className="first-row">
                         <div className="first-word">Spill Cleanup</div>
@@ -406,7 +410,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-11">
                       <div className="first-row">
                         <div className="first-word">
@@ -424,7 +428,7 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="">
                     <div className="col-11">
                       <div className="first-row">
                         <div className="first-word">Expert Cleaning</div>
@@ -467,7 +471,7 @@ function About() {
             </section>
 
             <section id="join-fam">
-              <div className="row">
+              <div className="">
                 <div className="col">
                   <div id="care-heading" className="1-text heading-text">
                     Join Our Family
@@ -479,7 +483,7 @@ function About() {
                   </div>
                 </div>
               </div>
-              <div className="row">
+              <div className="">
                 <div className="col">
                   <div id="fam" className="second-word">
                     {" "}
@@ -501,7 +505,7 @@ function About() {
             </section>
 
             <section id="job-table">
-              <div className="row justify-content-center mt-5">
+              <div className="d-flex justify-content-center mt-5">
                 <div className="col-10">
                   <table className="table table-hover">
                     <tbody>
@@ -530,7 +534,7 @@ function About() {
                           id="Crafts-desc"
                           className="collapse multi-collapse grow"
                         >
-                          <div className="row">
+                          <div className="">
                             <div className="col-12">
                               <div className="second-word">
                                 {" "}
@@ -1683,7 +1687,7 @@ function About() {
 
       {/* Footer */}
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Media from "react-media";
 import Carousels from "../Carousels";
@@ -11,15 +11,19 @@ import ScrollToTop from "../ScrollToTop";
 import Footer from "../Footer";
 
 function Home() {
+
+  useEffect(() => {
+    document.title = "Kansas City's Top Hardwood Flooring Company-Affordable Hardwood LLC | Installation and Refinishing Specialist"
+  },[]);
+
   return (
     <>
       <ScrollToTop />
       <Carousels />
-      
       {/*PHONES*/}
       <Media query="(max-width: 768px)">
         <div className="flex container">
-          <div className="row">
+          <div className="d-flex row flex-column">
             <motion.div
               className="graph-container"
               initial={{ opacity: 0, x: -9 }}
@@ -27,7 +31,7 @@ function Home() {
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <div className="row sm-screen">
+              <div className="sm-screen">
                 <div className="col-11">
                   <div id="open-heading-sm" className="1-text heading-text">
                     Providing Superior Quality
@@ -69,7 +73,7 @@ function Home() {
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <div id="sm-screen" className="row">
+              <div id="sm-screen" className="">
                 <div className="col-11">
                   <div id="open-heading-sm" className="1-text heading-text">
                     At An Affordable Price
@@ -111,7 +115,7 @@ function Home() {
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <section className="">
+              <section className="row">
                 <div className="row justify-content-center">
                   <div className="col-11">
                     <div className="1-text heading-text brag-small">
@@ -122,7 +126,8 @@ function Home() {
                         <div className="x1"></div>
                       </div>
                     </div>
-                    <div className="row justify-content-evenly">
+                    <div className="">
+                      <div className="">
                       <div className="r-text-sm">
                         Discover why Affordable Hardwood is the number one
                         hardwood flooring company in Kansas City. With an
@@ -138,10 +143,11 @@ function Home() {
                         difference and elevate your surroundings with the
                         leading hardwood flooring specialists in Kansas City.
                       </div>
+                      </div>
                       <div className="col">
                         <img src={Demo10} alt="" className="demo-pic-small" />
                       </div>
-                      <div className="row view">
+                      <div className=" view">
                         <Link
                           to={"/Services"}
                           className="service mb-2"
@@ -164,7 +170,7 @@ function Home() {
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <div className="row screen">
+              <div className="screen">
                 <div className="col-11">
                   <div
                     id="third-open-heading-sm"
@@ -399,6 +405,7 @@ function Home() {
       </Media>
 
       {/* Footer */}
+      
       <Footer />
     </>
   );
