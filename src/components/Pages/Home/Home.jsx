@@ -1,8 +1,9 @@
 import React from 'react'
+import Footer from '../../Footer/Footer'
 
 function home() {
   return (
-    <div>Home</div>
+    <div><Footer/></div>
   )
 }
 

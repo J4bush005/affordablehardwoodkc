@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
+import Bottom from "./Bottom";
+import Top from "./Top";
+
+
+
 
 function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <>
+    <div class="">
+      <footer class="text-white">
+       <Top/>
+       <Bottom/>
+      </footer>
+    </div>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;
