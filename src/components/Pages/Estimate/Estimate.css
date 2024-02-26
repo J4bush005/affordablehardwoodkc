@@ -1,0 +1,17 @@
+.topper {
+    color: #b20000;
+}
+
+.send {
+    background-color: #b20000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+}

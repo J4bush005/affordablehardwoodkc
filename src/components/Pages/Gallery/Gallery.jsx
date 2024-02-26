@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Choice from "./Choice";
+import "./Gallery.css";
+import Footer from "../../Footer/Footer";
 
 function Gallery() {
   return (
-    <div>Gallery</div>
-  )
+    <div>
+      <Choice />
+      <Footer/>
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;
