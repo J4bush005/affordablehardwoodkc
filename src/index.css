@@ -115,3 +115,10 @@ body {
   transform: scale(1);
 }
 
+@media screen and (max-width: 600px){
+  .move{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
