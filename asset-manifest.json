@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1fcb5b1.css",
-    "main.js": "/static/js/main.f3aa51f6.js",
+    "main.css": "/static/css/main.146a2d4a.css",
+    "main.js": "/static/js/main.666e3a75.js",
     "static/js/787.2b97701a.chunk.js": "/static/js/787.2b97701a.chunk.js",
     "static/media/IMG_0286.webp": "/static/media/IMG_0286.230733ab0a97ccbd8d18.webp",
     "static/media/DB7.webp": "/static/media/DB7.7e7baaa0a569cf9e8281.webp",
@@ -20,7 +20,6 @@
     "static/media/DB17.webp": "/static/media/DB17.4d465bf7c59c1f251bf1.webp",
     "static/media/Calvary8.webp": "/static/media/Calvary8.a121ac94ad898e031ae7.webp",
     "static/media/DB21.webp": "/static/media/DB21.0d4a4fa79bc0efe9025e.webp",
-    "static/media/Sand After 5.jpg": "/static/media/Sand After 5.54ba23fec439f5fd7dc1.jpg",
     "static/media/Demo 14.webp": "/static/media/Demo 14.e4f62b87e4b4894a8964.webp",
     "static/media/Demo 13.webp": "/static/media/Demo 13.81d51ad7a155b9a23dc6.webp",
     "static/media/Calvary4.webp": "/static/media/Calvary4.15b8229080df9b1ac71b.webp",
@@ -86,12 +85,12 @@
     "static/media/previous-svgrepo-com.svg": "/static/media/previous-svgrepo-com.5a0fb6ed2fd21e0c77a34b235c38cee0.svg",
     "static/media/next-svgrepo-com.svg": "/static/media/next-svgrepo-com.0382c0e8301fcc17f0bcf349966202a7.svg",
     "static/media/icons8-facebook.svg": "/static/media/icons8-facebook.c96bddba9f526172a61efd753ec25f5a.svg",
-    "main.d1fcb5b1.css.map": "/static/css/main.d1fcb5b1.css.map",
-    "main.f3aa51f6.js.map": "/static/js/main.f3aa51f6.js.map",
+    "main.146a2d4a.css.map": "/static/css/main.146a2d4a.css.map",
+    "main.666e3a75.js.map": "/static/js/main.666e3a75.js.map",
     "787.2b97701a.chunk.js.map": "/static/js/787.2b97701a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1fcb5b1.css",
-    "static/js/main.f3aa51f6.js"
+    "static/css/main.146a2d4a.css",
+    "static/js/main.666e3a75.js"
   ]
 }
