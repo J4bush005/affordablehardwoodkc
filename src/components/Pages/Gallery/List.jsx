@@ -12,8 +12,8 @@ function List() {
               </li>
               <li className="listed-two">|</li>
               <li className="listed-three">
-                <Link to={"/Luxury-Vynil-Tile"} className="sections">
-                  LVT
+                <Link to={"/Luxury-Vynil-Planks"} className="sections">
+                  LVP
                 </Link>
               </li>
               <li className="listed-four">|</li>

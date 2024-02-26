@@ -34,7 +34,7 @@ function Products() {
             <img id="picture-size" className="card-img-top" src={LVT} alt="LVT Pic" />
             </Link>
             <div id="body" class="card-body">
-              <h5 id="title" class="card-title text-center fs-5">LVT's</h5>
+              <h5 id="title" class="card-title text-center fs-5">LVP's</h5>
             </div>
           </div>
           </div>

@@ -13,7 +13,7 @@ import List from './List';
 function LVT() {
   return (
     <div>
-     <div className=" header display-5 mt-4 px-2">Luxury Vynil Tile</div>
+     <div className=" header display-5 mt-4 px-2">Luxury Vinyl Planks</div>
         <List />
         <div id="">
         <div className=" d-flex">

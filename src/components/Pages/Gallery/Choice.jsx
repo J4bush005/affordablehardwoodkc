@@ -30,7 +30,7 @@ function Choice() {
           </div>
           <div className="col-4">
             <figure className="figure">
-              <Link to={"/Luxury-Vynil-Tile"}>
+              <Link to={"/Luxury-Vynil-Planks"}>
                 <img
                   src={LVTs}
                   alt=""
@@ -39,7 +39,7 @@ function Choice() {
                 />
               </Link>
               <figcaption className="figure-caption fs-3" id="classic-text">
-                Luxury Vynil Tiles
+                Luxury Vinyl Planks
               </figcaption>
             </figure>
           </div>

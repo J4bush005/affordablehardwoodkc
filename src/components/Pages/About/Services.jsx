@@ -19,13 +19,13 @@ function Services() {
                     Expert hardwood floor installation services, ensuring timeless elegance and durability in every plank.
                   </li>
                   <li>
-                    Comprehensive LVT (Luxury Vinyl Tile) installation, offering stylish yet practical flooring solutions for modern homes.
+                    Comprehensive LVP (Luxury Vinyl Planks) installation, offering stylish yet practical flooring solutions for modern homes.
                   </li>
                   <li>
                     Precise trim installation to add the perfect finishing touches to your floors, enhancing both aesthetics and value.
                   </li>
                   <li>
-                    Custom staircase flooring solutions, from classic hardwood to innovative LVT, tailored to elevate your home's design.
+                    Custom staircase flooring solutions, from classic hardwood to innovative LVP, tailored to elevate your home's design.
                   </li>
                   <li>
                     Professional floor repair services, restoring the beauty and functionality of your flooring with expert care.
