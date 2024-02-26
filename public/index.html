@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Affordable Hardwood of Kansas City"
+      content="Discover Kansas City's leading hardwood flooring specialists. Offering unparalleled craftsmanship in hardwood floor installation, refinishing, and restoration. Experience timeless elegance and quality with our wide selection of wood species, custom designs, and sustainable solutions. Transform your home with floors built to last a lifetime. Schedule your consultation today."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,19 +24,28 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-     <script type="text/javascript">
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
-      }(window.location))
+      })(window.location);
     </script>
-    <title>Kansas City's Top Hardwood Flooring Company-Affordable Hardwood LLC | Installation and Refinishing Specialist</title>
+    <title>
+      Premier Hardwood Flooring Services in Kansas City - Affordable Hardwood
+      LLC | Custom Installation & Refinishing
+    </title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
