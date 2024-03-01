@@ -5,6 +5,7 @@ import Document from "../../Photos/document-text-svgrepo-com.svg";
 import Quote from "../../Photos/quote-svgrepo-com.svg";
 
 function Top() {
+  const reviews = "https://g.page/r/CcNe-BFBz2WREAI/review";
   return (
     <div className="container-fluid mt-5" id="top">
       <div class="row text-center d-flex justify-content-center">
@@ -43,7 +44,7 @@ function Top() {
         </div>
         <div class="col-md-4">
           <h6 class="text-uppercase font-weight-bold fs-4 mt-3">
-            <Link to="/Contact-Us" class="foot-hover">
+            <Link to={reviews} target="_blank" class="foot-hover">
                  <figure className="text-over">
                 <img
                   id="phone"

@@ -43,6 +43,7 @@ function Bottom() {
         <section class="mb-4 move d-flex container ">
           <Link
             to={insta}
+            target="_blank"
             class="btn btn-floating m1 col-md-4 col-sm-12 "
             role="button"
             aria-expanded="false"
@@ -53,6 +54,7 @@ function Bottom() {
           </Link>
           <Link
             to={face}
+            target="_blank"
             class="btn btn-floating m1 col-md-4 col-sm-12"
             role="button"
             aria-expanded="false"
@@ -63,6 +65,7 @@ function Bottom() {
           </Link>
           <Link
             to="/"
+            target="_blank"
             class="btn btn-floating m1 col-md-4 col-sm-12"
             role="button"
             aria-expanded="false"
