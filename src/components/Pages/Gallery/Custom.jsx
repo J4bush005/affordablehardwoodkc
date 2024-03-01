@@ -16,7 +16,7 @@ function Custom() {
   return (
     <div>
       <div>
-        <div className=" header display-5 mt-4 px-2">Classic Hardwood</div>
+        <div className=" header display-5 mt-4 px-2">Custom Hardwood Designs</div>
         <List />
         <div id="">
         <div className=" d-flex">

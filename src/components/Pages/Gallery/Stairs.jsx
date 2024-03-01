@@ -10,7 +10,7 @@ function Stairs() {
   return (
     <div>
       <div>
-        <div className=" header display-5 mt-4 px-2">Classic Hardwood</div>
+        <div className=" header display-5 mt-4 px-2">Hardwood Stairs</div>
         <List />
         <div id="">
         <div className=" d-flex">
