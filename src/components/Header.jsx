@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-xl">
       <div className="container-fluid">
         <Link to="/" id="logo-img" className="navbar-brand">
           <img id="logo" className="img-fluid" src={Logo} alt="" />
