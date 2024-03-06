@@ -4,16 +4,16 @@ function Services() {
   return (
     <div>
       <section id="services" className="mt-5">
-        <div className="d-flex justify-content-center text-white display-5 mx-auto">
+        <h2 className="d-flex justify-content-center text-white display-5 mx-auto">
           Our Services
-        </div>
+        </h2>
         <div className="container mt-3">
           <div className="row d-flex">
-            <div className="col-lg-4 col-md-12 col-sm-12">
-              <div id="service" className="d-flex justify-content-center fs-2">
+            <article className="col-lg-4 col-md-12 col-sm-12">
+              <h3 id="service" className="d-flex justify-content-center fs-2">
                 Installation
-              </div>
-              <div className="d-flex fs-6">
+              </h3>
+              <p className="d-flex fs-6">
                 <ul>
                   <li>
                     Expert hardwood floor installation services, ensuring timeless elegance and durability in every plank.
@@ -34,13 +34,13 @@ function Services() {
                     Versatile flooring installation options, capable of transforming any space with a wide range of materials and styles.
                   </li>
                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-12 col-sm-12">
-              <div id="service" className="d-flex justify-content-center  fs-2">
+              </p>
+            </article>
+            <article className="col-lg-4 col-md-12 col-sm-12">
+              <h3 id="service" className="d-flex justify-content-center  fs-2">
                 Sanding
-              </div>
-              <div className="d-flex fs-6">
+              </h3>
+              <p className="d-flex fs-6">
                 <ul>
                   <li>
                     Dustless sanding services to rejuvenate your floors without the mess, ensuring a clean and hassle-free process.
@@ -61,13 +61,13 @@ function Services() {
                     Customized sanding and leveling solutions, utilizing dustless technology and precise leveling techniques for optimal flooring outcomes.
                   </li>
                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-12 col-sm-12">
-              <div id="service" className="d-flex justify-content-center fs-2">
+              </p>
+            </article>
+            <article className="col-lg-4 col-md-12 col-sm-12">
+              <h3 id="service" className="d-flex justify-content-center fs-2">
                 Refinishing
-              </div>
-              <div className="d-flex fs-6">
+              </h3>
+              <p className="d-flex fs-6">
                 <ul>
                   <li>
                     Professional floor refinishing services, revitalizing your floors with techniques that bring out their natural beauty and durability.
@@ -88,8 +88,8 @@ function Services() {
                     Comprehensive refinishing packages, combining buffing, staining, sealing, and coating for a total floor transformation.
                   </li>
                 </ul>
-              </div>
-            </div>
+              </p>
+            </article>
           </div>
         </div>
       </section>
