@@ -9,9 +9,9 @@ function Products() {
     <div>
       <div id="margin" className="container">
         <div className="d-flex our-products">
-          <h1 className="display-5 col-10">Our Products</h1>
+          <h3 className="display-5 col-10">Our Products</h3>
           <Link to="/Gallery" className="gallery-link d-flex justify-content-end mt-3">
-            <h3 className="fs-5 views">View Gallery</h3>
+            <h4 className="fs-5 views">View Gallery</h4>
           </Link>
         </div>
 

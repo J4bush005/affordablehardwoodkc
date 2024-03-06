@@ -4,20 +4,20 @@ function Story() {
   return (
     <div>
       <div className="container mt-5">
-        <h1 className="header display-5">Our Story</h1>
-        <div className="row d-flex">
-          <div className="col-lg-6 col-md-12 col-sm-12 fs-4" id="story">
+        <h3 className="header display-5">Our Story</h3>
+        <article className="row d-flex">
+          <p className="col-lg-6 col-md-12 col-sm-12 fs-4" id="story">
             Johnathon Forbush founded Affrodable Hardwood Kansas City with a commitment to
             providing top-notch hardwood services. For more than 25 years
             Affordable Hardwood has ensured precision and expertise in every
             project. We pride ourselves on exceptional service and results. We
             exceed expectations with unparalleled craftsmanship and attention to
             detail with customer satisfaction being our highest priority.
-          </div>
+          </p>
           <div id="kid-picture" className="col-lg-6 col-md-12 col-sm-12">
             <img src={Kids} alt="Affordable Hardwood founder Johnathon Forbush" className="img-fluid" />
           </div>
-        </div>
+        </article>
       </div>
     </div>
   );

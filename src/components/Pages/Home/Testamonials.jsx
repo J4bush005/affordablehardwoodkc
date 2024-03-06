@@ -27,9 +27,9 @@ function Testimonials() {
     <div id="Testamonials">
       <div className="mt-5 testimonials">
         <div className="container-fluid">
-          <h1 className="d-flex justify-content-center text-white display-5">
+          <h3 className="d-flex justify-content-center text-white display-5">
             Testimonials
-          </h1>
+          </h3>
         </div>
         <div className="d-flex container-fluid mt-2">
           <div className="col-1 m-auto justify-content-end">
