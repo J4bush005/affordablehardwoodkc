@@ -5,7 +5,7 @@ function AboutUs() {
     <div>
       <div className="container-fluid">
         <h1 className="header display-5 mt-5 d-flex justify-content-center mx-auto">
-          About Our Family
+          About Our Flooring Family
         </h1>
       </div>
       <div className="container">
