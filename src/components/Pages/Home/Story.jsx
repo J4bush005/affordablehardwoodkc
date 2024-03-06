@@ -4,7 +4,7 @@ function Story() {
   return (
     <div>
       <div className="container mt-5">
-        <div className="header display-5">Our Story</div>
+        <h1 className="header display-5">Our Story</h1>
         <div className="row d-flex">
           <div className="col-lg-6 col-md-12 col-sm-12 fs-4" id="story">
             Johnathon Forbush founded Affrodable Hardwood Kansas City with a commitment to
@@ -15,7 +15,7 @@ function Story() {
             detail with customer satisfaction being our highest priority.
           </div>
           <div id="kid-picture" className="col-lg-6 col-md-12 col-sm-12">
-            <img src={Kids} alt="Boss" className="img-fluid" />
+            <img src={Kids} alt="Affordable Hardwood founder Johnathon Forbush" className="img-fluid" />
           </div>
         </div>
       </div>

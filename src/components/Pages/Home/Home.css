@@ -1,6 +1,6 @@
 #hero-section {
     background-image: url("../Gallery/Gallery\ Photos/Demo\ 13.webp");
-    height: 100vh;
+    height: 80vh;
      margin: 0 0 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -126,7 +126,7 @@
   
   
   .bigger{
-      font-size: 8vw;
+      font-size: 7vw;
       font-family: 'Times New Roman', Times, serif;
   }
   

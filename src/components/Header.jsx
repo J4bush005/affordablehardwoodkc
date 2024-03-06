@@ -8,7 +8,7 @@ function Header() {
     <nav className="navbar navbar-expand-xl">
       <div className="container-fluid">
         <Link to="/" id="logo-img" className="navbar-brand">
-          <img id="logo" className="img-fluid" src={Logo} alt="" />
+          <img id="logo" className="img-fluid" src={Logo} alt="Affordable Hardwood LLC Logo" />
         </Link>
         <Link to="/" id="words" className="navbar-brand">
           <h1 className="1-text heading-text fs-2 bigger up">
@@ -39,7 +39,7 @@ function Header() {
           <ul className="navbar-nav ms-auto d-flex">
             <li className="nav-item dropdown mx-3">
               <Link
-                to="/Gallery"
+                to="/hardwood-flooring-gallery"
                 id="sub"
                 className="nav-link fs-5"
                 role="button"

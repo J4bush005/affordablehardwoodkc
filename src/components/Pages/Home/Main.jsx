@@ -6,7 +6,7 @@ import Story from './Story'
 function Main() {
   return (
     <div>
-    <div className="text-center text-white display-5" id="banner">The #1 Flooring Company in Missouri</div>
+    <h1 className="text-center text-white display-5" id="banner">The #1 Flooring Company in Missouri</h1>
     <Products/>
     <Testamonials/>
     <Story/>

@@ -16,7 +16,7 @@ function Bottom() {
           <div class="row text-center d-flex justify-content-center">
             <div class="col-md-4">
               <h6 class="text-uppercase font-weight-bold fs-4 mt-3">
-                <Link to="/Gallery" class="foot-hover">
+                <Link to="/hardwood-flooring-gallery" class="foot-hover">
                   Gallery
                 </Link>
               </h6>
@@ -49,7 +49,7 @@ function Bottom() {
             aria-expanded="false"
           >
             <i class="fab fa-instagram ">
-              <img src={Gram} alt="Instagram" className="hover"/>
+              <img src={Gram} alt="Follow us on Instagram" className="hover"/>
             </i>
           </Link>
           <Link
@@ -60,7 +60,7 @@ function Bottom() {
             aria-expanded="false"
           >
             <i class="fab fa-facebook-f">
-              <img src={Face} alt="Facebook" className="hover"/>
+              <img src={Face} alt="Follow us on Facebook" className="hover"/>
             </i>
           </Link>
           <Link
@@ -71,7 +71,7 @@ function Bottom() {
             aria-expanded="false"
           >
             <i class="fab fa-pintrest">
-              <img src={Pint} alt="Pintrest" className="hover" />
+              <img src={Pint} alt="Follow us on Pintrest" className="hover" />
             </i>
           </Link>
         </section>

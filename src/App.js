@@ -23,9 +23,9 @@ function App() {
         <Route path="/About-Us" element={<About />} />
         <Route path="/Request-An-Estimate" element={<Estimate />} />
         <Route path="/Contact-Us" element={<Contact />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/hardwood-flooring-gallery" element={<Gallery />} />
         <Route path="/Classic-Hardwood" element={<Classic />} />
-        <Route path="/Luxury-Vynil-Planks" element={<LVT />} />
+        <Route path="/Luxury-Vinyl-Planks" element={<LVT />} />
         <Route path="/Custom-Hardwood-Designs" element={<Custom />} />
         <Route path="/Hardwood-Stairs" element={<Stairs />} />
         <Route path="/Commercial-Projects" element={<Commercial />} />

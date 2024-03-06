@@ -20,7 +20,7 @@ function Products() {
         
           <div id="card" class="card">
           <Link to="/Classic-Hardwood">
-            <img id="picture-size" className="card-img-top" src={Hardwood} alt="Hardwood Pic" />
+            <img id="picture-size" className="card-img-top" src={Hardwood} alt="Custom hardwood floor design" />
             </Link>
             <div id="body" class="card-body">
               <h5 id="title" class="card-title text-center fs-5">Hardwood Floors</h5>
@@ -30,8 +30,8 @@ function Products() {
               <div className="col-lg-4 col-md-4 col-sm-12 p-2">
          
           <div id="card" class="card">
-           <Link to="/Luxury-Vynil-Tile">
-            <img id="picture-size" className="card-img-top" src={LVT} alt="LVT Pic" />
+           <Link to="/Luxury-Vinyl-Planks">
+            <img id="picture-size" className="card-img-top" src={LVT} alt="Luxury vinyl plank install" />
             </Link>
             <div id="body" class="card-body">
               <h5 id="title" class="card-title text-center fs-5">LVP's</h5>
@@ -41,7 +41,7 @@ function Products() {
           <div className="col-lg-4 col-md-4 col-sm-12 p-2">
           <div id="card" class="card">
           <Link to="/Hardwood-Stairs">
-            <img id="picture-size" className="card-img-top" src={Concrete} alt="Hardwood Pic" />
+            <img id="picture-size" className="card-img-top" src={Concrete} alt="Hardwood stair install" />
             </Link>
             <div id="body" class="card-body">
               <h5 id="title" class="card-title text-center fs-5">Stairs</h5>
