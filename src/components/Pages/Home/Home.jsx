@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../../Footer/Footer";
 import Hero from "./Hero";
 import Main from "./Main";
 import "./Home.css";
 
-function home() {
+function Home() {
+
+  useEffect(() => {
+    document.title =
+    "Kansas City Hardwood Flooring Experts - Affordable Hardwood LLC | Custom Installation, Refinishing & Restoration";
+  }, []);
+
   return (
     <div>
       <Hero />
@@ -14,4 +20,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;
