@@ -7,7 +7,7 @@ function Story() {
         <h3 className="header display-5">Our Story</h3>
         <article className="row d-flex">
           <p className="col-lg-6 col-md-12 col-sm-12 fs-4" id="story">
-            Johnathon Forbush founded Affrodable Hardwood Kansas City with a commitment to
+            Johnathon Forbush founded Affordable Hardwood Kansas City with a commitment to
             providing top-notch hardwood services. For more than 25 years
             Affordable Hardwood has ensured precision and expertise in every
             project. We pride ourselves on exceptional service and results. We
