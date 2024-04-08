@@ -6,7 +6,7 @@ import Contact from "./Components/Pages/Contact/Contact";
 import About from "./Components/Pages/About/About";
 import Gallery from "./Components/Pages/Gallery/Gallery";
 import Classic from "./Components/Pages/Gallery/Classic";
-import LVT from "./Components/Pages/Gallery/LVT";
+import LVT from "./Components/Pages/Gallery/Luxury";
 import Custom from "./Components/Pages/Gallery/Custom";
 import Stairs from "./Components/Pages/Gallery/Stairs";
 import Commercial from "./Components/Pages/Gallery/Commercial";

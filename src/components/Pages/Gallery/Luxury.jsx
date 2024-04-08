@@ -10,7 +10,7 @@ import LVT7 from "./Gallery Photos/LVT 7.webp";
 import Footer from "../../Footer/Footer";
 import List from './List';
 
-function LVT() {
+function Luxury() {
   return (
     <div>
      <div className=" header display-5 mt-4 px-2">Luxury Vinyl Planks</div>
@@ -47,4 +47,4 @@ function LVT() {
   )
 }
 
-export default LVT
+export default Luxury
